@@ -1,0 +1,61 @@
+.browse{
+  .slider{
+    height: 200px;
+    .banner{
+      max-width: 450px;
+      margin-left: auto;
+      margin-right: auto;
+      img{
+        width: 100%;
+        height: 180px;
+      }
+    }
+    .slider-pager{
+      bottom: 0;
+      .slider-pager-page{
+        color: #ffffff;
+      }
+    }
+  }
+  .messageSeries{
+    padding: 10px;
+    h3{
+      color: #ffffff;
+      text-transform: uppercase;
+      font-size: 16px;
+    }
+    .scroll-view{
+      width: 100%;
+      height: 190px;
+      white-space: nowrap;
+      .box{
+        background-color: #0d0c12;
+        border: 1px solid #1d1c22;
+        width: 150px;
+        height: 400px;
+        display: inline-block;
+        margin-right: 20px;
+        .image{
+          height: 150px;
+          width: 150px;
+          img{
+            width: 100%;
+          }
+        }
+        .foot{
+          text-align: center;
+          color: #edecf1;
+          padding: 5px;
+        }
+      }
+    }
+  }
+  .list{
+    margin-top: 10px;
+    .item{
+      border-color: #1b1a22;
+      background-color: transparent;
+      color: #edecf1;
+    }
+  }
+}

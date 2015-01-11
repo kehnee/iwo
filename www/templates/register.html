@@ -1,0 +1,34 @@
+<ion-view class="register">
+    <ion-content>
+        <div class="logo">
+            <img src="img/logo.png" alt=""/>
+        </div>
+        <form ng-submit="register()">
+            <div class="list">
+
+                <div class="photo">
+                    <h4 class="light text-center">Add a photo</h4>
+                    <div style="text-align: center;position: relative">
+                        <button class="add-circle button button-light button-outline button-icon icon ion-plus"></button>
+                        <hr/>
+                    </div>
+                </div>
+                <label class="list-inset item item-input">
+                    <input type="text" placeholder="Email Address">
+                </label>
+                <label class="list-inset item item-input">
+                    <input type="text" placeholder="Create a Username">
+                </label>
+                <label class="list-inset item item-input">
+                    <input type="password" placeholder="Create a Password">
+                </label>
+                <small class="light">
+                    By tapping the Sign up button, you are indicating that you have read <span>Privacy Policy</span> and agree to the <span>Terms of Service</span>.
+                </small>
+                <button class="button button-block button-positive" type="submit">Sign Up</button>
+                <button class="button button-clear button-block button-light" ui-sref="login">Already have an Account?</button>
+
+            </div>
+        </form>
+    </ion-content>
+</ion-view>

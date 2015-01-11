@@ -1,0 +1,22 @@
+<ion-view class="login">
+    <ion-content>
+        <div class="logo">
+            <img src="img/logo.png" alt=""/>
+        </div>
+        <form ng-submit="login()">
+            <div class="list">
+                <h4 class="light">Add a Photo</h4>
+                <label class="list-inset item item-input">
+                    <input type="text" placeholder="Username">
+                </label>
+                <label class="list-inset item item-input">
+                    <input type="password" placeholder="Password">
+                </label>
+                <button class="button button-block button-positive" type="submit" ui-sref="app.browse">Log in</button>
+                <button class="button button-clear button-block button-light forgotPassword">Forgot your password?</button>
+                <button class="button button-block button-light button-outline" ui-sref="register">Register with Email</button>
+                <button class="button button-block button-light button-outline">Register with Facebook</button>
+            </div>
+        </form>
+    </ion-content>
+</ion-view>
