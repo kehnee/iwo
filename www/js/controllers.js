@@ -7,7 +7,11 @@ angular.module('App.controllers')
 
     })
 
-    .controller('mainCtrl', function ($scope, $ionicActionSheet) {
+    .controller('mainCtrl', function ($scope, $ionicActionSheet, $state) {
+        $scope.goBack = function() {
+            $state.back();
+        };
+
         $scope.showActionSheet = function() {
 
             // Show the action sheet
