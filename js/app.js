@@ -25,19 +25,19 @@ angular.module('App', ['ionic', 'App.controllers', 'App.services'])
 
             .state('login', {
                 url: '/login',
-                templateUrl: '../templates/login.html',
+                templateUrl: 'templates/login.html',
                 controller: 'loginCtrl'
             })
 
             .state('register', {
                 url: '/register',
-                templateUrl: '../templates/register.html',
+                templateUrl: 'templates/register.html',
                 controller: 'registerCtrl'
             })
 
             .state('app', {
                 abstract: true,
-                templateUrl: "../templates/menu.html",
+                templateUrl: "templates/menu.html",
                 controller: 'mainCtrl'
             })
 
@@ -45,7 +45,7 @@ angular.module('App', ['ionic', 'App.controllers', 'App.services'])
                 url: "/search",
                 views: {
                     'menuContent': {
-                        templateUrl: "../templates/search.html"
+                        templateUrl: "templates/search.html"
                     }
                 }
             })
@@ -54,7 +54,7 @@ angular.module('App', ['ionic', 'App.controllers', 'App.services'])
                 url: "/browse",
                 views: {
                     'menuContent': {
-                        templateUrl: "../templates/browse.html"
+                        templateUrl: "templates/browse.html"
                     }
                 }
             })
@@ -62,7 +62,7 @@ angular.module('App', ['ionic', 'App.controllers', 'App.services'])
                 url: "/singleProductView",
                 views: {
                     'menuContent': {
-                        templateUrl: "../templates/singleProductView.html"
+                        templateUrl: "templates/singleProductView.html"
                     }
                 }
             })
@@ -70,7 +70,7 @@ angular.module('App', ['ionic', 'App.controllers', 'App.services'])
                 url: "/seriesProductView",
                 views: {
                     'menuContent': {
-                        templateUrl: "../templates/seriesProductView.html"
+                        templateUrl: "templates/seriesProductView.html"
                     }
                 }
             })
