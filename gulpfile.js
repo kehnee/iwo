@@ -25,8 +25,24 @@ gulp.task('sass', function(done) {
     .on('end', done);
 });
 
-gulp.task('watch', function() {
+gulp.task('watch-sass', function() {
   gulp.watch(paths.sass, ['sass']);
+});
+
+gulp.task('watch-sass-noError', function () {
+    function run(){
+        sh.exec("gulp watch-sass",{async:true}, function (err, out) {
+            if(err){
+                console.error(out);
+                console.info("Restarting");
+                run();
+            }else console.log(out);
+        });
+    }
+    run();
+});
+
+gulp.task('watch', ['watch-sass-noError'], function() {
 });
 
 gulp.task('install', ['git-check'], function() {
