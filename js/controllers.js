@@ -6,6 +6,9 @@ angular.module('App.controllers')
     .controller('registerCtrl', function ($scope) {
 
     })
+    .controller('profileCtrl', function ($scope, mainService) {
+        $scope.user=mainService.user;
+    })
 
     .controller('mainCtrl', function ($scope, $ionicActionSheet, $state) {
         $scope.goBack = function() {

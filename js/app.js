@@ -22,25 +22,21 @@ angular.module('App', ['ionic', 'App.controllers', 'App.services'])
 
     .config(function ($stateProvider, $urlRouterProvider) {
         $stateProvider
-
             .state('login', {
                 url: '/login',
                 templateUrl: 'templates/login.html',
                 controller: 'loginCtrl'
             })
-
             .state('register', {
                 url: '/register',
                 templateUrl: 'templates/register.html',
                 controller: 'registerCtrl'
             })
-
             .state('app', {
                 abstract: true,
                 templateUrl: "templates/menu.html",
                 controller: 'mainCtrl'
             })
-
             .state('app.search', {
                 url: "/search",
                 views: {
@@ -49,7 +45,6 @@ angular.module('App', ['ionic', 'App.controllers', 'App.services'])
                     }
                 }
             })
-
             .state('app.browse', {
                 url: "/browse",
                 views: {
@@ -58,12 +53,28 @@ angular.module('App', ['ionic', 'App.controllers', 'App.services'])
                     }
                 }
             })
-
             .state('app.minister', {
                 url: "/minister",
                 views: {
                     'menuContent': {
                         templateUrl: "templates/minister.html"
+                    }
+                }
+            })
+            .state('app.profile', {
+                url: "/profile",
+                views: {
+                    'menuContent': {
+                        controller: "profileCtrl",
+                        templateUrl: "templates/profile.html"
+                    }
+                }
+            })
+            .state('app.purchase', {
+                url: "/purchase",
+                views: {
+                    'menuContent': {
+                        templateUrl: "templates/purchase.html"
                     }
                 }
             })
