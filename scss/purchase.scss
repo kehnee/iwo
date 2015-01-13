@@ -1,0 +1,12 @@
+.purchase{
+  .item{
+    .icon:first-child{
+      &:before{
+        border: 1px solid #3c3b4c;;
+        border-radius: 5px;
+        padding: 4px 10px;
+        font-size: 24px;
+      }
+    }
+  }
+}

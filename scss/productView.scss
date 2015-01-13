@@ -21,9 +21,7 @@
     }
     .item{
       text-transform: uppercase;
-      border-color: #1b1a22;
-      background-color: transparent;
-      color: #edecf1;
+      @extend .custom-item-style;
     }
   }
 }

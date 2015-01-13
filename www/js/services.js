@@ -1,4 +1,8 @@
 angular.module('App.services')
-    .services('mainService', function () {
-
+    .service('mainService', function () {
+        this.user={
+            firstName:"John",
+            lastName: "Don",
+            email:"john@example.com"
+        }
     });

@@ -27,3 +27,20 @@
 .bar.bar-stable .title{
   text-transform: uppercase;
 }
+/*sub-header*/
+.bar.bar-stable.bar-subheader{
+  border-top: 1px solid #5f5f5f!important;
+  height: 54px;
+  .button-bar{
+    .button{
+      &.active{
+        border-bottom: 5px solid #4886bf;
+        opacity: 1;
+        border-radius: 0;
+      }
+    }
+  }
+}
+.has-subheader{
+  top: 98px;
+}

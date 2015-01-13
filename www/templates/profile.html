@@ -1,0 +1,51 @@
+<ion-view ng-init="edit=false" view-title="Your Profile" class="profile">
+  <ion-nav-buttons side="primary">
+    <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
+  </ion-nav-buttons>
+  <ion-nav-buttons side="secondary">
+    <button class="button button-clear" ng-click="$parent.edit=!$parent.edit"><span ng-if="!edit">Edit</span><span ng-if="edit">Done</span></button>
+  </ion-nav-buttons>
+  <ion-content>
+    <div class="image-header">
+      <div class="header-content">
+        <img class="center big" src="img/profile-default.png" alt=""/>
+        <div class="title uppercase">Username</div>
+      </div>
+    </div>
+    <div class="list">
+      <label class="item item-input">
+        <span class="input-label uppercase">First Name:</span>
+        <span ng-hide="edit">{{user.firstName}}</span>
+        <input ng-show="edit" type="text" ng-model="user.firstName">
+      </label>
+      <label class="item item-input">
+        <span class="input-label uppercase">Last Name:</span>
+        <span ng-hide="edit">{{user.lastName}}</span>
+        <input ng-show="edit" type="text" ng-model="user.lastName">
+      </label>
+      <label class="item item-input">
+        <span class="input-label uppercase">Email Address:</span>
+        <span class="lowercase" ng-hide="edit">{{user.email}}</span>
+        <input ng-show="edit" type="text" ng-model="user.email">
+      </label>
+      <label class="item item-input">
+        <span class="input-label uppercase">Password:</span>
+        <span ng-hide="edit">******</span>
+        <input ng-show="edit" type="password" ng-model="user.password">
+      </label>
+      <div class="item no-padding">
+        <div class="row no-padding border-vertical">
+          <div class="col padding">
+            <p>10</p>
+            <p class="uppercase">Purchases</p>
+          </div>
+          <div class="col item-icon-left padding">
+            <i class="icon ion-person-add"></i>
+            <p>25</p>
+            <p class="uppercase">Following</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
