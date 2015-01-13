@@ -26,6 +26,7 @@ angular.module('App.controllers')
                     // add cancel code..
                 },
                 buttonClicked: function(index) {
+                    if(index==2) $state.go('app.minister');
                     return true;
                 }
             });

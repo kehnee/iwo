@@ -58,6 +58,15 @@ angular.module('App', ['ionic', 'App.controllers', 'App.services'])
                     }
                 }
             })
+
+            .state('app.minister', {
+                url: "/minister",
+                views: {
+                    'menuContent': {
+                        templateUrl: "templates/minister.html"
+                    }
+                }
+            })
             .state('app.singleProductView', {
                 url: "/singleProductView",
                 views: {
