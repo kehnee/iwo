@@ -24,7 +24,7 @@ angular.module('App.controllers')
             if(!file||!/image/.test(file.type)) return;
             var reader = new FileReader();
             reader.onload = function () {
-                $scope.user.avatar = reader.result;
+                $scope.user.picture = reader.result;
                 $scope.$$phase || $scope.$digest()
             };
             reader.readAsDataURL(file);
@@ -77,10 +77,14 @@ angular.module('App.controllers')
             if(!User.getUser()){
                 User.getUserInfo(function (user) {
                     $scope.user=user;
+                    $scope.user.picture=$scope.user.picture||'img/profile-default.png';
                     $scope.$$phase||$scope.$digest();
+                }, function () {
+                    $scope.$emit('user',true);
                 });
             } else {
                 $scope.user=User.getUser();
+                $scope.user.picture=$scope.user.picture||'img/profile-default.png';
                 $scope.$$phase||$scope.$digest();
             }
         }
