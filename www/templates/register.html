@@ -10,7 +10,7 @@
                     <h4 class="light text-center">Add a photo</h4>
                     <div style="text-align: center;position: relative">
                         <div class="add-circle button button-light button-outline button-icon icon ion-plus">
-                            <img ng-if="user.avatar" ng-src="{{user.avatar}}" alt=""/>
+                            <img ng-if="user.picture" ng-src="{{user.picture}}" alt=""/>
                             <input id="getAvatar" accept="image/*" type="file" onchange="angular.element(this).scope().getAvatar(this.files)"/>
                         </div>
                         <hr/>
