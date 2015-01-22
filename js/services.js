@@ -70,14 +70,15 @@ angular.module('App.services')
             success=typeof success==="function"?success:Func;
             error=typeof error==="function"?error:Func;
             getNonce('register', function (nonce) {
-                $http.get(BASE_URL+"/api/user/register/", {
+                $http.post(BASE_URL+"/api/user/register/",{
+                    picture: user.picture
+                }, {
                     params: {
                         username: user.username,
                         email: user.email,
                         user_pass: user.password,
                         nonce: nonce,
-                        display_name: user.username,
-                        avatar: user.avatar
+                        display_name: user.username
                     }
                 }).success(getSuccess(function(data){
                     setToken(data.cookie);
