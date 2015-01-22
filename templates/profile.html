@@ -1,8 +1,8 @@
 <ion-view ng-init="edit=false" view-title="Your Profile" class="profile">
-  <ion-nav-buttons side="primary">
+  <ion-nav-buttons side="left">
     <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
   </ion-nav-buttons>
-  <ion-nav-buttons side="secondary">
+  <ion-nav-buttons side="right">
     <button class="button button-clear" ng-click="$parent.edit=!$parent.edit"><span ng-if="!edit">Edit</span><span ng-if="edit">Done</span></button>
   </ion-nav-buttons>
   <ion-content>
