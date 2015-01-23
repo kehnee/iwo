@@ -79,9 +79,11 @@ angular.module('App.services')
                         user_pass: user.password,
                         nonce: nonce,
                         display_name: user.username
+                    },
+                    headers: {
+                        'Content-Type': 'application/x-www-form-urlencoded'
                     }
                 }).success(getSuccess(function(data){
-                    setToken(data.cookie);
                     success();
                 },error)).error(getError(error));
             },error);

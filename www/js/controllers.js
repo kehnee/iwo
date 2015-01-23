@@ -21,7 +21,12 @@ angular.module('App.controllers')
 
         $scope.getAvatar = function (img) {
             var file=img[0];
-            if(!file||!/image/.test(file.type)) return;
+            if(!file) return;
+            if(!/image/.test(file.type)) return;
+            if(file.size>716800) return $scope.$emit('Alert', {
+                type:'error',
+                msg: 'File size too big'
+            });
             var reader = new FileReader();
             reader.onload = function () {
                 $scope.user.picture = reader.result;
@@ -36,8 +41,6 @@ angular.module('App.controllers')
                 $scope.$emit('Alert', {
                     type:'success',
                     msg: 'Registered Successful'
-                }, function () {
-                    $state.go('login');
                 });
             },function(err){
                 if(err&&typeof err!=="string") err=!1;
