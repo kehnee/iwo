@@ -1,31 +1,49 @@
 angular.module('App.services')
     .service('Main', function () {
-    })
-    .factory('isLogin', function (User) {
-        return User.isLogin;
-    })
-    .service('User', function (BASE_URL, $http) {
-        var self=this,Func=function(){};
 
-        this.isEmail=function (email) {
-            var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-            return re.test(email);
+        this.toDateFormat=function (d) {
+            d = new Date(d);
+            return d.toLocaleDateString().replace(/\//g,'.');
         };
 
-        function getSuccess(success,error){
+        this.getSuccess=function(success,error){
             return function(data){
                 if(data.status=='ok') success(data);
                 else if(data.status=='error') error(data.error);
                 else error("Unknown error");
             }
-        }
+        };
 
-        function getError(error){
+        this.getError=function(error){
             return function(data, status){
                 if(!status) error("Network error");
                 else if(status>=500) error('Internal Server error');
             }
         }
+    })
+    .factory('isLogin', function (User) {
+        return User.isLogin;
+    })
+    .service('Product', function (BASE_URL, Main, $http) {
+        var self=this,getSuccess=Main.getSuccess,getError=Main.getError;
+        this.search = function (obj, success, error) {
+            $http.get(BASE_URL+'/api/get_posts',{
+                params:{
+                    post_type:'download',
+                    s: obj.search,
+                    page:obj.page,
+                    loadingIgnore: obj.loadingIgnore
+                }
+            }).success(getSuccess(success,error)).error(getError(error));
+        };
+    })
+    .service('User', function (BASE_URL, Main, $http) {
+        var self=this,Func=function(){},getSuccess=Main.getSuccess,getError=Main.getError;
+
+        this.isEmail=function (email) {
+            var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+            return re.test(email);
+        };
 
         function setToken(token){
             if(typeof token==="string")

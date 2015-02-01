@@ -39,6 +39,10 @@ h1,h2,h3,h4,h5,h6,p{
   color: #FFFFFF;
 }
 
+.text-mute {
+  color: #aaaaaa;
+}
+
 .uppercase{
   text-transform: uppercase;
 }
@@ -64,6 +68,10 @@ body > .view-container  > .pane{
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-color: transparent;
+}
+
+.item-content{
+  background-color: transparent!important;
 }
 
 .slideSeries{

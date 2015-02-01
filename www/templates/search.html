@@ -1,14 +1,24 @@
 <ion-view hide-nav-bar="true">
   <div class="bar bar-header bar-stable item-input-inset">
-    <label class="item-input-wrapper">
-      <i class="icon ion-ios-search placeholder-icon"></i>
-      <input type="search" placeholder="Search">
-    </label>
-    <button class="button button-clear" ng-click="goBack()">
-      Cancel
-    </button>
+      <form style="display: -webkit-box; width: 100%" name="form" ng-submit="submit(form)">
+        <label class="item-input-wrapper">
+          <i class="icon ion-ios-search placeholder-icon"></i>
+          <input type="search" required placeholder="Search" ng-model="search">
+        </label>
+          <button type="submit" class="ng-hide">Submit</button>
+          <button type="button" class="button button-clear" ng-click="goBack()">Cancel</button>
+      </form>
   </div>
-  <ion-content>
-    <h1>Search</h1>
-  </ion-content>
+  <ion-content class="has-header">
+   <div class="list">
+     <ion-item ng-repeat="p in products" class="item-thumbnail-left item-icon-right" ui-sref="app.browse">
+         <img ng-src="{{p.thumbnail}}" alt=""/>
+         <h2>{{p.title}}</h2>
+         <p>{{toDateFormat(p.date)}}</p>
+         <i class="icon ion-ios-arrow-right"></i>
+     </ion-item>
+     <p ng-if="msg" class="text-center text-mute">{{msg}}</p>
+   </div>
+   <ion-infinite-scroll ng-if="canLoadMore()" on-infinite="loadMore()" distance="1%"></ion-infinite-scroll>
+   </ion-content>
 </ion-view>
