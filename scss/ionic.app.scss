@@ -103,6 +103,8 @@ body > .view-container  > .pane{
         width: 150px;
         img{
           width: 100%;
+          min-height: 140px;
+          max-height: 150px;
         }
       }
       .foot{
@@ -131,7 +133,7 @@ body > .view-container  > .pane{
       height: 200px;
     }
     .header-content img{
-      height: 130px;
+      max-height: 150px;
       max-width: 150px;
     }
   }
@@ -141,12 +143,12 @@ body > .view-container  > .pane{
     height: 180px;
     position: relative;
     img{
-      height: 110px;
+      max-height: 110px;
       max-width: 150px;
-      .border{ border: 1px solid #656565 }
+      &.border{ border: 1px solid #656565 }
       &.big{
-        height: 150px;
-        max-width: 150px;
+        max-height: 180px;
+        max-width: 180px;
       }
       &.center{
         margin: auto;
@@ -195,7 +197,7 @@ body > .view-container  > .pane{
     height: 180px;
     overflow: hidden;
     background-repeat: no-repeat;
-    background-position-y: -100px;
+    background-position-y: -30px;
     background-size: cover;
     background-color: #AAAAAA;
     z-index: -1;
@@ -204,6 +206,9 @@ body > .view-container  > .pane{
     -o-filter: blur(15px);
     -ms-filter: blur(15px);
     filter: blur(15px);
+    &.profile{
+      background-position-y: -100px;
+    }
     img{
       width: 100%;
       margin-top: -20%;
@@ -231,6 +236,9 @@ body > .view-container  > .pane{
     }
     &.item-thumbnail-left{
       min-height: 70px;
+      .item-content{
+        min-height: 80px;
+      }
       &.big{
         min-height: 80px;
         h2{
@@ -246,8 +254,9 @@ body > .view-container  > .pane{
       }
       img{
         top: 5px;
+        height: 60px;
         max-height: 70px;
-        max-width: 70px;
+        max-width: 80px;
         &.border{
           border: 1px solid #222;
         }
