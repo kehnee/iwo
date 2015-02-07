@@ -1,9 +1,11 @@
 angular.module('App', ['ionic', 'config', 'App.controllers', 'App.services'])
-    .config(function ($stateProvider, $urlRouterProvider, ConfigProvider) {
+    .config(function ($stateProvider, $urlRouterProvider, ConfigProvider, $httpProvider) {
         ConfigProvider
             .authState('app.browse')
             .unAuthState('login')
             .loginService('isLogin');
+        $httpProvider.defaults.headers.common['Content-Type']='application/json';
+
         $stateProvider
             .state('login', {
                 url: '/login',
@@ -31,6 +33,7 @@ angular.module('App', ['ionic', 'config', 'App.controllers', 'App.services'])
                 url: "/search",
                 views: {
                     'menuContent': {
+                        controller:'searchCtrl',
                         templateUrl: "templates/search.html"
                     }
                 },
@@ -40,6 +43,7 @@ angular.module('App', ['ionic', 'config', 'App.controllers', 'App.services'])
                 url: "/browse",
                 views: {
                     'menuContent': {
+                        controller:'browseCtrl',
                         templateUrl: "templates/browse.html"
                     }
                 },
@@ -69,6 +73,26 @@ angular.module('App', ['ionic', 'config', 'App.controllers', 'App.services'])
                 views: {
                     'menuContent': {
                         templateUrl: "templates/purchase.html"
+                    }
+                },
+                authenticate: true
+            })
+            .state('app.product', {
+                url: "/product/{id:int}",
+                views: {
+                    'menuContent': {
+                        controller: 'productCtrl',
+                        templateUrl: "templates/product.html"
+                    }
+                },
+                authenticate: true
+            })
+            .state('app.products', {
+                url: "/products/{orderBy}",
+                views: {
+                    'menuContent': {
+                        controller: 'productsCtrl',
+                        templateUrl: "templates/products.html"
                     }
                 },
                 authenticate: true

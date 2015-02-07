@@ -4,111 +4,32 @@
   </ion-nav-buttons>
   <ion-content>
     <ion-slide-box>
-      <ion-slide>
+      <ion-slide ng-repeat="item in sliderItems" ui-sref="app.product({id: item.id})">
         <div class="banner">
-          <img src="img/banner.png" alt="banner"/>
-        </div>
-      </ion-slide>
-      <ion-slide>
-        <div class="banner">
-          <img src="img/banner.png" alt="banner"/>
-        </div>
-      </ion-slide>
-      <ion-slide>
-        <div class="banner">
-          <img src="img/banner.png" alt="banner"/>
-        </div>
-      </ion-slide>
-      <ion-slide>
-        <div class="banner">
-          <img src="img/banner.png" alt="banner"/>
+          <img ng-src="{{item.featured_src}}" alt="banner"/>
         </div>
       </ion-slide>
     </ion-slide-box>
     <div class="slideSeries">
       <h3>Message Series</h3>
       <ion-scroll direction="x">
-        <div class="box" ui-sref="app.singleProductView">
+        <div class="box" ng-repeat="item in series" ui-sref="app.product({id: item.id})">
           <div class="image">
-            <img src="img/thumb.png" alt=""/>
+            <img ng-src="{{item.featured_src}}" alt=""/>
           </div>
           <div class="foot">
-            Don't box me in
-          </div>
-        </div>
-        <div class="box" ui-sref="app.seriesProductView">
-          <div class="image">
-            <img src="img/thumb2.png" alt=""/>
-          </div>
-          <div class="foot">
-            Don't box me in
-          </div>
-        </div>
-        <div class="box" ui-sref="app.singleProductView">
-          <div class="image">
-            <img src="img/thumb2.png" alt=""/>
-          </div>
-          <div class="foot">
-            Don't box me in
-          </div>
-        </div>
-        <div class="box">
-          <div class="image">
-            <img src="img/thumb.png" alt=""/>
-          </div>
-          <div class="foot">
-            Don't box me in
-          </div>
-        </div>
-        <div class="box">
-          <div class="image">
-            <img src="img/thumb2.png" alt=""/>
-          </div>
-          <div class="foot">
-            Don't box me in
-          </div>
-        </div>
-        <div class="box">
-          <div class="image">
-            <img src="img/thumb.png" alt=""/>
-          </div>
-          <div class="foot">
-            Don't box me in
-          </div>
-        </div>
-        <div class="box">
-          <div class="image">
-            <img src="img/thumb2.png" alt=""/>
-          </div>
-          <div class="foot">
-            Don't box me in
-          </div>
-        </div>
-        <div class="box">
-          <div class="image">
-            <img src="img/thumb.png" alt=""/>
-          </div>
-          <div class="foot">
-            Don't box me in
-          </div>
-        </div>
-        <div class="box">
-          <div class="image">
-            <img src="img/thumb2.png" alt=""/>
-          </div>
-          <div class="foot">
-            Don't box me in
+            {{item.title}}
           </div>
         </div>
       </ion-scroll>
     </div>
     <div class="list">
-      <ion-item class="item-icon-left item-icon-right">
+      <ion-item class="item-icon-left item-icon-right" ui-sref="app.products({orderBy: 'popular'})">
         <i class="icon ion-star"></i>
         Most Popular
         <i class="icon ion-ios-arrow-right"></i>
       </ion-item>
-      <ion-item class="item-icon-left item-icon-right">
+      <ion-item class="item-icon-left item-icon-right" ui-sref="app.products({orderBy: 'top'})">
         <i class="icon ion-star"></i>
         Top Lists
         <i class="icon ion-ios-arrow-right"></i>

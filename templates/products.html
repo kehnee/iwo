@@ -1,14 +1,7 @@
-<ion-view hide-nav-bar="true">
-  <div class="bar bar-header bar-stable item-input-inset">
-      <form style="display: -webkit-box; width: 100%" name="form" ng-submit="submit(form)">
-        <label class="item-input-wrapper">
-          <i class="icon ion-ios-search placeholder-icon"></i>
-          <input type="search" required placeholder="Search" ng-model="search">
-        </label>
-          <button type="submit" class="ng-hide">Submit</button>
-          <button type="button" class="button button-clear" ng-click="goBack()">Cancel</button>
-      </form>
-  </div>
+<ion-view title="{{titlePrefix}} Products">
+    <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-ios-arrow-back" ng-click="$ionicGoBack($event)"></button>
+    </ion-nav-buttons>
   <ion-content class="has-header">
    <div class="list">
      <ion-item ng-repeat="p in products" class="item-thumbnail-left item-icon-right" ui-sref="app.product({id: p.id})">

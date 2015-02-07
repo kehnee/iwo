@@ -70,9 +70,179 @@ angular.module('App.controllers')
             })
         };
     })
-    .controller('profileCtrl', function ($scope) {
+    .controller('profileCtrl', function ($rootScope, $scope, Product) {
+        $scope.update = function () {
+            var user = $scope.user;
+            Product.updateCustomer({
+                id:user.id,
+                firstName:user.firstname,
+                lastName:user.lastname,
+                email:user.email,
+                password: user.password&&user.password.length?user.password:undefined
+            }, function () {
+                $scope.$emit('Alert', {
+                    type:'success',
+                    msg: 'Profile Updated'
+                });
+            }, function(err){
+                if(err&&typeof err!=="string") err=!1;
+                err&&$scope.$emit('Alert', {
+                    type:'error',
+                    msg: err
+                });
+            })
+        };
     })
-    .controller('mainCtrl', function ($rootScope, $scope, $ionicActionSheet, $http, $ionicLoading, $ionicPopup, $state, User) {
+    .controller('productsCtrl', function ($scope, $state, $stateParams, Main, Product) {
+        var currentPage, pages, orders, orderBy, query={};
+        $scope.products=[];
+
+        $scope.toDateFormat = Main.toDateFormat;
+        orders={top:'rating',newest:'date',popular:'popularity',price:'price','price-desc':'price-desc'};
+        orderBy=$stateParams.orderBy;
+        typeof orderBy==='string'&&(orderBy=orderBy.toLocaleLowerCase());
+        if(orderBy in orders){
+            $scope.titlePrefix=orderBy.charAt(0).toLocaleUpperCase()+orderBy.slice(1).toLocaleLowerCase();
+            query.orderBy=orders[orderBy];
+        } else $state.back();
+        Product.getProducts(query, function (data) {
+            currentPage=1;
+            pages=data.pages;
+            $scope.products=data.products;
+            $scope.msg = $scope.products.length?'':'No products found!';
+            $scope.$$phase||$scope.$digest();
+        }, function (err) {
+            if(err&&typeof err!=="string") err=!1;
+            err&&$scope.$emit('Alert', {
+                type:'error',
+                msg: err
+            });
+        });
+
+        $scope.canLoadMore = function () {
+            return $scope.products.length && currentPage<pages;
+        };
+
+        $scope.loadMore = function () {
+            if(!$scope.canLoadMore()) return;
+            Product.getProducts(angular.extend({
+                page:currentPage+1,
+                loadingIgnore:true
+            },query), function (data) {
+                ++currentPage;
+                $scope.products=$scope.products.concat(data.products);
+                $scope.$$phase||$scope.$digest();
+                $scope.$broadcast('scroll.infiniteScrollComplete');
+            }, function (err) {
+                $scope.$broadcast('scroll.infiniteScrollComplete');
+                if(err&&typeof err!=="string") err=!1;
+                err&&$scope.$emit('Alert', {
+                    type:'error',
+                    msg: err
+                });
+            });
+        };
+    })
+    .controller('browseCtrl', function ($scope, $state, $stateParams, Product, $ionicSlideBoxDelegate) {
+        $scope.sliderItems = [];
+        $scope.series = [];
+        Product.getProducts({
+            limit:4,
+            orderBy:'popularity'
+        }, function (data) {
+            $scope.sliderItems=data.products;
+            $scope.$$phase||$scope.$digest();
+            $ionicSlideBoxDelegate.update();
+        }, function (err) {
+            if(err&&typeof err!=="string") err=!1;
+            err&&$scope.$emit('Alert', {
+                type:'error',
+                msg: err
+            }, function () {
+                $state.back();
+            });
+        });
+        Product.getProducts({
+            orderBy:'popularity'
+        }, function (data) {
+            $scope.series=data.products;
+            $scope.$$phase||$scope.$digest();
+        }, function (err) {
+            if(err&&typeof err!=="string") err=!1;
+            err&&$scope.$emit('Alert', {
+                type:'error',
+                msg: err
+            }, function () {
+                $state.back();
+            });
+        })
+    })
+    .controller('productCtrl', function ($scope, $state, $stateParams, Product) {
+        $scope.product = {};
+        Product.getProduct({id:$stateParams.id}, function (data) {
+            $scope.product=data;
+            console.log(data);
+            $scope.$$phase||$scope.$digest();
+        }, function (err) {
+            if(err&&typeof err!=="string") err=!1;
+            err&&$scope.$emit('Alert', {
+                type:'error',
+                msg: err
+            }, function () {
+                $state.back();
+            });
+        })
+    })
+    .controller('searchCtrl', function ($scope, Main, Product, $ionicScrollDelegate) {
+        var search, currentPage, pages;
+        $scope.products=[];
+
+        $scope.toDateFormat = Main.toDateFormat;
+
+        $scope.submit= function (form) {
+            if(form.$invalid) return;
+            Product.getProducts({search: search=$scope.search}, function (data) {
+                $ionicScrollDelegate.scrollTop();
+                currentPage=1;
+                pages=data.pages;
+                $scope.products=data.products;
+                $scope.msg = $scope.products.length?'':'No products found!';
+                $scope.$$phase||$scope.$digest();
+            }, function (err) {
+                if(err&&typeof err!=="string") err=!1;
+                err&&$scope.$emit('Alert', {
+                    type:'error',
+                    msg: err
+                });
+            });
+        };
+
+        $scope.canLoadMore = function () {
+          return $scope.products.length && currentPage<pages;
+        };
+        
+        $scope.loadMore = function () {
+            if(!$scope.canLoadMore()) return;
+            Product.getProducts({
+                search:search,
+                page:currentPage+1,
+                loadingIgnore:true
+            }, function (data) {
+                ++currentPage;
+                $scope.products=$scope.products.concat(data.products);
+                $scope.$$phase||$scope.$digest();
+                $scope.$broadcast('scroll.infiniteScrollComplete');
+            }, function (err) {
+                $scope.$broadcast('scroll.infiniteScrollComplete');
+                if(err&&typeof err!=="string") err=!1;
+                err&&$scope.$emit('Alert', {
+                    type:'error',
+                    msg: err
+                });
+            });
+        };
+    })
+    .controller('mainCtrl', function ($rootScope, $scope, $ionicActionSheet, BASE_URL, $http, $ionicLoading, $ionicPopup, $state, User) {
         $scope.goBack = function() {
             $state.back();
         };
@@ -150,9 +320,10 @@ angular.module('App.controllers')
             var p =$http.pendingRequests;
             var r = p.filter(function(r, i) {
                 var urls = [];
-                return !(urls.some(function(u) {
-                    return r.url === u || r.url === location.origin + u
-                }))
+
+                return !( (urls.some(function(u) {
+                    return r.url === u || r.url === BASE_URL + u
+                })) || (r.loadingIgnore) )
             });
             return r.length > 0;
         }, function(v) {

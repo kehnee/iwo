@@ -3,25 +3,25 @@
     <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
   </ion-nav-buttons>
   <ion-nav-buttons side="right">
-    <button class="button button-clear" ng-click="$parent.edit=!$parent.edit"><span ng-if="!edit">Edit</span><span ng-if="edit">Done</span></button>
+    <button class="button button-clear" ng-click="$parent.edit=!$parent.edit;!$parent.edit&&$parent.update()"><span ng-if="!edit">Edit</span><span ng-if="edit">Done</span></button>
   </ion-nav-buttons>
   <ion-content>
     <div class="image-header">
       <div class="header-content">
         <img class="center big" ng-src="{{user.picture}}" alt=""/>
-        <div class="title uppercase">Username</div>
+        <div class="title uppercase">{{user.username}}</div>
       </div>
     </div>
     <div class="list">
       <label class="item item-input">
         <span class="input-label uppercase">First Name:</span>
-        <span ng-hide="edit">{{user.firstName}}</span>
-        <input ng-show="edit" type="text" ng-model="user.firstName">
+        <span ng-hide="edit">{{user.firstname}}</span>
+        <input ng-show="edit" type="text" ng-model="user.firstname">
       </label>
       <label class="item item-input">
         <span class="input-label uppercase">Last Name:</span>
-        <span ng-hide="edit">{{user.lastName}}</span>
-        <input ng-show="edit" type="text" ng-model="user.lastName">
+        <span ng-hide="edit">{{user.lastname}}</span>
+        <input ng-show="edit" type="text" ng-model="user.lastname">
       </label>
       <label class="item item-input">
         <span class="input-label uppercase">Email Address:</span>
