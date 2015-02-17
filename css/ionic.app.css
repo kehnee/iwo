@@ -32,7 +32,7 @@ $dark:                            #444 !default;
   font-weight: normal;
   font-style: normal; }
 
-.ion, .ion-loading-a, .ion-loading-b, .ion-loading-c, .ion-loading-d, .ion-looping, .ion-refreshing, .ion-ios7-reloading, .ionicons, .ion-alert:before, .ion-alert-circled:before, .ion-android-add:before, .ion-android-add-circle:before, .ion-android-alarm-clock:before, .ion-android-alert:before, .ion-android-apps:before, .ion-android-archive:before, .ion-android-arrow-back:before, .ion-android-arrow-down:before, .ion-android-arrow-dropdown:before, .ion-android-arrow-dropdown-circle:before, .ion-android-arrow-dropleft:before, .ion-android-arrow-dropleft-circle:before, .ion-android-arrow-dropright:before, .ion-android-arrow-dropright-circle:before, .ion-android-arrow-dropup:before, .ion-android-arrow-dropup-circle:before, .ion-android-arrow-forward:before, .ion-android-arrow-up:before, .ion-android-attach:before, .ion-android-bar:before, .ion-android-bicycle:before, .ion-android-boat:before, .ion-android-bookmark:before, .ion-android-bulb:before, .ion-android-bus:before, .ion-android-calendar:before, .ion-android-call:before, .ion-android-camera:before, .ion-android-cancel:before, .ion-android-car:before, .ion-android-cart:before, .ion-android-chat:before, .ion-android-checkbox:before, .ion-android-checkbox-blank:before, .ion-android-checkbox-outline:before, .ion-android-checkbox-outline-blank:before, .ion-android-checkmark-circle:before, .ion-android-clipboard:before, .ion-android-close:before, .ion-android-cloud:before, .ion-android-cloud-circle:before, .ion-android-cloud-done:before, .ion-android-cloud-outline:before, .ion-android-color-palette:before, .ion-android-compass:before, .ion-android-contact:before, .ion-android-contacts:before, .ion-android-contract:before, .ion-android-create:before, .ion-android-delete:before, .ion-android-desktop:before, .ion-android-document:before, .ion-android-done:before, .ion-android-done-all:before, .ion-android-download:before, .ion-android-drafts:before, .ion-android-exit:before, .ion-android-expand:before, .ion-android-favorite:before, .ion-android-favorite-outline:before, .ion-android-film:before, .ion-android-folder:before, .ion-android-folder-open:before, .ion-android-funnel:before, .ion-android-globe:before, .ion-android-hand:before, .ion-android-hangout:before, .ion-android-happy:before, .ion-android-home:before, .ion-android-image:before, .ion-android-laptop:before, .ion-android-list:before, .ion-android-locate:before, .ion-android-lock:before, .ion-android-mail:before, .ion-android-map:before, .ion-android-menu:before, .ion-android-microphone:before, .ion-android-microphone-off:before, .ion-android-more-horizontal:before, .ion-android-more-vertical:before, .ion-android-navigate:before, .ion-android-notifications:before, .ion-android-notifications-none:before, .ion-android-notifications-off:before, .ion-android-open:before, .ion-android-options:before, .ion-android-people:before, .ion-android-person:before, .ion-android-person-add:before, .ion-android-phone-landscape:before, .ion-android-phone-portrait:before, .ion-android-pin:before, .ion-android-plane:before, .ion-android-playstore:before, .ion-android-print:before, .ion-android-radio-button-off:before, .ion-android-radio-button-on:before, .ion-android-refresh:before, .ion-android-remove:before, .ion-android-remove-circle:before, .ion-android-restaurant:before, .ion-android-sad:before, .ion-android-search:before, .ion-android-send:before, .ion-android-settings:before, .ion-android-share:before, .ion-android-share-alt:before, .ion-android-star:before, .ion-android-star-half:before, .ion-android-star-outline:before, .ion-android-stopwatch:before, .ion-android-subway:before, .ion-android-sunny:before, .ion-android-sync:before, .ion-android-textsms:before, .ion-android-time:before, .ion-android-train:before, .ion-android-unlock:before, .ion-android-upload:before, .ion-android-volume-down:before, .ion-android-volume-mute:before, .ion-android-volume-off:before, .ion-android-volume-up:before, .ion-android-walk:before, .ion-android-warning:before, .ion-android-watch:before, .ion-android-wifi:before, .ion-aperture:before, .ion-archive:before, .ion-arrow-down-a:before, .ion-arrow-down-b:before, .ion-arrow-down-c:before, .ion-arrow-expand:before, .ion-arrow-graph-down-left:before, .ion-arrow-graph-down-right:before, .ion-arrow-graph-up-left:before, .ion-arrow-graph-up-right:before, .ion-arrow-left-a:before, .ion-arrow-left-b:before, .ion-arrow-left-c:before, .ion-arrow-move:before, .ion-arrow-resize:before, .ion-arrow-return-left:before, .ion-arrow-return-right:before, .ion-arrow-right-a:before, .ion-arrow-right-b:before, .ion-arrow-right-c:before, .ion-arrow-shrink:before, .ion-arrow-swap:before, .ion-arrow-up-a:before, .ion-arrow-up-b:before, .ion-arrow-up-c:before, .ion-asterisk:before, .ion-at:before, .ion-backspace:before, .ion-backspace-outline:before, .ion-bag:before, .ion-battery-charging:before, .ion-battery-empty:before, .ion-battery-full:before, .ion-battery-half:before, .ion-battery-low:before, .ion-beaker:before, .ion-beer:before, .ion-bluetooth:before, .ion-bonfire:before, .ion-bookmark:before, .ion-bowtie:before, .ion-briefcase:before, .ion-bug:before, .ion-calculator:before, .ion-calendar:before, .ion-camera:before, .ion-card:before, .ion-cash:before, .ion-chatbox:before, .ion-chatbox-working:before, .ion-chatboxes:before, .ion-chatbubble:before, .ion-chatbubble-working:before, .ion-chatbubbles:before, .ion-checkmark:before, .ion-checkmark-circled:before, .ion-checkmark-round:before, .ion-chevron-down:before, .ion-chevron-left:before, .ion-chevron-right:before, .ion-chevron-up:before, .ion-clipboard:before, .ion-clock:before, .ion-close:before, .ion-close-circled:before, .ion-close-round:before, .ion-closed-captioning:before, .ion-cloud:before, .ion-code:before, .ion-code-download:before, .ion-code-working:before, .ion-coffee:before, .ion-compass:before, .ion-compose:before, .ion-connection-bars:before, .ion-contrast:before, .ion-crop:before, .ion-cube:before, .ion-disc:before, .ion-document:before, .ion-document-text:before, .ion-drag:before, .ion-earth:before, .ion-easel:before, .ion-edit:before, .ion-egg:before, .ion-eject:before, .ion-email:before, .ion-email-unread:before, .ion-erlenmeyer-flask:before, .ion-erlenmeyer-flask-bubbles:before, .ion-eye:before, .ion-eye-disabled:before, .ion-female:before, .ion-filing:before, .ion-film-marker:before, .ion-fireball:before, .ion-flag:before, .ion-flame:before, .ion-flash:before, .ion-flash-off:before, .ion-folder:before, .ion-fork:before, .ion-fork-repo:before, .ion-forward:before, .ion-funnel:before, .ion-gear-a:before, .ion-gear-b:before, .ion-grid:before, .ion-hammer:before, .ion-happy:before, .ion-happy-outline:before, .ion-headphone:before, .ion-heart:before, .ion-heart-broken:before, .ion-help:before, .ion-help-buoy:before, .ion-help-circled:before, .ion-home:before, .ion-icecream:before, .ion-image:before, .ion-images:before, .ion-information:before, .ion-information-circled:before, .ion-ionic:before, .ion-ios-alarm:before, .ion-ios-alarm-outline:before, .ion-ios-albums:before, .ion-ios-albums-outline:before, .ion-ios-americanfootball:before, .ion-ios-americanfootball-outline:before, .ion-ios-analytics:before, .ion-ios-analytics-outline:before, .ion-ios-arrow-back:before, .ion-ios-arrow-down:before, .ion-ios-arrow-forward:before, .ion-ios-arrow-left:before, .ion-ios-arrow-right:before, .ion-ios-arrow-thin-down:before, .ion-ios-arrow-thin-left:before, .ion-ios-arrow-thin-right:before, .ion-ios-arrow-thin-up:before, .ion-ios-arrow-up:before, .ion-ios-at:before, .ion-ios-at-outline:before, .ion-ios-barcode:before, .ion-ios-barcode-outline:before, .ion-ios-baseball:before, .ion-ios-baseball-outline:before, .ion-ios-basketball:before, .ion-ios-basketball-outline:before, .ion-ios-bell:before, .ion-ios-bell-outline:before, .ion-ios-body:before, .ion-ios-body-outline:before, .ion-ios-bolt:before, .ion-ios-bolt-outline:before, .ion-ios-book:before, .ion-ios-book-outline:before, .ion-ios-bookmarks:before, .ion-ios-bookmarks-outline:before, .ion-ios-box:before, .ion-ios-box-outline:before, .ion-ios-briefcase:before, .ion-ios-briefcase-outline:before, .ion-ios-browsers:before, .ion-ios-browsers-outline:before, .ion-ios-calculator:before, .ion-ios-calculator-outline:before, .ion-ios-calendar:before, .ion-ios-calendar-outline:before, .ion-ios-camera:before, .ion-ios-camera-outline:before, .ion-ios-cart:before, .ion-ios-cart-outline:before, .ion-ios-chatboxes:before, .ion-ios-chatboxes-outline:before, .ion-ios-chatbubble:before, .ion-ios-chatbubble-outline:before, .ion-ios-checkmark:before, .ion-ios-checkmark-empty:before, .ion-ios-checkmark-outline:before, .ion-ios-circle-filled:before, .ion-ios-circle-outline:before, .ion-ios-clock:before, .ion-ios-clock-outline:before, .ion-ios-close:before, .ion-ios-close-empty:before, .ion-ios-close-outline:before, .ion-ios-cloud:before, .ion-ios-cloud-download:before, .ion-ios-cloud-download-outline:before, .ion-ios-cloud-outline:before, .ion-ios-cloud-upload:before, .ion-ios-cloud-upload-outline:before, .ion-ios-cloudy:before, .ion-ios-cloudy-night:before, .ion-ios-cloudy-night-outline:before, .ion-ios-cloudy-outline:before, .ion-ios-cog:before, .ion-ios-cog-outline:before, .ion-ios-color-filter:before, .ion-ios-color-filter-outline:before, .ion-ios-color-wand:before, .ion-ios-color-wand-outline:before, .ion-ios-compose:before, .ion-ios-compose-outline:before, .ion-ios-contact:before, .ion-ios-contact-outline:before, .ion-ios-copy:before, .ion-ios-copy-outline:before, .ion-ios-crop:before, .ion-ios-crop-strong:before, .ion-ios-download:before, .ion-ios-download-outline:before, .ion-ios-drag:before, .ion-ios-email:before, .ion-ios-email-outline:before, .ion-ios-eye:before, .ion-ios-eye-outline:before, .ion-ios-fastforward:before, .ion-ios-fastforward-outline:before, .ion-ios-filing:before, .ion-ios-filing-outline:before, .ion-ios-film:before, .ion-ios-film-outline:before, .ion-ios-flag:before, .ion-ios-flag-outline:before, .ion-ios-flame:before, .ion-ios-flame-outline:before, .ion-ios-flask:before, .ion-ios-flask-outline:before, .ion-ios-flower:before, .ion-ios-flower-outline:before, .ion-ios-folder:before, .ion-ios-folder-outline:before, .ion-ios-football:before, .ion-ios-football-outline:before, .ion-ios-game-controller-a:before, .ion-ios-game-controller-a-outline:before, .ion-ios-game-controller-b:before, .ion-ios-game-controller-b-outline:before, .ion-ios-gear:before, .ion-ios-gear-outline:before, .ion-ios-glasses:before, .ion-ios-glasses-outline:before, .ion-ios-grid-view:before, .ion-ios-grid-view-outline:before, .ion-ios-heart:before, .ion-ios-heart-outline:before, .ion-ios-help:before, .ion-ios-help-empty:before, .ion-ios-help-outline:before, .ion-ios-home:before, .ion-ios-home-outline:before, .ion-ios-infinite:before, .ion-ios-infinite-outline:before, .ion-ios-information:before, .ion-ios-information-empty:before, .ion-ios-information-outline:before, .ion-ios-ionic-outline:before, .ion-ios-keypad:before, .ion-ios-keypad-outline:before, .ion-ios-lightbulb:before, .ion-ios-lightbulb-outline:before, .ion-ios-list:before, .ion-ios-list-outline:before, .ion-ios-location:before, .ion-ios-location-outline:before, .ion-ios-locked:before, .ion-ios-locked-outline:before, .ion-ios-loop:before, .ion-ios-loop-strong:before, .ion-ios-medical:before, .ion-ios-medical-outline:before, .ion-ios-medkit:before, .ion-ios-medkit-outline:before, .ion-ios-mic:before, .ion-ios-mic-off:before, .ion-ios-mic-outline:before, .ion-ios-minus:before, .ion-ios-minus-empty:before, .ion-ios-minus-outline:before, .ion-ios-monitor:before, .ion-ios-monitor-outline:before, .ion-ios-moon:before, .ion-ios-moon-outline:before, .ion-ios-more:before, .ion-ios-more-outline:before, .ion-ios-musical-note:before, .ion-ios-musical-notes:before, .ion-ios-navigate:before, .ion-ios-navigate-outline:before, .ion-ios-nutrition:before, .ion-ios-nutrition-outline:before, .ion-ios-paper:before, .ion-ios-paper-outline:before, .ion-ios-paperplane:before, .ion-ios-paperplane-outline:before, .ion-ios-partlysunny:before, .ion-ios-partlysunny-outline:before, .ion-ios-pause:before, .ion-ios-pause-outline:before, .ion-ios-paw:before, .ion-ios-paw-outline:before, .ion-ios-people:before, .ion-ios-people-outline:before, .ion-ios-person:before, .ion-ios-person-outline:before, .ion-ios-personadd:before, .ion-ios-personadd-outline:before, .ion-ios-photos:before, .ion-ios-photos-outline:before, .ion-ios-pie:before, .ion-ios-pie-outline:before, .ion-ios-pint:before, .ion-ios-pint-outline:before, .ion-ios-play:before, .ion-ios-play-outline:before, .ion-ios-plus:before, .ion-ios-plus-empty:before, .ion-ios-plus-outline:before, .ion-ios-pricetag:before, .ion-ios-pricetag-outline:before, .ion-ios-pricetags:before, .ion-ios-pricetags-outline:before, .ion-ios-printer:before, .ion-ios-printer-outline:before, .ion-ios-pulse:before, .ion-ios-pulse-strong:before, .ion-ios-rainy:before, .ion-ios-rainy-outline:before, .ion-ios-recording:before, .ion-ios-recording-outline:before, .ion-ios-redo:before, .ion-ios-redo-outline:before, .ion-ios-refresh:before, .ion-ios-refresh-empty:before, .ion-ios-refresh-outline:before, .ion-ios-reload:before, .ion-ios-reverse-camera:before, .ion-ios-reverse-camera-outline:before, .ion-ios-rewind:before, .ion-ios-rewind-outline:before, .ion-ios-rose:before, .ion-ios-rose-outline:before, .ion-ios-search:before, .ion-ios-search-strong:before, .ion-ios-settings:before, .ion-ios-settings-strong:before, .ion-ios-shuffle:before, .ion-ios-shuffle-strong:before, .ion-ios-skipbackward:before, .ion-ios-skipbackward-outline:before, .ion-ios-skipforward:before, .ion-ios-skipforward-outline:before, .ion-ios-snowy:before, .ion-ios-speedometer:before, .ion-ios-speedometer-outline:before, .ion-ios-star:before, .ion-ios-star-half:before, .ion-ios-star-outline:before, .ion-ios-stopwatch:before, .ion-ios-stopwatch-outline:before, .ion-ios-sunny:before, .ion-ios-sunny-outline:before, .ion-ios-telephone:before, .ion-ios-telephone-outline:before, .ion-ios-tennisball:before, .ion-ios-tennisball-outline:before, .ion-ios-thunderstorm:before, .ion-ios-thunderstorm-outline:before, .ion-ios-time:before, .ion-ios-time-outline:before, .ion-ios-timer:before, .ion-ios-timer-outline:before, .ion-ios-toggle:before, .ion-ios-toggle-outline:before, .ion-ios-trash:before, .ion-ios-trash-outline:before, .ion-ios-undo:before, .ion-ios-undo-outline:before, .ion-ios-unlocked:before, .ion-ios-unlocked-outline:before, .ion-ios-upload:before, .ion-ios-upload-outline:before, .ion-ios-videocam:before, .ion-ios-videocam-outline:before, .ion-ios-volume-high:before, .ion-ios-volume-low:before, .ion-ios-wineglass:before, .ion-ios-wineglass-outline:before, .ion-ios-world:before, .ion-ios-world-outline:before, .ion-ipad:before, .ion-iphone:before, .ion-ipod:before, .ion-jet:before, .ion-key:before, .ion-knife:before, .ion-laptop:before, .ion-leaf:before, .ion-levels:before, .ion-lightbulb:before, .ion-link:before, .ion-load-a:before, .ion-loading-a:before, .ion-load-b:before, .ion-loading-b:before, .ion-load-c:before, .ion-loading-c:before, .ion-load-d:before, .ion-loading-d:before, .ion-location:before, .ion-lock-combination:before, .ion-locked:before, .ion-log-in:before, .ion-log-out:before, .ion-loop:before, .ion-looping:before, .ion-magnet:before, .ion-male:before, .ion-man:before, .ion-map:before, .ion-medkit:before, .ion-merge:before, .ion-mic-a:before, .ion-mic-b:before, .ion-mic-c:before, .ion-minus:before, .ion-minus-circled:before, .ion-minus-round:before, .ion-model-s:before, .ion-monitor:before, .ion-more:before, .ion-mouse:before, .ion-music-note:before, .ion-navicon:before, .ion-navicon-round:before, .ion-navigate:before, .ion-network:before, .ion-no-smoking:before, .ion-nuclear:before, .ion-outlet:before, .ion-paintbrush:before, .ion-paintbucket:before, .ion-paper-airplane:before, .ion-paperclip:before, .ion-pause:before, .ion-person:before, .ion-person-add:before, .ion-person-stalker:before, .ion-pie-graph:before, .ion-pin:before, .ion-pinpoint:before, .ion-pizza:before, .ion-plane:before, .ion-planet:before, .ion-play:before, .ion-playstation:before, .ion-plus:before, .ion-plus-circled:before, .ion-plus-round:before, .ion-podium:before, .ion-pound:before, .ion-power:before, .ion-pricetag:before, .ion-pricetags:before, .ion-printer:before, .ion-pull-request:before, .ion-qr-scanner:before, .ion-quote:before, .ion-radio-waves:before, .ion-record:before, .ion-refresh:before, .ion-refreshing:before, .ion-reply:before, .ion-reply-all:before, .ion-ribbon-a:before, .ion-ribbon-b:before, .ion-sad:before, .ion-sad-outline:before, .ion-scissors:before, .ion-search:before, .ion-settings:before, .ion-share:before, .ion-shuffle:before, .ion-skip-backward:before, .ion-skip-forward:before, .ion-social-android:before, .ion-social-android-outline:before, .ion-social-angular:before, .ion-social-angular-outline:before, .ion-social-apple:before, .ion-social-apple-outline:before, .ion-social-bitcoin:before, .ion-social-bitcoin-outline:before, .ion-social-buffer:before, .ion-social-buffer-outline:before, .ion-social-chrome:before, .ion-social-chrome-outline:before, .ion-social-codepen:before, .ion-social-codepen-outline:before, .ion-social-css3:before, .ion-social-css3-outline:before, .ion-social-designernews:before, .ion-social-designernews-outline:before, .ion-social-dribbble:before, .ion-social-dribbble-outline:before, .ion-social-dropbox:before, .ion-social-dropbox-outline:before, .ion-social-euro:before, .ion-social-euro-outline:before, .ion-social-facebook:before, .ion-social-facebook-outline:before, .ion-social-foursquare:before, .ion-social-foursquare-outline:before, .ion-social-freebsd-devil:before, .ion-social-github:before, .ion-social-github-outline:before, .ion-social-google:before, .ion-social-google-outline:before, .ion-social-googleplus:before, .ion-social-googleplus-outline:before, .ion-social-hackernews:before, .ion-social-hackernews-outline:before, .ion-social-html5:before, .ion-social-html5-outline:before, .ion-social-instagram:before, .ion-social-instagram-outline:before, .ion-social-javascript:before, .ion-social-javascript-outline:before, .ion-social-linkedin:before, .ion-social-linkedin-outline:before, .ion-social-markdown:before, .ion-social-nodejs:before, .ion-social-octocat:before, .ion-social-pinterest:before, .ion-social-pinterest-outline:before, .ion-social-python:before, .ion-social-reddit:before, .ion-social-reddit-outline:before, .ion-social-rss:before, .ion-social-rss-outline:before, .ion-social-sass:before, .ion-social-skype:before, .ion-social-skype-outline:before, .ion-social-snapchat:before, .ion-social-snapchat-outline:before, .ion-social-tumblr:before, .ion-social-tumblr-outline:before, .ion-social-tux:before, .ion-social-twitch:before, .ion-social-twitch-outline:before, .ion-social-twitter:before, .ion-social-twitter-outline:before, .ion-social-usd:before, .ion-social-usd-outline:before, .ion-social-vimeo:before, .ion-social-vimeo-outline:before, .ion-social-whatsapp:before, .ion-social-whatsapp-outline:before, .ion-social-windows:before, .ion-social-windows-outline:before, .ion-social-wordpress:before, .ion-social-wordpress-outline:before, .ion-social-yahoo:before, .ion-social-yahoo-outline:before, .ion-social-yen:before, .ion-social-yen-outline:before, .ion-social-youtube:before, .ion-social-youtube-outline:before, .ion-soup-can:before, .ion-soup-can-outline:before, .ion-speakerphone:before, .ion-speedometer:before, .ion-spoon:before, .ion-star:before, .ion-stats-bars:before, .ion-steam:before, .ion-stop:before, .ion-thermometer:before, .ion-thumbsdown:before, .ion-thumbsup:before, .ion-toggle:before, .ion-toggle-filled:before, .ion-transgender:before, .ion-trash-a:before, .ion-trash-b:before, .ion-trophy:before, .ion-tshirt:before, .ion-tshirt-outline:before, .ion-umbrella:before, .ion-university:before, .ion-unlocked:before, .ion-upload:before, .ion-usb:before, .ion-videocamera:before, .ion-volume-high:before, .ion-volume-low:before, .ion-volume-medium:before, .ion-volume-mute:before, .ion-wand:before, .ion-waterdrop:before, .ion-wifi:before, .ion-wineglass:before, .ion-woman:before, .ion-wrench:before, .ion-xbox:before {
+.ion, .ion-loading-a, .ion-loading-b, .ion-loading-c, .ion-loading-d, .ion-looping, .ion-refreshing, .ion-ios7-reloading, .ionicons, .ion-alert:before, .ion-alert-circled:before, .ion-android-add:before, .ion-android-add-circle:before, .ion-android-alarm-clock:before, .ion-android-alert:before, .ion-android-apps:before, .ion-android-archive:before, .ion-android-arrow-back:before, .ion-android-arrow-down:before, .ion-android-arrow-dropdown:before, .ion-android-arrow-dropdown-circle:before, .ion-android-arrow-dropleft:before, .ion-android-arrow-dropleft-circle:before, .ion-android-arrow-dropright:before, .ion-android-arrow-dropright-circle:before, .ion-android-arrow-dropup:before, .ion-android-arrow-dropup-circle:before, .ion-android-arrow-forward:before, .ion-android-arrow-up:before, .ion-android-attach:before, .ion-android-bar:before, .ion-android-bicycle:before, .ion-android-boat:before, .ion-android-bookmark:before, .ion-android-bulb:before, .ion-android-bus:before, .ion-android-calendar:before, .ion-android-call:before, .ion-android-camera:before, .ion-android-cancel:before, .ion-android-car:before, .ion-android-cart:before, .ion-android-chat:before, .ion-android-checkbox:before, .ion-android-checkbox-blank:before, .ion-android-checkbox-outline:before, .ion-android-checkbox-outline-blank:before, .ion-android-checkmark-circle:before, .ion-android-clipboard:before, .ion-android-close:before, .player .icon-close:before, .ion-android-cloud:before, .ion-android-cloud-circle:before, .ion-android-cloud-done:before, .ion-android-cloud-outline:before, .ion-android-color-palette:before, .ion-android-compass:before, .ion-android-contact:before, .ion-android-contacts:before, .ion-android-contract:before, .ion-android-create:before, .ion-android-delete:before, .ion-android-desktop:before, .ion-android-document:before, .ion-android-done:before, .ion-android-done-all:before, .ion-android-download:before, .ion-android-drafts:before, .ion-android-exit:before, .ion-android-expand:before, .ion-android-favorite:before, .ion-android-favorite-outline:before, .ion-android-film:before, .ion-android-folder:before, .ion-android-folder-open:before, .ion-android-funnel:before, .ion-android-globe:before, .ion-android-hand:before, .ion-android-hangout:before, .ion-android-happy:before, .ion-android-home:before, .ion-android-image:before, .ion-android-laptop:before, .ion-android-list:before, .ion-android-locate:before, .ion-android-lock:before, .ion-android-mail:before, .ion-android-map:before, .ion-android-menu:before, .ion-android-microphone:before, .ion-android-microphone-off:before, .ion-android-more-horizontal:before, .ion-android-more-vertical:before, .ion-android-navigate:before, .ion-android-notifications:before, .ion-android-notifications-none:before, .ion-android-notifications-off:before, .ion-android-open:before, .ion-android-options:before, .ion-android-people:before, .ion-android-person:before, .ion-android-person-add:before, .ion-android-phone-landscape:before, .ion-android-phone-portrait:before, .ion-android-pin:before, .ion-android-plane:before, .ion-android-playstore:before, .ion-android-print:before, .ion-android-radio-button-off:before, .ion-android-radio-button-on:before, .ion-android-refresh:before, .ion-android-remove:before, .ion-android-remove-circle:before, .ion-android-restaurant:before, .ion-android-sad:before, .ion-android-search:before, .ion-android-send:before, .ion-android-settings:before, .ion-android-share:before, .ion-android-share-alt:before, .ion-android-star:before, .ion-android-star-half:before, .ion-android-star-outline:before, .ion-android-stopwatch:before, .ion-android-subway:before, .ion-android-sunny:before, .ion-android-sync:before, .ion-android-textsms:before, .ion-android-time:before, .ion-android-train:before, .ion-android-unlock:before, .ion-android-upload:before, .ion-android-volume-down:before, .ion-android-volume-mute:before, .ion-android-volume-off:before, .ion-android-volume-up:before, .ion-android-walk:before, .ion-android-warning:before, .ion-android-watch:before, .ion-android-wifi:before, .ion-aperture:before, .ion-archive:before, .ion-arrow-down-a:before, .ion-arrow-down-b:before, .ion-arrow-down-c:before, .ion-arrow-expand:before, .ion-arrow-graph-down-left:before, .ion-arrow-graph-down-right:before, .ion-arrow-graph-up-left:before, .ion-arrow-graph-up-right:before, .ion-arrow-left-a:before, .ion-arrow-left-b:before, .ion-arrow-left-c:before, .ion-arrow-move:before, .ion-arrow-resize:before, .ion-arrow-return-left:before, .ion-arrow-return-right:before, .ion-arrow-right-a:before, .ion-arrow-right-b:before, .ion-arrow-right-c:before, .ion-arrow-shrink:before, .ion-arrow-swap:before, .ion-arrow-up-a:before, .ion-arrow-up-b:before, .ion-arrow-up-c:before, .ion-asterisk:before, .ion-at:before, .ion-backspace:before, .ion-backspace-outline:before, .ion-bag:before, .ion-battery-charging:before, .ion-battery-empty:before, .ion-battery-full:before, .ion-battery-half:before, .ion-battery-low:before, .ion-beaker:before, .ion-beer:before, .ion-bluetooth:before, .ion-bonfire:before, .ion-bookmark:before, .ion-bowtie:before, .ion-briefcase:before, .ion-bug:before, .ion-calculator:before, .ion-calendar:before, .ion-camera:before, .ion-card:before, .ion-cash:before, .ion-chatbox:before, .ion-chatbox-working:before, .ion-chatboxes:before, .ion-chatbubble:before, .ion-chatbubble-working:before, .ion-chatbubbles:before, .ion-checkmark:before, .ion-checkmark-circled:before, .ion-checkmark-round:before, .ion-chevron-down:before, .ion-chevron-left:before, .ion-chevron-right:before, .ion-chevron-up:before, .ion-clipboard:before, .ion-clock:before, .ion-close:before, .ion-close-circled:before, .ion-close-round:before, .ion-closed-captioning:before, .ion-cloud:before, .ion-code:before, .ion-code-download:before, .ion-code-working:before, .ion-coffee:before, .ion-compass:before, .ion-compose:before, .ion-connection-bars:before, .ion-contrast:before, .ion-crop:before, .ion-cube:before, .ion-disc:before, .ion-document:before, .ion-document-text:before, .ion-drag:before, .ion-earth:before, .ion-easel:before, .ion-edit:before, .ion-egg:before, .ion-eject:before, .ion-email:before, .ion-email-unread:before, .ion-erlenmeyer-flask:before, .ion-erlenmeyer-flask-bubbles:before, .ion-eye:before, .ion-eye-disabled:before, .ion-female:before, .ion-filing:before, .ion-film-marker:before, .ion-fireball:before, .ion-flag:before, .ion-flame:before, .ion-flash:before, .ion-flash-off:before, .ion-folder:before, .ion-fork:before, .ion-fork-repo:before, .ion-forward:before, .ion-funnel:before, .ion-gear-a:before, .ion-gear-b:before, .ion-grid:before, .ion-hammer:before, .ion-happy:before, .ion-happy-outline:before, .ion-headphone:before, .ion-heart:before, .ion-heart-broken:before, .ion-help:before, .ion-help-buoy:before, .ion-help-circled:before, .ion-home:before, .ion-icecream:before, .ion-image:before, .ion-images:before, .ion-information:before, .ion-information-circled:before, .ion-ionic:before, .ion-ios-alarm:before, .ion-ios-alarm-outline:before, .ion-ios-albums:before, .ion-ios-albums-outline:before, .ion-ios-americanfootball:before, .ion-ios-americanfootball-outline:before, .ion-ios-analytics:before, .ion-ios-analytics-outline:before, .ion-ios-arrow-back:before, .ion-ios-arrow-down:before, .ion-ios-arrow-forward:before, .ion-ios-arrow-left:before, .ion-ios-arrow-right:before, .ion-ios-arrow-thin-down:before, .ion-ios-arrow-thin-left:before, .ion-ios-arrow-thin-right:before, .ion-ios-arrow-thin-up:before, .ion-ios-arrow-up:before, .ion-ios-at:before, .ion-ios-at-outline:before, .ion-ios-barcode:before, .ion-ios-barcode-outline:before, .ion-ios-baseball:before, .ion-ios-baseball-outline:before, .ion-ios-basketball:before, .ion-ios-basketball-outline:before, .ion-ios-bell:before, .ion-ios-bell-outline:before, .ion-ios-body:before, .ion-ios-body-outline:before, .ion-ios-bolt:before, .ion-ios-bolt-outline:before, .ion-ios-book:before, .ion-ios-book-outline:before, .ion-ios-bookmarks:before, .ion-ios-bookmarks-outline:before, .ion-ios-box:before, .ion-ios-box-outline:before, .ion-ios-briefcase:before, .ion-ios-briefcase-outline:before, .ion-ios-browsers:before, .ion-ios-browsers-outline:before, .ion-ios-calculator:before, .ion-ios-calculator-outline:before, .ion-ios-calendar:before, .ion-ios-calendar-outline:before, .ion-ios-camera:before, .ion-ios-camera-outline:before, .ion-ios-cart:before, .ion-ios-cart-outline:before, .ion-ios-chatboxes:before, .ion-ios-chatboxes-outline:before, .ion-ios-chatbubble:before, .ion-ios-chatbubble-outline:before, .ion-ios-checkmark:before, .ion-ios-checkmark-empty:before, .ion-ios-checkmark-outline:before, .ion-ios-circle-filled:before, .ion-ios-circle-outline:before, .ion-ios-clock:before, .ion-ios-clock-outline:before, .ion-ios-close:before, .ion-ios-close-empty:before, .ion-ios-close-outline:before, .ion-ios-cloud:before, .ion-ios-cloud-download:before, .ion-ios-cloud-download-outline:before, .ion-ios-cloud-outline:before, .ion-ios-cloud-upload:before, .ion-ios-cloud-upload-outline:before, .ion-ios-cloudy:before, .ion-ios-cloudy-night:before, .ion-ios-cloudy-night-outline:before, .ion-ios-cloudy-outline:before, .ion-ios-cog:before, .ion-ios-cog-outline:before, .ion-ios-color-filter:before, .ion-ios-color-filter-outline:before, .ion-ios-color-wand:before, .ion-ios-color-wand-outline:before, .ion-ios-compose:before, .ion-ios-compose-outline:before, .ion-ios-contact:before, .ion-ios-contact-outline:before, .ion-ios-copy:before, .ion-ios-copy-outline:before, .ion-ios-crop:before, .ion-ios-crop-strong:before, .ion-ios-download:before, .ion-ios-download-outline:before, .ion-ios-drag:before, .ion-ios-email:before, .ion-ios-email-outline:before, .ion-ios-eye:before, .ion-ios-eye-outline:before, .ion-ios-fastforward:before, .ion-ios-fastforward-outline:before, .ion-ios-filing:before, .ion-ios-filing-outline:before, .ion-ios-film:before, .ion-ios-film-outline:before, .ion-ios-flag:before, .ion-ios-flag-outline:before, .ion-ios-flame:before, .ion-ios-flame-outline:before, .ion-ios-flask:before, .ion-ios-flask-outline:before, .ion-ios-flower:before, .ion-ios-flower-outline:before, .ion-ios-folder:before, .ion-ios-folder-outline:before, .ion-ios-football:before, .ion-ios-football-outline:before, .ion-ios-game-controller-a:before, .ion-ios-game-controller-a-outline:before, .ion-ios-game-controller-b:before, .ion-ios-game-controller-b-outline:before, .ion-ios-gear:before, .ion-ios-gear-outline:before, .ion-ios-glasses:before, .ion-ios-glasses-outline:before, .ion-ios-grid-view:before, .ion-ios-grid-view-outline:before, .ion-ios-heart:before, .ion-ios-heart-outline:before, .ion-ios-help:before, .ion-ios-help-empty:before, .ion-ios-help-outline:before, .ion-ios-home:before, .ion-ios-home-outline:before, .ion-ios-infinite:before, .ion-ios-infinite-outline:before, .ion-ios-information:before, .ion-ios-information-empty:before, .ion-ios-information-outline:before, .ion-ios-ionic-outline:before, .ion-ios-keypad:before, .ion-ios-keypad-outline:before, .ion-ios-lightbulb:before, .ion-ios-lightbulb-outline:before, .ion-ios-list:before, .ion-ios-list-outline:before, .ion-ios-location:before, .ion-ios-location-outline:before, .ion-ios-locked:before, .ion-ios-locked-outline:before, .ion-ios-loop:before, .ion-ios-loop-strong:before, .ion-ios-medical:before, .ion-ios-medical-outline:before, .ion-ios-medkit:before, .ion-ios-medkit-outline:before, .ion-ios-mic:before, .ion-ios-mic-off:before, .ion-ios-mic-outline:before, .ion-ios-minus:before, .ion-ios-minus-empty:before, .ion-ios-minus-outline:before, .ion-ios-monitor:before, .ion-ios-monitor-outline:before, .ion-ios-moon:before, .ion-ios-moon-outline:before, .ion-ios-more:before, .ion-ios-more-circle:before, .ion-ios-more-outline:before, .ion-ios-musical-note:before, .ion-ios-musical-notes:before, .ion-ios-navigate:before, .ion-ios-navigate-outline:before, .ion-ios-nutrition:before, .ion-ios-nutrition-outline:before, .ion-ios-paper:before, .ion-ios-paper-outline:before, .ion-ios-paperplane:before, .ion-ios-paperplane-outline:before, .ion-ios-partlysunny:before, .ion-ios-partlysunny-outline:before, .ion-ios-pause:before, .player .controls-container > .big .ion-ios-pause-circle:before, .ion-ios-pause-outline:before, .ion-ios-paw:before, .ion-ios-paw-outline:before, .ion-ios-people:before, .ion-ios-people-outline:before, .ion-ios-person:before, .ion-ios-person-outline:before, .ion-ios-personadd:before, .ion-ios-personadd-outline:before, .ion-ios-photos:before, .ion-ios-photos-outline:before, .ion-ios-pie:before, .ion-ios-pie-outline:before, .ion-ios-pint:before, .ion-ios-pint-outline:before, .ion-ios-play:before, .player .controls-container > .big .ion-ios-play-circle:before, .ion-ios-play-outline:before, .ion-ios-plus:before, .ion-ios-plus-empty:before, .ion-ios-plus-outline:before, .ion-ios-pricetag:before, .ion-ios-pricetag-outline:before, .ion-ios-pricetags:before, .ion-ios-pricetags-outline:before, .ion-ios-printer:before, .ion-ios-printer-outline:before, .ion-ios-pulse:before, .ion-ios-pulse-strong:before, .ion-ios-rainy:before, .ion-ios-rainy-outline:before, .ion-ios-recording:before, .ion-ios-recording-outline:before, .ion-ios-redo:before, .ion-ios-redo-outline:before, .ion-ios-refresh:before, .ion-ios-refresh-empty:before, .ion-ios-refresh-outline:before, .ion-ios-reload:before, .ion-ios-reverse-camera:before, .ion-ios-reverse-camera-outline:before, .ion-ios-rewind:before, .ion-ios-rewind-outline:before, .ion-ios-rose:before, .ion-ios-rose-outline:before, .ion-ios-search:before, .ion-ios-search-strong:before, .ion-ios-settings:before, .ion-ios-settings-strong:before, .ion-ios-shuffle:before, .ion-ios-shuffle-strong:before, .ion-ios-skipbackward:before, .ion-ios-skipbackward-outline:before, .ion-ios-skipforward:before, .ion-ios-skipforward-outline:before, .ion-ios-snowy:before, .ion-ios-speedometer:before, .ion-ios-speedometer-outline:before, .ion-ios-star:before, .ion-ios-star-half:before, .ion-ios-star-outline:before, .ion-ios-stopwatch:before, .ion-ios-stopwatch-outline:before, .ion-ios-sunny:before, .ion-ios-sunny-outline:before, .ion-ios-telephone:before, .ion-ios-telephone-outline:before, .ion-ios-tennisball:before, .ion-ios-tennisball-outline:before, .ion-ios-thunderstorm:before, .ion-ios-thunderstorm-outline:before, .ion-ios-time:before, .ion-ios-time-outline:before, .ion-ios-timer:before, .ion-ios-timer-outline:before, .ion-ios-toggle:before, .ion-ios-toggle-outline:before, .ion-ios-trash:before, .ion-ios-trash-outline:before, .ion-ios-undo:before, .ion-ios-undo-outline:before, .ion-ios-unlocked:before, .ion-ios-unlocked-outline:before, .ion-ios-upload:before, .ion-ios-upload-outline:before, .ion-ios-videocam:before, .ion-ios-videocam-outline:before, .ion-ios-volume-high:before, .ion-ios-volume-low:before, .ion-ios-wineglass:before, .ion-ios-wineglass-outline:before, .ion-ios-world:before, .ion-ios-world-outline:before, .ion-ipad:before, .ion-iphone:before, .ion-ipod:before, .ion-jet:before, .ion-key:before, .ion-knife:before, .ion-laptop:before, .ion-leaf:before, .ion-levels:before, .ion-lightbulb:before, .ion-link:before, .ion-load-a:before, .ion-loading-a:before, .ion-load-b:before, .ion-loading-b:before, .ion-load-c:before, .ion-loading-c:before, .ion-load-d:before, .ion-loading-d:before, .ion-location:before, .ion-lock-combination:before, .ion-locked:before, .ion-log-in:before, .ion-log-out:before, .ion-loop:before, .ion-looping:before, .ion-magnet:before, .ion-male:before, .ion-man:before, .ion-map:before, .ion-medkit:before, .ion-merge:before, .ion-mic-a:before, .ion-mic-b:before, .ion-mic-c:before, .ion-minus:before, .ion-minus-circled:before, .ion-minus-round:before, .ion-model-s:before, .ion-monitor:before, .ion-more:before, .ion-mouse:before, .ion-music-note:before, .ion-navicon:before, .ion-navicon-round:before, .ion-navigate:before, .ion-network:before, .ion-no-smoking:before, .ion-nuclear:before, .ion-outlet:before, .ion-paintbrush:before, .ion-paintbucket:before, .ion-paper-airplane:before, .ion-paperclip:before, .ion-pause:before, .ion-person:before, .ion-person-add:before, .ion-person-stalker:before, .ion-pie-graph:before, .ion-pin:before, .ion-pinpoint:before, .ion-pizza:before, .ion-plane:before, .ion-planet:before, .ion-play:before, .ion-playstation:before, .ion-plus:before, .ion-plus-circled:before, .ion-plus-round:before, .ion-podium:before, .ion-pound:before, .ion-power:before, .ion-pricetag:before, .ion-pricetags:before, .ion-printer:before, .ion-pull-request:before, .ion-qr-scanner:before, .ion-quote:before, .ion-radio-waves:before, .ion-record:before, .ion-refresh:before, .ion-refreshing:before, .ion-reply:before, .ion-reply-all:before, .ion-ribbon-a:before, .ion-ribbon-b:before, .ion-sad:before, .ion-sad-outline:before, .ion-scissors:before, .ion-search:before, .ion-settings:before, .ion-share:before, .ion-shuffle:before, .ion-skip-backward:before, .ion-skip-forward:before, .ion-social-android:before, .ion-social-android-outline:before, .ion-social-angular:before, .ion-social-angular-outline:before, .ion-social-apple:before, .ion-social-apple-outline:before, .ion-social-bitcoin:before, .ion-social-bitcoin-outline:before, .ion-social-buffer:before, .ion-social-buffer-outline:before, .ion-social-chrome:before, .ion-social-chrome-outline:before, .ion-social-codepen:before, .ion-social-codepen-outline:before, .ion-social-css3:before, .ion-social-css3-outline:before, .ion-social-designernews:before, .ion-social-designernews-outline:before, .ion-social-dribbble:before, .ion-social-dribbble-outline:before, .ion-social-dropbox:before, .ion-social-dropbox-outline:before, .ion-social-euro:before, .ion-social-euro-outline:before, .ion-social-facebook:before, .ion-social-facebook-outline:before, .ion-social-foursquare:before, .ion-social-foursquare-outline:before, .ion-social-freebsd-devil:before, .ion-social-github:before, .ion-social-github-outline:before, .ion-social-google:before, .ion-social-google-outline:before, .ion-social-googleplus:before, .ion-social-googleplus-outline:before, .ion-social-hackernews:before, .ion-social-hackernews-outline:before, .ion-social-html5:before, .ion-social-html5-outline:before, .ion-social-instagram:before, .ion-social-instagram-outline:before, .ion-social-javascript:before, .ion-social-javascript-outline:before, .ion-social-linkedin:before, .ion-social-linkedin-outline:before, .ion-social-markdown:before, .ion-social-nodejs:before, .ion-social-octocat:before, .ion-social-pinterest:before, .ion-social-pinterest-outline:before, .ion-social-python:before, .ion-social-reddit:before, .ion-social-reddit-outline:before, .ion-social-rss:before, .ion-social-rss-outline:before, .ion-social-sass:before, .ion-social-skype:before, .ion-social-skype-outline:before, .ion-social-snapchat:before, .ion-social-snapchat-outline:before, .ion-social-tumblr:before, .ion-social-tumblr-outline:before, .ion-social-tux:before, .ion-social-twitch:before, .ion-social-twitch-outline:before, .ion-social-twitter:before, .ion-social-twitter-outline:before, .ion-social-usd:before, .ion-social-usd-outline:before, .ion-social-vimeo:before, .ion-social-vimeo-outline:before, .ion-social-whatsapp:before, .ion-social-whatsapp-outline:before, .ion-social-windows:before, .ion-social-windows-outline:before, .ion-social-wordpress:before, .ion-social-wordpress-outline:before, .ion-social-yahoo:before, .ion-social-yahoo-outline:before, .ion-social-yen:before, .ion-social-yen-outline:before, .ion-social-youtube:before, .ion-social-youtube-outline:before, .ion-soup-can:before, .ion-soup-can-outline:before, .ion-speakerphone:before, .ion-speedometer:before, .ion-spoon:before, .ion-star:before, .ion-stats-bars:before, .ion-steam:before, .ion-stop:before, .ion-thermometer:before, .ion-thumbsdown:before, .ion-thumbsup:before, .ion-toggle:before, .ion-toggle-filled:before, .ion-transgender:before, .ion-trash-a:before, .ion-trash-b:before, .ion-trophy:before, .ion-tshirt:before, .ion-tshirt-outline:before, .ion-umbrella:before, .ion-university:before, .ion-unlocked:before, .ion-upload:before, .ion-usb:before, .ion-videocamera:before, .ion-volume-high:before, .ion-volume-low:before, .ion-volume-medium:before, .ion-volume-mute:before, .ion-wand:before, .ion-waterdrop:before, .ion-wifi:before, .ion-wineglass:before, .ion-woman:before, .ion-wrench:before, .ion-xbox:before {
   display: inline-block;
   font-family: "Ionicons";
   speak: none;
@@ -211,7 +211,7 @@ $dark:                            #444 !default;
 .ion-android-clipboard:before {
   content: "\f376"; }
 
-.ion-android-close:before {
+.ion-android-close:before, .player .icon-close:before {
   content: "\f2d7"; }
 
 .ion-android-cloud:before {
@@ -1342,7 +1342,7 @@ $dark:                            #444 !default;
 .ion-ios-moon-outline:before {
   content: "\f467"; }
 
-.ion-ios-more:before {
+.ion-ios-more:before, .ion-ios-more-circle:before {
   content: "\f46a"; }
 
 .ion-ios-more-outline:before {
@@ -1384,7 +1384,7 @@ $dark:                            #444 !default;
 .ion-ios-partlysunny-outline:before {
   content: "\f475"; }
 
-.ion-ios-pause:before {
+.ion-ios-pause:before, .player .controls-container > .big .ion-ios-pause-circle:before {
   content: "\f478"; }
 
 .ion-ios-pause-outline:before {
@@ -1432,7 +1432,7 @@ $dark:                            #444 !default;
 .ion-ios-pint-outline:before {
   content: "\f485"; }
 
-.ion-ios-play:before {
+.ion-ios-play:before, .player .controls-container > .big .ion-ios-play-circle:before {
   content: "\f488"; }
 
 .ion-ios-play-outline:before {
@@ -2825,7 +2825,7 @@ ion-infinite-scroll {
   -webkit-align-items: center;
   -moz-align-items: center;
   align-items: center; }
-  ion-infinite-scroll .icon {
+  ion-infinite-scroll .icon, ion-infinite-scroll .player .icon-close, .player ion-infinite-scroll .icon-close, ion-infinite-scroll .player .title-bar button, .player .title-bar ion-infinite-scroll button {
     color: #666666;
     font-size: 30px;
     color: #666666; }
@@ -2920,7 +2920,7 @@ cite {
 .text-right {
   text-align: right; }
 
-.text-center {
+.text-center, .player .head, .player .album-image {
   text-align: center; }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -3050,7 +3050,7 @@ a.subdued {
   width: auto;
   z-index: 11;
   overflow: hidden; }
-  .action-sheet .button {
+  .action-sheet .button, .action-sheet .player .icon-close, .player .action-sheet .icon-close, .action-sheet .player .title-bar button, .player .title-bar .action-sheet button {
     display: block;
     padding: 1px;
     width: 100%;
@@ -3058,7 +3058,7 @@ a.subdued {
     background-color: transparent;
     color: #0048ff;
     font-size: 18px; }
-    .action-sheet .button.destructive {
+    .action-sheet .button.destructive, .action-sheet .player .destructive.icon-close, .player .action-sheet .destructive.icon-close, .action-sheet .player .title-bar button.destructive, .player .title-bar .action-sheet button.destructive {
       color: #ef473a; }
 
 .action-sheet-title {
@@ -3071,13 +3071,13 @@ a.subdued {
   margin-bottom: 5px;
   border-radius: 3px 3px 3px 3px;
   background-color: #fff; }
-  .action-sheet-group .button {
+  .action-sheet-group .button, .action-sheet-group .player .icon-close, .player .action-sheet-group .icon-close, .action-sheet-group .player .title-bar button, .player .title-bar .action-sheet-group button {
     border-width: 1px 0px 0px 0px;
     border-radius: 0; }
-    .action-sheet-group .button.active {
+    .action-sheet-group .button.active, .action-sheet-group .player .active.icon-close, .player .action-sheet-group .active.icon-close, .action-sheet-group .player .title-bar button.active, .player .title-bar .action-sheet-group button.active {
       background-color: transparent;
       color: inherit; }
-  .action-sheet-group .button:first-child:last-child {
+  .action-sheet-group .button:first-child:last-child, .action-sheet-group .player .icon-close:first-child:last-child, .player .action-sheet-group .icon-close:first-child:last-child, .action-sheet-group .player .title-bar button:first-child:last-child, .player .title-bar .action-sheet-group button:first-child:last-child {
     border-width: 0; }
 
 .action-sheet-open {
@@ -3148,7 +3148,7 @@ a.subdued {
     border: none;
     background: none;
     color: #fff; }
-    .bar.bar-clear .button {
+    .bar.bar-clear .button, .bar.bar-clear .player .icon-close, .player .bar.bar-clear .icon-close, .bar.bar-clear .player .title-bar button, .player .title-bar .bar.bar-clear button {
       color: #fff; }
     .bar.bar-clear .title {
       color: #fff; }
@@ -3262,7 +3262,7 @@ a.subdued {
       text-align: right; }
   .bar .title a {
     color: inherit; }
-  .bar .button {
+  .bar .button, .bar .player .icon-close, .player .bar .icon-close, .bar .player .title-bar button, .player .title-bar .bar button {
     z-index: 1;
     padding: 0 8px;
     min-width: initial;
@@ -3270,37 +3270,37 @@ a.subdued {
     font-weight: 400;
     font-size: 13px;
     line-height: 32px; }
-    .bar .button.button-icon:before, .bar .button .icon:before, .bar .button.icon:before, .bar .button.icon-left:before, .bar .button.icon-right:before {
+    .bar .button.button-icon:before, .bar .player .button-icon.icon-close:before, .player .bar .button-icon.icon-close:before, .bar .player .icon-close:before, .player .bar .icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .button.icon-close:before, .player .bar .button.icon-close:before, .bar .player .icon-close:before, .player .bar .icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .title-bar button.button-icon:before, .player .title-bar .bar button.button-icon:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button:before, .player .title-bar .bar button:before, .bar .player .title-bar button.button:before, .player .title-bar .bar button.button:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button:before, .player .title-bar .bar button:before, .bar .button .icon:before, .bar .button .player .icon-close, .player .bar .button .icon-close, .bar .button .player .title-bar button, .player .title-bar .bar .button button, .bar .button .player .icon-close:before, .player .bar .button .icon-close:before, .bar .button .player .title-bar button:before, .player .title-bar .bar .button button:before, .bar .button.icon:before, .bar .player .icon.icon-close:before, .player .bar .icon.icon-close:before, .bar .player .icon-close:before, .player .bar .icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .button.icon-close:before, .player .bar .button.icon-close:before, .bar .player .icon-close:before, .player .bar .icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .title-bar button.icon:before, .player .title-bar .bar button.icon:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button:before, .player .title-bar .bar button:before, .bar .player .title-bar button.button:before, .player .title-bar .bar button.button:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button:before, .player .title-bar .bar button:before, .bar .button.icon-left:before, .bar .player .icon-left.icon-close:before, .player .bar .icon-left.icon-close:before, .bar .player .title-bar button.icon-left:before, .player .title-bar .bar button.icon-left:before, .bar .button.icon-right:before, .bar .player .icon-right.icon-close:before, .player .bar .icon-right.icon-close:before, .bar .player .title-bar button.icon-right:before, .player .title-bar .bar button.icon-right:before {
       padding-right: 2px;
       padding-left: 2px;
       font-size: 20px;
       line-height: 32px; }
-    .bar .button.button-icon {
+    .bar .button.button-icon, .bar .player .button-icon.icon-close, .player .bar .button-icon.icon-close, .bar .player .icon-close, .player .bar .icon-close, .bar .player .title-bar button.icon-close, .player .title-bar .bar button.icon-close, .bar .player .button.icon-close, .player .bar .button.icon-close, .bar .player .icon-close, .player .bar .icon-close, .bar .player .title-bar button.icon-close, .player .title-bar .bar button.icon-close, .bar .player .title-bar button.button-icon, .player .title-bar .bar button.button-icon, .bar .player button.icon-close, .player .bar button.icon-close, .bar .player .title-bar button, .player .title-bar .bar button, .bar .player .title-bar button.button, .player .title-bar .bar button.button, .bar .player button.icon-close, .player .bar button.icon-close, .bar .player .title-bar button, .player .title-bar .bar button {
       font-size: 17px; }
-      .bar .button.button-icon .icon:before, .bar .button.button-icon:before, .bar .button.button-icon.icon-left:before, .bar .button.button-icon.icon-right:before {
+      .bar .button.button-icon .icon:before, .bar .button.button-icon .player .button-icon.icon-close, .player .bar .button.button-icon .button-icon.icon-close, .bar .button.button-icon .player .icon-close, .player .bar .button.button-icon .icon-close, .bar .button.button-icon .player .title-bar button.icon-close, .player .title-bar .bar .button.button-icon button.icon-close, .bar .button.button-icon .player .button.icon-close, .player .bar .button.button-icon .button.icon-close, .bar .button.button-icon .player .icon-close, .player .bar .button.button-icon .icon-close, .bar .button.button-icon .player .title-bar button.icon-close, .player .title-bar .bar .button.button-icon button.icon-close, .bar .button.button-icon .player .title-bar button.button-icon, .player .title-bar .bar .button.button-icon button.button-icon, .bar .button.button-icon .player button.icon-close, .player .bar .button.button-icon button.icon-close, .bar .button.button-icon .player .title-bar button, .player .title-bar .bar .button.button-icon button, .bar .button.button-icon .player .title-bar button.button, .player .title-bar .bar .button.button-icon button.button, .bar .button.button-icon .player button.icon-close, .player .bar .button.button-icon button.icon-close, .bar .button.button-icon .player .title-bar button, .player .title-bar .bar .button.button-icon button, .bar .button.button-icon .player .icon-close:before, .player .bar .button.button-icon .icon-close:before, .bar .button.button-icon .player .title-bar button:before, .player .title-bar .bar .button.button-icon button:before, .bar .button.button-icon:before, .bar .player .button-icon.icon-close:before, .player .bar .button-icon.icon-close:before, .bar .player .icon-close:before, .player .bar .icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .button.icon-close:before, .player .bar .button.icon-close:before, .bar .player .icon-close:before, .player .bar .icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .title-bar button.button-icon:before, .player .title-bar .bar button.button-icon:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button:before, .player .title-bar .bar button:before, .bar .player .title-bar button.button:before, .player .title-bar .bar button.button:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button:before, .player .title-bar .bar button:before, .bar .button.button-icon.icon-left:before, .bar .player .button-icon.icon-left.icon-close:before, .player .bar .button-icon.icon-left.icon-close:before, .bar .player .icon-left.icon-close:before, .player .bar .icon-left.icon-close:before, .bar .player .title-bar button.icon-left.icon-close:before, .player .title-bar .bar button.icon-left.icon-close:before, .bar .player .button.icon-left.icon-close:before, .player .bar .button.icon-left.icon-close:before, .bar .player .icon-left.icon-close:before, .player .bar .icon-left.icon-close:before, .bar .player .title-bar button.icon-left.icon-close:before, .player .title-bar .bar button.icon-left.icon-close:before, .bar .player .title-bar button.button-icon.icon-left:before, .player .title-bar .bar button.button-icon.icon-left:before, .bar .player button.icon-left.icon-close:before, .player .bar button.icon-left.icon-close:before, .bar .player .title-bar button.icon-left:before, .player .title-bar .bar button.icon-left:before, .bar .player .title-bar button.button.icon-left:before, .player .title-bar .bar button.button.icon-left:before, .bar .player button.icon-left.icon-close:before, .player .bar button.icon-left.icon-close:before, .bar .player .title-bar button.icon-left:before, .player .title-bar .bar button.icon-left:before, .bar .button.button-icon.icon-right:before, .bar .player .button-icon.icon-right.icon-close:before, .player .bar .button-icon.icon-right.icon-close:before, .bar .player .icon-right.icon-close:before, .player .bar .icon-right.icon-close:before, .bar .player .title-bar button.icon-right.icon-close:before, .player .title-bar .bar button.icon-right.icon-close:before, .bar .player .button.icon-right.icon-close:before, .player .bar .button.icon-right.icon-close:before, .bar .player .icon-right.icon-close:before, .player .bar .icon-right.icon-close:before, .bar .player .title-bar button.icon-right.icon-close:before, .player .title-bar .bar button.icon-right.icon-close:before, .bar .player .title-bar button.button-icon.icon-right:before, .player .title-bar .bar button.button-icon.icon-right:before, .bar .player button.icon-right.icon-close:before, .player .bar button.icon-right.icon-close:before, .bar .player .title-bar button.icon-right:before, .player .title-bar .bar button.icon-right:before, .bar .player .title-bar button.button.icon-right:before, .player .title-bar .bar button.button.icon-right:before, .bar .player button.icon-right.icon-close:before, .player .bar button.icon-right.icon-close:before, .bar .player .title-bar button.icon-right:before, .player .title-bar .bar button.icon-right:before {
         vertical-align: top;
         font-size: 32px;
         line-height: 32px; }
-    .bar .button.button-clear {
+    .bar .button.button-clear, .bar .player .button-clear.icon-close, .player .bar .button-clear.icon-close, .bar .player .icon-close, .player .bar .icon-close, .bar .player .title-bar button.icon-close, .player .title-bar .bar button.icon-close, .bar .player .button.icon-close, .player .bar .button.icon-close, .bar .player .icon-close, .player .bar .icon-close, .bar .player .title-bar button.icon-close, .player .title-bar .bar button.icon-close, .bar .player .title-bar button.button-clear, .player .title-bar .bar button.button-clear, .bar .player button.icon-close, .player .bar button.icon-close, .bar .player .title-bar button, .player .title-bar .bar button, .bar .player .title-bar button.button, .player .title-bar .bar button.button, .bar .player button.icon-close, .player .bar button.icon-close, .bar .player .title-bar button, .player .title-bar .bar button {
       padding-right: 2px;
       padding-left: 2px;
       font-weight: 300;
       font-size: 17px; }
-      .bar .button.button-clear .icon:before, .bar .button.button-clear.icon:before, .bar .button.button-clear.icon-left:before, .bar .button.button-clear.icon-right:before {
+      .bar .button.button-clear .icon:before, .bar .button.button-clear .player .button-clear.icon-close, .player .bar .button.button-clear .button-clear.icon-close, .bar .button.button-clear .player .icon-close, .player .bar .button.button-clear .icon-close, .bar .button.button-clear .player .title-bar button.icon-close, .player .title-bar .bar .button.button-clear button.icon-close, .bar .button.button-clear .player .button.icon-close, .player .bar .button.button-clear .button.icon-close, .bar .button.button-clear .player .icon-close, .player .bar .button.button-clear .icon-close, .bar .button.button-clear .player .title-bar button.icon-close, .player .title-bar .bar .button.button-clear button.icon-close, .bar .button.button-clear .player .title-bar button.button-clear, .player .title-bar .bar .button.button-clear button.button-clear, .bar .button.button-clear .player button.icon-close, .player .bar .button.button-clear button.icon-close, .bar .button.button-clear .player .title-bar button, .player .title-bar .bar .button.button-clear button, .bar .button.button-clear .player .title-bar button.button, .player .title-bar .bar .button.button-clear button.button, .bar .button.button-clear .player button.icon-close, .player .bar .button.button-clear button.icon-close, .bar .button.button-clear .player .title-bar button, .player .title-bar .bar .button.button-clear button, .bar .button.button-clear .player .icon-close:before, .player .bar .button.button-clear .icon-close:before, .bar .button.button-clear .player .title-bar button:before, .player .title-bar .bar .button.button-clear button:before, .bar .button.button-clear.icon:before, .bar .player .button-clear.icon.icon-close:before, .player .bar .button-clear.icon.icon-close:before, .bar .player .icon.icon-close:before, .player .bar .icon.icon-close:before, .bar .player .icon-close:before, .player .bar .icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .button-clear.icon-close:before, .player .bar .button-clear.icon-close:before, .bar .player .icon-close:before, .player .bar .icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .title-bar button.icon.icon-close:before, .player .title-bar .bar button.icon.icon-close:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .title-bar button.button-clear.icon-close:before, .player .title-bar .bar button.button-clear.icon-close:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .button.icon.icon-close:before, .player .bar .button.icon.icon-close:before, .bar .player .icon.icon-close:before, .player .bar .icon.icon-close:before, .bar .player .icon-close:before, .player .bar .icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .button.icon-close:before, .player .bar .button.icon-close:before, .bar .player .icon-close:before, .player .bar .icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .title-bar button.icon.icon-close:before, .player .title-bar .bar button.icon.icon-close:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .title-bar button.button.icon-close:before, .player .title-bar .bar button.button.icon-close:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .button.button-clear.icon-close:before, .player .bar .button.button-clear.icon-close:before, .bar .player .button-clear.icon-close:before, .player .bar .button-clear.icon-close:before, .bar .player .icon-close:before, .player .bar .icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .button.icon-close:before, .player .bar .button.icon-close:before, .bar .player .icon-close:before, .player .bar .icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .title-bar button.button-clear.icon-close:before, .player .title-bar .bar button.button-clear.icon-close:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .title-bar button.button.icon-close:before, .player .title-bar .bar button.button.icon-close:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .title-bar button.button-clear.icon:before, .player .title-bar .bar button.button-clear.icon:before, .bar .player button.icon.icon-close:before, .player .bar button.icon.icon-close:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player button.button-clear.icon-close:before, .player .bar button.button-clear.icon-close:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .title-bar button.icon:before, .player .title-bar .bar button.icon:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button:before, .player .title-bar .bar button:before, .bar .player .title-bar button.button-clear:before, .player .title-bar .bar button.button-clear:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button:before, .player .title-bar .bar button:before, .bar .player .title-bar button.button.icon:before, .player .title-bar .bar button.button.icon:before, .bar .player button.icon.icon-close:before, .player .bar button.icon.icon-close:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player button.button.icon-close:before, .player .bar button.button.icon-close:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .title-bar button.icon:before, .player .title-bar .bar button.icon:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button:before, .player .title-bar .bar button:before, .bar .player .title-bar button.button:before, .player .title-bar .bar button.button:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button:before, .player .title-bar .bar button:before, .bar .player .title-bar button.button.button-clear:before, .player .title-bar .bar button.button.button-clear:before, .bar .player button.button-clear.icon-close:before, .player .bar button.button-clear.icon-close:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player button.button.icon-close:before, .player .bar button.button.icon-close:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .title-bar button.button-clear:before, .player .title-bar .bar button.button-clear:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button:before, .player .title-bar .bar button:before, .bar .player .title-bar button.button:before, .player .title-bar .bar button.button:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button:before, .player .title-bar .bar button:before, .bar .button.button-clear.icon-left:before, .bar .player .button-clear.icon-left.icon-close:before, .player .bar .button-clear.icon-left.icon-close:before, .bar .player .icon-left.icon-close:before, .player .bar .icon-left.icon-close:before, .bar .player .title-bar button.icon-left.icon-close:before, .player .title-bar .bar button.icon-left.icon-close:before, .bar .player .button.icon-left.icon-close:before, .player .bar .button.icon-left.icon-close:before, .bar .player .icon-left.icon-close:before, .player .bar .icon-left.icon-close:before, .bar .player .title-bar button.icon-left.icon-close:before, .player .title-bar .bar button.icon-left.icon-close:before, .bar .player .title-bar button.button-clear.icon-left:before, .player .title-bar .bar button.button-clear.icon-left:before, .bar .player button.icon-left.icon-close:before, .player .bar button.icon-left.icon-close:before, .bar .player .title-bar button.icon-left:before, .player .title-bar .bar button.icon-left:before, .bar .player .title-bar button.button.icon-left:before, .player .title-bar .bar button.button.icon-left:before, .bar .player button.icon-left.icon-close:before, .player .bar button.icon-left.icon-close:before, .bar .player .title-bar button.icon-left:before, .player .title-bar .bar button.icon-left:before, .bar .button.button-clear.icon-right:before, .bar .player .button-clear.icon-right.icon-close:before, .player .bar .button-clear.icon-right.icon-close:before, .bar .player .icon-right.icon-close:before, .player .bar .icon-right.icon-close:before, .bar .player .title-bar button.icon-right.icon-close:before, .player .title-bar .bar button.icon-right.icon-close:before, .bar .player .button.icon-right.icon-close:before, .player .bar .button.icon-right.icon-close:before, .bar .player .icon-right.icon-close:before, .player .bar .icon-right.icon-close:before, .bar .player .title-bar button.icon-right.icon-close:before, .player .title-bar .bar button.icon-right.icon-close:before, .bar .player .title-bar button.button-clear.icon-right:before, .player .title-bar .bar button.button-clear.icon-right:before, .bar .player button.icon-right.icon-close:before, .player .bar button.icon-right.icon-close:before, .bar .player .title-bar button.icon-right:before, .player .title-bar .bar button.icon-right:before, .bar .player .title-bar button.button.icon-right:before, .player .title-bar .bar button.button.icon-right:before, .bar .player button.icon-right.icon-close:before, .player .bar button.icon-right.icon-close:before, .bar .player .title-bar button.icon-right:before, .player .title-bar .bar button.icon-right:before {
         font-size: 32px;
         line-height: 32px; }
-    .bar .button.back-button {
+    .bar .button.back-button, .bar .player .back-button.icon-close, .player .bar .back-button.icon-close, .bar .player .title-bar button.back-button, .player .title-bar .bar button.back-button {
       display: block;
       margin-right: 5px;
       padding: 0;
       white-space: nowrap;
       font-weight: 400; }
-    .bar .button.back-button.active, .bar .button.back-button.activated {
+    .bar .button.back-button.active, .bar .player .back-button.active.icon-close, .player .bar .back-button.active.icon-close, .bar .player .title-bar button.back-button.active, .player .title-bar .bar button.back-button.active, .bar .button.back-button.activated, .bar .player .back-button.activated.icon-close, .player .bar .back-button.activated.icon-close, .bar .player .title-bar button.back-button.activated, .player .title-bar .bar button.back-button.activated {
       opacity: 0.2; }
-  .bar .button-bar > .button, .bar .buttons > .button {
+  .bar .button-bar > .button, .bar .button-bar > .player .icon-close, .player .bar .button-bar > .icon-close, .bar .button-bar > .player .title-bar button, .player .title-bar .bar .button-bar > button, .bar .buttons > .button, .bar .buttons > .player .icon-close, .player .bar .buttons > .icon-close, .bar .buttons > .player .title-bar button, .player .title-bar .bar .buttons > button {
     min-height: 31px;
     line-height: 32px; }
-  .bar .button-bar + .button, .bar .button + .button-bar {
+  .bar .button-bar + .button, .bar .button-bar + .player .icon-close, .player .bar .button-bar + .icon-close, .bar .button-bar + .player .title-bar button, .player .title-bar .bar .button-bar + button, .bar .button + .button-bar, .bar .button + .player .icon-close, .player .bar .button + .icon-close, .bar .button + .player .title-bar button, .player .title-bar .bar .button + button {
     margin-left: 5px; }
   .bar .buttons, .bar .buttons.primary-buttons, .bar .buttons.secondary-buttons {
     display: inherit; }
@@ -3310,198 +3310,198 @@ a.subdued {
     margin-right: 5px; }
   .bar .buttons-right span {
     margin-left: 5px; }
-  .bar .title + .button:last-child, .bar > .button + .button:last-child, .bar > .button.pull-right, .bar .buttons.pull-right, .bar .title + .buttons {
+  .bar .title + .button:last-child, .bar .title + .player .icon-close:last-child, .player .bar .title + .icon-close:last-child, .bar .title + .player .title-bar button:last-child, .player .title-bar .bar .title + button:last-child, .bar > .button + .button:last-child, .bar > .button + .player .icon-close, .player .bar > .button + .icon-close, .bar > .button + .player .title-bar button, .player .title-bar .bar > .button + button, .bar > .button + .player .icon-close:last-child, .player .bar > .button + .icon-close:last-child, .bar > .button + .player .title-bar button:last-child, .player .title-bar .bar > .button + button:last-child, .bar > .button.pull-right, .bar > .player .pull-right.icon-close, .player .bar > .pull-right.icon-close, .bar > .player .title-bar button.pull-right, .player .title-bar .bar > button.pull-right, .bar .buttons.pull-right, .bar .title + .buttons {
     position: absolute;
     top: 5px;
     right: 5px;
     bottom: 5px; }
 
-.bar-light .button {
+.bar-light .button, .bar-light .player .icon-close, .player .bar-light .icon-close, .bar-light .player .title-bar button, .player .title-bar .bar-light button {
   border-color: #ddd;
   background-color: white;
   color: #444; }
-  .bar-light .button:hover {
+  .bar-light .button:hover, .bar-light .player .icon-close:hover, .player .bar-light .icon-close:hover, .bar-light .player .title-bar button:hover, .player .title-bar .bar-light button:hover {
     color: #444;
     text-decoration: none; }
-  .bar-light .button.active, .bar-light .button.activated {
+  .bar-light .button.active, .bar-light .player .active.icon-close, .player .bar-light .active.icon-close, .bar-light .player .title-bar button.active, .player .title-bar .bar-light button.active, .bar-light .button.activated, .bar-light .player .activated.icon-close, .player .bar-light .activated.icon-close, .bar-light .player .title-bar button.activated, .player .title-bar .bar-light button.activated {
     border-color: #ccc;
     background-color: #fafafa;
     box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-  .bar-light .button.button-clear {
+  .bar-light .button.button-clear, .bar-light .player .button-clear.icon-close, .player .bar-light .button-clear.icon-close, .bar-light .player .icon-close, .player .bar-light .icon-close, .bar-light .player .title-bar button.icon-close, .player .title-bar .bar-light button.icon-close, .bar-light .player .button.icon-close, .player .bar-light .button.icon-close, .bar-light .player .icon-close, .player .bar-light .icon-close, .bar-light .player .title-bar button.icon-close, .player .title-bar .bar-light button.icon-close, .bar-light .player .title-bar button.button-clear, .player .title-bar .bar-light button.button-clear, .bar-light .player button.icon-close, .player .bar-light button.icon-close, .bar-light .player .title-bar button, .player .title-bar .bar-light button, .bar-light .player .title-bar button.button, .player .title-bar .bar-light button.button, .bar-light .player button.icon-close, .player .bar-light button.icon-close, .bar-light .player .title-bar button, .player .title-bar .bar-light button {
     border-color: transparent;
     background: none;
     box-shadow: none;
     color: #444;
     font-size: 17px; }
-  .bar-light .button.button-icon {
+  .bar-light .button.button-icon, .bar-light .player .button-icon.icon-close, .player .bar-light .button-icon.icon-close, .bar-light .player .icon-close, .player .bar-light .icon-close, .bar-light .player .title-bar button.icon-close, .player .title-bar .bar-light button.icon-close, .bar-light .player .button.icon-close, .player .bar-light .button.icon-close, .bar-light .player .icon-close, .player .bar-light .icon-close, .bar-light .player .title-bar button.icon-close, .player .title-bar .bar-light button.icon-close, .bar-light .player .title-bar button.button-icon, .player .title-bar .bar-light button.button-icon, .bar-light .player button.icon-close, .player .bar-light button.icon-close, .bar-light .player .title-bar button, .player .title-bar .bar-light button, .bar-light .player .title-bar button.button, .player .title-bar .bar-light button.button, .bar-light .player button.icon-close, .player .bar-light button.icon-close, .bar-light .player .title-bar button, .player .title-bar .bar-light button {
     border-color: transparent;
     background: none; }
 
-.bar-stable .button {
+.bar-stable .button, .bar-stable .player .icon-close, .player .bar-stable .icon-close, .bar-stable .player .title-bar button, .player .title-bar .bar-stable button {
   border-color: #b2b2b2;
   background-color: #f8f8f8;
   color: #444; }
-  .bar-stable .button:hover {
+  .bar-stable .button:hover, .bar-stable .player .icon-close:hover, .player .bar-stable .icon-close:hover, .bar-stable .player .title-bar button:hover, .player .title-bar .bar-stable button:hover {
     color: #444;
     text-decoration: none; }
-  .bar-stable .button.active, .bar-stable .button.activated {
+  .bar-stable .button.active, .bar-stable .player .active.icon-close, .player .bar-stable .active.icon-close, .bar-stable .player .title-bar button.active, .player .title-bar .bar-stable button.active, .bar-stable .button.activated, .bar-stable .player .activated.icon-close, .player .bar-stable .activated.icon-close, .bar-stable .player .title-bar button.activated, .player .title-bar .bar-stable button.activated {
     border-color: #a2a2a2;
     background-color: #e5e5e5;
     box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-  .bar-stable .button.button-clear {
+  .bar-stable .button.button-clear, .bar-stable .player .button-clear.icon-close, .player .bar-stable .button-clear.icon-close, .bar-stable .player .icon-close, .player .bar-stable .icon-close, .bar-stable .player .title-bar button.icon-close, .player .title-bar .bar-stable button.icon-close, .bar-stable .player .button.icon-close, .player .bar-stable .button.icon-close, .bar-stable .player .icon-close, .player .bar-stable .icon-close, .bar-stable .player .title-bar button.icon-close, .player .title-bar .bar-stable button.icon-close, .bar-stable .player .title-bar button.button-clear, .player .title-bar .bar-stable button.button-clear, .bar-stable .player button.icon-close, .player .bar-stable button.icon-close, .bar-stable .player .title-bar button, .player .title-bar .bar-stable button, .bar-stable .player .title-bar button.button, .player .title-bar .bar-stable button.button, .bar-stable .player button.icon-close, .player .bar-stable button.icon-close, .bar-stable .player .title-bar button, .player .title-bar .bar-stable button {
     border-color: transparent;
     background: none;
     box-shadow: none;
     color: #444;
     font-size: 17px; }
-  .bar-stable .button.button-icon {
+  .bar-stable .button.button-icon, .bar-stable .player .button-icon.icon-close, .player .bar-stable .button-icon.icon-close, .bar-stable .player .icon-close, .player .bar-stable .icon-close, .bar-stable .player .title-bar button.icon-close, .player .title-bar .bar-stable button.icon-close, .bar-stable .player .button.icon-close, .player .bar-stable .button.icon-close, .bar-stable .player .icon-close, .player .bar-stable .icon-close, .bar-stable .player .title-bar button.icon-close, .player .title-bar .bar-stable button.icon-close, .bar-stable .player .title-bar button.button-icon, .player .title-bar .bar-stable button.button-icon, .bar-stable .player button.icon-close, .player .bar-stable button.icon-close, .bar-stable .player .title-bar button, .player .title-bar .bar-stable button, .bar-stable .player .title-bar button.button, .player .title-bar .bar-stable button.button, .bar-stable .player button.icon-close, .player .bar-stable button.icon-close, .bar-stable .player .title-bar button, .player .title-bar .bar-stable button {
     border-color: transparent;
     background: none; }
 
-.bar-positive .button {
+.bar-positive .button, .bar-positive .player .icon-close, .player .bar-positive .icon-close, .bar-positive .player .title-bar button, .player .title-bar .bar-positive button {
   border-color: #003acc;
   background-color: #0048ff;
   color: #fff; }
-  .bar-positive .button:hover {
+  .bar-positive .button:hover, .bar-positive .player .icon-close:hover, .player .bar-positive .icon-close:hover, .bar-positive .player .title-bar button:hover, .player .title-bar .bar-positive button:hover {
     color: #fff;
     text-decoration: none; }
-  .bar-positive .button.active, .bar-positive .button.activated {
+  .bar-positive .button.active, .bar-positive .player .active.icon-close, .player .bar-positive .active.icon-close, .bar-positive .player .title-bar button.active, .player .title-bar .bar-positive button.active, .bar-positive .button.activated, .bar-positive .player .activated.icon-close, .player .bar-positive .activated.icon-close, .bar-positive .player .title-bar button.activated, .player .title-bar .bar-positive button.activated {
     border-color: #003acc;
     background-color: #003acc;
     box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-  .bar-positive .button.button-clear {
+  .bar-positive .button.button-clear, .bar-positive .player .button-clear.icon-close, .player .bar-positive .button-clear.icon-close, .bar-positive .player .icon-close, .player .bar-positive .icon-close, .bar-positive .player .title-bar button.icon-close, .player .title-bar .bar-positive button.icon-close, .bar-positive .player .button.icon-close, .player .bar-positive .button.icon-close, .bar-positive .player .icon-close, .player .bar-positive .icon-close, .bar-positive .player .title-bar button.icon-close, .player .title-bar .bar-positive button.icon-close, .bar-positive .player .title-bar button.button-clear, .player .title-bar .bar-positive button.button-clear, .bar-positive .player button.icon-close, .player .bar-positive button.icon-close, .bar-positive .player .title-bar button, .player .title-bar .bar-positive button, .bar-positive .player .title-bar button.button, .player .title-bar .bar-positive button.button, .bar-positive .player button.icon-close, .player .bar-positive button.icon-close, .bar-positive .player .title-bar button, .player .title-bar .bar-positive button {
     border-color: transparent;
     background: none;
     box-shadow: none;
     color: #fff;
     font-size: 17px; }
-  .bar-positive .button.button-icon {
+  .bar-positive .button.button-icon, .bar-positive .player .button-icon.icon-close, .player .bar-positive .button-icon.icon-close, .bar-positive .player .icon-close, .player .bar-positive .icon-close, .bar-positive .player .title-bar button.icon-close, .player .title-bar .bar-positive button.icon-close, .bar-positive .player .button.icon-close, .player .bar-positive .button.icon-close, .bar-positive .player .icon-close, .player .bar-positive .icon-close, .bar-positive .player .title-bar button.icon-close, .player .title-bar .bar-positive button.icon-close, .bar-positive .player .title-bar button.button-icon, .player .title-bar .bar-positive button.button-icon, .bar-positive .player button.icon-close, .player .bar-positive button.icon-close, .bar-positive .player .title-bar button, .player .title-bar .bar-positive button, .bar-positive .player .title-bar button.button, .player .title-bar .bar-positive button.button, .bar-positive .player button.icon-close, .player .bar-positive button.icon-close, .bar-positive .player .title-bar button, .player .title-bar .bar-positive button {
     border-color: transparent;
     background: none; }
 
-.bar-calm .button {
+.bar-calm .button, .bar-calm .player .icon-close, .player .bar-calm .icon-close, .bar-calm .player .title-bar button, .player .title-bar .bar-calm button {
   border-color: #0a9ec7;
   background-color: #11c1f3;
   color: #fff; }
-  .bar-calm .button:hover {
+  .bar-calm .button:hover, .bar-calm .player .icon-close:hover, .player .bar-calm .icon-close:hover, .bar-calm .player .title-bar button:hover, .player .title-bar .bar-calm button:hover {
     color: #fff;
     text-decoration: none; }
-  .bar-calm .button.active, .bar-calm .button.activated {
+  .bar-calm .button.active, .bar-calm .player .active.icon-close, .player .bar-calm .active.icon-close, .bar-calm .player .title-bar button.active, .player .title-bar .bar-calm button.active, .bar-calm .button.activated, .bar-calm .player .activated.icon-close, .player .bar-calm .activated.icon-close, .bar-calm .player .title-bar button.activated, .player .title-bar .bar-calm button.activated {
     border-color: #0a9ec7;
     background-color: #0a9ec7;
     box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-  .bar-calm .button.button-clear {
+  .bar-calm .button.button-clear, .bar-calm .player .button-clear.icon-close, .player .bar-calm .button-clear.icon-close, .bar-calm .player .icon-close, .player .bar-calm .icon-close, .bar-calm .player .title-bar button.icon-close, .player .title-bar .bar-calm button.icon-close, .bar-calm .player .button.icon-close, .player .bar-calm .button.icon-close, .bar-calm .player .icon-close, .player .bar-calm .icon-close, .bar-calm .player .title-bar button.icon-close, .player .title-bar .bar-calm button.icon-close, .bar-calm .player .title-bar button.button-clear, .player .title-bar .bar-calm button.button-clear, .bar-calm .player button.icon-close, .player .bar-calm button.icon-close, .bar-calm .player .title-bar button, .player .title-bar .bar-calm button, .bar-calm .player .title-bar button.button, .player .title-bar .bar-calm button.button, .bar-calm .player button.icon-close, .player .bar-calm button.icon-close, .bar-calm .player .title-bar button, .player .title-bar .bar-calm button {
     border-color: transparent;
     background: none;
     box-shadow: none;
     color: #fff;
     font-size: 17px; }
-  .bar-calm .button.button-icon {
+  .bar-calm .button.button-icon, .bar-calm .player .button-icon.icon-close, .player .bar-calm .button-icon.icon-close, .bar-calm .player .icon-close, .player .bar-calm .icon-close, .bar-calm .player .title-bar button.icon-close, .player .title-bar .bar-calm button.icon-close, .bar-calm .player .button.icon-close, .player .bar-calm .button.icon-close, .bar-calm .player .icon-close, .player .bar-calm .icon-close, .bar-calm .player .title-bar button.icon-close, .player .title-bar .bar-calm button.icon-close, .bar-calm .player .title-bar button.button-icon, .player .title-bar .bar-calm button.button-icon, .bar-calm .player button.icon-close, .player .bar-calm button.icon-close, .bar-calm .player .title-bar button, .player .title-bar .bar-calm button, .bar-calm .player .title-bar button.button, .player .title-bar .bar-calm button.button, .bar-calm .player button.icon-close, .player .bar-calm button.icon-close, .bar-calm .player .title-bar button, .player .title-bar .bar-calm button {
     border-color: transparent;
     background: none; }
 
-.bar-assertive .button {
+.bar-assertive .button, .bar-assertive .player .icon-close, .player .bar-assertive .icon-close, .bar-assertive .player .title-bar button, .player .title-bar .bar-assertive button {
   border-color: #e42012;
   background-color: #ef473a;
   color: #fff; }
-  .bar-assertive .button:hover {
+  .bar-assertive .button:hover, .bar-assertive .player .icon-close:hover, .player .bar-assertive .icon-close:hover, .bar-assertive .player .title-bar button:hover, .player .title-bar .bar-assertive button:hover {
     color: #fff;
     text-decoration: none; }
-  .bar-assertive .button.active, .bar-assertive .button.activated {
+  .bar-assertive .button.active, .bar-assertive .player .active.icon-close, .player .bar-assertive .active.icon-close, .bar-assertive .player .title-bar button.active, .player .title-bar .bar-assertive button.active, .bar-assertive .button.activated, .bar-assertive .player .activated.icon-close, .player .bar-assertive .activated.icon-close, .bar-assertive .player .title-bar button.activated, .player .title-bar .bar-assertive button.activated {
     border-color: #e42012;
     background-color: #e42012;
     box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-  .bar-assertive .button.button-clear {
+  .bar-assertive .button.button-clear, .bar-assertive .player .button-clear.icon-close, .player .bar-assertive .button-clear.icon-close, .bar-assertive .player .icon-close, .player .bar-assertive .icon-close, .bar-assertive .player .title-bar button.icon-close, .player .title-bar .bar-assertive button.icon-close, .bar-assertive .player .button.icon-close, .player .bar-assertive .button.icon-close, .bar-assertive .player .icon-close, .player .bar-assertive .icon-close, .bar-assertive .player .title-bar button.icon-close, .player .title-bar .bar-assertive button.icon-close, .bar-assertive .player .title-bar button.button-clear, .player .title-bar .bar-assertive button.button-clear, .bar-assertive .player button.icon-close, .player .bar-assertive button.icon-close, .bar-assertive .player .title-bar button, .player .title-bar .bar-assertive button, .bar-assertive .player .title-bar button.button, .player .title-bar .bar-assertive button.button, .bar-assertive .player button.icon-close, .player .bar-assertive button.icon-close, .bar-assertive .player .title-bar button, .player .title-bar .bar-assertive button {
     border-color: transparent;
     background: none;
     box-shadow: none;
     color: #fff;
     font-size: 17px; }
-  .bar-assertive .button.button-icon {
+  .bar-assertive .button.button-icon, .bar-assertive .player .button-icon.icon-close, .player .bar-assertive .button-icon.icon-close, .bar-assertive .player .icon-close, .player .bar-assertive .icon-close, .bar-assertive .player .title-bar button.icon-close, .player .title-bar .bar-assertive button.icon-close, .bar-assertive .player .button.icon-close, .player .bar-assertive .button.icon-close, .bar-assertive .player .icon-close, .player .bar-assertive .icon-close, .bar-assertive .player .title-bar button.icon-close, .player .title-bar .bar-assertive button.icon-close, .bar-assertive .player .title-bar button.button-icon, .player .title-bar .bar-assertive button.button-icon, .bar-assertive .player button.icon-close, .player .bar-assertive button.icon-close, .bar-assertive .player .title-bar button, .player .title-bar .bar-assertive button, .bar-assertive .player .title-bar button.button, .player .title-bar .bar-assertive button.button, .bar-assertive .player button.icon-close, .player .bar-assertive button.icon-close, .bar-assertive .player .title-bar button, .player .title-bar .bar-assertive button {
     border-color: transparent;
     background: none; }
 
-.bar-balanced .button {
+.bar-balanced .button, .bar-balanced .player .icon-close, .player .bar-balanced .icon-close, .bar-balanced .player .title-bar button, .player .title-bar .bar-balanced button {
   border-color: #28a54c;
   background-color: #33cd5f;
   color: #fff; }
-  .bar-balanced .button:hover {
+  .bar-balanced .button:hover, .bar-balanced .player .icon-close:hover, .player .bar-balanced .icon-close:hover, .bar-balanced .player .title-bar button:hover, .player .title-bar .bar-balanced button:hover {
     color: #fff;
     text-decoration: none; }
-  .bar-balanced .button.active, .bar-balanced .button.activated {
+  .bar-balanced .button.active, .bar-balanced .player .active.icon-close, .player .bar-balanced .active.icon-close, .bar-balanced .player .title-bar button.active, .player .title-bar .bar-balanced button.active, .bar-balanced .button.activated, .bar-balanced .player .activated.icon-close, .player .bar-balanced .activated.icon-close, .bar-balanced .player .title-bar button.activated, .player .title-bar .bar-balanced button.activated {
     border-color: #28a54c;
     background-color: #28a54c;
     box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-  .bar-balanced .button.button-clear {
+  .bar-balanced .button.button-clear, .bar-balanced .player .button-clear.icon-close, .player .bar-balanced .button-clear.icon-close, .bar-balanced .player .icon-close, .player .bar-balanced .icon-close, .bar-balanced .player .title-bar button.icon-close, .player .title-bar .bar-balanced button.icon-close, .bar-balanced .player .button.icon-close, .player .bar-balanced .button.icon-close, .bar-balanced .player .icon-close, .player .bar-balanced .icon-close, .bar-balanced .player .title-bar button.icon-close, .player .title-bar .bar-balanced button.icon-close, .bar-balanced .player .title-bar button.button-clear, .player .title-bar .bar-balanced button.button-clear, .bar-balanced .player button.icon-close, .player .bar-balanced button.icon-close, .bar-balanced .player .title-bar button, .player .title-bar .bar-balanced button, .bar-balanced .player .title-bar button.button, .player .title-bar .bar-balanced button.button, .bar-balanced .player button.icon-close, .player .bar-balanced button.icon-close, .bar-balanced .player .title-bar button, .player .title-bar .bar-balanced button {
     border-color: transparent;
     background: none;
     box-shadow: none;
     color: #fff;
     font-size: 17px; }
-  .bar-balanced .button.button-icon {
+  .bar-balanced .button.button-icon, .bar-balanced .player .button-icon.icon-close, .player .bar-balanced .button-icon.icon-close, .bar-balanced .player .icon-close, .player .bar-balanced .icon-close, .bar-balanced .player .title-bar button.icon-close, .player .title-bar .bar-balanced button.icon-close, .bar-balanced .player .button.icon-close, .player .bar-balanced .button.icon-close, .bar-balanced .player .icon-close, .player .bar-balanced .icon-close, .bar-balanced .player .title-bar button.icon-close, .player .title-bar .bar-balanced button.icon-close, .bar-balanced .player .title-bar button.button-icon, .player .title-bar .bar-balanced button.button-icon, .bar-balanced .player button.icon-close, .player .bar-balanced button.icon-close, .bar-balanced .player .title-bar button, .player .title-bar .bar-balanced button, .bar-balanced .player .title-bar button.button, .player .title-bar .bar-balanced button.button, .bar-balanced .player button.icon-close, .player .bar-balanced button.icon-close, .bar-balanced .player .title-bar button, .player .title-bar .bar-balanced button {
     border-color: transparent;
     background: none; }
 
-.bar-energized .button {
+.bar-energized .button, .bar-energized .player .icon-close, .player .bar-energized .icon-close, .bar-energized .player .title-bar button, .player .title-bar .bar-energized button {
   border-color: #e6b400;
   background-color: #ffc900;
   color: #fff; }
-  .bar-energized .button:hover {
+  .bar-energized .button:hover, .bar-energized .player .icon-close:hover, .player .bar-energized .icon-close:hover, .bar-energized .player .title-bar button:hover, .player .title-bar .bar-energized button:hover {
     color: #fff;
     text-decoration: none; }
-  .bar-energized .button.active, .bar-energized .button.activated {
+  .bar-energized .button.active, .bar-energized .player .active.icon-close, .player .bar-energized .active.icon-close, .bar-energized .player .title-bar button.active, .player .title-bar .bar-energized button.active, .bar-energized .button.activated, .bar-energized .player .activated.icon-close, .player .bar-energized .activated.icon-close, .bar-energized .player .title-bar button.activated, .player .title-bar .bar-energized button.activated {
     border-color: #e6b400;
     background-color: #e6b400;
     box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-  .bar-energized .button.button-clear {
+  .bar-energized .button.button-clear, .bar-energized .player .button-clear.icon-close, .player .bar-energized .button-clear.icon-close, .bar-energized .player .icon-close, .player .bar-energized .icon-close, .bar-energized .player .title-bar button.icon-close, .player .title-bar .bar-energized button.icon-close, .bar-energized .player .button.icon-close, .player .bar-energized .button.icon-close, .bar-energized .player .icon-close, .player .bar-energized .icon-close, .bar-energized .player .title-bar button.icon-close, .player .title-bar .bar-energized button.icon-close, .bar-energized .player .title-bar button.button-clear, .player .title-bar .bar-energized button.button-clear, .bar-energized .player button.icon-close, .player .bar-energized button.icon-close, .bar-energized .player .title-bar button, .player .title-bar .bar-energized button, .bar-energized .player .title-bar button.button, .player .title-bar .bar-energized button.button, .bar-energized .player button.icon-close, .player .bar-energized button.icon-close, .bar-energized .player .title-bar button, .player .title-bar .bar-energized button {
     border-color: transparent;
     background: none;
     box-shadow: none;
     color: #fff;
     font-size: 17px; }
-  .bar-energized .button.button-icon {
+  .bar-energized .button.button-icon, .bar-energized .player .button-icon.icon-close, .player .bar-energized .button-icon.icon-close, .bar-energized .player .icon-close, .player .bar-energized .icon-close, .bar-energized .player .title-bar button.icon-close, .player .title-bar .bar-energized button.icon-close, .bar-energized .player .button.icon-close, .player .bar-energized .button.icon-close, .bar-energized .player .icon-close, .player .bar-energized .icon-close, .bar-energized .player .title-bar button.icon-close, .player .title-bar .bar-energized button.icon-close, .bar-energized .player .title-bar button.button-icon, .player .title-bar .bar-energized button.button-icon, .bar-energized .player button.icon-close, .player .bar-energized button.icon-close, .bar-energized .player .title-bar button, .player .title-bar .bar-energized button, .bar-energized .player .title-bar button.button, .player .title-bar .bar-energized button.button, .bar-energized .player button.icon-close, .player .bar-energized button.icon-close, .bar-energized .player .title-bar button, .player .title-bar .bar-energized button {
     border-color: transparent;
     background: none; }
 
-.bar-royal .button {
+.bar-royal .button, .bar-royal .player .icon-close, .player .bar-royal .icon-close, .bar-royal .player .title-bar button, .player .title-bar .bar-royal button {
   border-color: #6b46e5;
   background-color: #886aea;
   color: #fff; }
-  .bar-royal .button:hover {
+  .bar-royal .button:hover, .bar-royal .player .icon-close:hover, .player .bar-royal .icon-close:hover, .bar-royal .player .title-bar button:hover, .player .title-bar .bar-royal button:hover {
     color: #fff;
     text-decoration: none; }
-  .bar-royal .button.active, .bar-royal .button.activated {
+  .bar-royal .button.active, .bar-royal .player .active.icon-close, .player .bar-royal .active.icon-close, .bar-royal .player .title-bar button.active, .player .title-bar .bar-royal button.active, .bar-royal .button.activated, .bar-royal .player .activated.icon-close, .player .bar-royal .activated.icon-close, .bar-royal .player .title-bar button.activated, .player .title-bar .bar-royal button.activated {
     border-color: #6b46e5;
     background-color: #6b46e5;
     box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-  .bar-royal .button.button-clear {
+  .bar-royal .button.button-clear, .bar-royal .player .button-clear.icon-close, .player .bar-royal .button-clear.icon-close, .bar-royal .player .icon-close, .player .bar-royal .icon-close, .bar-royal .player .title-bar button.icon-close, .player .title-bar .bar-royal button.icon-close, .bar-royal .player .button.icon-close, .player .bar-royal .button.icon-close, .bar-royal .player .icon-close, .player .bar-royal .icon-close, .bar-royal .player .title-bar button.icon-close, .player .title-bar .bar-royal button.icon-close, .bar-royal .player .title-bar button.button-clear, .player .title-bar .bar-royal button.button-clear, .bar-royal .player button.icon-close, .player .bar-royal button.icon-close, .bar-royal .player .title-bar button, .player .title-bar .bar-royal button, .bar-royal .player .title-bar button.button, .player .title-bar .bar-royal button.button, .bar-royal .player button.icon-close, .player .bar-royal button.icon-close, .bar-royal .player .title-bar button, .player .title-bar .bar-royal button {
     border-color: transparent;
     background: none;
     box-shadow: none;
     color: #fff;
     font-size: 17px; }
-  .bar-royal .button.button-icon {
+  .bar-royal .button.button-icon, .bar-royal .player .button-icon.icon-close, .player .bar-royal .button-icon.icon-close, .bar-royal .player .icon-close, .player .bar-royal .icon-close, .bar-royal .player .title-bar button.icon-close, .player .title-bar .bar-royal button.icon-close, .bar-royal .player .button.icon-close, .player .bar-royal .button.icon-close, .bar-royal .player .icon-close, .player .bar-royal .icon-close, .bar-royal .player .title-bar button.icon-close, .player .title-bar .bar-royal button.icon-close, .bar-royal .player .title-bar button.button-icon, .player .title-bar .bar-royal button.button-icon, .bar-royal .player button.icon-close, .player .bar-royal button.icon-close, .bar-royal .player .title-bar button, .player .title-bar .bar-royal button, .bar-royal .player .title-bar button.button, .player .title-bar .bar-royal button.button, .bar-royal .player button.icon-close, .player .bar-royal button.icon-close, .bar-royal .player .title-bar button, .player .title-bar .bar-royal button {
     border-color: transparent;
     background: none; }
 
-.bar-dark .button {
+.bar-dark .button, .bar-dark .player .icon-close, .player .bar-dark .icon-close, .bar-dark .player .title-bar button, .player .title-bar .bar-dark button {
   border-color: #111;
   background-color: #444444;
   color: #fff; }
-  .bar-dark .button:hover {
+  .bar-dark .button:hover, .bar-dark .player .icon-close:hover, .player .bar-dark .icon-close:hover, .bar-dark .player .title-bar button:hover, .player .title-bar .bar-dark button:hover {
     color: #fff;
     text-decoration: none; }
-  .bar-dark .button.active, .bar-dark .button.activated {
+  .bar-dark .button.active, .bar-dark .player .active.icon-close, .player .bar-dark .active.icon-close, .bar-dark .player .title-bar button.active, .player .title-bar .bar-dark button.active, .bar-dark .button.activated, .bar-dark .player .activated.icon-close, .player .bar-dark .activated.icon-close, .bar-dark .player .title-bar button.activated, .player .title-bar .bar-dark button.activated {
     border-color: #000;
     background-color: #262626;
     box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-  .bar-dark .button.button-clear {
+  .bar-dark .button.button-clear, .bar-dark .player .button-clear.icon-close, .player .bar-dark .button-clear.icon-close, .bar-dark .player .icon-close, .player .bar-dark .icon-close, .bar-dark .player .title-bar button.icon-close, .player .title-bar .bar-dark button.icon-close, .bar-dark .player .button.icon-close, .player .bar-dark .button.icon-close, .bar-dark .player .icon-close, .player .bar-dark .icon-close, .bar-dark .player .title-bar button.icon-close, .player .title-bar .bar-dark button.icon-close, .bar-dark .player .title-bar button.button-clear, .player .title-bar .bar-dark button.button-clear, .bar-dark .player button.icon-close, .player .bar-dark button.icon-close, .bar-dark .player .title-bar button, .player .title-bar .bar-dark button, .bar-dark .player .title-bar button.button, .player .title-bar .bar-dark button.button, .bar-dark .player button.icon-close, .player .bar-dark button.icon-close, .bar-dark .player .title-bar button, .player .title-bar .bar-dark button {
     border-color: transparent;
     background: none;
     box-shadow: none;
     color: #fff;
     font-size: 17px; }
-  .bar-dark .button.button-icon {
+  .bar-dark .button.button-icon, .bar-dark .player .button-icon.icon-close, .player .bar-dark .button-icon.icon-close, .bar-dark .player .icon-close, .player .bar-dark .icon-close, .bar-dark .player .title-bar button.icon-close, .player .title-bar .bar-dark button.icon-close, .bar-dark .player .button.icon-close, .player .bar-dark .button.icon-close, .bar-dark .player .icon-close, .player .bar-dark .icon-close, .bar-dark .player .title-bar button.icon-close, .player .title-bar .bar-dark button.icon-close, .bar-dark .player .title-bar button.button-icon, .player .title-bar .bar-dark button.button-icon, .bar-dark .player button.icon-close, .player .bar-dark button.icon-close, .bar-dark .player .title-bar button, .player .title-bar .bar-dark button, .bar-dark .player .title-bar button.button, .player .title-bar .bar-dark button.button, .bar-dark .player button.icon-close, .player .bar-dark button.icon-close, .bar-dark .player .title-bar button, .player .title-bar .bar-dark button {
     border-color: transparent;
     background: none; }
 
@@ -4219,7 +4219,7 @@ ion-tabs.tabs-color-active-dark .tab-item {
   font-size: 10px;
   line-height: 14px; }
 
-.tab-item .icon {
+.tab-item .icon, .tab-item .player .icon-close, .player .tab-item .icon-close, .tab-item .player .title-bar button, .player .title-bar .tab-item button {
   display: block;
   margin: 0 auto;
   height: 32px;
@@ -4227,21 +4227,21 @@ ion-tabs.tabs-color-active-dark .tab-item {
 
 .tabs-icon-left.tabs .tab-item, .tabs-icon-left > .tabs .tab-item, .tabs-icon-right.tabs .tab-item, .tabs-icon-right > .tabs .tab-item {
   font-size: 10px; }
-  .tabs-icon-left.tabs .tab-item .icon, .tabs-icon-left > .tabs .tab-item .icon, .tabs-icon-right.tabs .tab-item .icon, .tabs-icon-right > .tabs .tab-item .icon {
+  .tabs-icon-left.tabs .tab-item .icon, .tabs-icon-left.tabs .tab-item .player .icon-close, .player .tabs-icon-left.tabs .tab-item .icon-close, .tabs-icon-left.tabs .tab-item .player .title-bar button, .player .title-bar .tabs-icon-left.tabs .tab-item button, .tabs-icon-left > .tabs .tab-item .icon, .tabs-icon-left > .tabs .tab-item .player .icon-close, .player .tabs-icon-left > .tabs .tab-item .icon-close, .tabs-icon-left > .tabs .tab-item .player .title-bar button, .player .title-bar .tabs-icon-left > .tabs .tab-item button, .tabs-icon-right.tabs .tab-item .icon, .tabs-icon-right.tabs .tab-item .player .icon-close, .player .tabs-icon-right.tabs .tab-item .icon-close, .tabs-icon-right.tabs .tab-item .player .title-bar button, .player .title-bar .tabs-icon-right.tabs .tab-item button, .tabs-icon-right > .tabs .tab-item .icon, .tabs-icon-right > .tabs .tab-item .player .icon-close, .player .tabs-icon-right > .tabs .tab-item .icon-close, .tabs-icon-right > .tabs .tab-item .player .title-bar button, .player .title-bar .tabs-icon-right > .tabs .tab-item button {
     display: inline-block;
     vertical-align: top;
     margin-top: -0.1em; }
-    .tabs-icon-left.tabs .tab-item .icon:before, .tabs-icon-left > .tabs .tab-item .icon:before, .tabs-icon-right.tabs .tab-item .icon:before, .tabs-icon-right > .tabs .tab-item .icon:before {
+    .tabs-icon-left.tabs .tab-item .icon:before, .tabs-icon-left.tabs .tab-item .player .icon-close:before, .player .tabs-icon-left.tabs .tab-item .icon-close:before, .tabs-icon-left.tabs .tab-item .player .title-bar button:before, .player .title-bar .tabs-icon-left.tabs .tab-item button:before, .tabs-icon-left > .tabs .tab-item .icon:before, .tabs-icon-left > .tabs .tab-item .player .icon-close:before, .player .tabs-icon-left > .tabs .tab-item .icon-close:before, .tabs-icon-left > .tabs .tab-item .player .title-bar button:before, .player .title-bar .tabs-icon-left > .tabs .tab-item button:before, .tabs-icon-right.tabs .tab-item .icon:before, .tabs-icon-right.tabs .tab-item .player .icon-close:before, .player .tabs-icon-right.tabs .tab-item .icon-close:before, .tabs-icon-right.tabs .tab-item .player .title-bar button:before, .player .title-bar .tabs-icon-right.tabs .tab-item button:before, .tabs-icon-right > .tabs .tab-item .icon:before, .tabs-icon-right > .tabs .tab-item .player .icon-close:before, .player .tabs-icon-right > .tabs .tab-item .icon-close:before, .tabs-icon-right > .tabs .tab-item .player .title-bar button:before, .player .title-bar .tabs-icon-right > .tabs .tab-item button:before {
       font-size: 24px;
       line-height: 49px; }
 
-.tabs-icon-left > .tabs .tab-item .icon, .tabs-icon-left.tabs .tab-item .icon {
+.tabs-icon-left > .tabs .tab-item .icon, .tabs-icon-left > .tabs .tab-item .player .icon-close, .player .tabs-icon-left > .tabs .tab-item .icon-close, .tabs-icon-left > .tabs .tab-item .player .title-bar button, .player .title-bar .tabs-icon-left > .tabs .tab-item button, .tabs-icon-left.tabs .tab-item .icon, .tabs-icon-left.tabs .tab-item .player .icon-close, .player .tabs-icon-left.tabs .tab-item .icon-close, .tabs-icon-left.tabs .tab-item .player .title-bar button, .player .title-bar .tabs-icon-left.tabs .tab-item button {
   padding-right: 3px; }
 
-.tabs-icon-right > .tabs .tab-item .icon, .tabs-icon-right.tabs .tab-item .icon {
+.tabs-icon-right > .tabs .tab-item .icon, .tabs-icon-right > .tabs .tab-item .player .icon-close, .player .tabs-icon-right > .tabs .tab-item .icon-close, .tabs-icon-right > .tabs .tab-item .player .title-bar button, .player .title-bar .tabs-icon-right > .tabs .tab-item button, .tabs-icon-right.tabs .tab-item .icon, .tabs-icon-right.tabs .tab-item .player .icon-close, .player .tabs-icon-right.tabs .tab-item .icon-close, .tabs-icon-right.tabs .tab-item .player .title-bar button, .player .title-bar .tabs-icon-right.tabs .tab-item button {
   padding-left: 3px; }
 
-.tabs-icon-only > .tabs .icon, .tabs-icon-only.tabs .icon {
+.tabs-icon-only > .tabs .icon, .tabs-icon-only > .tabs .player .icon-close, .player .tabs-icon-only > .tabs .icon-close, .tabs-icon-only > .tabs .player .title-bar button, .player .title-bar .tabs-icon-only > .tabs button, .tabs-icon-only.tabs .icon, .tabs-icon-only.tabs .player .icon-close, .player .tabs-icon-only.tabs .icon-close, .tabs-icon-only.tabs .player .title-bar button, .player .title-bar .tabs-icon-only.tabs button {
   line-height: inherit; }
 
 .tab-item.has-badge {
@@ -4288,7 +4288,7 @@ ion-tabs.tabs-color-active-dark .tab-item {
   display: -ms-flexbox;
   display: flex;
   padding: 0; }
-  .item.tabs .icon:before {
+  .item.tabs .icon:before, .item.tabs .player .icon-close:before, .player .item.tabs .icon-close:before, .item.tabs .player .title-bar button:before, .player .title-bar .item.tabs button:before {
     position: relative; }
 
 .tab-item.disabled, .tab-item[disabled] {
@@ -4622,7 +4622,7 @@ ion-tabs.tabs-color-active-dark .tab-item {
   flex-direction: row;
   padding: 10px;
   min-height: 65px; }
-  .popup-buttons .button {
+  .popup-buttons .button, .popup-buttons .player .icon-close, .player .popup-buttons .icon-close, .popup-buttons .player .title-bar button, .player .title-bar .popup-buttons button {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
     -moz-box-flex: 1;
@@ -4634,7 +4634,7 @@ ion-tabs.tabs-color-active-dark .tab-item {
     border-radius: 2px;
     line-height: 20px;
     margin-right: 5px; }
-    .popup-buttons .button:last-child {
+    .popup-buttons .button:last-child, .popup-buttons .player .icon-close:last-child, .player .popup-buttons .icon-close:last-child, .popup-buttons .player .title-bar button:last-child, .player .title-bar .popup-buttons button:last-child {
       margin-right: 0px; }
 
 .popup-open {
@@ -4675,7 +4675,7 @@ ion-tabs.tabs-color-active-dark .tab-item {
   transition: 0.2s opacity linear;
   visibility: hidden;
   opacity: 0; }
-  .loading-container:not(.visible) .icon {
+  .loading-container:not(.visible) .icon, .loading-container:not(.visible) .player .icon-close, .player .loading-container:not(.visible) .icon-close, .loading-container:not(.visible) .player .title-bar button, .player .title-bar .loading-container:not(.visible) button {
     display: none; }
   .loading-container.visible {
     visibility: visible; }
@@ -4927,7 +4927,7 @@ a.item-content {
  * Item Icons
  * --------------------------------------------------
  */
-.item-icon-left .icon, .item-icon-left .col.item-icon-left, .item-icon-right .icon {
+.item-icon-left .icon, .item-icon-left .col.item-icon-left, .item-icon-left .player .icon-close, .player .item-icon-left .icon-close, .item-icon-left .player .title-bar button, .player .title-bar .item-icon-left button, .item-icon-right .icon, .item-icon-right .player .icon-close, .player .item-icon-right .icon-close, .item-icon-right .player .title-bar button, .player .title-bar .item-icon-right button {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -4943,7 +4943,7 @@ a.item-content {
   top: 0;
   height: 100%;
   font-size: 32px; }
-  .item-icon-left .icon:before, .item-icon-left .col.item-icon-left, .item-icon-right .icon:before {
+  .item-icon-left .icon:before, .item-icon-left .col.item-icon-left, .item-icon-left .player .icon-close:before, .player .item-icon-left .icon-close:before, .item-icon-left .player .title-bar button:before, .player .title-bar .item-icon-left button:before, .item-icon-right .icon:before, .item-icon-right .player .icon-close:before, .player .item-icon-right .icon-close:before, .item-icon-right .player .title-bar button:before, .player .title-bar .item-icon-right button:before {
     display: block;
     width: 32px;
     text-align: center; }
@@ -4955,7 +4955,7 @@ a.item-content {
 
 .item-icon-left, .col.item-icon-left {
   padding-left: 54px; }
-  .item-icon-left .icon, .item-icon-left .col.item-icon-left {
+  .item-icon-left .icon, .item-icon-left .col.item-icon-left, .item-icon-left .player .icon-close, .player .item-icon-left .icon-close, .item-icon-left .player .title-bar button, .player .title-bar .item-icon-left button {
     left: 11px; }
 
 .item-complex.item-icon-left, .item-complex.col.item-icon-left {
@@ -4965,7 +4965,7 @@ a.item-content {
 
 .item-icon-right {
   padding-right: 54px; }
-  .item-icon-right .icon {
+  .item-icon-right .icon, .item-icon-right .player .icon-close, .player .item-icon-right .icon-close, .item-icon-right .player .title-bar button, .player .title-bar .item-icon-right button {
     right: 11px; }
 
 .item-complex.item-icon-right {
@@ -4973,10 +4973,10 @@ a.item-content {
   .item-complex.item-icon-right .item-content {
     padding-right: 54px; }
 
-.item-icon-left.item-icon-right .icon:first-child, .item-icon-left.item-icon-right .item-icon-right.col.item-icon-left {
+.item-icon-left.item-icon-right .icon:first-child, .item-icon-left.item-icon-right .item-icon-right.col.item-icon-left, .item-icon-left.item-icon-right .player .icon-close:first-child, .player .item-icon-left.item-icon-right .icon-close:first-child, .item-icon-left.item-icon-right .player .title-bar button:first-child, .player .title-bar .item-icon-left.item-icon-right button:first-child {
   right: auto; }
 
-.item-icon-left.item-icon-right .icon:last-child, .item-icon-left.item-icon-right .item-icon-right.col.item-icon-left, .item-icon-left .item-delete .icon, .item-icon-left .item-delete .col.item-icon-left {
+.item-icon-left.item-icon-right .icon:last-child, .item-icon-left.item-icon-right .item-icon-right.col.item-icon-left, .item-icon-left.item-icon-right .player .icon-close:last-child, .player .item-icon-left.item-icon-right .icon-close:last-child, .item-icon-left.item-icon-right .player .title-bar button:last-child, .player .title-bar .item-icon-left.item-icon-right button:last-child, .item-icon-left .item-delete .icon, .item-icon-left .item-delete .col.item-icon-left, .item-icon-left .item-delete .player .icon-close, .player .item-icon-left .item-delete .icon-close, .item-icon-left .item-delete .player .title-bar button, .player .title-bar .item-icon-left .item-delete button {
   left: auto; }
 
 .item-icon-left .icon-accessory, .item-icon-left .col.item-icon-left, .item-icon-right .icon-accessory {
@@ -4997,7 +4997,7 @@ a.item-content {
 .item-button-left {
   padding-left: 72px; }
 
-.item-button-left > .button, .item-button-left .item-content > .button {
+.item-button-left > .button, .item-button-left > .player .icon-close, .player .item-button-left > .icon-close, .item-button-left > .player .title-bar button, .player .title-bar .item-button-left > button, .item-button-left .item-content > .button, .item-button-left .item-content > .player .icon-close, .player .item-button-left .item-content > .icon-close, .item-button-left .item-content > .player .title-bar button, .player .title-bar .item-button-left .item-content > button {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -5016,12 +5016,12 @@ a.item-content {
   min-height: 34px;
   font-size: 18px;
   line-height: 32px; }
-  .item-button-left > .button .icon:before, .item-button-left .item-content > .button .icon:before {
+  .item-button-left > .button .icon:before, .item-button-left > .button .player .icon-close, .player .item-button-left > .button .icon-close, .item-button-left > .button .player .title-bar button, .player .title-bar .item-button-left > .button button, .item-button-left > .button .player .icon-close:before, .player .item-button-left > .button .icon-close:before, .item-button-left > .button .player .title-bar button:before, .player .title-bar .item-button-left > .button button:before, .item-button-left .item-content > .button .icon:before, .item-button-left .item-content > .button .player .icon-close, .player .item-button-left .item-content > .button .icon-close, .item-button-left .item-content > .button .player .title-bar button, .player .title-bar .item-button-left .item-content > .button button, .item-button-left .item-content > .button .player .icon-close:before, .player .item-button-left .item-content > .button .icon-close:before, .item-button-left .item-content > .button .player .title-bar button:before, .player .title-bar .item-button-left .item-content > .button button:before {
     position: relative;
     left: auto;
     width: auto;
     line-height: 31px; }
-  .item-button-left > .button > .button, .item-button-left .item-content > .button > .button {
+  .item-button-left > .button > .button, .item-button-left > .button > .player .icon-close, .player .item-button-left > .button > .icon-close, .item-button-left > .button > .player .title-bar button, .player .title-bar .item-button-left > .button > button, .item-button-left > .button > .player .icon-close, .player .item-button-left > .button > .icon-close, .item-button-left > .button > .player .title-bar button, .player .title-bar .item-button-left > .button > button, .item-button-left .item-content > .button > .button, .item-button-left .item-content > .button > .player .icon-close, .player .item-button-left .item-content > .button > .icon-close, .item-button-left .item-content > .button > .player .title-bar button, .player .title-bar .item-button-left .item-content > .button > button, .item-button-left .item-content > .button > .player .icon-close, .player .item-button-left .item-content > .button > .icon-close, .item-button-left .item-content > .button > .player .title-bar button, .player .title-bar .item-button-left .item-content > .button > button {
     margin: 0px 2px;
     min-height: 34px;
     font-size: 18px;
@@ -5030,7 +5030,7 @@ a.item-content {
 .item-button-right, a.item.item-button-right, button.item.item-button-right {
   padding-right: 80px; }
 
-.item-button-right > .button, .item-button-right .item-content > .button, .item-button-right > .buttons, .item-button-right .item-content > .buttons {
+.item-button-right > .button, .item-button-right > .player .icon-close, .player .item-button-right > .icon-close, .item-button-right > .player .title-bar button, .player .title-bar .item-button-right > button, .item-button-right .item-content > .button, .item-button-right .item-content > .player .icon-close, .player .item-button-right .item-content > .icon-close, .item-button-right .item-content > .player .title-bar button, .player .title-bar .item-button-right .item-content > button, .item-button-right > .buttons, .item-button-right .item-content > .buttons {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -5049,12 +5049,12 @@ a.item-content {
   min-height: 34px;
   font-size: 18px;
   line-height: 32px; }
-  .item-button-right > .button .icon:before, .item-button-right .item-content > .button .icon:before, .item-button-right > .buttons .icon:before, .item-button-right .item-content > .buttons .icon:before {
+  .item-button-right > .button .icon:before, .item-button-right > .button .player .icon-close, .player .item-button-right > .button .icon-close, .item-button-right > .button .player .title-bar button, .player .title-bar .item-button-right > .button button, .item-button-right > .button .player .icon-close:before, .player .item-button-right > .button .icon-close:before, .item-button-right > .button .player .title-bar button:before, .player .title-bar .item-button-right > .button button:before, .item-button-right .item-content > .button .icon:before, .item-button-right .item-content > .button .player .icon-close, .player .item-button-right .item-content > .button .icon-close, .item-button-right .item-content > .button .player .title-bar button, .player .title-bar .item-button-right .item-content > .button button, .item-button-right .item-content > .button .player .icon-close:before, .player .item-button-right .item-content > .button .icon-close:before, .item-button-right .item-content > .button .player .title-bar button:before, .player .title-bar .item-button-right .item-content > .button button:before, .item-button-right > .buttons .icon:before, .item-button-right > .buttons .player .icon-close:before, .player .item-button-right > .buttons .icon-close:before, .item-button-right > .buttons .player .title-bar button:before, .player .title-bar .item-button-right > .buttons button:before, .item-button-right .item-content > .buttons .icon:before, .item-button-right .item-content > .buttons .player .icon-close:before, .player .item-button-right .item-content > .buttons .icon-close:before, .item-button-right .item-content > .buttons .player .title-bar button:before, .player .title-bar .item-button-right .item-content > .buttons button:before {
     position: relative;
     left: auto;
     width: auto;
     line-height: 31px; }
-  .item-button-right > .button > .button, .item-button-right .item-content > .button > .button, .item-button-right > .buttons > .button, .item-button-right .item-content > .buttons > .button {
+  .item-button-right > .button > .button, .item-button-right > .button > .player .icon-close, .player .item-button-right > .button > .icon-close, .item-button-right > .button > .player .title-bar button, .player .title-bar .item-button-right > .button > button, .item-button-right > .button > .player .icon-close, .player .item-button-right > .button > .icon-close, .item-button-right > .button > .player .title-bar button, .player .title-bar .item-button-right > .button > button, .item-button-right .item-content > .button > .button, .item-button-right .item-content > .button > .player .icon-close, .player .item-button-right .item-content > .button > .icon-close, .item-button-right .item-content > .button > .player .title-bar button, .player .title-bar .item-button-right .item-content > .button > button, .item-button-right .item-content > .button > .player .icon-close, .player .item-button-right .item-content > .button > .icon-close, .item-button-right .item-content > .button > .player .title-bar button, .player .title-bar .item-button-right .item-content > .button > button, .item-button-right > .buttons > .button, .item-button-right > .buttons > .player .icon-close, .player .item-button-right > .buttons > .icon-close, .item-button-right > .buttons > .player .title-bar button, .player .title-bar .item-button-right > .buttons > button, .item-button-right .item-content > .buttons > .button, .item-button-right .item-content > .buttons > .player .icon-close, .player .item-button-right .item-content > .buttons > .icon-close, .item-button-right .item-content > .buttons > .player .title-bar button, .player .title-bar .item-button-right .item-content > .buttons > button {
     margin: 0px 2px;
     min-width: 34px;
     min-height: 34px;
@@ -5215,9 +5215,9 @@ a.item-content {
   opacity: 0;
   -webkit-transform: translate3d(-21px, 0, 0);
   transform: translate3d(-21px, 0, 0); }
-  .item-left-edit .button {
+  .item-left-edit .button, .item-left-edit .player .icon-close, .player .item-left-edit .icon-close, .item-left-edit .player .title-bar button, .player .title-bar .item-left-edit button {
     height: 100%; }
-    .item-left-edit .button.icon {
+    .item-left-edit .button.icon, .item-left-edit .player .icon.icon-close, .player .item-left-edit .icon.icon-close, .item-left-edit .player .icon-close, .player .item-left-edit .icon-close, .item-left-edit .player .title-bar button.icon-close, .player .title-bar .item-left-edit button.icon-close, .item-left-edit .player .button.icon-close, .player .item-left-edit .button.icon-close, .item-left-edit .player .icon-close, .player .item-left-edit .icon-close, .item-left-edit .player .title-bar button.icon-close, .player .title-bar .item-left-edit button.icon-close, .item-left-edit .player .title-bar button.icon, .player .title-bar .item-left-edit button.icon, .item-left-edit .player button.icon-close, .player .item-left-edit button.icon-close, .item-left-edit .player .title-bar button, .player .title-bar .item-left-edit button, .item-left-edit .player .title-bar button.button, .player .title-bar .item-left-edit button.button, .item-left-edit .player button.icon-close, .player .item-left-edit button.icon-close, .item-left-edit .player .title-bar button, .player .title-bar .item-left-edit button {
       display: -webkit-box;
       display: -webkit-flex;
       display: -moz-box;
@@ -5243,10 +5243,10 @@ a.item-content {
   -webkit-transition-delay: 125ms;
   transition-delay: 125ms; }
 
-.item-delete .button.icon {
+.item-delete .button.icon, .item-delete .player .icon.icon-close, .player .item-delete .icon.icon-close, .item-delete .player .icon-close, .player .item-delete .icon-close, .item-delete .player .title-bar button.icon-close, .player .title-bar .item-delete button.icon-close, .item-delete .player .button.icon-close, .player .item-delete .button.icon-close, .item-delete .player .icon-close, .player .item-delete .icon-close, .item-delete .player .title-bar button.icon-close, .player .title-bar .item-delete button.icon-close, .item-delete .player .title-bar button.icon, .player .title-bar .item-delete button.icon, .item-delete .player button.icon-close, .player .item-delete button.icon-close, .item-delete .player .title-bar button, .player .title-bar .item-delete button, .item-delete .player .title-bar button.button, .player .title-bar .item-delete button.button, .item-delete .player button.icon-close, .player .item-delete button.icon-close, .item-delete .player .title-bar button, .player .title-bar .item-delete button {
   color: #ef473a;
   font-size: 24px; }
-  .item-delete .button.icon:hover {
+  .item-delete .button.icon:hover, .item-delete .player .icon.icon-close:hover, .player .item-delete .icon.icon-close:hover, .item-delete .player .icon-close:hover, .player .item-delete .icon-close:hover, .item-delete .player .title-bar button.icon-close:hover, .player .title-bar .item-delete button.icon-close:hover, .item-delete .player .button.icon-close:hover, .player .item-delete .button.icon-close:hover, .item-delete .player .icon-close:hover, .player .item-delete .icon-close:hover, .item-delete .player .title-bar button.icon-close:hover, .player .title-bar .item-delete button.icon-close:hover, .item-delete .player .title-bar button.icon:hover, .player .title-bar .item-delete button.icon:hover, .item-delete .player button.icon-close:hover, .player .item-delete button.icon-close:hover, .item-delete .player .title-bar button:hover, .player .title-bar .item-delete button:hover, .item-delete .player .title-bar button.button:hover, .player .title-bar .item-delete button.button:hover, .item-delete .player button.icon-close:hover, .player .item-delete button.icon-close:hover, .item-delete .player .title-bar button:hover, .player .title-bar .item-delete button:hover {
     opacity: 0.7; }
 
 .item-right-edit {
@@ -5264,10 +5264,10 @@ a.item-content {
   opacity: 0;
   -webkit-transform: translate3d(25px, 0, 0);
   transform: translate3d(25px, 0, 0); }
-  .item-right-edit .button {
+  .item-right-edit .button, .item-right-edit .player .icon-close, .player .item-right-edit .icon-close, .item-right-edit .player .title-bar button, .player .title-bar .item-right-edit button {
     min-width: 50px;
     height: 100%; }
-    .item-right-edit .button.icon {
+    .item-right-edit .button.icon, .item-right-edit .player .icon.icon-close, .player .item-right-edit .icon.icon-close, .item-right-edit .player .icon-close, .player .item-right-edit .icon-close, .item-right-edit .player .title-bar button.icon-close, .player .title-bar .item-right-edit button.icon-close, .item-right-edit .player .button.icon-close, .player .item-right-edit .button.icon-close, .item-right-edit .player .icon-close, .player .item-right-edit .icon-close, .item-right-edit .player .title-bar button.icon-close, .player .title-bar .item-right-edit button.icon-close, .item-right-edit .player .title-bar button.icon, .player .title-bar .item-right-edit button.icon, .item-right-edit .player button.icon-close, .player .item-right-edit button.icon-close, .item-right-edit .player .title-bar button, .player .title-bar .item-right-edit button, .item-right-edit .player .title-bar button.button, .player .title-bar .item-right-edit button.button, .item-right-edit .player button.icon-close, .player .item-right-edit button.icon-close, .item-right-edit .player .title-bar button, .player .title-bar .item-right-edit button {
       display: -webkit-box;
       display: -webkit-flex;
       display: -moz-box;
@@ -5295,7 +5295,7 @@ a.item-content {
   -webkit-transition-delay: 125ms;
   transition-delay: 125ms; }
 
-.item-reorder .button.icon {
+.item-reorder .button.icon, .item-reorder .player .icon.icon-close, .player .item-reorder .icon.icon-close, .item-reorder .player .icon-close, .player .item-reorder .icon-close, .item-reorder .player .title-bar button.icon-close, .player .title-bar .item-reorder button.icon-close, .item-reorder .player .button.icon-close, .player .item-reorder .button.icon-close, .item-reorder .player .icon-close, .player .item-reorder .icon-close, .item-reorder .player .title-bar button.icon-close, .player .title-bar .item-reorder button.icon-close, .item-reorder .player .title-bar button.icon, .player .title-bar .item-reorder button.icon, .item-reorder .player button.icon-close, .player .item-reorder button.icon-close, .item-reorder .player .title-bar button, .player .title-bar .item-reorder button, .item-reorder .player .title-bar button.button, .player .title-bar .item-reorder button.button, .item-reorder .player button.icon-close, .player .item-reorder button.icon-close, .item-reorder .player .title-bar button, .player .title-bar .item-reorder button {
   color: #444;
   font-size: 32px; }
 
@@ -5322,7 +5322,7 @@ a.item-content {
   right: 0;
   z-index: 1;
   height: 100%; }
-  .item-options .button {
+  .item-options .button, .item-options .player .icon-close, .player .item-options .icon-close, .item-options .player .title-bar button, .player .title-bar .item-options button {
     height: 100%;
     border: none;
     border-radius: 0;
@@ -5336,7 +5336,7 @@ a.item-content {
     -webkit-align-items: center;
     -moz-align-items: center;
     align-items: center; }
-    .item-options .button:before {
+    .item-options .button:before, .item-options .player .icon-close:before, .player .item-options .icon-close:before, .item-options .player .title-bar button:before, .player .title-bar .item-options button:before {
       margin: 0 auto; }
 
 /**
@@ -5474,7 +5474,7 @@ a.item-content {
   background-color: #444;
   color: #fff; }
 
-.button .badge {
+.button .badge, .button .player .icon-close, .player .button .icon-close, .button .player .title-bar button, .player .title-bar .button button {
   position: relative;
   top: -1px; }
 
@@ -5579,7 +5579,7 @@ input, button, select, textarea {
     margin: 0;
     padding-right: 24px;
     background-color: transparent; }
-  .item-input .button .icon {
+  .item-input .button .icon, .item-input .button .player .icon-close, .player .item-input .button .icon-close, .item-input .button .player .title-bar button, .player .title-bar .item-input .button button, .item-input .button .player .icon-close, .player .item-input .button .icon-close, .item-input .button .player .title-bar button, .player .title-bar .item-input .button button {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 24px;
     -moz-box-flex: 0;
@@ -5603,7 +5603,7 @@ input, button, select, textarea {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none; }
-  .item-input .icon {
+  .item-input .icon, .item-input .player .icon-close, .player .item-input .icon-close, .item-input .player .title-bar button, .player .title-bar .item-input button {
     min-width: 14px; }
 
 .item-input-inset {
@@ -5652,7 +5652,7 @@ input, button, select, textarea {
   background: transparent;
   line-height: 18px; }
 
-.item-input-wrapper ~ .button {
+.item-input-wrapper ~ .button, .item-input-wrapper ~ .player .icon-close, .player .item-input-wrapper ~ .icon-close, .item-input-wrapper ~ .player .title-bar button, .player .title-bar .item-input-wrapper ~ button {
   margin-left: 10.66667px; }
 
 .input-label {
@@ -5680,7 +5680,7 @@ input, button, select, textarea {
   display: block;
   background-color: transparent;
   box-shadow: none; }
-  .item-stacked-label .input-label, .item-stacked-label .icon {
+  .item-stacked-label .input-label, .item-stacked-label .icon, .item-stacked-label .player .icon-close, .player .item-stacked-label .icon-close, .item-stacked-label .player .title-bar button, .player .title-bar .item-stacked-label button {
     display: inline-block;
     padding: 4px 0 0 0px;
     vertical-align: middle; }
@@ -6183,7 +6183,7 @@ input[type="range"] {
   .range.range-dark input::-webkit-slider-thumb:before {
     background: #444; }
 
-.range .icon {
+.range .icon, .range .player .icon-close, .player .range .icon-close, .range .player .title-bar button, .player .title-bar .range button {
   -webkit-box-flex: 0;
   -webkit-flex: 0;
   -moz-box-flex: 0;
@@ -6324,7 +6324,7 @@ progress {
  * Buttons
  * --------------------------------------------------
  */
-.button {
+.button, .player .icon-close, .player .title-bar button {
   border-color: #b2b2b2;
   background-color: #f8f8f8;
   color: #444;
@@ -6343,281 +6343,281 @@ progress {
   font-size: 18px;
   line-height: 42px;
   cursor: pointer; }
-  .button:hover {
+  .button:hover, .player .icon-close:hover, .player .title-bar button:hover {
     color: #444;
     text-decoration: none; }
-  .button.active, .button.activated {
+  .button.active, .player .active.icon-close, .player .title-bar button.active, .button.activated, .player .activated.icon-close, .player .title-bar button.activated {
     border-color: #a2a2a2;
     background-color: #e5e5e5;
     box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-  .button:after {
+  .button:after, .player .icon-close:after, .player .title-bar button:after {
     position: absolute;
     top: -6px;
     right: -6px;
     bottom: -6px;
     left: -6px;
     content: ' '; }
-  .button .icon {
+  .button .icon, .button .player .icon-close, .player .button .icon-close, .button .player .title-bar button, .player .title-bar .button button, .button .player .icon-close, .player .button .icon-close, .button .player .title-bar button, .player .title-bar .button button {
     vertical-align: top;
     pointer-events: none; }
-  .button .icon:before, .button.icon:before, .button.icon-left:before, .button.icon-right:before {
+  .button .icon:before, .button .player .icon-close, .player .button .icon-close, .button .player .title-bar button, .player .title-bar .button button, .button .player .icon-close:before, .player .button .icon-close:before, .button .player .title-bar button:before, .player .title-bar .button button:before, .button.icon:before, .player .icon.icon-close:before, .player .icon-close:before, .player .title-bar button.icon-close:before, .player .button.icon-close:before, .player .icon-close:before, .player .title-bar button.icon-close:before, .player .title-bar button.icon:before, .player button.icon-close:before, .player .title-bar button:before, .player .title-bar button.button:before, .player button.icon-close:before, .player .title-bar button:before, .button.icon-left:before, .player .icon-left.icon-close:before, .player .title-bar button.icon-left:before, .button.icon-right:before, .player .icon-right.icon-close:before, .player .title-bar button.icon-right:before {
     display: inline-block;
     padding: 0 0 1px 0;
     vertical-align: inherit;
     font-size: 24px;
     line-height: 41px;
     pointer-events: none; }
-  .button.icon-left:before {
+  .button.icon-left:before, .player .icon-left.icon-close:before, .player .title-bar button.icon-left:before {
     float: left;
     padding-right: 0.2em;
     padding-left: 0; }
-  .button.icon-right:before {
+  .button.icon-right:before, .player .icon-right.icon-close:before, .player .title-bar button.icon-right:before {
     float: right;
     padding-right: 0;
     padding-left: 0.2em; }
-  .button.button-block, .button.button-full {
+  .button.button-block, .player .button-block.icon-close, .player .title-bar button.button-block, .button.button-full, .player .button-full.icon-close, .player .title-bar button.button-full {
     margin-top: 10px;
     margin-bottom: 10px; }
-  .button.button-light {
+  .button.button-light, .player .button-light.icon-close, .player .title-bar button.button-light {
     border-color: #ddd;
     background-color: #fff;
     color: #444; }
-    .button.button-light:hover {
+    .button.button-light:hover, .player .button-light.icon-close:hover, .player .title-bar button.button-light:hover {
       color: #444;
       text-decoration: none; }
-    .button.button-light.active, .button.button-light.activated {
+    .button.button-light.active, .player .button-light.active.icon-close, .player .title-bar button.button-light.active, .button.button-light.activated, .player .button-light.activated.icon-close, .player .title-bar button.button-light.activated {
       border-color: #ccc;
       background-color: #fafafa;
       box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-    .button.button-light.button-clear {
+    .button.button-light.button-clear, .player .button-light.button-clear.icon-close, .player .button-light.icon-close, .player .title-bar button.button-light.icon-close, .player .button.button-light.icon-close, .player .button-light.icon-close, .player .title-bar button.button-light.icon-close, .player .title-bar button.button-light.button-clear, .player button.button-light.icon-close, .player .title-bar button.button-light, .player .title-bar button.button.button-light, .player button.button-light.icon-close, .player .title-bar button.button-light {
       border-color: transparent;
       background: none;
       box-shadow: none;
       color: #ddd; }
-    .button.button-light.button-icon {
+    .button.button-light.button-icon, .player .button-light.button-icon.icon-close, .player .button-light.icon-close, .player .title-bar button.button-light.icon-close, .player .button.button-light.icon-close, .player .button-light.icon-close, .player .title-bar button.button-light.icon-close, .player .title-bar button.button-light.button-icon, .player button.button-light.icon-close, .player .title-bar button.button-light, .player .title-bar button.button.button-light, .player button.button-light.icon-close, .player .title-bar button.button-light {
       border-color: transparent;
       background: none; }
-    .button.button-light.button-outline {
+    .button.button-light.button-outline, .player .button-light.button-outline.icon-close, .player .title-bar button.button-light.button-outline {
       border-color: #ddd;
       background: transparent;
       color: #ddd; }
-      .button.button-light.button-outline.active, .button.button-light.button-outline.activated {
+      .button.button-light.button-outline.active, .player .button-light.button-outline.active.icon-close, .player .title-bar button.button-light.button-outline.active, .button.button-light.button-outline.activated, .player .button-light.button-outline.activated.icon-close, .player .title-bar button.button-light.button-outline.activated {
         background-color: #ddd;
         box-shadow: none;
         color: #fff; }
-  .button.button-stable {
+  .button.button-stable, .player .button-stable.icon-close, .player .title-bar button.button-stable {
     border-color: #b2b2b2;
     background-color: #f8f8f8;
     color: #444; }
-    .button.button-stable:hover {
+    .button.button-stable:hover, .player .button-stable.icon-close:hover, .player .title-bar button.button-stable:hover {
       color: #444;
       text-decoration: none; }
-    .button.button-stable.active, .button.button-stable.activated {
+    .button.button-stable.active, .player .button-stable.active.icon-close, .player .title-bar button.button-stable.active, .button.button-stable.activated, .player .button-stable.activated.icon-close, .player .title-bar button.button-stable.activated {
       border-color: #a2a2a2;
       background-color: #e5e5e5;
       box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-    .button.button-stable.button-clear {
+    .button.button-stable.button-clear, .player .button-stable.button-clear.icon-close, .player .button-stable.icon-close, .player .title-bar button.button-stable.icon-close, .player .button.button-stable.icon-close, .player .button-stable.icon-close, .player .title-bar button.button-stable.icon-close, .player .title-bar button.button-stable.button-clear, .player button.button-stable.icon-close, .player .title-bar button.button-stable, .player .title-bar button.button.button-stable, .player button.button-stable.icon-close, .player .title-bar button.button-stable {
       border-color: transparent;
       background: none;
       box-shadow: none;
       color: #b2b2b2; }
-    .button.button-stable.button-icon {
+    .button.button-stable.button-icon, .player .button-stable.button-icon.icon-close, .player .button-stable.icon-close, .player .title-bar button.button-stable.icon-close, .player .button.button-stable.icon-close, .player .button-stable.icon-close, .player .title-bar button.button-stable.icon-close, .player .title-bar button.button-stable.button-icon, .player button.button-stable.icon-close, .player .title-bar button.button-stable, .player .title-bar button.button.button-stable, .player button.button-stable.icon-close, .player .title-bar button.button-stable {
       border-color: transparent;
       background: none; }
-    .button.button-stable.button-outline {
+    .button.button-stable.button-outline, .player .button-stable.button-outline.icon-close, .player .title-bar button.button-stable.button-outline {
       border-color: #b2b2b2;
       background: transparent;
       color: #b2b2b2; }
-      .button.button-stable.button-outline.active, .button.button-stable.button-outline.activated {
+      .button.button-stable.button-outline.active, .player .button-stable.button-outline.active.icon-close, .player .title-bar button.button-stable.button-outline.active, .button.button-stable.button-outline.activated, .player .button-stable.button-outline.activated.icon-close, .player .title-bar button.button-stable.button-outline.activated {
         background-color: #b2b2b2;
         box-shadow: none;
         color: #fff; }
-  .button.button-positive {
+  .button.button-positive, .player .button-positive.icon-close, .player .title-bar button.button-positive {
     border-color: #003acc;
     background-color: #0048ff;
     color: #fff; }
-    .button.button-positive:hover {
+    .button.button-positive:hover, .player .button-positive.icon-close:hover, .player .title-bar button.button-positive:hover {
       color: #fff;
       text-decoration: none; }
-    .button.button-positive.active, .button.button-positive.activated {
+    .button.button-positive.active, .player .button-positive.active.icon-close, .player .title-bar button.button-positive.active, .button.button-positive.activated, .player .button-positive.activated.icon-close, .player .title-bar button.button-positive.activated {
       border-color: #003acc;
       background-color: #003acc;
       box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-    .button.button-positive.button-clear {
+    .button.button-positive.button-clear, .player .button-positive.button-clear.icon-close, .player .button-positive.icon-close, .player .title-bar button.button-positive.icon-close, .player .button.button-positive.icon-close, .player .button-positive.icon-close, .player .title-bar button.button-positive.icon-close, .player .title-bar button.button-positive.button-clear, .player button.button-positive.icon-close, .player .title-bar button.button-positive, .player .title-bar button.button.button-positive, .player button.button-positive.icon-close, .player .title-bar button.button-positive {
       border-color: transparent;
       background: none;
       box-shadow: none;
       color: #0048ff; }
-    .button.button-positive.button-icon {
+    .button.button-positive.button-icon, .player .button-positive.button-icon.icon-close, .player .button-positive.icon-close, .player .title-bar button.button-positive.icon-close, .player .button.button-positive.icon-close, .player .button-positive.icon-close, .player .title-bar button.button-positive.icon-close, .player .title-bar button.button-positive.button-icon, .player button.button-positive.icon-close, .player .title-bar button.button-positive, .player .title-bar button.button.button-positive, .player button.button-positive.icon-close, .player .title-bar button.button-positive {
       border-color: transparent;
       background: none; }
-    .button.button-positive.button-outline {
+    .button.button-positive.button-outline, .player .button-positive.button-outline.icon-close, .player .title-bar button.button-positive.button-outline {
       border-color: #0048ff;
       background: transparent;
       color: #0048ff; }
-      .button.button-positive.button-outline.active, .button.button-positive.button-outline.activated {
+      .button.button-positive.button-outline.active, .player .button-positive.button-outline.active.icon-close, .player .title-bar button.button-positive.button-outline.active, .button.button-positive.button-outline.activated, .player .button-positive.button-outline.activated.icon-close, .player .title-bar button.button-positive.button-outline.activated {
         background-color: #0048ff;
         box-shadow: none;
         color: #fff; }
-  .button.button-calm {
+  .button.button-calm, .player .button-calm.icon-close, .player .title-bar button.button-calm {
     border-color: #0a9ec7;
     background-color: #11c1f3;
     color: #fff; }
-    .button.button-calm:hover {
+    .button.button-calm:hover, .player .button-calm.icon-close:hover, .player .title-bar button.button-calm:hover {
       color: #fff;
       text-decoration: none; }
-    .button.button-calm.active, .button.button-calm.activated {
+    .button.button-calm.active, .player .button-calm.active.icon-close, .player .title-bar button.button-calm.active, .button.button-calm.activated, .player .button-calm.activated.icon-close, .player .title-bar button.button-calm.activated {
       border-color: #0a9ec7;
       background-color: #0a9ec7;
       box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-    .button.button-calm.button-clear {
+    .button.button-calm.button-clear, .player .button-calm.button-clear.icon-close, .player .button-calm.icon-close, .player .title-bar button.button-calm.icon-close, .player .button.button-calm.icon-close, .player .button-calm.icon-close, .player .title-bar button.button-calm.icon-close, .player .title-bar button.button-calm.button-clear, .player button.button-calm.icon-close, .player .title-bar button.button-calm, .player .title-bar button.button.button-calm, .player button.button-calm.icon-close, .player .title-bar button.button-calm {
       border-color: transparent;
       background: none;
       box-shadow: none;
       color: #11c1f3; }
-    .button.button-calm.button-icon {
+    .button.button-calm.button-icon, .player .button-calm.button-icon.icon-close, .player .button-calm.icon-close, .player .title-bar button.button-calm.icon-close, .player .button.button-calm.icon-close, .player .button-calm.icon-close, .player .title-bar button.button-calm.icon-close, .player .title-bar button.button-calm.button-icon, .player button.button-calm.icon-close, .player .title-bar button.button-calm, .player .title-bar button.button.button-calm, .player button.button-calm.icon-close, .player .title-bar button.button-calm {
       border-color: transparent;
       background: none; }
-    .button.button-calm.button-outline {
+    .button.button-calm.button-outline, .player .button-calm.button-outline.icon-close, .player .title-bar button.button-calm.button-outline {
       border-color: #11c1f3;
       background: transparent;
       color: #11c1f3; }
-      .button.button-calm.button-outline.active, .button.button-calm.button-outline.activated {
+      .button.button-calm.button-outline.active, .player .button-calm.button-outline.active.icon-close, .player .title-bar button.button-calm.button-outline.active, .button.button-calm.button-outline.activated, .player .button-calm.button-outline.activated.icon-close, .player .title-bar button.button-calm.button-outline.activated {
         background-color: #11c1f3;
         box-shadow: none;
         color: #fff; }
-  .button.button-assertive {
+  .button.button-assertive, .player .button-assertive.icon-close, .player .title-bar button.button-assertive {
     border-color: #e42012;
     background-color: #ef473a;
     color: #fff; }
-    .button.button-assertive:hover {
+    .button.button-assertive:hover, .player .button-assertive.icon-close:hover, .player .title-bar button.button-assertive:hover {
       color: #fff;
       text-decoration: none; }
-    .button.button-assertive.active, .button.button-assertive.activated {
+    .button.button-assertive.active, .player .button-assertive.active.icon-close, .player .title-bar button.button-assertive.active, .button.button-assertive.activated, .player .button-assertive.activated.icon-close, .player .title-bar button.button-assertive.activated {
       border-color: #e42012;
       background-color: #e42012;
       box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-    .button.button-assertive.button-clear {
+    .button.button-assertive.button-clear, .player .button-assertive.button-clear.icon-close, .player .button-assertive.icon-close, .player .title-bar button.button-assertive.icon-close, .player .button.button-assertive.icon-close, .player .button-assertive.icon-close, .player .title-bar button.button-assertive.icon-close, .player .title-bar button.button-assertive.button-clear, .player button.button-assertive.icon-close, .player .title-bar button.button-assertive, .player .title-bar button.button.button-assertive, .player button.button-assertive.icon-close, .player .title-bar button.button-assertive {
       border-color: transparent;
       background: none;
       box-shadow: none;
       color: #ef473a; }
-    .button.button-assertive.button-icon {
+    .button.button-assertive.button-icon, .player .button-assertive.button-icon.icon-close, .player .button-assertive.icon-close, .player .title-bar button.button-assertive.icon-close, .player .button.button-assertive.icon-close, .player .button-assertive.icon-close, .player .title-bar button.button-assertive.icon-close, .player .title-bar button.button-assertive.button-icon, .player button.button-assertive.icon-close, .player .title-bar button.button-assertive, .player .title-bar button.button.button-assertive, .player button.button-assertive.icon-close, .player .title-bar button.button-assertive {
       border-color: transparent;
       background: none; }
-    .button.button-assertive.button-outline {
+    .button.button-assertive.button-outline, .player .button-assertive.button-outline.icon-close, .player .title-bar button.button-assertive.button-outline {
       border-color: #ef473a;
       background: transparent;
       color: #ef473a; }
-      .button.button-assertive.button-outline.active, .button.button-assertive.button-outline.activated {
+      .button.button-assertive.button-outline.active, .player .button-assertive.button-outline.active.icon-close, .player .title-bar button.button-assertive.button-outline.active, .button.button-assertive.button-outline.activated, .player .button-assertive.button-outline.activated.icon-close, .player .title-bar button.button-assertive.button-outline.activated {
         background-color: #ef473a;
         box-shadow: none;
         color: #fff; }
-  .button.button-balanced {
+  .button.button-balanced, .player .button-balanced.icon-close, .player .title-bar button.button-balanced {
     border-color: #28a54c;
     background-color: #33cd5f;
     color: #fff; }
-    .button.button-balanced:hover {
+    .button.button-balanced:hover, .player .button-balanced.icon-close:hover, .player .title-bar button.button-balanced:hover {
       color: #fff;
       text-decoration: none; }
-    .button.button-balanced.active, .button.button-balanced.activated {
+    .button.button-balanced.active, .player .button-balanced.active.icon-close, .player .title-bar button.button-balanced.active, .button.button-balanced.activated, .player .button-balanced.activated.icon-close, .player .title-bar button.button-balanced.activated {
       border-color: #28a54c;
       background-color: #28a54c;
       box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-    .button.button-balanced.button-clear {
+    .button.button-balanced.button-clear, .player .button-balanced.button-clear.icon-close, .player .button-balanced.icon-close, .player .title-bar button.button-balanced.icon-close, .player .button.button-balanced.icon-close, .player .button-balanced.icon-close, .player .title-bar button.button-balanced.icon-close, .player .title-bar button.button-balanced.button-clear, .player button.button-balanced.icon-close, .player .title-bar button.button-balanced, .player .title-bar button.button.button-balanced, .player button.button-balanced.icon-close, .player .title-bar button.button-balanced {
       border-color: transparent;
       background: none;
       box-shadow: none;
       color: #33cd5f; }
-    .button.button-balanced.button-icon {
+    .button.button-balanced.button-icon, .player .button-balanced.button-icon.icon-close, .player .button-balanced.icon-close, .player .title-bar button.button-balanced.icon-close, .player .button.button-balanced.icon-close, .player .button-balanced.icon-close, .player .title-bar button.button-balanced.icon-close, .player .title-bar button.button-balanced.button-icon, .player button.button-balanced.icon-close, .player .title-bar button.button-balanced, .player .title-bar button.button.button-balanced, .player button.button-balanced.icon-close, .player .title-bar button.button-balanced {
       border-color: transparent;
       background: none; }
-    .button.button-balanced.button-outline {
+    .button.button-balanced.button-outline, .player .button-balanced.button-outline.icon-close, .player .title-bar button.button-balanced.button-outline {
       border-color: #33cd5f;
       background: transparent;
       color: #33cd5f; }
-      .button.button-balanced.button-outline.active, .button.button-balanced.button-outline.activated {
+      .button.button-balanced.button-outline.active, .player .button-balanced.button-outline.active.icon-close, .player .title-bar button.button-balanced.button-outline.active, .button.button-balanced.button-outline.activated, .player .button-balanced.button-outline.activated.icon-close, .player .title-bar button.button-balanced.button-outline.activated {
         background-color: #33cd5f;
         box-shadow: none;
         color: #fff; }
-  .button.button-energized {
+  .button.button-energized, .player .button-energized.icon-close, .player .title-bar button.button-energized {
     border-color: #e6b400;
     background-color: #ffc900;
     color: #fff; }
-    .button.button-energized:hover {
+    .button.button-energized:hover, .player .button-energized.icon-close:hover, .player .title-bar button.button-energized:hover {
       color: #fff;
       text-decoration: none; }
-    .button.button-energized.active, .button.button-energized.activated {
+    .button.button-energized.active, .player .button-energized.active.icon-close, .player .title-bar button.button-energized.active, .button.button-energized.activated, .player .button-energized.activated.icon-close, .player .title-bar button.button-energized.activated {
       border-color: #e6b400;
       background-color: #e6b400;
       box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-    .button.button-energized.button-clear {
+    .button.button-energized.button-clear, .player .button-energized.button-clear.icon-close, .player .button-energized.icon-close, .player .title-bar button.button-energized.icon-close, .player .button.button-energized.icon-close, .player .button-energized.icon-close, .player .title-bar button.button-energized.icon-close, .player .title-bar button.button-energized.button-clear, .player button.button-energized.icon-close, .player .title-bar button.button-energized, .player .title-bar button.button.button-energized, .player button.button-energized.icon-close, .player .title-bar button.button-energized {
       border-color: transparent;
       background: none;
       box-shadow: none;
       color: #ffc900; }
-    .button.button-energized.button-icon {
+    .button.button-energized.button-icon, .player .button-energized.button-icon.icon-close, .player .button-energized.icon-close, .player .title-bar button.button-energized.icon-close, .player .button.button-energized.icon-close, .player .button-energized.icon-close, .player .title-bar button.button-energized.icon-close, .player .title-bar button.button-energized.button-icon, .player button.button-energized.icon-close, .player .title-bar button.button-energized, .player .title-bar button.button.button-energized, .player button.button-energized.icon-close, .player .title-bar button.button-energized {
       border-color: transparent;
       background: none; }
-    .button.button-energized.button-outline {
+    .button.button-energized.button-outline, .player .button-energized.button-outline.icon-close, .player .title-bar button.button-energized.button-outline {
       border-color: #ffc900;
       background: transparent;
       color: #ffc900; }
-      .button.button-energized.button-outline.active, .button.button-energized.button-outline.activated {
+      .button.button-energized.button-outline.active, .player .button-energized.button-outline.active.icon-close, .player .title-bar button.button-energized.button-outline.active, .button.button-energized.button-outline.activated, .player .button-energized.button-outline.activated.icon-close, .player .title-bar button.button-energized.button-outline.activated {
         background-color: #ffc900;
         box-shadow: none;
         color: #fff; }
-  .button.button-royal {
+  .button.button-royal, .player .button-royal.icon-close, .player .title-bar button.button-royal {
     border-color: #6b46e5;
     background-color: #886aea;
     color: #fff; }
-    .button.button-royal:hover {
+    .button.button-royal:hover, .player .button-royal.icon-close:hover, .player .title-bar button.button-royal:hover {
       color: #fff;
       text-decoration: none; }
-    .button.button-royal.active, .button.button-royal.activated {
+    .button.button-royal.active, .player .button-royal.active.icon-close, .player .title-bar button.button-royal.active, .button.button-royal.activated, .player .button-royal.activated.icon-close, .player .title-bar button.button-royal.activated {
       border-color: #6b46e5;
       background-color: #6b46e5;
       box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-    .button.button-royal.button-clear {
+    .button.button-royal.button-clear, .player .button-royal.button-clear.icon-close, .player .button-royal.icon-close, .player .title-bar button.button-royal.icon-close, .player .button.button-royal.icon-close, .player .button-royal.icon-close, .player .title-bar button.button-royal.icon-close, .player .title-bar button.button-royal.button-clear, .player button.button-royal.icon-close, .player .title-bar button.button-royal, .player .title-bar button.button.button-royal, .player button.button-royal.icon-close, .player .title-bar button.button-royal {
       border-color: transparent;
       background: none;
       box-shadow: none;
       color: #886aea; }
-    .button.button-royal.button-icon {
+    .button.button-royal.button-icon, .player .button-royal.button-icon.icon-close, .player .button-royal.icon-close, .player .title-bar button.button-royal.icon-close, .player .button.button-royal.icon-close, .player .button-royal.icon-close, .player .title-bar button.button-royal.icon-close, .player .title-bar button.button-royal.button-icon, .player button.button-royal.icon-close, .player .title-bar button.button-royal, .player .title-bar button.button.button-royal, .player button.button-royal.icon-close, .player .title-bar button.button-royal {
       border-color: transparent;
       background: none; }
-    .button.button-royal.button-outline {
+    .button.button-royal.button-outline, .player .button-royal.button-outline.icon-close, .player .title-bar button.button-royal.button-outline {
       border-color: #886aea;
       background: transparent;
       color: #886aea; }
-      .button.button-royal.button-outline.active, .button.button-royal.button-outline.activated {
+      .button.button-royal.button-outline.active, .player .button-royal.button-outline.active.icon-close, .player .title-bar button.button-royal.button-outline.active, .button.button-royal.button-outline.activated, .player .button-royal.button-outline.activated.icon-close, .player .title-bar button.button-royal.button-outline.activated {
         background-color: #886aea;
         box-shadow: none;
         color: #fff; }
-  .button.button-dark {
+  .button.button-dark, .player .button-dark.icon-close, .player .title-bar button.button-dark {
     border-color: #111;
     background-color: #444;
     color: #fff; }
-    .button.button-dark:hover {
+    .button.button-dark:hover, .player .button-dark.icon-close:hover, .player .title-bar button.button-dark:hover {
       color: #fff;
       text-decoration: none; }
-    .button.button-dark.active, .button.button-dark.activated {
+    .button.button-dark.active, .player .button-dark.active.icon-close, .player .title-bar button.button-dark.active, .button.button-dark.activated, .player .button-dark.activated.icon-close, .player .title-bar button.button-dark.activated {
       border-color: #000;
       background-color: #262626;
       box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-    .button.button-dark.button-clear {
+    .button.button-dark.button-clear, .player .button-dark.button-clear.icon-close, .player .button-dark.icon-close, .player .title-bar button.button-dark.icon-close, .player .button.button-dark.icon-close, .player .button-dark.icon-close, .player .title-bar button.button-dark.icon-close, .player .title-bar button.button-dark.button-clear, .player button.button-dark.icon-close, .player .title-bar button.button-dark, .player .title-bar button.button.button-dark, .player button.button-dark.icon-close, .player .title-bar button.button-dark {
       border-color: transparent;
       background: none;
       box-shadow: none;
       color: #444; }
-    .button.button-dark.button-icon {
+    .button.button-dark.button-icon, .player .button-dark.button-icon.icon-close, .player .button-dark.icon-close, .player .title-bar button.button-dark.icon-close, .player .button.button-dark.icon-close, .player .button-dark.icon-close, .player .title-bar button.button-dark.icon-close, .player .title-bar button.button-dark.button-icon, .player button.button-dark.icon-close, .player .title-bar button.button-dark, .player .title-bar button.button.button-dark, .player button.button-dark.icon-close, .player .title-bar button.button-dark {
       border-color: transparent;
       background: none; }
-    .button.button-dark.button-outline {
+    .button.button-dark.button-outline, .player .button-dark.button-outline.icon-close, .player .title-bar button.button-dark.button-outline {
       border-color: #444;
       background: transparent;
       color: #444; }
-      .button.button-dark.button-outline.active, .button.button-dark.button-outline.activated {
+      .button.button-dark.button-outline.active, .player .button-dark.button-outline.active.icon-close, .player .title-bar button.button-dark.button-outline.active, .button.button-dark.button-outline.activated, .player .button-dark.button-outline.activated.icon-close, .player .title-bar button.button-dark.button-outline.activated {
         background-color: #444;
         box-shadow: none;
         color: #fff; }
@@ -6628,7 +6628,7 @@ progress {
   min-height: 30px;
   font-size: 12px;
   line-height: 26px; }
-  .button-small .icon:before, .button-small.icon:before, .button-small.icon-left:before, .button-small.icon-right:before {
+  .button-small .icon:before, .button-small .player .icon-close:before, .player .button-small .icon-close:before, .button-small .player .title-bar button:before, .player .title-bar .button-small button:before, .button-small.icon:before, .player .button-small.icon-close:before, .player .title-bar button.button-small:before, .button-small.icon-left:before, .button-small.icon-right:before {
     font-size: 16px;
     line-height: 19px;
     margin-top: 3px; }
@@ -6639,27 +6639,27 @@ progress {
   min-height: 59px;
   font-size: 20px;
   line-height: 53px; }
-  .button-large .icon:before, .button-large.icon:before, .button-large.icon-left:before, .button-large.icon-right:before {
+  .button-large .icon:before, .button-large .player .icon-close:before, .player .button-large .icon-close:before, .button-large .player .title-bar button:before, .player .title-bar .button-large button:before, .button-large.icon:before, .player .button-large.icon-close:before, .player .title-bar button.button-large:before, .button-large.icon-left:before, .button-large.icon-right:before {
     padding-bottom: 2px;
     font-size: 32px;
     line-height: 51px; }
 
-.button-icon {
+.button-icon, .player .icon-close, .player .title-bar button {
   -webkit-transition: opacity 0.1s;
   transition: opacity 0.1s;
   padding: 0 6px;
   min-width: initial;
   border-color: transparent;
   background: none; }
-  .button-icon.button.active, .button-icon.button.activated {
+  .button-icon.button.active, .player .button-icon.active.icon-close, .player .active.icon-close, .player .title-bar button.active.icon-close, .player .button.active.icon-close, .player .active.icon-close, .player .title-bar button.active.icon-close, .player .title-bar button.button-icon.active, .player button.active.icon-close, .player .title-bar button.active, .player .title-bar button.button.active, .player button.active.icon-close, .player .title-bar button.active, .button-icon.button.activated, .player .button-icon.activated.icon-close, .player .activated.icon-close, .player .title-bar button.activated.icon-close, .player .button.activated.icon-close, .player .activated.icon-close, .player .title-bar button.activated.icon-close, .player .title-bar button.button-icon.activated, .player button.activated.icon-close, .player .title-bar button.activated, .player .title-bar button.button.activated, .player button.activated.icon-close, .player .title-bar button.activated {
     border-color: transparent;
     background: none;
     box-shadow: none;
     opacity: 0.3; }
-  .button-icon .icon:before, .button-icon.icon:before {
+  .button-icon .icon:before, .button-icon .player .icon-close, .player .button-icon .icon-close, .button-icon .player .title-bar button, .player .title-bar .button-icon button, .button-icon .player .icon-close:before, .player .button-icon .icon-close:before, .button-icon .player .title-bar button:before, .player .title-bar .button-icon button:before, .button-icon.icon:before, .player .icon.icon-close:before, .player .icon-close:before, .player .title-bar button.icon-close:before, .player .button-icon.icon-close:before, .player .icon-close:before, .player .title-bar button.icon-close:before, .player .title-bar button.icon:before, .player button.icon-close:before, .player .title-bar button:before, .player .title-bar button.button-icon:before, .player button.icon-close:before, .player .title-bar button:before {
     font-size: 32px; }
 
-.button-clear {
+.button-clear, .player .icon-close, .player .title-bar button {
   -webkit-transition: opacity 0.1s;
   transition: opacity 0.1s;
   padding: 0 6px;
@@ -6667,15 +6667,15 @@ progress {
   border-color: transparent;
   background: none;
   box-shadow: none; }
-  .button-clear.button-clear {
+  .button-clear.button-clear, .player .icon-close, .player .title-bar button {
     border-color: transparent;
     background: none;
     box-shadow: none;
     color: #b2b2b2; }
-  .button-clear.button-icon {
+  .button-clear.button-icon, .player .button-icon.icon-close, .player .icon-close, .player .title-bar button.icon-close, .player .button-clear.icon-close, .player .icon-close, .player .title-bar button.icon-close, .player .title-bar button.button-icon, .player button.icon-close, .player .title-bar button, .player .title-bar button.button-clear, .player button.icon-close, .player .title-bar button {
     border-color: transparent;
     background: none; }
-  .button-clear.active, .button-clear.activated {
+  .button-clear.active, .player .active.icon-close, .player .title-bar button.active, .button-clear.activated, .player .activated.icon-close, .player .title-bar button.activated {
     opacity: 0.3; }
 
 .button-outline {
@@ -6692,7 +6692,7 @@ progress {
       box-shadow: none;
       color: #fff; }
 
-.padding > .button.button-block:first-child {
+.padding > .button.button-block:first-child, .padding > .player .button-block.icon-close:first-child, .player .padding > .button-block.icon-close:first-child, .padding > .player .title-bar button.button-block:first-child, .player .title-bar .padding > button.button-block:first-child {
   margin-top: 0; }
 
 .button-block {
@@ -6701,7 +6701,7 @@ progress {
   .button-block:after {
     clear: both; }
 
-.button-full, .button-full > .button {
+.button-full, .button-full > .button, .button-full > .player .icon-close, .player .button-full > .icon-close, .button-full > .player .title-bar button, .player .title-bar .button-full > button {
   display: block;
   margin-right: 0;
   margin-left: 0;
@@ -6709,15 +6709,15 @@ progress {
   border-left-width: 0;
   border-radius: 0; }
 
-button.button-block, button.button-full, .button-full > button.button, input.button.button-block {
+button.button-block, button.button-full, .button-full > button.button, .button-full > .player button.icon-close, .player .button-full > button.icon-close, .button-full > .player .title-bar button, .player .title-bar .button-full > button, input.button.button-block, .player input.button-block.icon-close {
   width: 100%; }
 
-a.button {
+a.button, .player a.icon-close {
   text-decoration: none; }
-  a.button .icon:before, a.button.icon:before, a.button.icon-left:before, a.button.icon-right:before {
+  a.button .icon:before, a.button .player a.icon-close, .player a.button a.icon-close, a.button .player .icon-close:before, .player a.button .icon-close:before, a.button .player .title-bar button:before, .player .title-bar a.button button:before, a.button.icon:before, .player a.icon.icon-close:before, .player a.icon-close:before, .player a.button.icon-close:before, .player a.icon-close:before, a.button.icon-left:before, .player a.icon-left.icon-close:before, a.button.icon-right:before, .player a.icon-right.icon-close:before {
     margin-top: 2px; }
 
-.button.disabled, .button[disabled] {
+.button.disabled, .player .disabled.icon-close, .player .title-bar button.disabled, .button[disabled], .player [disabled].icon-close, .player .title-bar button[disabled] {
   opacity: 0.4;
   cursor: default !important;
   pointer-events: none; }
@@ -6750,12 +6750,12 @@ a.button {
       line-height: 0; }
     .button-bar.button-bar-inline:after {
       clear: both; }
-    .button-bar.button-bar-inline > .button {
+    .button-bar.button-bar-inline > .button, .button-bar.button-bar-inline > .player .icon-close, .player .button-bar.button-bar-inline > .icon-close, .button-bar.button-bar-inline > .player .title-bar button, .player .title-bar .button-bar.button-bar-inline > button {
       width: auto;
       display: inline-block;
       float: left; }
 
-.button-bar > .button {
+.button-bar > .button, .button-bar > .player .icon-close, .player .button-bar > .icon-close, .button-bar > .player .title-bar button, .player .title-bar .button-bar > button {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -moz-box-flex: 1;
@@ -6771,11 +6771,11 @@ a.button {
   text-align: center;
   text-overflow: ellipsis;
   white-space: nowrap; }
-  .button-bar > .button:before, .button-bar > .button .icon:before {
+  .button-bar > .button:before, .button-bar > .player .icon-close:before, .player .button-bar > .icon-close:before, .button-bar > .player .title-bar button:before, .player .title-bar .button-bar > button:before, .button-bar > .button .icon:before, .button-bar > .button .player .icon-close, .player .button-bar > .button .icon-close, .button-bar > .button .player .title-bar button, .player .title-bar .button-bar > .button button, .button-bar > .button .player .icon-close:before, .player .button-bar > .button .icon-close:before, .button-bar > .button .player .title-bar button:before, .player .title-bar .button-bar > .button button:before {
     line-height: 44px; }
-  .button-bar > .button:first-child {
+  .button-bar > .button:first-child, .button-bar > .player .icon-close:first-child, .player .button-bar > .icon-close:first-child, .button-bar > .player .title-bar button:first-child, .player .title-bar .button-bar > button:first-child {
     border-radius: 7px 0px 0px 7px; }
-  .button-bar > .button:last-child {
+  .button-bar > .button:last-child, .button-bar > .player .icon-close:last-child, .player .button-bar > .icon-close:last-child, .button-bar > .player .title-bar button:last-child, .player .title-bar .button-bar > button:last-child {
     border-right-width: 1px;
     border-radius: 0px 7px 7px 0px; }
 
@@ -7438,14 +7438,14 @@ a.button {
       border: none;
       line-height: 18px;
       font-size: 18px; }
-  .login form .button.button-light.button-clear, .register form .button.button-light.button-clear, .forgotPassword form .button.button-light.button-clear {
+  .login form .button.button-light.button-clear, .login form .player .button-light.button-clear.icon-close, .player .login form .button-light.button-clear.icon-close, .login form .player .button-light.icon-close, .player .login form .button-light.icon-close, .login form .player .title-bar button.button-light.icon-close, .player .title-bar .login form button.button-light.icon-close, .login form .player .button.button-light.icon-close, .player .login form .button.button-light.icon-close, .login form .player .button-light.icon-close, .player .login form .button-light.icon-close, .login form .player .title-bar button.button-light.icon-close, .player .title-bar .login form button.button-light.icon-close, .login form .player .title-bar button.button-light.button-clear, .player .title-bar .login form button.button-light.button-clear, .login form .player button.button-light.icon-close, .player .login form button.button-light.icon-close, .login form .player .title-bar button.button-light, .player .title-bar .login form button.button-light, .login form .player .title-bar button.button.button-light, .player .title-bar .login form button.button.button-light, .login form .player button.button-light.icon-close, .player .login form button.button-light.icon-close, .login form .player .title-bar button.button-light, .player .title-bar .login form button.button-light, .register form .button.button-light.button-clear, .register form .player .button-light.button-clear.icon-close, .player .register form .button-light.button-clear.icon-close, .register form .player .button-light.icon-close, .player .register form .button-light.icon-close, .register form .player .title-bar button.button-light.icon-close, .player .title-bar .register form button.button-light.icon-close, .register form .player .button.button-light.icon-close, .player .register form .button.button-light.icon-close, .register form .player .button-light.icon-close, .player .register form .button-light.icon-close, .register form .player .title-bar button.button-light.icon-close, .player .title-bar .register form button.button-light.icon-close, .register form .player .title-bar button.button-light.button-clear, .player .title-bar .register form button.button-light.button-clear, .register form .player button.button-light.icon-close, .player .register form button.button-light.icon-close, .register form .player .title-bar button.button-light, .player .title-bar .register form button.button-light, .register form .player .title-bar button.button.button-light, .player .title-bar .register form button.button.button-light, .register form .player button.button-light.icon-close, .player .register form button.button-light.icon-close, .register form .player .title-bar button.button-light, .player .title-bar .register form button.button-light, .forgotPassword form .button.button-light.button-clear, .forgotPassword form .player .button-light.button-clear.icon-close, .player .forgotPassword form .button-light.button-clear.icon-close, .forgotPassword form .player .button-light.icon-close, .player .forgotPassword form .button-light.icon-close, .forgotPassword form .player .title-bar button.button-light.icon-close, .player .title-bar .forgotPassword form button.button-light.icon-close, .forgotPassword form .player .button.button-light.icon-close, .player .forgotPassword form .button.button-light.icon-close, .forgotPassword form .player .button-light.icon-close, .player .forgotPassword form .button-light.icon-close, .forgotPassword form .player .title-bar button.button-light.icon-close, .player .title-bar .forgotPassword form button.button-light.icon-close, .forgotPassword form .player .title-bar button.button-light.button-clear, .player .title-bar .forgotPassword form button.button-light.button-clear, .forgotPassword form .player button.button-light.icon-close, .player .forgotPassword form button.button-light.icon-close, .forgotPassword form .player .title-bar button.button-light, .player .title-bar .forgotPassword form button.button-light, .forgotPassword form .player .title-bar button.button.button-light, .player .title-bar .forgotPassword form button.button.button-light, .forgotPassword form .player button.button-light.icon-close, .player .forgotPassword form button.button-light.icon-close, .forgotPassword form .player .title-bar button.button-light, .player .title-bar .forgotPassword form button.button-light {
     font-size: 16px;
     color: #ffffff;
     margin-bottom: 5px; }
-  .login form .button.button-light.button-outline, .register form .button.button-light.button-outline, .forgotPassword form .button.button-light.button-outline {
+  .login form .button.button-light.button-outline, .login form .player .button-light.button-outline.icon-close, .player .login form .button-light.button-outline.icon-close, .login form .player .title-bar button.button-light.button-outline, .player .title-bar .login form button.button-light.button-outline, .register form .button.button-light.button-outline, .register form .player .button-light.button-outline.icon-close, .player .register form .button-light.button-outline.icon-close, .register form .player .title-bar button.button-light.button-outline, .player .title-bar .register form button.button-light.button-outline, .forgotPassword form .button.button-light.button-outline, .forgotPassword form .player .button-light.button-outline.icon-close, .player .forgotPassword form .button-light.button-outline.icon-close, .forgotPassword form .player .title-bar button.button-light.button-outline, .player .title-bar .forgotPassword form button.button-light.button-outline {
     color: #ffffff;
     border-color: rgba(255, 255, 255, 0.3); }
-    .login form .button.button-light.button-outline.activated, .register form .button.button-light.button-outline.activated, .forgotPassword form .button.button-light.button-outline.activated {
+    .login form .button.button-light.button-outline.activated, .login form .player .button-light.button-outline.activated.icon-close, .player .login form .button-light.button-outline.activated.icon-close, .login form .player .title-bar button.button-light.button-outline.activated, .player .title-bar .login form button.button-light.button-outline.activated, .register form .button.button-light.button-outline.activated, .register form .player .button-light.button-outline.activated.icon-close, .player .register form .button-light.button-outline.activated.icon-close, .register form .player .title-bar button.button-light.button-outline.activated, .player .title-bar .register form button.button-light.button-outline.activated, .forgotPassword form .button.button-light.button-outline.activated, .forgotPassword form .player .button-light.button-outline.activated.icon-close, .player .forgotPassword form .button-light.button-outline.activated.icon-close, .forgotPassword form .player .title-bar button.button-light.button-outline.activated, .player .title-bar .forgotPassword form button.button-light.button-outline.activated {
       background-color: rgba(255, 255, 255, 0.3); }
 
 .register .list {
@@ -7506,7 +7506,7 @@ a.button {
   border: none;
   color: #ffffff; }
 
-.bar.bar-stable .title, .bar-stable .button.button-clear {
+.bar.bar-stable .title, .bar-stable .button.button-clear, .bar-stable .player .button-clear.icon-close, .player .bar-stable .button-clear.icon-close, .bar-stable .player .icon-close, .player .bar-stable .icon-close, .bar-stable .player .title-bar button.icon-close, .player .title-bar .bar-stable button.icon-close, .bar-stable .player .button.icon-close, .player .bar-stable .button.icon-close, .bar-stable .player .icon-close, .player .bar-stable .icon-close, .bar-stable .player .title-bar button.icon-close, .player .title-bar .bar-stable button.icon-close, .bar-stable .player .title-bar button.button-clear, .player .title-bar .bar-stable button.button-clear, .bar-stable .player button.icon-close, .player .bar-stable button.icon-close, .bar-stable .player .title-bar button, .player .title-bar .bar-stable button, .bar-stable .player .title-bar button.button, .player .title-bar .bar-stable button.button, .bar-stable .player button.icon-close, .player .bar-stable button.icon-close, .bar-stable .player .title-bar button, .player .title-bar .bar-stable button {
   color: #ffffff; }
 
 .bar.bar-stable .title {
@@ -7516,7 +7516,7 @@ a.button {
 .bar.bar-stable.bar-subheader {
   border-top: 1px solid #5f5f5f !important;
   height: 54px; }
-  .bar.bar-stable.bar-subheader .button-bar .button.active {
+  .bar.bar-stable.bar-subheader .button-bar .button.active, .bar.bar-stable.bar-subheader .button-bar .player .active.icon-close, .player .bar.bar-stable.bar-subheader .button-bar .active.icon-close, .bar.bar-stable.bar-subheader .button-bar .player .title-bar button.active, .player .title-bar .bar.bar-stable.bar-subheader .button-bar button.active {
     border-bottom: 5px solid #4886bf;
     opacity: 1;
     border-radius: 0; }
@@ -7542,7 +7542,7 @@ a.button {
   font-size: 14px;
   text-transform: uppercase; }
 
-.purchase .item .icon:first-child:before {
+.purchase .item .icon:first-child:before, .purchase .item .player .icon-close:first-child:before, .player .purchase .item .icon-close:first-child:before, .purchase .item .player .title-bar button:first-child:before, .player .title-bar .purchase .item button:first-child:before {
   border: 1px solid #3c3b4c;
   border-radius: 5px;
   padding: 4px 10px;
@@ -7565,6 +7565,139 @@ a.button {
 .productView .scroll-content .item {
   text-transform: uppercase; }
 
+.player .head {
+  padding-top: 10px;
+  font-size: 18px; }
+  .player .head small {
+    display: block;
+    color: #dddddd;
+    font-weight: normal;
+    font-size: 14px;
+    margin-bottom: 5px; }
+.player .icon-close {
+  color: #ffffff;
+  margin: 10px 0 0 10px;
+  position: absolute;
+  top: 0;
+  left: 0; }
+.player .album-image img {
+  max-width: 330px;
+  max-height: 330px;
+  min-height: 250px;
+  min-width: 250px;
+  width: 100%;
+  padding: 0 20px 0 20px; }
+.player .title-bar {
+  position: relative; }
+  .player .title-bar .title {
+    position: relative;
+    padding-top: 8px;
+    text-align: center;
+    /* font-size: 22px; */
+    margin: 0 60px;
+    overflow: hidden; }
+    .player .title-bar .title h3 {
+      white-space: nowrap;
+      padding-left: 10px;
+      padding-right: 10px;
+      overflow: hidden;
+      transition-timing-function: linear;
+      -webkit-transition-timing-function: linear; }
+    .player .title-bar .title:after {
+      content: '';
+      box-shadow: inset 30px 0 30px -20px #000, inset -30px 0 30px -20px #000;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0; }
+  .player .title-bar button {
+    position: absolute;
+    top: 0;
+    margin: 0 10px 0 10px; }
+    .player .title-bar button:first-child {
+      left: 0; }
+    .player .title-bar button:last-child {
+      right: 0; }
+.player .progress-container {
+  position: relative; }
+  .player .progress-container .progress-bar {
+    position: relative;
+    padding-top: 10px;
+    margin: 0 60px; }
+    .player .progress-container .progress-bar > * {
+      position: absolute;
+      width: 100%;
+      height: 2px; }
+    .player .progress-container .progress-bar .progress {
+      background-color: #888; }
+    .player .progress-container .progress-bar .current {
+      width: 0;
+      background-color: #648c0a; }
+  .player .progress-container .time {
+    position: absolute;
+    top: 0;
+    color: #ddd;
+    margin: 0 10px 0 10px; }
+    .player .progress-container .time:first-child {
+      left: 0; }
+    .player .progress-container .time:last-child {
+      right: 0; }
+.player .controls-container {
+  position: relative;
+  margin-top: 20px; }
+  .player .controls-container > div {
+    position: absolute;
+    width: 40px;
+    top: 0;
+    margin: 0 10px 0 10px; }
+    .player .controls-container > div:first-child {
+      left: 0; }
+    .player .controls-container > div:last-child {
+      right: 0; }
+      .player .controls-container > div:last-child .icon, .player .controls-container > div:last-child .player .icon-close, .player .player .controls-container > div:last-child .icon-close, .player .controls-container > div:last-child .player .title-bar button, .player .title-bar .player .controls-container > div:last-child button {
+        margin-top: 20px;
+        font-size: 26px; }
+    .player .controls-container > div .icon, .player .controls-container > div .player .icon-close, .player .player .controls-container > div .icon-close, .player .controls-container > div .player .title-bar button, .player .title-bar .player .controls-container > div button {
+      display: block;
+      padding: 10px;
+      font-size: 24px;
+      color: #aaa; }
+      .player .controls-container > div .icon.active, .player .controls-container > div .player .active.icon-close, .player .player .controls-container > div .active.icon-close, .player .controls-container > div .player .title-bar button.active, .player .title-bar .player .controls-container > div button.active {
+        color: #648c0a; }
+  .player .controls-container > .big {
+    margin: auto;
+    width: 205px;
+    position: relative; }
+    .player .controls-container > .big .icon, .player .controls-container > .big .player .icon-close, .player .player .controls-container > .big .icon-close, .player .controls-container > .big .player .title-bar button, .player .title-bar .player .controls-container > .big button {
+      display: inline-block;
+      font-size: 40px;
+      color: #ffffff;
+      padding-left: 15px;
+      padding-right: 15px; }
+      .player .controls-container > .big .icon.disabled, .player .controls-container > .big .player .disabled.icon-close, .player .player .controls-container > .big .disabled.icon-close, .player .controls-container > .big .player .title-bar button.disabled, .player .title-bar .player .controls-container > .big button.disabled {
+        color: #aaa; }
+    .player .controls-container > .big .ion-ios-play-circle:before {
+      font-size: 56px !important;
+      border: 2px solid;
+      border-radius: 100%;
+      top: 5px;
+      position: relative;
+      height: 56px;
+      width: 56px;
+      line-height: 50px !important;
+      padding-left: 16px; }
+    .player .controls-container > .big .ion-ios-pause-circle:before {
+      font-size: 52px !important;
+      border: 2px solid;
+      border-radius: 100%;
+      top: 5px;
+      position: relative;
+      height: 56px;
+      width: 56px;
+      padding-top: 1px;
+      padding-left: 13px; }
+
 .custom-item-style, .productView .scroll-content .item, .list .item {
   border-color: #1b1a22;
   background-color: transparent;
@@ -7576,11 +7709,20 @@ h1, h2, h3, h4, h5, h6, p {
 .text-mute {
   color: #aaaaaa; }
 
-.uppercase {
+.uppercase, .player .head small {
   text-transform: uppercase; }
 
 .lowercase {
   text-transform: lowercase; }
+
+.ion-ios-more-circle:before {
+  font-size: 27px !important;
+  border: 1px solid;
+  border-radius: 100%;
+  height: 28px;
+  width: 28px;
+  line-height: 25px !important;
+  margin-top: 6px; }
 
 .no-padding {
   padding: 0; }
@@ -7591,7 +7733,7 @@ h1, h2, h3, h4, h5, h6, p {
     border-right: 0; }
 
 /*background*/
-body > .view-container > .pane {
+body > .view-container > .pane, .player {
   background-image: url("../img/back.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -7757,27 +7899,27 @@ body > .view-container > .pane {
     border: 0; }
   .list .text-small {
     font-size: 15px; }
-    .list .text-small.icon {
+    .list .text-small.icon, .list .player .text-small.icon-close, .player .list .text-small.icon-close, .list .player .title-bar button.text-small, .player .title-bar .list button.text-small {
       font-size: 32px; }
 
-.icon.rotate:before {
+.icon.rotate:before, .player .rotate.icon-close:before, .player .title-bar button.rotate:before {
   transform: rotate(180deg) scaleY(-1); }
 
 .action-sheet > .action-sheet-group {
   background-color: #000000;
   border: 1px solid #333; }
-  .action-sheet > .action-sheet-group > .button {
+  .action-sheet > .action-sheet-group > .button, .action-sheet > .action-sheet-group > .player .icon-close, .player .action-sheet > .action-sheet-group > .icon-close, .action-sheet > .action-sheet-group > .player .title-bar button, .player .title-bar .action-sheet > .action-sheet-group > button {
     color: #fff;
     font-size: 16px;
     border-color: #333; }
-    .action-sheet > .action-sheet-group > .button.activated, .action-sheet > .action-sheet-group > .button.active {
+    .action-sheet > .action-sheet-group > .button.activated, .action-sheet > .action-sheet-group > .player .activated.icon-close, .player .action-sheet > .action-sheet-group > .activated.icon-close, .action-sheet > .action-sheet-group > .player .title-bar button.activated, .player .title-bar .action-sheet > .action-sheet-group > button.activated, .action-sheet > .action-sheet-group > .button.active, .action-sheet > .action-sheet-group > .player .active.icon-close, .player .action-sheet > .action-sheet-group > .active.icon-close, .action-sheet > .action-sheet-group > .player .title-bar button.active, .player .title-bar .action-sheet > .action-sheet-group > button.active {
       background-color: rgba(255, 255, 255, 0.2); }
-    .action-sheet > .action-sheet-group > .button:first-child {
+    .action-sheet > .action-sheet-group > .button:first-child, .action-sheet > .action-sheet-group > .player .icon-close:first-child, .player .action-sheet > .action-sheet-group > .icon-close:first-child, .action-sheet > .action-sheet-group > .player .title-bar button:first-child, .player .title-bar .action-sheet > .action-sheet-group > button:first-child {
       border-top: 0; }
-  .action-sheet > .action-sheet-group:first-child > .button {
+  .action-sheet > .action-sheet-group:first-child > .button, .action-sheet > .action-sheet-group:first-child > .player .icon-close, .player .action-sheet > .action-sheet-group:first-child > .icon-close, .action-sheet > .action-sheet-group:first-child > .player .title-bar button, .player .title-bar .action-sheet > .action-sheet-group:first-child > button {
     text-align: left;
     padding-left: 10px; }
-    .action-sheet > .action-sheet-group:first-child > .button .icon {
+    .action-sheet > .action-sheet-group:first-child > .button .icon, .action-sheet > .action-sheet-group:first-child > .button .player .icon-close, .player .action-sheet > .action-sheet-group:first-child > .button .icon-close, .action-sheet > .action-sheet-group:first-child > .button .player .title-bar button, .player .title-bar .action-sheet > .action-sheet-group:first-child > .button button, .action-sheet > .action-sheet-group:first-child > .button .player .icon-close, .player .action-sheet > .action-sheet-group:first-child > .button .icon-close, .action-sheet > .action-sheet-group:first-child > .button .player .title-bar button, .player .title-bar .action-sheet > .action-sheet-group:first-child > .button button {
       margin-right: 5px; }
 
 .bar-footer {
@@ -7798,9 +7940,9 @@ body > .view-container > .pane {
       width: auto; }
     .bar-footer .item h2, .bar-footer .item p {
       color: #FFFFFF; }
-    .bar-footer .item .icon:last-child {
+    .bar-footer .item .icon:last-child, .bar-footer .item .player .icon-close:last-child, .player .bar-footer .item .icon-close:last-child, .bar-footer .item .player .title-bar button:last-child, .player .title-bar .bar-footer .item button:last-child {
       margin-top: -20px; }
-      .bar-footer .item .icon:last-child:before {
+      .bar-footer .item .icon:last-child:before, .bar-footer .item .player .icon-close:last-child:before, .player .bar-footer .item .icon-close:last-child:before, .bar-footer .item .player .title-bar button:last-child:before, .player .title-bar .bar-footer .item button:last-child:before {
         color: #dddddd;
         border: 1px solid #dddddd;
         border-radius: 5px;
@@ -7809,3 +7951,6 @@ body > .view-container > .pane {
 
 .has-footer {
   bottom: 64px; }
+
+audio, .mejs-container, .mejs-offscreen {
+  display: none !important; }
