@@ -143,6 +143,35 @@ angular.module('App.controllers')
             });
         };
     })
+    .controller('playerCtrl', function($scope, Player){
+        $scope.play=Player.play.bind(Player, function () {
+            $scope.isPlaying=true;
+            $scope.$$phase||$scope.$digest();
+        });
+        $scope.pause=Player.pause.bind(Player, function () {
+            $scope.isPlaying=false;
+            $scope.$$phase||$scope.$digest();
+        });
+        Player.timeUpdate(function () {
+            $scope.currentTime=Player.currentTimeC;
+            $scope.duration=Player.durationC;
+            $scope.progress=Player.currentTime/Player.duration*100;
+            $scope.$$phase||$scope.$digest();
+        });
+        $scope.mute=Player.mute;
+        $scope.isNext=Player.isNext;
+        $scope.isPrevious=Player.isPrevious;
+        $scope.next=Player.next;
+        $scope.previous=Player.previous;
+        $scope.loop = function (v) {
+            if(v===undefined) return Player.loop;
+            Player.loop=!Player.loop
+        };
+        $scope.shuffle = function (v) {
+            if(v===undefined) return Player.shuffle;
+            Player.shuffle=!Player.shuffle;
+        };
+    })
     .controller('browseCtrl', function ($scope, $state, $stateParams, Product, $ionicSlideBoxDelegate) {
         $scope.sliderItems = [];
         $scope.series = [];

@@ -1,0 +1,185 @@
+.player{
+  .head{
+    @extend .text-center;
+    padding-top: 10px;
+    small{
+      @extend .uppercase;
+      display: block;
+      color: #dddddd;
+      font-weight: normal;
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+    font-size: 18px;
+  }
+  .icon-close {
+    @extend .button;
+    @extend .button-clear;
+    @extend .button-icon;
+    @extend .icon;
+    @extend .ion-android-close;
+    color: #ffffff;
+    margin: 10px 0 0 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .album-image{
+    @extend .text-center;
+    img {
+      max-width: 330px;
+      max-height: 330px;
+      min-height: 250px;
+      min-width: 250px;
+      width: 100%;
+      padding: 0 20px 0 20px;
+    }
+  }
+  .title-bar{
+    position: relative;
+    .title{
+      position: relative;
+      padding-top: 8px;
+      text-align: center;
+      /* font-size: 22px; */
+      margin: 0 60px;
+      overflow: hidden;
+      h3{
+        white-space: nowrap;
+        padding-left: 10px;
+        padding-right: 10px;
+        overflow: hidden;
+        transition-timing-function: linear;
+        -webkit-transition-timing-function: linear;
+      }
+      &:after{
+        content: '';
+        box-shadow: inset 30px 0 30px -20px #000, inset -30px 0 30px -20px #000;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
+    }
+    button{
+      position: absolute;
+      top: 0;
+      @extend .button;
+      @extend .button-clear;
+      @extend .button-icon;
+      @extend .icon;
+      margin: 0 10px 0 10px;
+      &:first-child{
+        left: 0;
+      }
+      &:last-child{
+        right: 0;
+      }
+    }
+  }
+  .progress-container{
+    position: relative;
+    .progress-bar{
+      position: relative;
+      padding-top: 10px;
+      margin: 0 60px;
+      & > *{
+        position: absolute;
+        width: 100%;
+        height: 2px;
+      }
+      .progress{
+        background-color: #888;
+      }
+      .current{
+        width: 0;
+        background-color: rgb(100,140,10);
+      }
+    }
+    .time{
+      position: absolute;
+      top: 0;
+      color: #ddd;
+      margin: 0 10px 0 10px;
+      &:first-child{
+        left: 0;
+      }
+      &:last-child{
+        right: 0;
+      }
+    }
+  }
+  .controls-container{
+    position: relative;
+    margin-top: 20px;
+    &>div{
+      position: absolute;
+      width: 40px;
+      top: 0;
+      margin: 0 10px 0 10px;
+      &:first-child{
+        left: 0;
+      }
+      &:last-child{
+        right: 0;
+        .icon{
+          margin-top: 20px;
+          font-size: 26px;
+        }
+      }
+      .icon{
+        display: block;
+        padding: 10px;
+        font-size: 24px;
+        color: #aaa;
+        &.active{
+          color: rgb(100,140,10);
+        }
+      }
+    }
+    &>.big{
+      margin: auto;
+      width: 205px;
+      position: relative;
+      .icon{
+        display: inline-block;
+        font-size: 40px;
+        color: #ffffff;
+        padding-left: 15px;
+        padding-right: 15px;
+        &.disabled{
+          color: #aaa;
+        }
+      }
+      .ion-ios-play-circle{
+        @extend .ion-ios-play;
+        &:before{
+          font-size: 56px !important;
+          border: 2px solid;
+          border-radius: 100%;
+          top: 5px;
+          position: relative;
+          height: 56px;
+          width: 56px;
+          line-height: 50px !important;
+          padding-left: 16px;
+        }
+      }
+      .ion-ios-pause-circle{
+        @extend .ion-ios-pause;
+        &:before{
+          font-size: 52px !important;
+          border: 2px solid;
+          border-radius: 100%;
+          top: 5px;
+          position: relative;
+          height: 56px;
+          width: 56px;
+          padding-top: 1px;
+          padding-left: 13px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,41 @@
+<ion-view hide-nav-bar="true" class="player">
+    <ion-content has-bouncing="false">
+        <h2 class="head">
+            <small class="">Playing From Artist</small>
+            William McDowell
+        </h2>
+        <button class="icon-close" ng-click="$ionicGoBack($event)"></button>
+        <div class="album-image">
+            <img src="img/cover.jpg" alt=""/>
+        </div>
+        <div class="title-bar">
+            <button class="ion-ios-plus-outline"></button>
+            <div class="title"><h3 auto-scroll> &nbsp;Here I Am To Worship William McDowell</h3></div>
+            <span></span>
+            <button class="ion-ios-more-circle"></button>
+        </div>
+        <div class="progress-container">
+            <span class="time">{{currentTime}}</span>
+            <div class="progress-bar">
+                <div class="progress"></div>
+                <div class="current" ng-style="{'width': progress+'%'}"></div>
+            </div>
+            <span class="time">{{duration}}</span>
+        </div>
+        <div class="controls-container">
+            <div>
+                <i class="icon ion-ios-shuffle" ng-class="{'active':shuffle()}" ng-click="shuffle(1)"></i>
+                <i class="icon ion-ios-infinite-outline" ng-class="{'active':loop()}" ng-click="loop(1)"></i>
+            </div>
+            <div class="big">
+                <i class="icon ion-ios-skipbackward" ng-class="{'disabled':!isPrevious()}" ng-click="previous()"></i>
+                <i ng-show="!isPlaying" class="icon ion-ios-play-circle" ng-click="play()"></i>
+                <i ng-show="isPlaying" class="icon ion-ios-pause-circle" ng-click="pause()"></i>
+                <i class="icon ion-ios-skipforward" ng-class="{'disabled':!isNext()}" ng-click="next()"></i>
+            </div>
+            <div>
+                <i class="icon" ng-class="{'ion-android-volume-mute':mute(),'ion-volume-high':!mute()}" ng-click="mute(1)"></i>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

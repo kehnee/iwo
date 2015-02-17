@@ -3,7 +3,7 @@ angular.module('App', ['ionic', 'config', 'App.controllers', 'App.services'])
         ConfigProvider
             .authState('app.browse')
             .unAuthState('login')
-            .loginService('isLogin');
+            //.loginService('isLogin');
         $httpProvider.defaults.headers.common['Content-Type']='application/json';
 
         $stateProvider
@@ -115,6 +115,16 @@ angular.module('App', ['ionic', 'config', 'App.controllers', 'App.services'])
                 },
                 authenticate: true
             })
+            .state('app.player', {
+                url: "/player",
+                views: {
+                    'menuContent': {
+                        controller: "playerCtrl",
+                        templateUrl: "templates/player.html"
+                    }
+                },
+                authenticate: true
+            })
         ;
         // if none of the above states are matched, use this as the fallback
         $urlRouterProvider.otherwise('/browse');
@@ -139,5 +149,28 @@ angular.module('App', ['ionic', 'config', 'App.controllers', 'App.services'])
             }
         });
     })
+    .directive('autoScroll', function(){
+        return function(scope, elm){
+            !function(elm){
+                var fn=arguments.callee, e=elm[0], width= e.scrollWidth, s=60;
+                width=width-e.offsetWidth;
+                s=width/s;
+                elm.css({
+                    'transition-duration': s+'s',
+                    'margin-left': -width+'px'
+                });
+                setTimeout(function () {
+                    elm.css({
+                        'transition-duration': '0s',
+                        'margin-left': '0px'
+                    });
+                },s*1000);
+                setTimeout(function () {
+                    fn(elm)
+                },s*1000+100);
+            }(elm);
+        }
+    })
+;
 angular.module('App.controllers', []);
 angular.module('App.services', []);
