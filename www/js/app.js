@@ -3,7 +3,7 @@ angular.module('App', ['ionic', 'config', 'App.controllers', 'App.services'])
         ConfigProvider
             .authState('app.browse')
             .unAuthState('login')
-            //.loginService('isLogin');
+            .loginService('isLogin');
         $httpProvider.defaults.headers.common['Content-Type']='application/json';
 
         $stateProvider
