@@ -7922,6 +7922,9 @@ body > .view-container > .pane, .player {
     .action-sheet > .action-sheet-group:first-child > .button .icon, .action-sheet > .action-sheet-group:first-child > .button .player .icon-close, .player .action-sheet > .action-sheet-group:first-child > .button .icon-close, .action-sheet > .action-sheet-group:first-child > .button .player .title-bar button, .player .title-bar .action-sheet > .action-sheet-group:first-child > .button button, .action-sheet > .action-sheet-group:first-child > .button .player .icon-close, .player .action-sheet > .action-sheet-group:first-child > .button .icon-close, .action-sheet > .action-sheet-group:first-child > .button .player .title-bar button, .player .title-bar .action-sheet > .action-sheet-group:first-child > .button button {
       margin-right: 5px; }
 
+.action-sheet-backdrop.active {
+  background-color: rgba(0, 0, 0, 0.7) !important; }
+
 .bar-footer {
   height: 55px;
   display: block;
