@@ -141,7 +141,7 @@ angular.module('App.services')
                 data.customer && success && success(data.customer);
             }, error);
         };
-        window.a = this.updateCustomer = function (obj, success, error) {
+        this.updateCustomer = function (obj, success, error) {
             if (!Number(obj.id)) return error("Id is invalid");
             var config = {
                 params: angular.extend({}, secret),

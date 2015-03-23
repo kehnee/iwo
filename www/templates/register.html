@@ -3,19 +3,19 @@
         <div class="logo">
             <img src="img/logo.png" alt=""/>
         </div>
+
+        <div class="photo">
+            <h4 class="light text-center">Add a photo</h4>
+            <div style="text-align: center;position: relative">
+                <div class="add-circle button button-light button-outline button-icon icon ion-plus">
+                    <img ng-if="user.picture" ng-src="{{user.picture}}" alt=""/>
+                    <input id="getAvatar" accept="image/*" type="file" onchange="angular.element(this).scope().getAvatar(this.files)"/>
+                </div>
+                <hr/>
+            </div>
+        </div>
         <form name="form" ng-submit="register(form)">
             <div class="list">
-
-                <div class="photo">
-                    <h4 class="light text-center">Add a photo</h4>
-                    <div style="text-align: center;position: relative">
-                        <div class="add-circle button button-light button-outline button-icon icon ion-plus">
-                            <img ng-if="user.picture" ng-src="{{user.picture}}" alt=""/>
-                            <input id="getAvatar" accept="image/*" type="file" onchange="angular.element(this).scope().getAvatar(this.files)"/>
-                        </div>
-                        <hr/>
-                    </div>
-                </div>
                 <label class="list-inset item item-input">
                     <input type="email" required placeholder="Email Address" ng-model="user.email">
                 </label>
@@ -25,12 +25,13 @@
                 <label class="list-inset item item-input">
                     <input type="password" required placeholder="Create a Password" ng-model="user.password">
                 </label>
-                <small class="light">
-                    By tapping the Sign up button, you are indicating that you have read <span>Privacy Policy</span> and agree to the <span>Terms of Service</span>.
-                </small>
-                <button class="button button-block button-positive" type="submit">Sign Up</button>
-                <button class="button button-clear button-block button-light" ui-sref="login">Already have an Account?</button>
-
+                <div class="button_block">
+                    <small class="light">
+                        By tapping the Sign up button, you are indicating that you have read <span>Privacy Policy</span> and agree to the <span>Terms of Service</span>.
+                    </small>
+                    <button class="button button-block button-positive" type="submit">Sign Up</button>
+                    <a ui-sref="login">Already have an Account?</a>
+                </div>
             </div>
         </form>
     </ion-content>

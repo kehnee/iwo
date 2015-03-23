@@ -3,7 +3,7 @@
     <button class="button button-icon button-clear ion-navicon" menu-toggle="left"></button>
   </ion-nav-buttons>
   <ion-content>
-    <ion-slide-box>
+    <ion-slide-box show-pager="true">
       <ion-slide ng-repeat="item in sliderItems" ui-sref="app.product({id: item.id})">
         <div class="banner">
           <img ng-src="{{item.featured_src}}" alt="banner"/>
@@ -12,13 +12,13 @@
     </ion-slide-box>
     <div class="slideSeries">
       <h3>Message Series</h3>
+      <span>See all <i class="icon ion-ios-arrow-right"></i></span>
       <ion-scroll direction="x">
         <div class="box" ng-repeat="item in series" ui-sref="app.product({id: item.id})">
           <div class="image">
             <img ng-src="{{item.featured_src}}" alt=""/>
           </div>
-          <div class="foot">
-            {{item.title}}
+          <div class="foot" ng-bind-html="item.title">
           </div>
         </div>
       </ion-scroll>

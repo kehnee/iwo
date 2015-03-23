@@ -90,14 +90,22 @@ body > .view-container  > .pane, .player{
 
 .slideSeries{
   padding: 10px;
-  h3,h4{
+  h3,h4,span{
     color: #ffffff;
+  }
+  h3,h4{
+    float: left;
     text-transform: uppercase;
   }
   h3{
-    font-size: 16px;
+    font-size: 18px;
   }
   h4{
+    font-size: 15px;
+  }
+  span{
+    padding: 2px;
+    float: right;
     font-size: 14px;
   }
   .scroll-view{
@@ -106,7 +114,7 @@ body > .view-container  > .pane, .player{
     white-space: nowrap;
     .box{
       background-color: #0d0c12;
-      border: 1px solid #1d1c22;
+      border: 1px solid rgba(29, 28, 34, 0.7);
       width: 150px;
       height: 200px;
       display: inline-block;
@@ -170,7 +178,7 @@ body > .view-container  > .pane, .player{
         top: 0;
         left: 0;
         right: 0;
-        bottom: 0;
+        bottom: 10px;
       }
     }
     .title{
@@ -301,31 +309,47 @@ body > .view-container  > .pane, .player{
 .icon.rotate:before{
   transform: rotate(180deg) scaleY(-1);;
 }
-.action-sheet > .action-sheet-group {
-  background-color: #000000;
-  border: 1px solid #333;
-  & > .button {
-    color: #fff;
-    font-size: 16px;
-    border-color: #333;
-    &.activated, &.active{
-      background-color: rgba(255, 255, 255, 0.2);
+.action-sheet{
+  background-color: #04000e;
+  & > .action-sheet-group {
+    background: none;
+    display: block;
+    padding: 0 15px;
+    & > .button {
+      color: #fff;
+      font-size: 17px;
+      border-color: #333;
+      padding: 10px;
     }
-    &:first-child {
-      border-top: 0;
+    &:first-child > .button {
+      text-align: left;
+      padding-left: 50px;
+      &:first-child{
+        border-top: 0;
+      }
+      .icon{
+        margin-right: 5px;
+      }
     }
-  }
-  &:first-child > .button {
-    text-align: left;
-    padding-left: 10px;
-    .icon{
-      margin-right: 5px;
+    &.action-sheet-cancel{
+      .button{
+        background-color: #05020d;
+        text-align: center;
+        padding: 5px;
+        border: 2px solid rgb(51, 51, 51);
+        border-radius: 10px;
+        margin: 10px auto;
+        width: 90%;
+        &.activated{
+          background-color: rgba(255, 255, 255, 0.1);
+        }
+      }
     }
   }
 }
 
 .action-sheet-backdrop.active {
-  background-color: rgba(0, 0, 0, 0.7) !important;
+  background-color: rgba(0, 0, 0, 0.95) !important;
 }
 
 .bar-footer{
@@ -365,4 +389,18 @@ body > .view-container  > .pane, .player{
 }
 audio, .mejs-container, .mejs-offscreen{
   display: none !important;
+}
+
+.price-tag{
+  font-size: 18px;
+  background-color: #020f3c;
+  padding: 6px 12px;
+  border-radius: 10px;
+  color: #fff;
+  display: inline-block;
+  border: 1px solid #1c1c1c;
+}
+
+.spinner{
+  stroke: #ddd;
 }

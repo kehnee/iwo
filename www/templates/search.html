@@ -13,7 +13,7 @@
    <div class="list">
      <ion-item ng-repeat="p in products" class="item-thumbnail-left item-icon-right" ui-sref="app.product({id: p.id})">
          <img ng-src="{{p.featured_src}}" alt=""/>
-         <h2>{{p.title}}</h2>
+         <h2 ng-bind-html="p.title"></h2>
          <p>{{toDateFormat(p.created_at)}}</p>
          <i class="icon ion-ios-arrow-right"></i>
      </ion-item>

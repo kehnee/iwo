@@ -13,7 +13,16 @@
     .slider-pager{
       bottom: 0;
       .slider-pager-page{
+        margin: 0 2px;
         color: #ffffff;
+        width: 12px;
+      }
+    }
+  }
+  .item{
+    &.item-icon-left{
+      .icon:first-child{
+        font-size: 24px;
       }
     }
   }

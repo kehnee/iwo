@@ -4,18 +4,26 @@
             <img src="img/logo.png" alt=""/>
         </div>
         <form name="form" ng-submit="login(form)">
-            <div class="list">
+            <div class="list">``````````
                 <h4 class="light">Please log in</h4>
-                <label class="list-inset item item-input">
+                <label class="item item-input">
                     <input type="text" required placeholder="Username" ng-model="user.username">
                 </label>
-                <label class="list-inset item item-input">
+                <label class="item item-input">
                     <input type="password" required placeholder="Password" ng-model="user.password">
                 </label>
-                <button class="button button-block button-positive" type="submit">Log in</button>
-                <button class="button button-clear button-block button-light forgotPassword" ui-sref="forgotPassword">Forgot your password?</button>
-                <button class="button button-block button-light button-outline" ui-sref="register">Register with Email</button>
-                <button class="button button-block button-light button-outline">Register with Facebook</button>
+                <div class="button_block">
+                    <button class="button button-block button-positive" type="submit">Log in</button>
+                    <a ui-sref="forgotPassword">Forgot your password?</a>
+                </div>
+                <div class="item item-icon-right" ui-sref="register">
+                    Register with Email
+                    <i class="icon ion-ios-arrow-right"></i>
+                </div>
+                <div class="item item-icon-right" ng-click="">
+                    Register with Facebook
+                    <i class="icon ion-ios-arrow-right"></i>
+                </div>
             </div>
         </form>
     </ion-content>
