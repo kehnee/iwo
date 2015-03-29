@@ -1,129 +1,138 @@
 <ion-view view-title="Minister" class="minister">
-  <ion-nav-buttons side="left">
-    <button class="button button-icon button-clear ion-ios-arrow-back" ng-click="$ionicGoBack($event)"></button>
-  </ion-nav-buttons>
-  <ion-nav-buttons side="right">
-    <button class="button button-icon button-clear ion-more" ng-click="showActionSheet()"></button>
-  </ion-nav-buttons>
-  <ion-content>
-    <div class="image-header">
-      <div class="blur-image profile" style="background-image: url('img/profile.png');"></div>
-      <div class="header-content">
-        <img class="border" src="img/profile.png" alt=""/>
-        <div class="title">Dharius Daniels</div>
-        <div class="small-text">Kingdom Church, Ewing NJ</div>
-        <div class="box">BIO</div>
-      </div>
-    </div>
-    <h4 class="padding-horizontal">Latest Release</h4>
-    <div class="list ">
-      <ion-item class="item-thumbnail-left big item-icon-right">
-        <img src="img/thumb.png" alt=""/>
-        <h2>Blind Spots</h2>
-        <p>09.21.2014</p>
-        <i class="icon ion-ios-arrow-right"></i>
-      </ion-item>
-      <ion-item class="item-thumbnail-left big item-icon-right text-small">
-        <img src="img/thumb2.png" alt=""/>
-        <h2>Eye Trouble</h2>
-        <p>01.03.2015</p>
-        <i class="icon ion-ios-arrow-right text-small"></i>
-      </ion-item>
-    </div>
-    <h4 class="padding-horizontal">Popular</h4>
-    <div class="list border item-no-border">
-      <ion-item class="item-icon-right">
-        Blind Spots
-        <div>09.21.2014</div>
-        <i class="icon ion-ios-arrow-right"></i>
-      </ion-item>
-      <ion-item class="item-icon-right text-small">
-        Eye Trouble
-        <div>01.03.2015</div>
-        <i class="icon ion-ios-arrow-right text-small"></i>
-      </ion-item>
-      <ion-item class="item-icon-right">
-        Blind Spots
-        <div>09.21.2014</div>
-        <i class="icon ion-ios-arrow-right"></i>
-      </ion-item>
-    </div>
-    <div class="slideSeries">
-      <h4>Series</h4>
-      <ion-scroll direction="x">
-        <div class="box" ui-sref="app.singleProductView">
-          <div class="image">
-            <img src="img/thumb.png" alt=""/>
-          </div>
-          <div class="foot">
-            Don't box me inBlessing doesn’t beautifully visualize any body — but the creator is what appears.
-          </div>
+    <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-ios-arrow-back" ng-click="$ionicGoBack($event)"></button>
+    </ion-nav-buttons>
+    <ion-nav-buttons side="right">
+        <button class="button button-icon button-clear ion-more" ng-click="showActionSheet()"></button>
+    </ion-nav-buttons>
+    <ion-content>
+        <div class="image-header">
+            <div class="blur-image profile" style="background-image: url('img/profile.png');"></div>
+            <div class="header-content">
+                <img class="border" src="img/profile.png" alt=""/>
+
+                <div class="title">Dharius Daniels</div>
+                <div class="small-text">Kingdom Church, Ewing NJ</div>
+                <div class="box">BIO</div>
+            </div>
         </div>
-        <div class="box" ui-sref="app.seriesProductView">
-          <div class="image">
-            <img src="img/thumb2.png" alt=""/>
-          </div>
-          <div class="foot">
-            Don't box me in
-          </div>
+        <h4 class="padding-horizontal">Latest Release</h4>
+
+        <div class="list ">
+            <ion-item class="item-thumbnail-left big item-icon-right">
+                <img src="img/thumb.png" alt=""/>
+
+                <h2>Blind Spots</h2>
+
+                <p>09.21.2014</p>
+                <i class="icon ion-ios-arrow-right"></i>
+            </ion-item>
+            <ion-item class="item-thumbnail-left big item-icon-right text-small">
+                <img src="img/thumb2.png" alt=""/>
+
+                <h2>Eye Trouble</h2>
+
+                <p>01.03.2015</p>
+                <i class="icon ion-ios-arrow-right text-small"></i>
+            </ion-item>
         </div>
-        <div class="box" ui-sref="app.singleProductView">
-          <div class="image">
-            <img src="img/thumb2.png" alt=""/>
-          </div>
-          <div class="foot">
-            Don't box me in
-          </div>
+        <h4 class="padding-horizontal">Popular</h4>
+
+        <div class="list border item-no-border">
+            <ion-item class="item-icon-right">
+                Blind Spots
+                <div>09.21.2014</div>
+                <i class="icon ion-ios-arrow-right"></i>
+            </ion-item>
+            <ion-item class="item-icon-right text-small">
+                Eye Trouble
+                <div>01.03.2015</div>
+                <i class="icon ion-ios-arrow-right text-small"></i>
+            </ion-item>
+            <ion-item class="item-icon-right">
+                Blind Spots
+                <div>09.21.2014</div>
+                <i class="icon ion-ios-arrow-right"></i>
+            </ion-item>
         </div>
-        <div class="box">
-          <div class="image">
-            <img src="img/thumb.png" alt=""/>
-          </div>
-          <div class="foot">
-            Don't box me in
-          </div>
+        <div class="slideSeries">
+            <h4>Series</h4>
+            <span>See all <i class="icon ion-ios-arrow-right"></i></span>
+            <ion-scroll direction="x">
+                <div class="box" ui-sref="app.singleProductView">
+                    <div class="image">
+                        <img src="img/thumb.png" alt=""/>
+                    </div>
+                    <div class="foot">
+                        Don't box me inBlessing doesn’t beautifully visualize any body — but the creator is what
+                        appears.
+                    </div>
+                </div>
+                <div class="box" ui-sref="app.seriesProductView">
+                    <div class="image">
+                        <img src="img/thumb2.png" alt=""/>
+                    </div>
+                    <div class="foot">
+                        Don't box me in
+                    </div>
+                </div>
+                <div class="box" ui-sref="app.singleProductView">
+                    <div class="image">
+                        <img src="img/thumb2.png" alt=""/>
+                    </div>
+                    <div class="foot">
+                        Don't box me in
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="img/thumb.png" alt=""/>
+                    </div>
+                    <div class="foot">
+                        Don't box me in
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="img/thumb2.png" alt=""/>
+                    </div>
+                    <div class="foot">
+                        Don't box me in
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="img/thumb.png" alt=""/>
+                    </div>
+                    <div class="foot">
+                        Don't box me in
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="img/thumb2.png" alt=""/>
+                    </div>
+                    <div class="foot">
+                        Don't box me in
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="img/thumb.png" alt=""/>
+                    </div>
+                    <div class="foot">
+                        Don't box me in
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="image">
+                        <img src="img/thumb2.png" alt=""/>
+                    </div>
+                    <div class="foot">
+                        Don't box me in
+                    </div>
+                </div>
+            </ion-scroll>
         </div>
-        <div class="box">
-          <div class="image">
-            <img src="img/thumb2.png" alt=""/>
-          </div>
-          <div class="foot">
-            Don't box me in
-          </div>
-        </div>
-        <div class="box">
-          <div class="image">
-            <img src="img/thumb.png" alt=""/>
-          </div>
-          <div class="foot">
-            Don't box me in
-          </div>
-        </div>
-        <div class="box">
-          <div class="image">
-            <img src="img/thumb2.png" alt=""/>
-          </div>
-          <div class="foot">
-            Don't box me in
-          </div>
-        </div>
-        <div class="box">
-          <div class="image">
-            <img src="img/thumb.png" alt=""/>
-          </div>
-          <div class="foot">
-            Don't box me in
-          </div>
-        </div>
-        <div class="box">
-          <div class="image">
-            <img src="img/thumb2.png" alt=""/>
-          </div>
-          <div class="foot">
-            Don't box me in
-          </div>
-        </div>
-      </ion-scroll>
-    </div>
-  </ion-content>
+    </ion-content>
 </ion-view>

@@ -301,7 +301,8 @@ angular.module('App.controllers')
             // Show the action sheet
             var hideSheet = $ionicActionSheet.show({
                 buttons: [
-                    { text: '<i class="icon ion-reply-all rotate"></i> Share', icon:"ion-plus" },
+                    { text: '<i class="icon ion-plus"></i> Add to Playlist'},
+                    { text: '<i class="icon ion-reply-all rotate"></i> Share'},
                     { text: '<i class="icon ion-person-add"></i> Follow' },
                     { text: '<i class="icon ion-log-out"></i> Go to Minister\'s Page' }
                 ],
@@ -357,7 +358,7 @@ angular.module('App.controllers')
             return r.length > 0;
         }, function(v) {
             if (v) $ionicLoading.show({
-                template: '<i class="button-icon icon ion-loading-c"></i>'
+                template: '<ion-spinner icon="android"></ion-spinner>'
             });
             else $ionicLoading.hide();
         });

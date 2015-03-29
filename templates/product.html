@@ -1,4 +1,4 @@
-<ion-view view-title="{{title}}" class="productView">
+<ion-view view-title="{{product.title}}" class="productView">
   <ion-nav-buttons side="left">
     <button class="button button-icon button-clear ion-ios-arrow-back" ng-click="$ionicGoBack($event)"></button>
   </ion-nav-buttons>
@@ -10,18 +10,14 @@
       <div class="blur-image" ng-style="{'background-image': 'url('+product.featured_src+')'}"></div>
       <div class="header-content">
         <img class="center" ng-src="{{product.featured_src}}" alt=""/>
-        <div class="subtitle">{{product.title}}</div>
+        <div class="subtitle" ng-bind-html="product.title"></div>
       </div>
     </div>
-    <div ng-if="product.downloads.length" class="list">
-      <div class="item" ng-repeat="item in product.downloads">
-          {{item.name}}
+      <div class="text-center">
+          <span class="price-tag">{{product.price | currency}}</span>
       </div>
-    </div>
     <div class="detail">
       <p ng-if="product.description" ng-bind-html="product.description"></p>
-      <span>{{product.price | currency}}</span>
-      <button class="button button-block button-positive">Buy</button>
     </div>
     <div ng-if="product.categories[0]" class="item item-icon-right" ui-sref="app.minister">
       {{product.categories[0]}}
