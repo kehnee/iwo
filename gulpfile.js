@@ -15,7 +15,7 @@ gulp.task('default', ['sass']);
 
 gulp.task('sass', function(done) {
   gulp.src('./scss/ionic.app.scss')
-    .pipe(sass())
+    .pipe(sass({errLogToConsole: true}))
     .pipe(gulp.dest('./www/css/'))
     .pipe(minifyCss({
       keepSpecialComments: 0
@@ -25,24 +25,8 @@ gulp.task('sass', function(done) {
     .on('end', done);
 });
 
-gulp.task('watch-sass', function() {
-  gulp.watch(paths.sass, ['sass']);
-});
-
-gulp.task('watch-sass-noError', function () {
-    function run(){
-        sh.exec("gulp watch-sass",{async:true}, function (err, out) {
-            if(err){
-                console.error(out);
-                console.info("Restarting");
-                run();
-            }else console.log(out);
-        });
-    }
-    run();
-});
-
-gulp.task('watch', ['watch-sass-noError'], function() {
+gulp.task('watch', function() {
+    gulp.watch(paths.sass, ['sass']);
 });
 
 gulp.task('install', ['git-check'], function() {
