@@ -50,9 +50,10 @@ angular.module('App', ['ionic', 'config', 'App.controllers', 'App.services'])
                 authenticate: true
             })
             .state('app.minister', {
-                url: "/minister",
+                url: "/minister/{name}",
                 views: {
                     'menuContent': {
+                        controller: "ministerCtrl",
                         templateUrl: "templates/minister.html"
                     }
                 },
@@ -88,7 +89,7 @@ angular.module('App', ['ionic', 'config', 'App.controllers', 'App.services'])
                 authenticate: true
             })
             .state('app.products', {
-                url: "/products/{orderBy}",
+                url: "/products/{filter}",
                 views: {
                     'menuContent': {
                         controller: 'productsCtrl',
