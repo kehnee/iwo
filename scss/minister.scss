@@ -2,5 +2,15 @@
   h4{
     font-size: 14px;
     text-transform: uppercase;
+    span{
+      float: right;
+      font-size: 90%;
+      text-transform: none;
+      margin-top: 1px;
+    }
+  }
+  ion-spinner{
+    display: block;
+    text-align: center;
   }
 }
