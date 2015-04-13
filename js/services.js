@@ -24,6 +24,7 @@ angular.module('App.services')
                     error(data.errors[0].message)
                 }
                 else if (status >= 500) error('Internal Server error');
+                else error.apply(null, arguments);
             }
         };
     })
@@ -243,14 +244,13 @@ angular.module('App.services')
                     'filter[limit]': obj.limit,
                     'filter[category]': obj.category,
                     page: obj.page,
-                    type: 'simple',
                     orderby: obj.orderBy /* popularity,rating,date(newest),price(low to high),price-desc(high to low) */
                 }, secret),
                 loadingIgnore: obj.loadingIgnore
             }, function (data) {
-                data.products = data.products.filter(function (o) {
+                /*data.products = data.products.filter(function (o) {
                     return o.downloadable;
-                });
+                });*/
                 data.products && success && success(data);
             }, error);
         };
@@ -270,6 +270,18 @@ angular.module('App.services')
                 loadingIgnore: obj.loadingIgnore
             }, function (data) {
                 data.product_categories && success && success(data.product_categories);
+            }, error);
+        };
+        this.getMinister = function (obj, success, error) {
+            if(!obj.name) return;
+            Main.request("get", "/api/get_post", {
+                params: angular.extend({
+                    name: obj.name,
+                    json:true
+                }),
+                loadingIgnore: obj.loadingIgnore
+            }, function (data) {
+                success(data.post);
             }, error);
         };
     })

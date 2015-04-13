@@ -10,10 +10,10 @@
         </div>
       </ion-slide>
     </ion-slide-box>
-    <div class="slideSeries">
+    <div ng-if="series.length" class="slideSeries">
       <h3>Message Series</h3>
-      <span>See all <i class="icon ion-ios-arrow-right"></i></span>
-      <ion-scroll direction="x">
+      <span ui-sref="app.products({filter: 'series'})">See all <i class="icon ion-ios-arrow-right"></i></span>
+      <ion-scroll ng-if="series.length" direction="x">
         <div class="box" ng-repeat="item in series" ui-sref="app.product({id: item.id})">
           <div class="image">
             <img ng-src="{{item.featured_src}}" alt=""/>
@@ -24,12 +24,12 @@
       </ion-scroll>
     </div>
     <div class="list">
-      <ion-item class="item-icon-left item-icon-right" ui-sref="app.products({orderBy: 'popular'})">
+      <ion-item class="item-icon-left item-icon-right" ui-sref="app.products({filter: 'popular:'})">
         <i class="icon ion-star"></i>
         Most Popular
         <i class="icon ion-ios-arrow-right"></i>
       </ion-item>
-      <ion-item class="item-icon-left item-icon-right" ui-sref="app.products({orderBy: 'top'})">
+      <ion-item class="item-icon-left item-icon-right" ui-sref="app.products({filter: 'top:'})">
         <i class="icon ion-star"></i>
         Top Lists
         <i class="icon ion-ios-arrow-right"></i>

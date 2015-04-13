@@ -19,8 +19,8 @@
     <div class="detail">
       <p ng-if="product.description" ng-bind-html="product.description"></p>
     </div>
-    <div ng-if="product.categories[0]" class="item item-icon-right" ui-sref="app.minister">
-      {{product.categories[0]}}
+    <div ng-if="product.tags[0]" class="item item-icon-right" ui-sref="app.minister({name: product.tags[0]})">
+      {{product.tags[0]}}
       <i class="icon ion-ios-arrow-right"></i>
     </div>
   </ion-content>

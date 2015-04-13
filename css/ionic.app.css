@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*
 To customize the look and feel of Ionic, you can override the variables
 in ionic's _variables.scss file.
@@ -2377,7 +2378,7 @@ a, button, :focus, a:focus, button:focus, a:active, a:hover {
  */
 a {
   -webkit-user-drag: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: transparent; }
   a[href]:hover {
     cursor: pointer; }
@@ -2595,7 +2596,7 @@ body, .ionic-body {
   -webkit-text-size-adjust: none;
   -moz-text-size-adjust: none;
   text-size-adjust: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: transparent;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -2690,8 +2691,8 @@ body.grade-b, body.grade-c {
   border-radius: 4px;
   background: rgba(0, 0, 0, 0.3);
   opacity: 1;
-  -webkit-transition: opacity 0.3s linear;
-  transition: opacity 0.3s linear; }
+  -webkit-transition: opacity .3s linear;
+  transition: opacity .3s linear; }
   .scroll-bar-indicator.scroll-bar-fade-out {
     opacity: 0; }
 
@@ -2832,7 +2833,7 @@ cite {
 .text-right {
   text-align: right; }
 
-.text-center, .player .head, .player .album-image {
+.text-center, .player .head, .player .album-image, .status {
   text-align: center; }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
@@ -2939,15 +2940,15 @@ a.subdued {
   z-index: 11;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0); }
+  background-color: transparent; }
   .action-sheet-backdrop.active {
     background-color: rgba(0, 0, 0, 0.4); }
 
 .action-sheet-wrapper {
   -webkit-transform: translate3d(0, 100%, 0);
   transform: translate3d(0, 100%, 0);
-  -webkit-transition: all cubic-bezier(0.36, 0.66, 0.04, 1) 500ms;
-  transition: all cubic-bezier(0.36, 0.66, 0.04, 1) 500ms;
+  -webkit-transition: all cubic-bezier(.36, .66, .04, 1) 500ms;
+  transition: all cubic-bezier(.36, .66, .04, 1) 500ms;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -3135,32 +3136,32 @@ a.subdued {
     .bar.bar-stable.bar-footer {
       background-image: linear-gradient(180deg, #b2b2b2, #b2b2b2 50%, transparent 50%); }
   .bar.bar-positive {
-    border-color: #0c63ee;
+    border-color: #0c60ee;
     background-color: #387ef5;
-    background-image: linear-gradient(0deg, #0c63ee, #0c63ee 50%, transparent 50%);
+    background-image: linear-gradient(0deg, #0c60ee, #0c60ee 50%, transparent 50%);
     color: #fff; }
     .bar.bar-positive .title {
       color: #fff; }
     .bar.bar-positive.bar-footer {
-      background-image: linear-gradient(180deg, #0c63ee, #0c63ee 50%, transparent 50%); }
+      background-image: linear-gradient(180deg, #0c60ee, #0c60ee 50%, transparent 50%); }
   .bar.bar-calm {
-    border-color: #0a9ec7;
+    border-color: #0a9dc7;
     background-color: #11c1f3;
-    background-image: linear-gradient(0deg, #0a9ec7, #0a9ec7 50%, transparent 50%);
+    background-image: linear-gradient(0deg, #0a9dc7, #0a9dc7 50%, transparent 50%);
     color: #fff; }
     .bar.bar-calm .title {
       color: #fff; }
     .bar.bar-calm.bar-footer {
-      background-image: linear-gradient(180deg, #0a9ec7, #0a9ec7 50%, transparent 50%); }
+      background-image: linear-gradient(180deg, #0a9dc7, #0a9dc7 50%, transparent 50%); }
   .bar.bar-assertive {
-    border-color: #e42012;
+    border-color: #e42112;
     background-color: #ef473a;
-    background-image: linear-gradient(0deg, #e42012, #e42012 50%, transparent 50%);
+    background-image: linear-gradient(0deg, #e42112, #e42112 50%, transparent 50%);
     color: #fff; }
     .bar.bar-assertive .title {
       color: #fff; }
     .bar.bar-assertive.bar-footer {
-      background-image: linear-gradient(180deg, #e42012, #e42012 50%, transparent 50%); }
+      background-image: linear-gradient(180deg, #e42112, #e42112 50%, transparent 50%); }
   .bar.bar-balanced {
     border-color: #28a54c;
     background-color: #33cd5f;
@@ -3169,16 +3170,16 @@ a.subdued {
     .bar.bar-balanced .title {
       color: #fff; }
     .bar.bar-balanced.bar-footer {
-      background-image: linear-gradient(180deg, #28a54c, #0c63ee 50%, transparent 50%); }
+      background-image: linear-gradient(180deg, #28a54c, #0c60ee 50%, transparent 50%); }
   .bar.bar-energized {
-    border-color: #e6b400;
+    border-color: #e6b500;
     background-color: #ffc900;
-    background-image: linear-gradient(0deg, #e6b400, #e6b400 50%, transparent 50%);
+    background-image: linear-gradient(0deg, #e6b500, #e6b500 50%, transparent 50%);
     color: #fff; }
     .bar.bar-energized .title {
       color: #fff; }
     .bar.bar-energized.bar-footer {
-      background-image: linear-gradient(180deg, #e6b400, #e6b400 50%, transparent 50%); }
+      background-image: linear-gradient(180deg, #e6b500, #e6b500 50%, transparent 50%); }
   .bar.bar-royal {
     border-color: #6b46e5;
     background-color: #886aea;
@@ -3227,23 +3228,23 @@ a.subdued {
     font-weight: 400;
     font-size: 13px;
     line-height: 32px; }
-    .bar .button.button-icon:before, .bar .player .button-icon.icon-close:before, .player .bar .button-icon.icon-close:before, .bar .player .icon-close:before, .player .bar .icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .button.icon-close:before, .player .bar .button.icon-close:before, .bar .player .icon-close:before, .player .bar .icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .title-bar button.button-icon:before, .player .title-bar .bar button.button-icon:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button:before, .player .title-bar .bar button:before, .bar .player .title-bar button.button:before, .player .title-bar .bar button.button:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button:before, .player .title-bar .bar button:before, .bar .button .icon:before, .bar .button .player .icon-close, .player .bar .button .icon-close, .bar .button .player .title-bar button, .player .title-bar .bar .button button, .bar .button .player .icon-close:before, .player .bar .button .icon-close:before, .bar .button .player .title-bar button:before, .player .title-bar .bar .button button:before, .bar .button.icon:before, .bar .player .icon.icon-close:before, .player .bar .icon.icon-close:before, .bar .player .icon-close:before, .player .bar .icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .button.icon-close:before, .player .bar .button.icon-close:before, .bar .player .icon-close:before, .player .bar .icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .title-bar button.icon:before, .player .title-bar .bar button.icon:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button:before, .player .title-bar .bar button:before, .bar .player .title-bar button.button:before, .player .title-bar .bar button.button:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button:before, .player .title-bar .bar button:before, .bar .button.icon-left:before, .bar .player .icon-left.icon-close:before, .player .bar .icon-left.icon-close:before, .bar .player .title-bar button.icon-left:before, .player .title-bar .bar button.icon-left:before, .bar .button.icon-right:before, .bar .player .icon-right.icon-close:before, .player .bar .icon-right.icon-close:before, .bar .player .title-bar button.icon-right:before, .player .title-bar .bar button.icon-right:before {
+    .bar .button.button-icon:before, .bar .player .icon-close:before, .player .bar .icon-close:before, .bar .player .title-bar button:before, .player .title-bar .bar button:before, .bar .button .icon:before, .bar .player .icon-close .icon:before, .player .bar .icon-close .icon:before, .bar .player .title-bar button .icon:before, .player .title-bar .bar button .icon:before, .bar .button .player .icon-close:before, .player .bar .button .icon-close:before, .bar .player .icon-close .icon-close:before, .player .bar .icon-close .icon-close:before, .bar .player .title-bar button .icon-close:before, .player .title-bar .bar button .icon-close:before, .bar .button .player .title-bar button:before, .player .title-bar .bar .button button:before, .bar .player .icon-close .title-bar button:before, .bar .player .title-bar .icon-close button:before, .player .bar .icon-close .title-bar button:before, .player .title-bar .bar .icon-close button:before, .bar .player .title-bar button button:before, .player .title-bar .bar button button:before, .bar .button.icon:before, .bar .player .icon-close:before, .player .bar .icon-close:before, .bar .player .title-bar button:before, .player .title-bar .bar button:before, .bar .button.icon-left:before, .bar .player .icon-left.icon-close:before, .player .bar .icon-left.icon-close:before, .bar .player .title-bar button.icon-left:before, .player .title-bar .bar button.icon-left:before, .bar .button.icon-right:before, .bar .player .icon-right.icon-close:before, .player .bar .icon-right.icon-close:before, .bar .player .title-bar button.icon-right:before, .player .title-bar .bar button.icon-right:before {
       padding-right: 2px;
       padding-left: 2px;
       font-size: 20px;
       line-height: 32px; }
-    .bar .button.button-icon, .bar .player .button-icon.icon-close, .player .bar .button-icon.icon-close, .bar .player .icon-close, .player .bar .icon-close, .bar .player .title-bar button.icon-close, .player .title-bar .bar button.icon-close, .bar .player .button.icon-close, .player .bar .button.icon-close, .bar .player .icon-close, .player .bar .icon-close, .bar .player .title-bar button.icon-close, .player .title-bar .bar button.icon-close, .bar .player .title-bar button.button-icon, .player .title-bar .bar button.button-icon, .bar .player button.icon-close, .player .bar button.icon-close, .bar .player .title-bar button, .player .title-bar .bar button, .bar .player .title-bar button.button, .player .title-bar .bar button.button, .bar .player button.icon-close, .player .bar button.icon-close, .bar .player .title-bar button, .player .title-bar .bar button {
+    .bar .button.button-icon, .bar .player .icon-close, .player .bar .icon-close, .bar .player .title-bar button, .player .title-bar .bar button {
       font-size: 17px; }
-      .bar .button.button-icon .icon:before, .bar .button.button-icon .player .button-icon.icon-close, .player .bar .button.button-icon .button-icon.icon-close, .bar .button.button-icon .player .icon-close, .player .bar .button.button-icon .icon-close, .bar .button.button-icon .player .title-bar button.icon-close, .player .title-bar .bar .button.button-icon button.icon-close, .bar .button.button-icon .player .button.icon-close, .player .bar .button.button-icon .button.icon-close, .bar .button.button-icon .player .icon-close, .player .bar .button.button-icon .icon-close, .bar .button.button-icon .player .title-bar button.icon-close, .player .title-bar .bar .button.button-icon button.icon-close, .bar .button.button-icon .player .title-bar button.button-icon, .player .title-bar .bar .button.button-icon button.button-icon, .bar .button.button-icon .player button.icon-close, .player .bar .button.button-icon button.icon-close, .bar .button.button-icon .player .title-bar button, .player .title-bar .bar .button.button-icon button, .bar .button.button-icon .player .title-bar button.button, .player .title-bar .bar .button.button-icon button.button, .bar .button.button-icon .player button.icon-close, .player .bar .button.button-icon button.icon-close, .bar .button.button-icon .player .title-bar button, .player .title-bar .bar .button.button-icon button, .bar .button.button-icon .player .icon-close:before, .player .bar .button.button-icon .icon-close:before, .bar .button.button-icon .player .title-bar button:before, .player .title-bar .bar .button.button-icon button:before, .bar .button.button-icon:before, .bar .player .button-icon.icon-close:before, .player .bar .button-icon.icon-close:before, .bar .player .icon-close:before, .player .bar .icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .button.icon-close:before, .player .bar .button.icon-close:before, .bar .player .icon-close:before, .player .bar .icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .title-bar button.button-icon:before, .player .title-bar .bar button.button-icon:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button:before, .player .title-bar .bar button:before, .bar .player .title-bar button.button:before, .player .title-bar .bar button.button:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button:before, .player .title-bar .bar button:before, .bar .button.button-icon.icon-left:before, .bar .player .button-icon.icon-left.icon-close:before, .player .bar .button-icon.icon-left.icon-close:before, .bar .player .icon-left.icon-close:before, .player .bar .icon-left.icon-close:before, .bar .player .title-bar button.icon-left.icon-close:before, .player .title-bar .bar button.icon-left.icon-close:before, .bar .player .button.icon-left.icon-close:before, .player .bar .button.icon-left.icon-close:before, .bar .player .icon-left.icon-close:before, .player .bar .icon-left.icon-close:before, .bar .player .title-bar button.icon-left.icon-close:before, .player .title-bar .bar button.icon-left.icon-close:before, .bar .player .title-bar button.button-icon.icon-left:before, .player .title-bar .bar button.button-icon.icon-left:before, .bar .player button.icon-left.icon-close:before, .player .bar button.icon-left.icon-close:before, .bar .player .title-bar button.icon-left:before, .player .title-bar .bar button.icon-left:before, .bar .player .title-bar button.button.icon-left:before, .player .title-bar .bar button.button.icon-left:before, .bar .player button.icon-left.icon-close:before, .player .bar button.icon-left.icon-close:before, .bar .player .title-bar button.icon-left:before, .player .title-bar .bar button.icon-left:before, .bar .button.button-icon.icon-right:before, .bar .player .button-icon.icon-right.icon-close:before, .player .bar .button-icon.icon-right.icon-close:before, .bar .player .icon-right.icon-close:before, .player .bar .icon-right.icon-close:before, .bar .player .title-bar button.icon-right.icon-close:before, .player .title-bar .bar button.icon-right.icon-close:before, .bar .player .button.icon-right.icon-close:before, .player .bar .button.icon-right.icon-close:before, .bar .player .icon-right.icon-close:before, .player .bar .icon-right.icon-close:before, .bar .player .title-bar button.icon-right.icon-close:before, .player .title-bar .bar button.icon-right.icon-close:before, .bar .player .title-bar button.button-icon.icon-right:before, .player .title-bar .bar button.button-icon.icon-right:before, .bar .player button.icon-right.icon-close:before, .player .bar button.icon-right.icon-close:before, .bar .player .title-bar button.icon-right:before, .player .title-bar .bar button.icon-right:before, .bar .player .title-bar button.button.icon-right:before, .player .title-bar .bar button.button.icon-right:before, .bar .player button.icon-right.icon-close:before, .player .bar button.icon-right.icon-close:before, .bar .player .title-bar button.icon-right:before, .player .title-bar .bar button.icon-right:before {
+      .bar .button.button-icon .icon:before, .bar .player .icon-close .icon:before, .player .bar .icon-close .icon:before, .bar .player .title-bar button .icon:before, .player .title-bar .bar button .icon:before, .bar .button.button-icon .player .icon-close:before, .player .bar .button.button-icon .icon-close:before, .bar .player .icon-close .icon-close:before, .player .bar .icon-close .icon-close:before, .bar .player .title-bar button .icon-close:before, .player .title-bar .bar button .icon-close:before, .bar .button.button-icon .player .title-bar button:before, .player .title-bar .bar .button.button-icon button:before, .bar .player .icon-close .title-bar button:before, .bar .player .title-bar .icon-close button:before, .player .bar .icon-close .title-bar button:before, .player .title-bar .bar .icon-close button:before, .bar .player .title-bar button button:before, .player .title-bar .bar button button:before, .bar .button.button-icon:before, .bar .player .icon-close:before, .player .bar .icon-close:before, .bar .player .title-bar button:before, .player .title-bar .bar button:before, .bar .button.button-icon.icon-left:before, .bar .player .icon-left.icon-close:before, .player .bar .icon-left.icon-close:before, .bar .player .title-bar button.icon-left:before, .player .title-bar .bar button.icon-left:before, .bar .button.button-icon.icon-right:before, .bar .player .icon-right.icon-close:before, .player .bar .icon-right.icon-close:before, .bar .player .title-bar button.icon-right:before, .player .title-bar .bar button.icon-right:before {
         vertical-align: top;
         font-size: 32px;
         line-height: 32px; }
-    .bar .button.button-clear, .bar .player .button-clear.icon-close, .player .bar .button-clear.icon-close, .bar .player .icon-close, .player .bar .icon-close, .bar .player .title-bar button.icon-close, .player .title-bar .bar button.icon-close, .bar .player .button.icon-close, .player .bar .button.icon-close, .bar .player .icon-close, .player .bar .icon-close, .bar .player .title-bar button.icon-close, .player .title-bar .bar button.icon-close, .bar .player .title-bar button.button-clear, .player .title-bar .bar button.button-clear, .bar .player button.icon-close, .player .bar button.icon-close, .bar .player .title-bar button, .player .title-bar .bar button, .bar .player .title-bar button.button, .player .title-bar .bar button.button, .bar .player button.icon-close, .player .bar button.icon-close, .bar .player .title-bar button, .player .title-bar .bar button {
+    .bar .button.button-clear, .bar .player .icon-close, .player .bar .icon-close, .bar .player .title-bar button, .player .title-bar .bar button {
       padding-right: 2px;
       padding-left: 2px;
       font-weight: 300;
       font-size: 17px; }
-      .bar .button.button-clear .icon:before, .bar .button.button-clear .player .button-clear.icon-close, .player .bar .button.button-clear .button-clear.icon-close, .bar .button.button-clear .player .icon-close, .player .bar .button.button-clear .icon-close, .bar .button.button-clear .player .title-bar button.icon-close, .player .title-bar .bar .button.button-clear button.icon-close, .bar .button.button-clear .player .button.icon-close, .player .bar .button.button-clear .button.icon-close, .bar .button.button-clear .player .icon-close, .player .bar .button.button-clear .icon-close, .bar .button.button-clear .player .title-bar button.icon-close, .player .title-bar .bar .button.button-clear button.icon-close, .bar .button.button-clear .player .title-bar button.button-clear, .player .title-bar .bar .button.button-clear button.button-clear, .bar .button.button-clear .player button.icon-close, .player .bar .button.button-clear button.icon-close, .bar .button.button-clear .player .title-bar button, .player .title-bar .bar .button.button-clear button, .bar .button.button-clear .player .title-bar button.button, .player .title-bar .bar .button.button-clear button.button, .bar .button.button-clear .player button.icon-close, .player .bar .button.button-clear button.icon-close, .bar .button.button-clear .player .title-bar button, .player .title-bar .bar .button.button-clear button, .bar .button.button-clear .player .icon-close:before, .player .bar .button.button-clear .icon-close:before, .bar .button.button-clear .player .title-bar button:before, .player .title-bar .bar .button.button-clear button:before, .bar .button.button-clear.icon:before, .bar .player .button-clear.icon.icon-close:before, .player .bar .button-clear.icon.icon-close:before, .bar .player .icon.icon-close:before, .player .bar .icon.icon-close:before, .bar .player .icon-close:before, .player .bar .icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .button-clear.icon-close:before, .player .bar .button-clear.icon-close:before, .bar .player .icon-close:before, .player .bar .icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .title-bar button.icon.icon-close:before, .player .title-bar .bar button.icon.icon-close:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .title-bar button.button-clear.icon-close:before, .player .title-bar .bar button.button-clear.icon-close:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .button.icon.icon-close:before, .player .bar .button.icon.icon-close:before, .bar .player .icon.icon-close:before, .player .bar .icon.icon-close:before, .bar .player .icon-close:before, .player .bar .icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .button.icon-close:before, .player .bar .button.icon-close:before, .bar .player .icon-close:before, .player .bar .icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .title-bar button.icon.icon-close:before, .player .title-bar .bar button.icon.icon-close:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .title-bar button.button.icon-close:before, .player .title-bar .bar button.button.icon-close:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .button.button-clear.icon-close:before, .player .bar .button.button-clear.icon-close:before, .bar .player .button-clear.icon-close:before, .player .bar .button-clear.icon-close:before, .bar .player .icon-close:before, .player .bar .icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .button.icon-close:before, .player .bar .button.icon-close:before, .bar .player .icon-close:before, .player .bar .icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .title-bar button.button-clear.icon-close:before, .player .title-bar .bar button.button-clear.icon-close:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .title-bar button.button.icon-close:before, .player .title-bar .bar button.button.icon-close:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .title-bar button.button-clear.icon:before, .player .title-bar .bar button.button-clear.icon:before, .bar .player button.icon.icon-close:before, .player .bar button.icon.icon-close:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player button.button-clear.icon-close:before, .player .bar button.button-clear.icon-close:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .title-bar button.icon:before, .player .title-bar .bar button.icon:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button:before, .player .title-bar .bar button:before, .bar .player .title-bar button.button-clear:before, .player .title-bar .bar button.button-clear:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button:before, .player .title-bar .bar button:before, .bar .player .title-bar button.button.icon:before, .player .title-bar .bar button.button.icon:before, .bar .player button.icon.icon-close:before, .player .bar button.icon.icon-close:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player button.button.icon-close:before, .player .bar button.button.icon-close:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .title-bar button.icon:before, .player .title-bar .bar button.icon:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button:before, .player .title-bar .bar button:before, .bar .player .title-bar button.button:before, .player .title-bar .bar button.button:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button:before, .player .title-bar .bar button:before, .bar .player .title-bar button.button.button-clear:before, .player .title-bar .bar button.button.button-clear:before, .bar .player button.button-clear.icon-close:before, .player .bar button.button-clear.icon-close:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player button.button.icon-close:before, .player .bar button.button.icon-close:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button.icon-close:before, .player .title-bar .bar button.icon-close:before, .bar .player .title-bar button.button-clear:before, .player .title-bar .bar button.button-clear:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button:before, .player .title-bar .bar button:before, .bar .player .title-bar button.button:before, .player .title-bar .bar button.button:before, .bar .player button.icon-close:before, .player .bar button.icon-close:before, .bar .player .title-bar button:before, .player .title-bar .bar button:before, .bar .button.button-clear.icon-left:before, .bar .player .button-clear.icon-left.icon-close:before, .player .bar .button-clear.icon-left.icon-close:before, .bar .player .icon-left.icon-close:before, .player .bar .icon-left.icon-close:before, .bar .player .title-bar button.icon-left.icon-close:before, .player .title-bar .bar button.icon-left.icon-close:before, .bar .player .button.icon-left.icon-close:before, .player .bar .button.icon-left.icon-close:before, .bar .player .icon-left.icon-close:before, .player .bar .icon-left.icon-close:before, .bar .player .title-bar button.icon-left.icon-close:before, .player .title-bar .bar button.icon-left.icon-close:before, .bar .player .title-bar button.button-clear.icon-left:before, .player .title-bar .bar button.button-clear.icon-left:before, .bar .player button.icon-left.icon-close:before, .player .bar button.icon-left.icon-close:before, .bar .player .title-bar button.icon-left:before, .player .title-bar .bar button.icon-left:before, .bar .player .title-bar button.button.icon-left:before, .player .title-bar .bar button.button.icon-left:before, .bar .player button.icon-left.icon-close:before, .player .bar button.icon-left.icon-close:before, .bar .player .title-bar button.icon-left:before, .player .title-bar .bar button.icon-left:before, .bar .button.button-clear.icon-right:before, .bar .player .button-clear.icon-right.icon-close:before, .player .bar .button-clear.icon-right.icon-close:before, .bar .player .icon-right.icon-close:before, .player .bar .icon-right.icon-close:before, .bar .player .title-bar button.icon-right.icon-close:before, .player .title-bar .bar button.icon-right.icon-close:before, .bar .player .button.icon-right.icon-close:before, .player .bar .button.icon-right.icon-close:before, .bar .player .icon-right.icon-close:before, .player .bar .icon-right.icon-close:before, .bar .player .title-bar button.icon-right.icon-close:before, .player .title-bar .bar button.icon-right.icon-close:before, .bar .player .title-bar button.button-clear.icon-right:before, .player .title-bar .bar button.button-clear.icon-right:before, .bar .player button.icon-right.icon-close:before, .player .bar button.icon-right.icon-close:before, .bar .player .title-bar button.icon-right:before, .player .title-bar .bar button.icon-right:before, .bar .player .title-bar button.button.icon-right:before, .player .title-bar .bar button.button.icon-right:before, .bar .player button.icon-right.icon-close:before, .player .bar button.icon-right.icon-close:before, .bar .player .title-bar button.icon-right:before, .player .title-bar .bar button.icon-right:before {
+      .bar .button.button-clear .icon:before, .bar .player .icon-close .icon:before, .player .bar .icon-close .icon:before, .bar .player .title-bar button .icon:before, .player .title-bar .bar button .icon:before, .bar .button.button-clear .player .icon-close:before, .player .bar .button.button-clear .icon-close:before, .bar .player .icon-close .icon-close:before, .player .bar .icon-close .icon-close:before, .bar .player .title-bar button .icon-close:before, .player .title-bar .bar button .icon-close:before, .bar .button.button-clear .player .title-bar button:before, .player .title-bar .bar .button.button-clear button:before, .bar .player .icon-close .title-bar button:before, .bar .player .title-bar .icon-close button:before, .player .bar .icon-close .title-bar button:before, .player .title-bar .bar .icon-close button:before, .bar .player .title-bar button button:before, .player .title-bar .bar button button:before, .bar .button.button-clear.icon:before, .bar .player .icon-close:before, .player .bar .icon-close:before, .bar .player .title-bar button:before, .player .title-bar .bar button:before, .bar .button.button-clear.icon-left:before, .bar .player .icon-left.icon-close:before, .player .bar .icon-left.icon-close:before, .bar .player .title-bar button.icon-left:before, .player .title-bar .bar button.icon-left:before, .bar .button.button-clear.icon-right:before, .bar .player .icon-right.icon-close:before, .player .bar .icon-right.icon-close:before, .bar .player .title-bar button.icon-right:before, .player .title-bar .bar button.icon-right:before {
         font-size: 32px;
         line-height: 32px; }
     .bar .button.back-button, .bar .player .back-button.icon-close, .player .bar .back-button.icon-close, .bar .player .title-bar button.back-button, .player .title-bar .bar button.back-button {
@@ -3254,10 +3255,10 @@ a.subdued {
       font-weight: 400; }
     .bar .button.back-button.active, .bar .player .back-button.active.icon-close, .player .bar .back-button.active.icon-close, .bar .player .title-bar button.back-button.active, .player .title-bar .bar button.back-button.active, .bar .button.back-button.activated, .bar .player .back-button.activated.icon-close, .player .bar .back-button.activated.icon-close, .bar .player .title-bar button.back-button.activated, .player .title-bar .bar button.back-button.activated {
       opacity: 0.2; }
-  .bar .button-bar > .button, .bar .button-bar > .player .icon-close, .player .bar .button-bar > .icon-close, .bar .button-bar > .player .title-bar button, .player .title-bar .bar .button-bar > button, .bar .buttons > .button, .bar .buttons > .player .icon-close, .player .bar .buttons > .icon-close, .bar .buttons > .player .title-bar button, .player .title-bar .bar .buttons > button {
+  .bar .button-bar > .button, .bar .player .button-bar > .icon-close, .player .bar .button-bar > .icon-close, .bar .player .title-bar .button-bar > button, .player .title-bar .bar .button-bar > button, .bar .buttons > .button, .bar .player .buttons > .icon-close, .player .bar .buttons > .icon-close, .bar .player .title-bar .buttons > button, .player .title-bar .bar .buttons > button {
     min-height: 31px;
     line-height: 32px; }
-  .bar .button-bar + .button, .bar .button-bar + .player .icon-close, .player .bar .button-bar + .icon-close, .bar .button-bar + .player .title-bar button, .player .title-bar .bar .button-bar + button, .bar .button + .button-bar, .bar .button + .player .icon-close, .player .bar .button + .icon-close, .bar .button + .player .title-bar button, .player .title-bar .bar .button + button {
+  .bar .button-bar + .button, .bar .player .button-bar + .icon-close, .player .bar .button-bar + .icon-close, .bar .player .title-bar .button-bar + button, .player .title-bar .bar .button-bar + button, .bar .button + .button-bar, .bar .player .icon-close + .button-bar, .player .bar .icon-close + .button-bar, .bar .player .title-bar button + .button-bar, .player .title-bar .bar button + .button-bar {
     margin-left: 5px; }
   .bar .buttons, .bar .buttons.primary-buttons, .bar .buttons.secondary-buttons {
     display: inherit; }
@@ -3269,7 +3270,7 @@ a.subdued {
   .bar .buttons-right span {
     margin-left: 5px;
     display: inherit; }
-  .bar .title + .button:last-child, .bar .title + .player .icon-close:last-child, .player .bar .title + .icon-close:last-child, .bar .title + .player .title-bar button:last-child, .player .title-bar .bar .title + button:last-child, .bar > .button + .button:last-child, .bar > .button + .player .icon-close, .player .bar > .button + .icon-close, .bar > .button + .player .title-bar button, .player .title-bar .bar > .button + button, .bar > .button + .player .icon-close:last-child, .player .bar > .button + .icon-close:last-child, .bar > .button + .player .title-bar button:last-child, .player .title-bar .bar > .button + button:last-child, .bar > .button.pull-right, .bar > .player .pull-right.icon-close, .player .bar > .pull-right.icon-close, .bar > .player .title-bar button.pull-right, .player .title-bar .bar > button.pull-right, .bar .buttons.pull-right, .bar .title + .buttons {
+  .bar .title + .button:last-child, .bar .player .title + .icon-close:last-child, .player .bar .title + .icon-close:last-child, .bar .player .title-bar .title + button:last-child, .player .title-bar .bar .title + button:last-child, .bar > .button + .button:last-child, .player .bar > .icon-close + .button:last-child, .player .title-bar .bar > button + .button:last-child, .player .bar > .button + .icon-close:last-child, .player .bar > .icon-close + .icon-close:last-child, .player .title-bar .bar > button + .icon-close:last-child, .player .title-bar .bar > .button + button:last-child, .player .title-bar .bar > .icon-close + button:last-child, .player .title-bar .bar > button + button:last-child, .bar > .button.pull-right, .player .bar > .pull-right.icon-close, .player .title-bar .bar > button.pull-right, .bar .buttons.pull-right, .bar .title + .buttons {
     position: absolute;
     top: 5px;
     right: 5px;
@@ -3294,13 +3295,13 @@ a.subdued {
     border-color: #ccc;
     background-color: #fafafa;
     box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-  .bar-light .button.button-clear, .bar-light .player .button-clear.icon-close, .player .bar-light .button-clear.icon-close, .bar-light .player .icon-close, .player .bar-light .icon-close, .bar-light .player .title-bar button.icon-close, .player .title-bar .bar-light button.icon-close, .bar-light .player .button.icon-close, .player .bar-light .button.icon-close, .bar-light .player .icon-close, .player .bar-light .icon-close, .bar-light .player .title-bar button.icon-close, .player .title-bar .bar-light button.icon-close, .bar-light .player .title-bar button.button-clear, .player .title-bar .bar-light button.button-clear, .bar-light .player button.icon-close, .player .bar-light button.icon-close, .bar-light .player .title-bar button, .player .title-bar .bar-light button, .bar-light .player .title-bar button.button, .player .title-bar .bar-light button.button, .bar-light .player button.icon-close, .player .bar-light button.icon-close, .bar-light .player .title-bar button, .player .title-bar .bar-light button {
+  .bar-light .button.button-clear, .bar-light .player .icon-close, .player .bar-light .icon-close, .bar-light .player .title-bar button, .player .title-bar .bar-light button {
     border-color: transparent;
     background: none;
     box-shadow: none;
     color: #444;
     font-size: 17px; }
-  .bar-light .button.button-icon, .bar-light .player .button-icon.icon-close, .player .bar-light .button-icon.icon-close, .bar-light .player .icon-close, .player .bar-light .icon-close, .bar-light .player .title-bar button.icon-close, .player .title-bar .bar-light button.icon-close, .bar-light .player .button.icon-close, .player .bar-light .button.icon-close, .bar-light .player .icon-close, .player .bar-light .icon-close, .bar-light .player .title-bar button.icon-close, .player .title-bar .bar-light button.icon-close, .bar-light .player .title-bar button.button-icon, .player .title-bar .bar-light button.button-icon, .bar-light .player button.icon-close, .player .bar-light button.icon-close, .bar-light .player .title-bar button, .player .title-bar .bar-light button, .bar-light .player .title-bar button.button, .player .title-bar .bar-light button.button, .bar-light .player button.icon-close, .player .bar-light button.icon-close, .bar-light .player .title-bar button, .player .title-bar .bar-light button {
+  .bar-light .button.button-icon, .bar-light .player .icon-close, .player .bar-light .icon-close, .bar-light .player .title-bar button, .player .title-bar .bar-light button {
     border-color: transparent;
     background: none; }
 
@@ -3315,76 +3316,76 @@ a.subdued {
     border-color: #a2a2a2;
     background-color: #e5e5e5;
     box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-  .bar-stable .button.button-clear, .bar-stable .player .button-clear.icon-close, .player .bar-stable .button-clear.icon-close, .bar-stable .player .icon-close, .player .bar-stable .icon-close, .bar-stable .player .title-bar button.icon-close, .player .title-bar .bar-stable button.icon-close, .bar-stable .player .button.icon-close, .player .bar-stable .button.icon-close, .bar-stable .player .icon-close, .player .bar-stable .icon-close, .bar-stable .player .title-bar button.icon-close, .player .title-bar .bar-stable button.icon-close, .bar-stable .player .title-bar button.button-clear, .player .title-bar .bar-stable button.button-clear, .bar-stable .player button.icon-close, .player .bar-stable button.icon-close, .bar-stable .player .title-bar button, .player .title-bar .bar-stable button, .bar-stable .player .title-bar button.button, .player .title-bar .bar-stable button.button, .bar-stable .player button.icon-close, .player .bar-stable button.icon-close, .bar-stable .player .title-bar button, .player .title-bar .bar-stable button {
+  .bar-stable .button.button-clear, .bar-stable .player .icon-close, .player .bar-stable .icon-close, .bar-stable .player .title-bar button, .player .title-bar .bar-stable button {
     border-color: transparent;
     background: none;
     box-shadow: none;
     color: #444;
     font-size: 17px; }
-  .bar-stable .button.button-icon, .bar-stable .player .button-icon.icon-close, .player .bar-stable .button-icon.icon-close, .bar-stable .player .icon-close, .player .bar-stable .icon-close, .bar-stable .player .title-bar button.icon-close, .player .title-bar .bar-stable button.icon-close, .bar-stable .player .button.icon-close, .player .bar-stable .button.icon-close, .bar-stable .player .icon-close, .player .bar-stable .icon-close, .bar-stable .player .title-bar button.icon-close, .player .title-bar .bar-stable button.icon-close, .bar-stable .player .title-bar button.button-icon, .player .title-bar .bar-stable button.button-icon, .bar-stable .player button.icon-close, .player .bar-stable button.icon-close, .bar-stable .player .title-bar button, .player .title-bar .bar-stable button, .bar-stable .player .title-bar button.button, .player .title-bar .bar-stable button.button, .bar-stable .player button.icon-close, .player .bar-stable button.icon-close, .bar-stable .player .title-bar button, .player .title-bar .bar-stable button {
+  .bar-stable .button.button-icon, .bar-stable .player .icon-close, .player .bar-stable .icon-close, .bar-stable .player .title-bar button, .player .title-bar .bar-stable button {
     border-color: transparent;
     background: none; }
 
 .bar-positive .button, .bar-positive .player .icon-close, .player .bar-positive .icon-close, .bar-positive .player .title-bar button, .player .title-bar .bar-positive button {
-  border-color: #0c63ee;
+  border-color: #0c60ee;
   background-color: #387ef5;
   color: #fff; }
   .bar-positive .button:hover, .bar-positive .player .icon-close:hover, .player .bar-positive .icon-close:hover, .bar-positive .player .title-bar button:hover, .player .title-bar .bar-positive button:hover {
     color: #fff;
     text-decoration: none; }
   .bar-positive .button.active, .bar-positive .player .active.icon-close, .player .bar-positive .active.icon-close, .bar-positive .player .title-bar button.active, .player .title-bar .bar-positive button.active, .bar-positive .button.activated, .bar-positive .player .activated.icon-close, .player .bar-positive .activated.icon-close, .bar-positive .player .title-bar button.activated, .player .title-bar .bar-positive button.activated {
-    border-color: #0c63ee;
-    background-color: #0c63ee;
+    border-color: #0c60ee;
+    background-color: #0c60ee;
     box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-  .bar-positive .button.button-clear, .bar-positive .player .button-clear.icon-close, .player .bar-positive .button-clear.icon-close, .bar-positive .player .icon-close, .player .bar-positive .icon-close, .bar-positive .player .title-bar button.icon-close, .player .title-bar .bar-positive button.icon-close, .bar-positive .player .button.icon-close, .player .bar-positive .button.icon-close, .bar-positive .player .icon-close, .player .bar-positive .icon-close, .bar-positive .player .title-bar button.icon-close, .player .title-bar .bar-positive button.icon-close, .bar-positive .player .title-bar button.button-clear, .player .title-bar .bar-positive button.button-clear, .bar-positive .player button.icon-close, .player .bar-positive button.icon-close, .bar-positive .player .title-bar button, .player .title-bar .bar-positive button, .bar-positive .player .title-bar button.button, .player .title-bar .bar-positive button.button, .bar-positive .player button.icon-close, .player .bar-positive button.icon-close, .bar-positive .player .title-bar button, .player .title-bar .bar-positive button {
+  .bar-positive .button.button-clear, .bar-positive .player .icon-close, .player .bar-positive .icon-close, .bar-positive .player .title-bar button, .player .title-bar .bar-positive button {
     border-color: transparent;
     background: none;
     box-shadow: none;
     color: #fff;
     font-size: 17px; }
-  .bar-positive .button.button-icon, .bar-positive .player .button-icon.icon-close, .player .bar-positive .button-icon.icon-close, .bar-positive .player .icon-close, .player .bar-positive .icon-close, .bar-positive .player .title-bar button.icon-close, .player .title-bar .bar-positive button.icon-close, .bar-positive .player .button.icon-close, .player .bar-positive .button.icon-close, .bar-positive .player .icon-close, .player .bar-positive .icon-close, .bar-positive .player .title-bar button.icon-close, .player .title-bar .bar-positive button.icon-close, .bar-positive .player .title-bar button.button-icon, .player .title-bar .bar-positive button.button-icon, .bar-positive .player button.icon-close, .player .bar-positive button.icon-close, .bar-positive .player .title-bar button, .player .title-bar .bar-positive button, .bar-positive .player .title-bar button.button, .player .title-bar .bar-positive button.button, .bar-positive .player button.icon-close, .player .bar-positive button.icon-close, .bar-positive .player .title-bar button, .player .title-bar .bar-positive button {
+  .bar-positive .button.button-icon, .bar-positive .player .icon-close, .player .bar-positive .icon-close, .bar-positive .player .title-bar button, .player .title-bar .bar-positive button {
     border-color: transparent;
     background: none; }
 
 .bar-calm .button, .bar-calm .player .icon-close, .player .bar-calm .icon-close, .bar-calm .player .title-bar button, .player .title-bar .bar-calm button {
-  border-color: #0a9ec7;
+  border-color: #0a9dc7;
   background-color: #11c1f3;
   color: #fff; }
   .bar-calm .button:hover, .bar-calm .player .icon-close:hover, .player .bar-calm .icon-close:hover, .bar-calm .player .title-bar button:hover, .player .title-bar .bar-calm button:hover {
     color: #fff;
     text-decoration: none; }
   .bar-calm .button.active, .bar-calm .player .active.icon-close, .player .bar-calm .active.icon-close, .bar-calm .player .title-bar button.active, .player .title-bar .bar-calm button.active, .bar-calm .button.activated, .bar-calm .player .activated.icon-close, .player .bar-calm .activated.icon-close, .bar-calm .player .title-bar button.activated, .player .title-bar .bar-calm button.activated {
-    border-color: #0a9ec7;
-    background-color: #0a9ec7;
+    border-color: #0a9dc7;
+    background-color: #0a9dc7;
     box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-  .bar-calm .button.button-clear, .bar-calm .player .button-clear.icon-close, .player .bar-calm .button-clear.icon-close, .bar-calm .player .icon-close, .player .bar-calm .icon-close, .bar-calm .player .title-bar button.icon-close, .player .title-bar .bar-calm button.icon-close, .bar-calm .player .button.icon-close, .player .bar-calm .button.icon-close, .bar-calm .player .icon-close, .player .bar-calm .icon-close, .bar-calm .player .title-bar button.icon-close, .player .title-bar .bar-calm button.icon-close, .bar-calm .player .title-bar button.button-clear, .player .title-bar .bar-calm button.button-clear, .bar-calm .player button.icon-close, .player .bar-calm button.icon-close, .bar-calm .player .title-bar button, .player .title-bar .bar-calm button, .bar-calm .player .title-bar button.button, .player .title-bar .bar-calm button.button, .bar-calm .player button.icon-close, .player .bar-calm button.icon-close, .bar-calm .player .title-bar button, .player .title-bar .bar-calm button {
+  .bar-calm .button.button-clear, .bar-calm .player .icon-close, .player .bar-calm .icon-close, .bar-calm .player .title-bar button, .player .title-bar .bar-calm button {
     border-color: transparent;
     background: none;
     box-shadow: none;
     color: #fff;
     font-size: 17px; }
-  .bar-calm .button.button-icon, .bar-calm .player .button-icon.icon-close, .player .bar-calm .button-icon.icon-close, .bar-calm .player .icon-close, .player .bar-calm .icon-close, .bar-calm .player .title-bar button.icon-close, .player .title-bar .bar-calm button.icon-close, .bar-calm .player .button.icon-close, .player .bar-calm .button.icon-close, .bar-calm .player .icon-close, .player .bar-calm .icon-close, .bar-calm .player .title-bar button.icon-close, .player .title-bar .bar-calm button.icon-close, .bar-calm .player .title-bar button.button-icon, .player .title-bar .bar-calm button.button-icon, .bar-calm .player button.icon-close, .player .bar-calm button.icon-close, .bar-calm .player .title-bar button, .player .title-bar .bar-calm button, .bar-calm .player .title-bar button.button, .player .title-bar .bar-calm button.button, .bar-calm .player button.icon-close, .player .bar-calm button.icon-close, .bar-calm .player .title-bar button, .player .title-bar .bar-calm button {
+  .bar-calm .button.button-icon, .bar-calm .player .icon-close, .player .bar-calm .icon-close, .bar-calm .player .title-bar button, .player .title-bar .bar-calm button {
     border-color: transparent;
     background: none; }
 
 .bar-assertive .button, .bar-assertive .player .icon-close, .player .bar-assertive .icon-close, .bar-assertive .player .title-bar button, .player .title-bar .bar-assertive button {
-  border-color: #e42012;
+  border-color: #e42112;
   background-color: #ef473a;
   color: #fff; }
   .bar-assertive .button:hover, .bar-assertive .player .icon-close:hover, .player .bar-assertive .icon-close:hover, .bar-assertive .player .title-bar button:hover, .player .title-bar .bar-assertive button:hover {
     color: #fff;
     text-decoration: none; }
   .bar-assertive .button.active, .bar-assertive .player .active.icon-close, .player .bar-assertive .active.icon-close, .bar-assertive .player .title-bar button.active, .player .title-bar .bar-assertive button.active, .bar-assertive .button.activated, .bar-assertive .player .activated.icon-close, .player .bar-assertive .activated.icon-close, .bar-assertive .player .title-bar button.activated, .player .title-bar .bar-assertive button.activated {
-    border-color: #e42012;
-    background-color: #e42012;
+    border-color: #e42112;
+    background-color: #e42112;
     box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-  .bar-assertive .button.button-clear, .bar-assertive .player .button-clear.icon-close, .player .bar-assertive .button-clear.icon-close, .bar-assertive .player .icon-close, .player .bar-assertive .icon-close, .bar-assertive .player .title-bar button.icon-close, .player .title-bar .bar-assertive button.icon-close, .bar-assertive .player .button.icon-close, .player .bar-assertive .button.icon-close, .bar-assertive .player .icon-close, .player .bar-assertive .icon-close, .bar-assertive .player .title-bar button.icon-close, .player .title-bar .bar-assertive button.icon-close, .bar-assertive .player .title-bar button.button-clear, .player .title-bar .bar-assertive button.button-clear, .bar-assertive .player button.icon-close, .player .bar-assertive button.icon-close, .bar-assertive .player .title-bar button, .player .title-bar .bar-assertive button, .bar-assertive .player .title-bar button.button, .player .title-bar .bar-assertive button.button, .bar-assertive .player button.icon-close, .player .bar-assertive button.icon-close, .bar-assertive .player .title-bar button, .player .title-bar .bar-assertive button {
+  .bar-assertive .button.button-clear, .bar-assertive .player .icon-close, .player .bar-assertive .icon-close, .bar-assertive .player .title-bar button, .player .title-bar .bar-assertive button {
     border-color: transparent;
     background: none;
     box-shadow: none;
     color: #fff;
     font-size: 17px; }
-  .bar-assertive .button.button-icon, .bar-assertive .player .button-icon.icon-close, .player .bar-assertive .button-icon.icon-close, .bar-assertive .player .icon-close, .player .bar-assertive .icon-close, .bar-assertive .player .title-bar button.icon-close, .player .title-bar .bar-assertive button.icon-close, .bar-assertive .player .button.icon-close, .player .bar-assertive .button.icon-close, .bar-assertive .player .icon-close, .player .bar-assertive .icon-close, .bar-assertive .player .title-bar button.icon-close, .player .title-bar .bar-assertive button.icon-close, .bar-assertive .player .title-bar button.button-icon, .player .title-bar .bar-assertive button.button-icon, .bar-assertive .player button.icon-close, .player .bar-assertive button.icon-close, .bar-assertive .player .title-bar button, .player .title-bar .bar-assertive button, .bar-assertive .player .title-bar button.button, .player .title-bar .bar-assertive button.button, .bar-assertive .player button.icon-close, .player .bar-assertive button.icon-close, .bar-assertive .player .title-bar button, .player .title-bar .bar-assertive button {
+  .bar-assertive .button.button-icon, .bar-assertive .player .icon-close, .player .bar-assertive .icon-close, .bar-assertive .player .title-bar button, .player .title-bar .bar-assertive button {
     border-color: transparent;
     background: none; }
 
@@ -3399,34 +3400,34 @@ a.subdued {
     border-color: #28a54c;
     background-color: #28a54c;
     box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-  .bar-balanced .button.button-clear, .bar-balanced .player .button-clear.icon-close, .player .bar-balanced .button-clear.icon-close, .bar-balanced .player .icon-close, .player .bar-balanced .icon-close, .bar-balanced .player .title-bar button.icon-close, .player .title-bar .bar-balanced button.icon-close, .bar-balanced .player .button.icon-close, .player .bar-balanced .button.icon-close, .bar-balanced .player .icon-close, .player .bar-balanced .icon-close, .bar-balanced .player .title-bar button.icon-close, .player .title-bar .bar-balanced button.icon-close, .bar-balanced .player .title-bar button.button-clear, .player .title-bar .bar-balanced button.button-clear, .bar-balanced .player button.icon-close, .player .bar-balanced button.icon-close, .bar-balanced .player .title-bar button, .player .title-bar .bar-balanced button, .bar-balanced .player .title-bar button.button, .player .title-bar .bar-balanced button.button, .bar-balanced .player button.icon-close, .player .bar-balanced button.icon-close, .bar-balanced .player .title-bar button, .player .title-bar .bar-balanced button {
+  .bar-balanced .button.button-clear, .bar-balanced .player .icon-close, .player .bar-balanced .icon-close, .bar-balanced .player .title-bar button, .player .title-bar .bar-balanced button {
     border-color: transparent;
     background: none;
     box-shadow: none;
     color: #fff;
     font-size: 17px; }
-  .bar-balanced .button.button-icon, .bar-balanced .player .button-icon.icon-close, .player .bar-balanced .button-icon.icon-close, .bar-balanced .player .icon-close, .player .bar-balanced .icon-close, .bar-balanced .player .title-bar button.icon-close, .player .title-bar .bar-balanced button.icon-close, .bar-balanced .player .button.icon-close, .player .bar-balanced .button.icon-close, .bar-balanced .player .icon-close, .player .bar-balanced .icon-close, .bar-balanced .player .title-bar button.icon-close, .player .title-bar .bar-balanced button.icon-close, .bar-balanced .player .title-bar button.button-icon, .player .title-bar .bar-balanced button.button-icon, .bar-balanced .player button.icon-close, .player .bar-balanced button.icon-close, .bar-balanced .player .title-bar button, .player .title-bar .bar-balanced button, .bar-balanced .player .title-bar button.button, .player .title-bar .bar-balanced button.button, .bar-balanced .player button.icon-close, .player .bar-balanced button.icon-close, .bar-balanced .player .title-bar button, .player .title-bar .bar-balanced button {
+  .bar-balanced .button.button-icon, .bar-balanced .player .icon-close, .player .bar-balanced .icon-close, .bar-balanced .player .title-bar button, .player .title-bar .bar-balanced button {
     border-color: transparent;
     background: none; }
 
 .bar-energized .button, .bar-energized .player .icon-close, .player .bar-energized .icon-close, .bar-energized .player .title-bar button, .player .title-bar .bar-energized button {
-  border-color: #e6b400;
+  border-color: #e6b500;
   background-color: #ffc900;
   color: #fff; }
   .bar-energized .button:hover, .bar-energized .player .icon-close:hover, .player .bar-energized .icon-close:hover, .bar-energized .player .title-bar button:hover, .player .title-bar .bar-energized button:hover {
     color: #fff;
     text-decoration: none; }
   .bar-energized .button.active, .bar-energized .player .active.icon-close, .player .bar-energized .active.icon-close, .bar-energized .player .title-bar button.active, .player .title-bar .bar-energized button.active, .bar-energized .button.activated, .bar-energized .player .activated.icon-close, .player .bar-energized .activated.icon-close, .bar-energized .player .title-bar button.activated, .player .title-bar .bar-energized button.activated {
-    border-color: #e6b400;
-    background-color: #e6b400;
+    border-color: #e6b500;
+    background-color: #e6b500;
     box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-  .bar-energized .button.button-clear, .bar-energized .player .button-clear.icon-close, .player .bar-energized .button-clear.icon-close, .bar-energized .player .icon-close, .player .bar-energized .icon-close, .bar-energized .player .title-bar button.icon-close, .player .title-bar .bar-energized button.icon-close, .bar-energized .player .button.icon-close, .player .bar-energized .button.icon-close, .bar-energized .player .icon-close, .player .bar-energized .icon-close, .bar-energized .player .title-bar button.icon-close, .player .title-bar .bar-energized button.icon-close, .bar-energized .player .title-bar button.button-clear, .player .title-bar .bar-energized button.button-clear, .bar-energized .player button.icon-close, .player .bar-energized button.icon-close, .bar-energized .player .title-bar button, .player .title-bar .bar-energized button, .bar-energized .player .title-bar button.button, .player .title-bar .bar-energized button.button, .bar-energized .player button.icon-close, .player .bar-energized button.icon-close, .bar-energized .player .title-bar button, .player .title-bar .bar-energized button {
+  .bar-energized .button.button-clear, .bar-energized .player .icon-close, .player .bar-energized .icon-close, .bar-energized .player .title-bar button, .player .title-bar .bar-energized button {
     border-color: transparent;
     background: none;
     box-shadow: none;
     color: #fff;
     font-size: 17px; }
-  .bar-energized .button.button-icon, .bar-energized .player .button-icon.icon-close, .player .bar-energized .button-icon.icon-close, .bar-energized .player .icon-close, .player .bar-energized .icon-close, .bar-energized .player .title-bar button.icon-close, .player .title-bar .bar-energized button.icon-close, .bar-energized .player .button.icon-close, .player .bar-energized .button.icon-close, .bar-energized .player .icon-close, .player .bar-energized .icon-close, .bar-energized .player .title-bar button.icon-close, .player .title-bar .bar-energized button.icon-close, .bar-energized .player .title-bar button.button-icon, .player .title-bar .bar-energized button.button-icon, .bar-energized .player button.icon-close, .player .bar-energized button.icon-close, .bar-energized .player .title-bar button, .player .title-bar .bar-energized button, .bar-energized .player .title-bar button.button, .player .title-bar .bar-energized button.button, .bar-energized .player button.icon-close, .player .bar-energized button.icon-close, .bar-energized .player .title-bar button, .player .title-bar .bar-energized button {
+  .bar-energized .button.button-icon, .bar-energized .player .icon-close, .player .bar-energized .icon-close, .bar-energized .player .title-bar button, .player .title-bar .bar-energized button {
     border-color: transparent;
     background: none; }
 
@@ -3441,13 +3442,13 @@ a.subdued {
     border-color: #6b46e5;
     background-color: #6b46e5;
     box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-  .bar-royal .button.button-clear, .bar-royal .player .button-clear.icon-close, .player .bar-royal .button-clear.icon-close, .bar-royal .player .icon-close, .player .bar-royal .icon-close, .bar-royal .player .title-bar button.icon-close, .player .title-bar .bar-royal button.icon-close, .bar-royal .player .button.icon-close, .player .bar-royal .button.icon-close, .bar-royal .player .icon-close, .player .bar-royal .icon-close, .bar-royal .player .title-bar button.icon-close, .player .title-bar .bar-royal button.icon-close, .bar-royal .player .title-bar button.button-clear, .player .title-bar .bar-royal button.button-clear, .bar-royal .player button.icon-close, .player .bar-royal button.icon-close, .bar-royal .player .title-bar button, .player .title-bar .bar-royal button, .bar-royal .player .title-bar button.button, .player .title-bar .bar-royal button.button, .bar-royal .player button.icon-close, .player .bar-royal button.icon-close, .bar-royal .player .title-bar button, .player .title-bar .bar-royal button {
+  .bar-royal .button.button-clear, .bar-royal .player .icon-close, .player .bar-royal .icon-close, .bar-royal .player .title-bar button, .player .title-bar .bar-royal button {
     border-color: transparent;
     background: none;
     box-shadow: none;
     color: #fff;
     font-size: 17px; }
-  .bar-royal .button.button-icon, .bar-royal .player .button-icon.icon-close, .player .bar-royal .button-icon.icon-close, .bar-royal .player .icon-close, .player .bar-royal .icon-close, .bar-royal .player .title-bar button.icon-close, .player .title-bar .bar-royal button.icon-close, .bar-royal .player .button.icon-close, .player .bar-royal .button.icon-close, .bar-royal .player .icon-close, .player .bar-royal .icon-close, .bar-royal .player .title-bar button.icon-close, .player .title-bar .bar-royal button.icon-close, .bar-royal .player .title-bar button.button-icon, .player .title-bar .bar-royal button.button-icon, .bar-royal .player button.icon-close, .player .bar-royal button.icon-close, .bar-royal .player .title-bar button, .player .title-bar .bar-royal button, .bar-royal .player .title-bar button.button, .player .title-bar .bar-royal button.button, .bar-royal .player button.icon-close, .player .bar-royal button.icon-close, .bar-royal .player .title-bar button, .player .title-bar .bar-royal button {
+  .bar-royal .button.button-icon, .bar-royal .player .icon-close, .player .bar-royal .icon-close, .bar-royal .player .title-bar button, .player .title-bar .bar-royal button {
     border-color: transparent;
     background: none; }
 
@@ -3462,13 +3463,13 @@ a.subdued {
     border-color: #000;
     background-color: #262626;
     box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-  .bar-dark .button.button-clear, .bar-dark .player .button-clear.icon-close, .player .bar-dark .button-clear.icon-close, .bar-dark .player .icon-close, .player .bar-dark .icon-close, .bar-dark .player .title-bar button.icon-close, .player .title-bar .bar-dark button.icon-close, .bar-dark .player .button.icon-close, .player .bar-dark .button.icon-close, .bar-dark .player .icon-close, .player .bar-dark .icon-close, .bar-dark .player .title-bar button.icon-close, .player .title-bar .bar-dark button.icon-close, .bar-dark .player .title-bar button.button-clear, .player .title-bar .bar-dark button.button-clear, .bar-dark .player button.icon-close, .player .bar-dark button.icon-close, .bar-dark .player .title-bar button, .player .title-bar .bar-dark button, .bar-dark .player .title-bar button.button, .player .title-bar .bar-dark button.button, .bar-dark .player button.icon-close, .player .bar-dark button.icon-close, .bar-dark .player .title-bar button, .player .title-bar .bar-dark button {
+  .bar-dark .button.button-clear, .bar-dark .player .icon-close, .player .bar-dark .icon-close, .bar-dark .player .title-bar button, .player .title-bar .bar-dark button {
     border-color: transparent;
     background: none;
     box-shadow: none;
     color: #fff;
     font-size: 17px; }
-  .bar-dark .button.button-icon, .bar-dark .player .button-icon.icon-close, .player .bar-dark .button-icon.icon-close, .bar-dark .player .icon-close, .player .bar-dark .icon-close, .bar-dark .player .title-bar button.icon-close, .player .title-bar .bar-dark button.icon-close, .bar-dark .player .button.icon-close, .player .bar-dark .button.icon-close, .bar-dark .player .icon-close, .player .bar-dark .icon-close, .bar-dark .player .title-bar button.icon-close, .player .title-bar .bar-dark button.icon-close, .bar-dark .player .title-bar button.button-icon, .player .title-bar .bar-dark button.button-icon, .bar-dark .player button.icon-close, .player .bar-dark button.icon-close, .bar-dark .player .title-bar button, .player .title-bar .bar-dark button, .bar-dark .player .title-bar button.button, .player .title-bar .bar-dark button.button, .bar-dark .player button.icon-close, .player .bar-dark button.icon-close, .bar-dark .player .title-bar button, .player .title-bar .bar-dark button {
+  .bar-dark .button.button-icon, .bar-dark .player .icon-close, .player .bar-dark .icon-close, .bar-dark .player .title-bar button, .player .title-bar .bar-dark button {
     border-color: transparent;
     background: none; }
 
@@ -3589,27 +3590,27 @@ a.subdued {
     color: #f8f8f8; }
 
 .tabs-positive > .tabs, .tabs.tabs-positive {
-  border-color: #0c63ee;
+  border-color: #0c60ee;
   background-color: #387ef5;
-  background-image: linear-gradient(0deg, #0c63ee, #0c63ee 50%, transparent 50%);
+  background-image: linear-gradient(0deg, #0c60ee, #0c60ee 50%, transparent 50%);
   color: #fff; }
   .tabs-positive > .tabs .tab-item .badge, .tabs.tabs-positive .tab-item .badge {
     background-color: #fff;
     color: #387ef5; }
 
 .tabs-calm > .tabs, .tabs.tabs-calm {
-  border-color: #0a9ec7;
+  border-color: #0a9dc7;
   background-color: #11c1f3;
-  background-image: linear-gradient(0deg, #0a9ec7, #0a9ec7 50%, transparent 50%);
+  background-image: linear-gradient(0deg, #0a9dc7, #0a9dc7 50%, transparent 50%);
   color: #fff; }
   .tabs-calm > .tabs .tab-item .badge, .tabs.tabs-calm .tab-item .badge {
     background-color: #fff;
     color: #11c1f3; }
 
 .tabs-assertive > .tabs, .tabs.tabs-assertive {
-  border-color: #e42012;
+  border-color: #e42112;
   background-color: #ef473a;
-  background-image: linear-gradient(0deg, #e42012, #e42012 50%, transparent 50%);
+  background-image: linear-gradient(0deg, #e42112, #e42112 50%, transparent 50%);
   color: #fff; }
   .tabs-assertive > .tabs .tab-item .badge, .tabs.tabs-assertive .tab-item .badge {
     background-color: #fff;
@@ -3625,9 +3626,9 @@ a.subdued {
     color: #33cd5f; }
 
 .tabs-energized > .tabs, .tabs.tabs-energized {
-  border-color: #e6b400;
+  border-color: #e6b500;
   background-color: #ffc900;
-  background-image: linear-gradient(0deg, #e6b400, #e6b400 50%, transparent 50%);
+  background-image: linear-gradient(0deg, #e6b500, #e6b500 50%, transparent 50%);
   color: #fff; }
   .tabs-energized > .tabs .tab-item .badge, .tabs.tabs-energized .tab-item .badge {
     background-color: #fff;
@@ -3957,18 +3958,18 @@ a.subdued {
 
 .tabs-background-positive .tabs, .tabs-background-positive > .tabs {
   background-color: #387ef5;
-  background-image: linear-gradient(0deg, #0c63ee, #0c63ee 50%, transparent 50%);
-  border-color: #0c63ee; }
+  background-image: linear-gradient(0deg, #0c60ee, #0c60ee 50%, transparent 50%);
+  border-color: #0c60ee; }
 
 .tabs-background-calm .tabs, .tabs-background-calm > .tabs {
   background-color: #11c1f3;
-  background-image: linear-gradient(0deg, #0a9ec7, #0a9ec7 50%, transparent 50%);
-  border-color: #0a9ec7; }
+  background-image: linear-gradient(0deg, #0a9dc7, #0a9dc7 50%, transparent 50%);
+  border-color: #0a9dc7; }
 
 .tabs-background-assertive .tabs, .tabs-background-assertive > .tabs {
   background-color: #ef473a;
-  background-image: linear-gradient(0deg, #e42012, #e42012 50%, transparent 50%);
-  border-color: #e42012; }
+  background-image: linear-gradient(0deg, #e42112, #e42112 50%, transparent 50%);
+  border-color: #e42112; }
 
 .tabs-background-balanced .tabs, .tabs-background-balanced > .tabs {
   background-color: #33cd5f;
@@ -3977,8 +3978,8 @@ a.subdued {
 
 .tabs-background-energized .tabs, .tabs-background-energized > .tabs {
   background-color: #ffc900;
-  background-image: linear-gradient(0deg, #e6b400, #e6b400 50%, transparent 50%);
-  border-color: #e6b400; }
+  background-image: linear-gradient(0deg, #e6b500, #e6b500 50%, transparent 50%);
+  border-color: #e6b500; }
 
 .tabs-background-royal .tabs, .tabs-background-royal > .tabs {
   background-color: #886aea;
@@ -4130,11 +4131,11 @@ ion-tabs.tabs-color-active-dark .tab-item {
   padding-bottom: 0; }
   .tabs-top.tabs-striped .tab-item {
     background: transparent;
-    -webkit-transition: color 0.1s ease;
-    -moz-transition: color 0.1s ease;
-    -ms-transition: color 0.1s ease;
-    -o-transition: color 0.1s ease;
-    transition: color 0.1s ease; }
+    -webkit-transition: color .1s ease;
+    -moz-transition: color .1s ease;
+    -ms-transition: color .1s ease;
+    -o-transition: color .1s ease;
+    transition: color .1s ease; }
     .tabs-top.tabs-striped .tab-item.tab-item-active, .tabs-top.tabs-striped .tab-item.active, .tabs-top.tabs-striped .tab-item.activated {
       margin-top: 1px;
       border-width: 0px 0px 2px 0px !important;
@@ -4142,11 +4143,11 @@ ion-tabs.tabs-color-active-dark .tab-item {
       .tabs-top.tabs-striped .tab-item.tab-item-active > .badge, .tabs-top.tabs-striped .tab-item.tab-item-active > i, .tabs-top.tabs-striped .tab-item.active > .badge, .tabs-top.tabs-striped .tab-item.active > i, .tabs-top.tabs-striped .tab-item.activated > .badge, .tabs-top.tabs-striped .tab-item.activated > i {
         margin-top: -1px; }
     .tabs-top.tabs-striped .tab-item .badge {
-      -webkit-transition: color 0.2s ease;
-      -moz-transition: color 0.2s ease;
-      -ms-transition: color 0.2s ease;
-      -o-transition: color 0.2s ease;
-      transition: color 0.2s ease; }
+      -webkit-transition: color .2s ease;
+      -moz-transition: color .2s ease;
+      -ms-transition: color .2s ease;
+      -o-transition: color .2s ease;
+      transition: color .2s ease; }
 
 /* Allow parent element to have tabs-top */
 /* If you change this, change platform.scss as well */
@@ -4205,7 +4206,7 @@ ion-tabs.tabs-color-active-dark .tab-item {
   .tabs-icon-left.tabs .tab-item .icon, .tabs-icon-left.tabs .tab-item .player .icon-close, .player .tabs-icon-left.tabs .tab-item .icon-close, .tabs-icon-left.tabs .tab-item .player .title-bar button, .player .title-bar .tabs-icon-left.tabs .tab-item button, .tabs-icon-left > .tabs .tab-item .icon, .tabs-icon-left > .tabs .tab-item .player .icon-close, .player .tabs-icon-left > .tabs .tab-item .icon-close, .tabs-icon-left > .tabs .tab-item .player .title-bar button, .player .title-bar .tabs-icon-left > .tabs .tab-item button, .tabs-icon-right.tabs .tab-item .icon, .tabs-icon-right.tabs .tab-item .player .icon-close, .player .tabs-icon-right.tabs .tab-item .icon-close, .tabs-icon-right.tabs .tab-item .player .title-bar button, .player .title-bar .tabs-icon-right.tabs .tab-item button, .tabs-icon-right > .tabs .tab-item .icon, .tabs-icon-right > .tabs .tab-item .player .icon-close, .player .tabs-icon-right > .tabs .tab-item .icon-close, .tabs-icon-right > .tabs .tab-item .player .title-bar button, .player .title-bar .tabs-icon-right > .tabs .tab-item button {
     display: inline-block;
     vertical-align: top;
-    margin-top: -0.1em; }
+    margin-top: -.1em; }
     .tabs-icon-left.tabs .tab-item .icon:before, .tabs-icon-left.tabs .tab-item .player .icon-close:before, .player .tabs-icon-left.tabs .tab-item .icon-close:before, .tabs-icon-left.tabs .tab-item .player .title-bar button:before, .player .title-bar .tabs-icon-left.tabs .tab-item button:before, .tabs-icon-left > .tabs .tab-item .icon:before, .tabs-icon-left > .tabs .tab-item .player .icon-close:before, .player .tabs-icon-left > .tabs .tab-item .icon-close:before, .tabs-icon-left > .tabs .tab-item .player .title-bar button:before, .player .title-bar .tabs-icon-left > .tabs .tab-item button:before, .tabs-icon-right.tabs .tab-item .icon:before, .tabs-icon-right.tabs .tab-item .player .icon-close:before, .player .tabs-icon-right.tabs .tab-item .icon-close:before, .tabs-icon-right.tabs .tab-item .player .title-bar button:before, .player .title-bar .tabs-icon-right.tabs .tab-item button:before, .tabs-icon-right > .tabs .tab-item .icon:before, .tabs-icon-right > .tabs .tab-item .player .icon-close:before, .player .tabs-icon-right > .tabs .tab-item .icon-close:before, .tabs-icon-right > .tabs .tab-item .player .title-bar button:before, .player .title-bar .tabs-icon-right > .tabs .tab-item button:before {
       font-size: 24px;
       line-height: 49px; }
@@ -4267,7 +4268,7 @@ ion-tabs.tabs-color-active-dark .tab-item {
     position: relative; }
 
 .tab-item.disabled, .tab-item[disabled] {
-  opacity: 0.4;
+  opacity: .4;
   cursor: default;
   pointer-events: none; }
 
@@ -4400,7 +4401,7 @@ ion-tabs.tabs-color-active-dark .tab-item {
   z-index: 10;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0); }
+  background-color: transparent; }
   .popover-backdrop.active {
     background-color: rgba(0, 0, 0, 0.1); }
 
@@ -4513,7 +4514,7 @@ ion-tabs.tabs-color-active-dark .tab-item {
   left: 0;
   bottom: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0);
+  background: transparent;
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -4738,15 +4739,15 @@ ion-tabs.tabs-color-active-dark .tab-item {
     background-color: #f8f8f8;
     color: #444; }
   .item.item-positive {
-    border-color: #0c63ee;
+    border-color: #0c60ee;
     background-color: #387ef5;
     color: #fff; }
   .item.item-calm {
-    border-color: #0a9ec7;
+    border-color: #0a9dc7;
     background-color: #11c1f3;
     color: #fff; }
   .item.item-assertive {
-    border-color: #e42012;
+    border-color: #e42112;
     background-color: #ef473a;
     color: #fff; }
   .item.item-balanced {
@@ -4754,7 +4755,7 @@ ion-tabs.tabs-color-active-dark .tab-item {
     background-color: #33cd5f;
     color: #fff; }
   .item.item-energized {
-    border-color: #e6b400;
+    border-color: #e6b500;
     background-color: #ffc900;
     color: #fff; }
   .item.item-royal {
@@ -4781,20 +4782,20 @@ ion-tabs.tabs-color-active-dark .tab-item {
     border-color: #a2a2a2;
     background-color: #e5e5e5; }
   .item.active.item-positive, .item.activated.item-positive, .item-complex.active .item-content.item-positive, .item-complex.activated .item-content.item-positive, .item .item-content.active.item-positive, .item .item-content.activated.item-positive {
-    border-color: #0c63ee;
-    background-color: #0c63ee; }
+    border-color: #0c60ee;
+    background-color: #0c60ee; }
   .item.active.item-calm, .item.activated.item-calm, .item-complex.active .item-content.item-calm, .item-complex.activated .item-content.item-calm, .item .item-content.active.item-calm, .item .item-content.activated.item-calm {
-    border-color: #0a9ec7;
-    background-color: #0a9ec7; }
+    border-color: #0a9dc7;
+    background-color: #0a9dc7; }
   .item.active.item-assertive, .item.activated.item-assertive, .item-complex.active .item-content.item-assertive, .item-complex.activated .item-content.item-assertive, .item .item-content.active.item-assertive, .item .item-content.activated.item-assertive {
-    border-color: #e42012;
-    background-color: #e42012; }
+    border-color: #e42112;
+    background-color: #e42112; }
   .item.active.item-balanced, .item.activated.item-balanced, .item-complex.active .item-content.item-balanced, .item-complex.activated .item-content.item-balanced, .item .item-content.active.item-balanced, .item .item-content.activated.item-balanced {
     border-color: #28a54c;
     background-color: #28a54c; }
   .item.active.item-energized, .item.activated.item-energized, .item-complex.active .item-content.item-energized, .item-complex.activated .item-content.item-energized, .item .item-content.active.item-energized, .item .item-content.activated.item-energized {
-    border-color: #e6b400;
-    background-color: #e6b400; }
+    border-color: #e6b500;
+    background-color: #e6b500; }
   .item.active.item-royal, .item.activated.item-royal, .item-complex.active .item-content.item-royal, .item-complex.activated .item-content.item-royal, .item .item-content.active.item-royal, .item .item-content.activated.item-royal {
     border-color: #6b46e5;
     background-color: #6b46e5; }
@@ -4860,26 +4861,26 @@ a.item-content {
     border-color: #a2a2a2;
     background-color: #e5e5e5; }
 .item-complex.item-positive > .item-content {
-  border-color: #0c63ee;
+  border-color: #0c60ee;
   background-color: #387ef5;
   color: #fff; }
   .item-complex.item-positive > .item-content.active, .item-complex.item-positive > .item-content:active {
-    border-color: #0c63ee;
-    background-color: #0c63ee; }
+    border-color: #0c60ee;
+    background-color: #0c60ee; }
 .item-complex.item-calm > .item-content {
-  border-color: #0a9ec7;
+  border-color: #0a9dc7;
   background-color: #11c1f3;
   color: #fff; }
   .item-complex.item-calm > .item-content.active, .item-complex.item-calm > .item-content:active {
-    border-color: #0a9ec7;
-    background-color: #0a9ec7; }
+    border-color: #0a9dc7;
+    background-color: #0a9dc7; }
 .item-complex.item-assertive > .item-content {
-  border-color: #e42012;
+  border-color: #e42112;
   background-color: #ef473a;
   color: #fff; }
   .item-complex.item-assertive > .item-content.active, .item-complex.item-assertive > .item-content:active {
-    border-color: #e42012;
-    background-color: #e42012; }
+    border-color: #e42112;
+    background-color: #e42112; }
 .item-complex.item-balanced > .item-content {
   border-color: #28a54c;
   background-color: #33cd5f;
@@ -4888,12 +4889,12 @@ a.item-content {
     border-color: #28a54c;
     background-color: #28a54c; }
 .item-complex.item-energized > .item-content {
-  border-color: #e6b400;
+  border-color: #e6b500;
   background-color: #ffc900;
   color: #fff; }
   .item-complex.item-energized > .item-content.active, .item-complex.item-energized > .item-content:active {
-    border-color: #e6b400;
-    background-color: #e6b400; }
+    border-color: #e6b500;
+    background-color: #e6b500; }
 .item-complex.item-royal > .item-content {
   border-color: #6b46e5;
   background-color: #886aea;
@@ -4913,7 +4914,7 @@ a.item-content {
  * Item Icons
  * --------------------------------------------------
  */
-.item-icon-left .icon, .item-icon-left .col.item-icon-left, .item-icon-left .player .icon-close, .player .item-icon-left .icon-close, .item-icon-left .player .title-bar button, .player .title-bar .item-icon-left button, .item-icon-right .icon, .item-icon-right .player .icon-close, .player .item-icon-right .icon-close, .item-icon-right .player .title-bar button, .player .title-bar .item-icon-right button {
+.item-icon-left .icon, .item-icon-left .player .icon-close, .player .item-icon-left .icon-close, .item-icon-left .player .title-bar button, .player .title-bar .item-icon-left button, .item-icon-right .icon, .item-icon-right .player .icon-close, .player .item-icon-right .icon-close, .item-icon-right .player .title-bar button, .player .title-bar .item-icon-right button {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -4929,7 +4930,7 @@ a.item-content {
   top: 0;
   height: 100%;
   font-size: 32px; }
-  .item-icon-left .icon:before, .item-icon-left .col.item-icon-left, .item-icon-left .player .icon-close:before, .player .item-icon-left .icon-close:before, .item-icon-left .player .title-bar button:before, .player .title-bar .item-icon-left button:before, .item-icon-right .icon:before, .item-icon-right .player .icon-close:before, .player .item-icon-right .icon-close:before, .item-icon-right .player .title-bar button:before, .player .title-bar .item-icon-right button:before {
+  .item-icon-left .icon:before, .item-icon-left .player .icon-close:before, .player .item-icon-left .icon-close:before, .item-icon-left .player .title-bar button:before, .player .title-bar .item-icon-left button:before, .item-icon-right .icon:before, .item-icon-right .player .icon-close:before, .player .item-icon-right .icon-close:before, .item-icon-right .player .title-bar button:before, .player .title-bar .item-icon-right button:before {
     display: block;
     width: 32px;
     text-align: center; }
@@ -4941,12 +4942,12 @@ a.item-content {
 
 .item-icon-left, .col.item-icon-left {
   padding-left: 54px; }
-  .item-icon-left .icon, .item-icon-left .col.item-icon-left, .item-icon-left .player .icon-close, .player .item-icon-left .icon-close, .item-icon-left .player .title-bar button, .player .title-bar .item-icon-left button {
+  .item-icon-left .icon, .item-icon-left .player .icon-close, .player .item-icon-left .icon-close, .item-icon-left .player .title-bar button, .player .title-bar .item-icon-left button {
     left: 11px; }
 
-.item-complex.item-icon-left, .item-complex.col.item-icon-left {
+.item-complex.item-icon-left {
   padding-left: 0; }
-  .item-complex.item-icon-left .item-content, .item-complex.item-icon-left .item-complex.col.item-icon-left {
+  .item-complex.item-icon-left .item-content {
     padding-left: 54px; }
 
 .item-icon-right {
@@ -4959,17 +4960,17 @@ a.item-content {
   .item-complex.item-icon-right .item-content {
     padding-right: 54px; }
 
-.item-icon-left.item-icon-right .icon:first-child, .item-icon-left.item-icon-right .item-icon-right.col.item-icon-left, .item-icon-left.item-icon-right .player .icon-close:first-child, .player .item-icon-left.item-icon-right .icon-close:first-child, .item-icon-left.item-icon-right .player .title-bar button:first-child, .player .title-bar .item-icon-left.item-icon-right button:first-child {
+.item-icon-left.item-icon-right .icon:first-child, .item-icon-left.item-icon-right .player .icon-close:first-child, .player .item-icon-left.item-icon-right .icon-close:first-child, .item-icon-left.item-icon-right .player .title-bar button:first-child, .player .title-bar .item-icon-left.item-icon-right button:first-child {
   right: auto; }
 
-.item-icon-left.item-icon-right .icon:last-child, .item-icon-left.item-icon-right .item-icon-right.col.item-icon-left, .item-icon-left.item-icon-right .player .icon-close:last-child, .player .item-icon-left.item-icon-right .icon-close:last-child, .item-icon-left.item-icon-right .player .title-bar button:last-child, .player .title-bar .item-icon-left.item-icon-right button:last-child, .item-icon-left .item-delete .icon, .item-icon-left .item-delete .col.item-icon-left, .item-icon-left .item-delete .player .icon-close, .player .item-icon-left .item-delete .icon-close, .item-icon-left .item-delete .player .title-bar button, .player .title-bar .item-icon-left .item-delete button {
+.item-icon-left.item-icon-right .icon:last-child, .item-icon-left.item-icon-right .player .icon-close:last-child, .player .item-icon-left.item-icon-right .icon-close:last-child, .item-icon-left.item-icon-right .player .title-bar button:last-child, .player .title-bar .item-icon-left.item-icon-right button:last-child, .item-icon-left .item-delete .icon, .item-icon-left .item-delete .player .icon-close, .player .item-icon-left .item-delete .icon-close, .item-icon-left .item-delete .player .title-bar button, .player .title-bar .item-icon-left .item-delete button {
   left: auto; }
 
-.item-icon-left .icon-accessory, .item-icon-left .col.item-icon-left, .item-icon-right .icon-accessory {
+.item-icon-left .icon-accessory, .item-icon-right .icon-accessory {
   color: #ccc;
   font-size: 16px; }
 
-.item-icon-left .icon-accessory, .item-icon-left .col.item-icon-left {
+.item-icon-left .icon-accessory {
   left: 3px; }
 
 .item-icon-right .icon-accessory {
@@ -4983,7 +4984,7 @@ a.item-content {
 .item-button-left {
   padding-left: 72px; }
 
-.item-button-left > .button, .item-button-left > .player .icon-close, .player .item-button-left > .icon-close, .item-button-left > .player .title-bar button, .player .title-bar .item-button-left > button, .item-button-left .item-content > .button, .item-button-left .item-content > .player .icon-close, .player .item-button-left .item-content > .icon-close, .item-button-left .item-content > .player .title-bar button, .player .title-bar .item-button-left .item-content > button {
+.item-button-left > .button, .player .item-button-left > .icon-close, .player .title-bar .item-button-left > button, .item-button-left .item-content > .button, .item-button-left .player .item-content > .icon-close, .player .item-button-left .item-content > .icon-close, .item-button-left .player .title-bar .item-content > button, .player .title-bar .item-button-left .item-content > button {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -5002,12 +5003,12 @@ a.item-content {
   min-height: 34px;
   font-size: 18px;
   line-height: 32px; }
-  .item-button-left > .button .icon:before, .item-button-left > .button .player .icon-close, .player .item-button-left > .button .icon-close, .item-button-left > .button .player .title-bar button, .player .title-bar .item-button-left > .button button, .item-button-left > .button .player .icon-close:before, .player .item-button-left > .button .icon-close:before, .item-button-left > .button .player .title-bar button:before, .player .title-bar .item-button-left > .button button:before, .item-button-left .item-content > .button .icon:before, .item-button-left .item-content > .button .player .icon-close, .player .item-button-left .item-content > .button .icon-close, .item-button-left .item-content > .button .player .title-bar button, .player .title-bar .item-button-left .item-content > .button button, .item-button-left .item-content > .button .player .icon-close:before, .player .item-button-left .item-content > .button .icon-close:before, .item-button-left .item-content > .button .player .title-bar button:before, .player .title-bar .item-button-left .item-content > .button button:before {
+  .item-button-left > .button .icon:before, .player .item-button-left > .icon-close .icon:before, .player .title-bar .item-button-left > button .icon:before, .item-button-left > .button .player .icon-close:before, .player .item-button-left > .button .icon-close:before, .player .item-button-left > .icon-close .icon-close:before, .player .title-bar .item-button-left > button .icon-close:before, .item-button-left > .button .player .title-bar button:before, .player .title-bar .item-button-left > .button button:before, .player .item-button-left > .icon-close .title-bar button:before, .player .title-bar .item-button-left > .icon-close button:before, .player .title-bar .item-button-left > button button:before, .item-button-left .item-content > .button .icon:before, .item-button-left .player .item-content > .icon-close .icon:before, .player .item-button-left .item-content > .icon-close .icon:before, .item-button-left .player .title-bar .item-content > button .icon:before, .player .title-bar .item-button-left .item-content > button .icon:before, .item-button-left .item-content > .button .player .icon-close:before, .player .item-button-left .item-content > .button .icon-close:before, .item-button-left .player .item-content > .icon-close .icon-close:before, .player .item-button-left .item-content > .icon-close .icon-close:before, .item-button-left .player .title-bar .item-content > button .icon-close:before, .player .title-bar .item-button-left .item-content > button .icon-close:before, .item-button-left .item-content > .button .player .title-bar button:before, .player .title-bar .item-button-left .item-content > .button button:before, .item-button-left .player .item-content > .icon-close .title-bar button:before, .item-button-left .player .title-bar .item-content > .icon-close button:before, .player .item-button-left .item-content > .icon-close .title-bar button:before, .player .title-bar .item-button-left .item-content > .icon-close button:before, .item-button-left .player .title-bar .item-content > button button:before, .player .title-bar .item-button-left .item-content > button button:before {
     position: relative;
     left: auto;
     width: auto;
     line-height: 31px; }
-  .item-button-left > .button > .button, .item-button-left > .button > .player .icon-close, .player .item-button-left > .button > .icon-close, .item-button-left > .button > .player .title-bar button, .player .title-bar .item-button-left > .button > button, .item-button-left > .button > .player .icon-close, .player .item-button-left > .button > .icon-close, .item-button-left > .button > .player .title-bar button, .player .title-bar .item-button-left > .button > button, .item-button-left .item-content > .button > .button, .item-button-left .item-content > .button > .player .icon-close, .player .item-button-left .item-content > .button > .icon-close, .item-button-left .item-content > .button > .player .title-bar button, .player .title-bar .item-button-left .item-content > .button > button, .item-button-left .item-content > .button > .player .icon-close, .player .item-button-left .item-content > .button > .icon-close, .item-button-left .item-content > .button > .player .title-bar button, .player .title-bar .item-button-left .item-content > .button > button {
+  .item-button-left > .button > .button, .player .item-button-left > .icon-close > .button, .player .title-bar .item-button-left > button > .button, .player .item-button-left > .button > .icon-close, .player .item-button-left > .icon-close > .icon-close, .player .title-bar .item-button-left > button > .icon-close, .player .title-bar .item-button-left > .button > button, .player .title-bar .item-button-left > .icon-close > button, .player .title-bar .item-button-left > button > button, .item-button-left .item-content > .button > .button, .item-button-left .player .item-content > .icon-close > .button, .player .item-button-left .item-content > .icon-close > .button, .item-button-left .player .title-bar .item-content > button > .button, .player .title-bar .item-button-left .item-content > button > .button, .item-button-left .player .item-content > .button > .icon-close, .player .item-button-left .item-content > .button > .icon-close, .item-button-left .player .item-content > .icon-close > .icon-close, .player .item-button-left .item-content > .icon-close > .icon-close, .item-button-left .player .title-bar .item-content > button > .icon-close, .player .title-bar .item-button-left .item-content > button > .icon-close, .item-button-left .player .title-bar .item-content > .button > button, .player .title-bar .item-button-left .item-content > .button > button, .item-button-left .player .title-bar .item-content > .icon-close > button, .player .item-button-left .title-bar .item-content > .icon-close > button, .player .title-bar .item-button-left .item-content > .icon-close > button, .item-button-left .player .title-bar .item-content > button > button, .player .title-bar .item-button-left .item-content > button > button {
     margin: 0px 2px;
     min-height: 34px;
     font-size: 18px;
@@ -5016,7 +5017,7 @@ a.item-content {
 .item-button-right, a.item.item-button-right, button.item.item-button-right {
   padding-right: 80px; }
 
-.item-button-right > .button, .item-button-right > .player .icon-close, .player .item-button-right > .icon-close, .item-button-right > .player .title-bar button, .player .title-bar .item-button-right > button, .item-button-right .item-content > .button, .item-button-right .item-content > .player .icon-close, .player .item-button-right .item-content > .icon-close, .item-button-right .item-content > .player .title-bar button, .player .title-bar .item-button-right .item-content > button, .item-button-right > .buttons, .item-button-right .item-content > .buttons {
+.item-button-right > .button, .player .item-button-right > .icon-close, .player .title-bar .item-button-right > button, .item-button-right .item-content > .button, .item-button-right .player .item-content > .icon-close, .player .item-button-right .item-content > .icon-close, .item-button-right .player .title-bar .item-content > button, .player .title-bar .item-button-right .item-content > button, .item-button-right > .buttons, .item-button-right .item-content > .buttons {
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -5035,12 +5036,12 @@ a.item-content {
   min-height: 34px;
   font-size: 18px;
   line-height: 32px; }
-  .item-button-right > .button .icon:before, .item-button-right > .button .player .icon-close, .player .item-button-right > .button .icon-close, .item-button-right > .button .player .title-bar button, .player .title-bar .item-button-right > .button button, .item-button-right > .button .player .icon-close:before, .player .item-button-right > .button .icon-close:before, .item-button-right > .button .player .title-bar button:before, .player .title-bar .item-button-right > .button button:before, .item-button-right .item-content > .button .icon:before, .item-button-right .item-content > .button .player .icon-close, .player .item-button-right .item-content > .button .icon-close, .item-button-right .item-content > .button .player .title-bar button, .player .title-bar .item-button-right .item-content > .button button, .item-button-right .item-content > .button .player .icon-close:before, .player .item-button-right .item-content > .button .icon-close:before, .item-button-right .item-content > .button .player .title-bar button:before, .player .title-bar .item-button-right .item-content > .button button:before, .item-button-right > .buttons .icon:before, .item-button-right > .buttons .player .icon-close:before, .player .item-button-right > .buttons .icon-close:before, .item-button-right > .buttons .player .title-bar button:before, .player .title-bar .item-button-right > .buttons button:before, .item-button-right .item-content > .buttons .icon:before, .item-button-right .item-content > .buttons .player .icon-close:before, .player .item-button-right .item-content > .buttons .icon-close:before, .item-button-right .item-content > .buttons .player .title-bar button:before, .player .title-bar .item-button-right .item-content > .buttons button:before {
+  .item-button-right > .button .icon:before, .player .item-button-right > .icon-close .icon:before, .player .title-bar .item-button-right > button .icon:before, .item-button-right > .button .player .icon-close:before, .player .item-button-right > .button .icon-close:before, .player .item-button-right > .icon-close .icon-close:before, .player .title-bar .item-button-right > button .icon-close:before, .item-button-right > .button .player .title-bar button:before, .player .title-bar .item-button-right > .button button:before, .player .item-button-right > .icon-close .title-bar button:before, .player .title-bar .item-button-right > .icon-close button:before, .player .title-bar .item-button-right > button button:before, .item-button-right .item-content > .button .icon:before, .item-button-right .player .item-content > .icon-close .icon:before, .player .item-button-right .item-content > .icon-close .icon:before, .item-button-right .player .title-bar .item-content > button .icon:before, .player .title-bar .item-button-right .item-content > button .icon:before, .item-button-right .item-content > .button .player .icon-close:before, .player .item-button-right .item-content > .button .icon-close:before, .item-button-right .player .item-content > .icon-close .icon-close:before, .player .item-button-right .item-content > .icon-close .icon-close:before, .item-button-right .player .title-bar .item-content > button .icon-close:before, .player .title-bar .item-button-right .item-content > button .icon-close:before, .item-button-right .item-content > .button .player .title-bar button:before, .player .title-bar .item-button-right .item-content > .button button:before, .item-button-right .player .item-content > .icon-close .title-bar button:before, .item-button-right .player .title-bar .item-content > .icon-close button:before, .player .item-button-right .item-content > .icon-close .title-bar button:before, .player .title-bar .item-button-right .item-content > .icon-close button:before, .item-button-right .player .title-bar .item-content > button button:before, .player .title-bar .item-button-right .item-content > button button:before, .item-button-right > .buttons .icon:before, .item-button-right > .buttons .player .icon-close:before, .player .item-button-right > .buttons .icon-close:before, .item-button-right > .buttons .player .title-bar button:before, .player .title-bar .item-button-right > .buttons button:before, .item-button-right .item-content > .buttons .icon:before, .item-button-right .item-content > .buttons .player .icon-close:before, .player .item-button-right .item-content > .buttons .icon-close:before, .item-button-right .item-content > .buttons .player .title-bar button:before, .player .title-bar .item-button-right .item-content > .buttons button:before {
     position: relative;
     left: auto;
     width: auto;
     line-height: 31px; }
-  .item-button-right > .button > .button, .item-button-right > .button > .player .icon-close, .player .item-button-right > .button > .icon-close, .item-button-right > .button > .player .title-bar button, .player .title-bar .item-button-right > .button > button, .item-button-right > .button > .player .icon-close, .player .item-button-right > .button > .icon-close, .item-button-right > .button > .player .title-bar button, .player .title-bar .item-button-right > .button > button, .item-button-right .item-content > .button > .button, .item-button-right .item-content > .button > .player .icon-close, .player .item-button-right .item-content > .button > .icon-close, .item-button-right .item-content > .button > .player .title-bar button, .player .title-bar .item-button-right .item-content > .button > button, .item-button-right .item-content > .button > .player .icon-close, .player .item-button-right .item-content > .button > .icon-close, .item-button-right .item-content > .button > .player .title-bar button, .player .title-bar .item-button-right .item-content > .button > button, .item-button-right > .buttons > .button, .item-button-right > .buttons > .player .icon-close, .player .item-button-right > .buttons > .icon-close, .item-button-right > .buttons > .player .title-bar button, .player .title-bar .item-button-right > .buttons > button, .item-button-right .item-content > .buttons > .button, .item-button-right .item-content > .buttons > .player .icon-close, .player .item-button-right .item-content > .buttons > .icon-close, .item-button-right .item-content > .buttons > .player .title-bar button, .player .title-bar .item-button-right .item-content > .buttons > button {
+  .item-button-right > .button > .button, .player .item-button-right > .icon-close > .button, .player .title-bar .item-button-right > button > .button, .player .item-button-right > .button > .icon-close, .player .item-button-right > .icon-close > .icon-close, .player .title-bar .item-button-right > button > .icon-close, .player .title-bar .item-button-right > .button > button, .player .title-bar .item-button-right > .icon-close > button, .player .title-bar .item-button-right > button > button, .item-button-right .item-content > .button > .button, .item-button-right .player .item-content > .icon-close > .button, .player .item-button-right .item-content > .icon-close > .button, .item-button-right .player .title-bar .item-content > button > .button, .player .title-bar .item-button-right .item-content > button > .button, .item-button-right .player .item-content > .button > .icon-close, .player .item-button-right .item-content > .button > .icon-close, .item-button-right .player .item-content > .icon-close > .icon-close, .player .item-button-right .item-content > .icon-close > .icon-close, .item-button-right .player .title-bar .item-content > button > .icon-close, .player .title-bar .item-button-right .item-content > button > .icon-close, .item-button-right .player .title-bar .item-content > .button > button, .player .title-bar .item-button-right .item-content > .button > button, .item-button-right .player .title-bar .item-content > .icon-close > button, .player .item-button-right .title-bar .item-content > .icon-close > button, .player .title-bar .item-button-right .item-content > .icon-close > button, .item-button-right .player .title-bar .item-content > button > button, .player .title-bar .item-button-right .item-content > button > button, .item-button-right > .buttons > .button, .player .item-button-right > .buttons > .icon-close, .player .title-bar .item-button-right > .buttons > button, .item-button-right .item-content > .buttons > .button, .item-button-right .player .item-content > .buttons > .icon-close, .player .item-button-right .item-content > .buttons > .icon-close, .item-button-right .player .title-bar .item-content > .buttons > button, .player .title-bar .item-button-right .item-content > .buttons > button {
     margin: 0px 2px;
     min-width: 34px;
     min-height: 34px;
@@ -5182,8 +5183,8 @@ a.item-content {
   transform: translate3d(0, calc(-100% + 1px), 0);
   -webkit-transition-duration: 300ms;
   transition-duration: 300ms;
-  -webkit-transition-timing-function: cubic-bezier(0.25, 0.81, 0.24, 1);
-  transition-timing-function: cubic-bezier(0.25, 0.81, 0.24, 1);
+  -webkit-transition-timing-function: cubic-bezier(.25, .81, .24, 1);
+  transition-timing-function: cubic-bezier(.25, .81, .24, 1);
   -webkit-transition-property: all;
   transition-property: all; }
 
@@ -5203,7 +5204,7 @@ a.item-content {
   transform: translate3d(-21px, 0, 0); }
   .item-left-edit .button, .item-left-edit .player .icon-close, .player .item-left-edit .icon-close, .item-left-edit .player .title-bar button, .player .title-bar .item-left-edit button {
     height: 100%; }
-    .item-left-edit .button.icon, .item-left-edit .player .icon.icon-close, .player .item-left-edit .icon.icon-close, .item-left-edit .player .icon-close, .player .item-left-edit .icon-close, .item-left-edit .player .title-bar button.icon-close, .player .title-bar .item-left-edit button.icon-close, .item-left-edit .player .button.icon-close, .player .item-left-edit .button.icon-close, .item-left-edit .player .icon-close, .player .item-left-edit .icon-close, .item-left-edit .player .title-bar button.icon-close, .player .title-bar .item-left-edit button.icon-close, .item-left-edit .player .title-bar button.icon, .player .title-bar .item-left-edit button.icon, .item-left-edit .player button.icon-close, .player .item-left-edit button.icon-close, .item-left-edit .player .title-bar button, .player .title-bar .item-left-edit button, .item-left-edit .player .title-bar button.button, .player .title-bar .item-left-edit button.button, .item-left-edit .player button.icon-close, .player .item-left-edit button.icon-close, .item-left-edit .player .title-bar button, .player .title-bar .item-left-edit button {
+    .item-left-edit .button.icon, .item-left-edit .player .icon-close, .player .item-left-edit .icon-close, .item-left-edit .player .title-bar button, .player .title-bar .item-left-edit button {
       display: -webkit-box;
       display: -webkit-flex;
       display: -moz-box;
@@ -5229,11 +5230,11 @@ a.item-content {
   -webkit-transition-delay: 125ms;
   transition-delay: 125ms; }
 
-.item-delete .button.icon, .item-delete .player .icon.icon-close, .player .item-delete .icon.icon-close, .item-delete .player .icon-close, .player .item-delete .icon-close, .item-delete .player .title-bar button.icon-close, .player .title-bar .item-delete button.icon-close, .item-delete .player .button.icon-close, .player .item-delete .button.icon-close, .item-delete .player .icon-close, .player .item-delete .icon-close, .item-delete .player .title-bar button.icon-close, .player .title-bar .item-delete button.icon-close, .item-delete .player .title-bar button.icon, .player .title-bar .item-delete button.icon, .item-delete .player button.icon-close, .player .item-delete button.icon-close, .item-delete .player .title-bar button, .player .title-bar .item-delete button, .item-delete .player .title-bar button.button, .player .title-bar .item-delete button.button, .item-delete .player button.icon-close, .player .item-delete button.icon-close, .item-delete .player .title-bar button, .player .title-bar .item-delete button {
+.item-delete .button.icon, .item-delete .player .icon-close, .player .item-delete .icon-close, .item-delete .player .title-bar button, .player .title-bar .item-delete button {
   color: #ef473a;
   font-size: 24px; }
-  .item-delete .button.icon:hover, .item-delete .player .icon.icon-close:hover, .player .item-delete .icon.icon-close:hover, .item-delete .player .icon-close:hover, .player .item-delete .icon-close:hover, .item-delete .player .title-bar button.icon-close:hover, .player .title-bar .item-delete button.icon-close:hover, .item-delete .player .button.icon-close:hover, .player .item-delete .button.icon-close:hover, .item-delete .player .icon-close:hover, .player .item-delete .icon-close:hover, .item-delete .player .title-bar button.icon-close:hover, .player .title-bar .item-delete button.icon-close:hover, .item-delete .player .title-bar button.icon:hover, .player .title-bar .item-delete button.icon:hover, .item-delete .player button.icon-close:hover, .player .item-delete button.icon-close:hover, .item-delete .player .title-bar button:hover, .player .title-bar .item-delete button:hover, .item-delete .player .title-bar button.button:hover, .player .title-bar .item-delete button.button:hover, .item-delete .player button.icon-close:hover, .player .item-delete button.icon-close:hover, .item-delete .player .title-bar button:hover, .player .title-bar .item-delete button:hover {
-    opacity: 0.7; }
+  .item-delete .button.icon:hover, .item-delete .player .icon-close:hover, .player .item-delete .icon-close:hover, .item-delete .player .title-bar button:hover, .player .title-bar .item-delete button:hover {
+    opacity: .7; }
 
 .item-right-edit {
   -webkit-transition: all ease-in-out 250ms;
@@ -5253,7 +5254,7 @@ a.item-content {
   .item-right-edit .button, .item-right-edit .player .icon-close, .player .item-right-edit .icon-close, .item-right-edit .player .title-bar button, .player .title-bar .item-right-edit button {
     min-width: 50px;
     height: 100%; }
-    .item-right-edit .button.icon, .item-right-edit .player .icon.icon-close, .player .item-right-edit .icon.icon-close, .item-right-edit .player .icon-close, .player .item-right-edit .icon-close, .item-right-edit .player .title-bar button.icon-close, .player .title-bar .item-right-edit button.icon-close, .item-right-edit .player .button.icon-close, .player .item-right-edit .button.icon-close, .item-right-edit .player .icon-close, .player .item-right-edit .icon-close, .item-right-edit .player .title-bar button.icon-close, .player .title-bar .item-right-edit button.icon-close, .item-right-edit .player .title-bar button.icon, .player .title-bar .item-right-edit button.icon, .item-right-edit .player button.icon-close, .player .item-right-edit button.icon-close, .item-right-edit .player .title-bar button, .player .title-bar .item-right-edit button, .item-right-edit .player .title-bar button.button, .player .title-bar .item-right-edit button.button, .item-right-edit .player button.icon-close, .player .item-right-edit button.icon-close, .item-right-edit .player .title-bar button, .player .title-bar .item-right-edit button {
+    .item-right-edit .button.icon, .item-right-edit .player .icon-close, .player .item-right-edit .icon-close, .item-right-edit .player .title-bar button, .player .title-bar .item-right-edit button {
       display: -webkit-box;
       display: -webkit-flex;
       display: -moz-box;
@@ -5276,7 +5277,7 @@ a.item-content {
       -webkit-transform: translate3d(0, 0, 0);
       transform: translate3d(0, 0, 0); }
 
-.item-reorder .button.icon, .item-reorder .player .icon.icon-close, .player .item-reorder .icon.icon-close, .item-reorder .player .icon-close, .player .item-reorder .icon-close, .item-reorder .player .title-bar button.icon-close, .player .title-bar .item-reorder button.icon-close, .item-reorder .player .button.icon-close, .player .item-reorder .button.icon-close, .item-reorder .player .icon-close, .player .item-reorder .icon-close, .item-reorder .player .title-bar button.icon-close, .player .title-bar .item-reorder button.icon-close, .item-reorder .player .title-bar button.icon, .player .title-bar .item-reorder button.icon, .item-reorder .player button.icon-close, .player .item-reorder button.icon-close, .item-reorder .player .title-bar button, .player .title-bar .item-reorder button, .item-reorder .player .title-bar button.button, .player .title-bar .item-reorder button.button, .item-reorder .player button.icon-close, .player .item-reorder button.icon-close, .item-reorder .player .title-bar button, .player .title-bar .item-reorder button {
+.item-reorder .button.icon, .item-reorder .player .icon-close, .player .item-reorder .icon-close, .item-reorder .player .title-bar button, .player .title-bar .item-reorder button {
   color: #444;
   font-size: 32px; }
 
@@ -5455,7 +5456,7 @@ a.item-content {
   background-color: #444;
   color: #fff; }
 
-.button .badge, .button .player .icon-close, .player .button .icon-close, .button .player .title-bar button, .player .title-bar .button button {
+.button .badge, .player .icon-close .badge, .player .title-bar button .badge {
   position: relative;
   top: -1px; }
 
@@ -5551,10 +5552,10 @@ a.item-content {
     -webkit-transform: translate3d(0, 0, 0) rotate(-180deg);
     transform: translate3d(0, 0, 0) rotate(-180deg); }
   .scroll-refresher.active.refreshing {
-    -webkit-transition: -webkit-transform 0.2s;
-    transition: -webkit-transform 0.2s;
-    -webkit-transition: transform 0.2s;
-    transition: transform 0.2s;
+    -webkit-transition: -webkit-transform .2s;
+    transition: -webkit-transform .2s;
+    -webkit-transition: transform .2s;
+    transition: transform .2s;
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1); }
     .scroll-refresher.active.refreshing .icon-pulling, .scroll-refresher.active.refreshing .text-pulling {
@@ -5709,7 +5710,7 @@ input, button, select, textarea {
     margin: 0;
     padding-right: 24px;
     background-color: transparent; }
-  .item-input .button .icon, .item-input .button .player .icon-close, .player .item-input .button .icon-close, .item-input .button .player .title-bar button, .player .title-bar .item-input .button button, .item-input .button .player .icon-close, .player .item-input .button .icon-close, .item-input .button .player .title-bar button, .player .title-bar .item-input .button button {
+  .item-input .button .icon, .item-input .player .icon-close .icon, .player .item-input .icon-close .icon, .item-input .player .title-bar button .icon, .player .title-bar .item-input button .icon, .item-input .button .player .icon-close, .player .item-input .button .icon-close, .item-input .player .icon-close .icon-close, .player .item-input .icon-close .icon-close, .item-input .player .title-bar button .icon-close, .player .title-bar .item-input button .icon-close, .item-input .button .player .title-bar button, .player .title-bar .item-input .button button, .item-input .player .icon-close .title-bar button, .item-input .player .title-bar .icon-close button, .player .item-input .icon-close .title-bar button, .player .title-bar .item-input .icon-close button, .item-input .player .title-bar button button, .player .title-bar .item-input button button {
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 24px;
     -moz-box-flex: 0;
@@ -5782,7 +5783,7 @@ input, button, select, textarea {
   background: transparent;
   line-height: 18px; }
 
-.item-input-wrapper ~ .button, .item-input-wrapper ~ .player .icon-close, .player .item-input-wrapper ~ .icon-close, .item-input-wrapper ~ .player .title-bar button, .player .title-bar .item-input-wrapper ~ button {
+.item-input-wrapper ~ .button, .player .item-input-wrapper ~ .icon-close, .player .title-bar .item-input-wrapper ~ button {
   margin-left: 10.66667px; }
 
 .input-label {
@@ -5829,13 +5830,13 @@ input, button, select, textarea {
     padding: 5px 0 0 0;
     opacity: 0;
     top: 10px;
-    -webkit-transition: opacity 0.15s ease-in, top 0.2s linear;
-    transition: opacity 0.15s ease-in, top 0.2s linear; }
+    -webkit-transition: opacity .15s ease-in, top .2s linear;
+    transition: opacity .15s ease-in, top .2s linear; }
     .item-floating-label .input-label.has-input {
       opacity: 1;
       top: 0;
-      -webkit-transition: opacity 0.15s ease-in, top 0.2s linear;
-      transition: opacity 0.15s ease-in, top 0.2s linear; }
+      -webkit-transition: opacity .15s ease-in, top .2s linear;
+      transition: opacity .15s ease-in, top .2s linear; }
 
 textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] {
   display: block;
@@ -6002,8 +6003,8 @@ input[type="radio"][disabled], input[type="checkbox"][disabled], input[type="rad
   border-width: 2px; }
 
 .checkbox input:after, .checkbox-icon:after {
-  -webkit-transition: opacity 0.05s ease-in-out;
-  transition: opacity 0.05s ease-in-out;
+  -webkit-transition: opacity .05s ease-in-out;
+  transition: opacity .05s ease-in-out;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
   position: absolute;
@@ -6185,7 +6186,7 @@ input[type="radio"][disabled], input[type="checkbox"][disabled], input[type="rad
   z-index: 3; }
 
 .toggle input:disabled + .track {
-  opacity: 0.6; }
+  opacity: .6; }
 
 .toggle-small .track {
   border: 0;
@@ -6425,7 +6426,7 @@ input[type="radio"][disabled], input[type="checkbox"][disabled], input[type="rad
     border: none;
     background: #fff;
     color: #333;
-    text-indent: 0.01px;
+    text-indent: .01px;
     text-overflow: '';
     white-space: nowrap;
     font-size: 14px;
@@ -6443,8 +6444,8 @@ input[type="radio"][disabled], input[type="checkbox"][disabled], input[type="rad
     width: 0;
     height: 0;
     border-top: 5px solid;
-    border-right: 5px solid rgba(0, 0, 0, 0);
-    border-left: 5px solid rgba(0, 0, 0, 0);
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
     color: #999;
     content: "";
     pointer-events: none; }
@@ -6541,10 +6542,10 @@ progress {
     bottom: -6px;
     left: -6px;
     content: ' '; }
-  .button .icon, .button .player .icon-close, .player .button .icon-close, .button .player .title-bar button, .player .title-bar .button button, .button .player .icon-close, .player .button .icon-close, .button .player .title-bar button, .player .title-bar .button button {
+  .button .icon, .player .icon-close .icon, .player .title-bar button .icon, .button .player .icon-close, .player .button .icon-close, .player .icon-close .icon-close, .player .title-bar button .icon-close, .button .player .title-bar button, .player .title-bar .button button, .player .icon-close .title-bar button, .player .title-bar .icon-close button, .player .title-bar button button {
     vertical-align: top;
     pointer-events: none; }
-  .button .icon:before, .button .player .icon-close, .player .button .icon-close, .button .player .title-bar button, .player .title-bar .button button, .button .player .icon-close:before, .player .button .icon-close:before, .button .player .title-bar button:before, .player .title-bar .button button:before, .button.icon:before, .player .icon.icon-close:before, .player .icon-close:before, .player .title-bar button.icon-close:before, .player .button.icon-close:before, .player .icon-close:before, .player .title-bar button.icon-close:before, .player .title-bar button.icon:before, .player button.icon-close:before, .player .title-bar button:before, .player .title-bar button.button:before, .player button.icon-close:before, .player .title-bar button:before, .button.icon-left:before, .player .icon-left.icon-close:before, .player .title-bar button.icon-left:before, .button.icon-right:before, .player .icon-right.icon-close:before, .player .title-bar button.icon-right:before {
+  .button .icon:before, .player .icon-close .icon:before, .player .title-bar button .icon:before, .button .player .icon-close:before, .player .button .icon-close:before, .player .icon-close .icon-close:before, .player .title-bar button .icon-close:before, .button .player .title-bar button:before, .player .title-bar .button button:before, .player .icon-close .title-bar button:before, .player .title-bar .icon-close button:before, .player .title-bar button button:before, .button.icon:before, .player .icon-close:before, .player .title-bar button:before, .button.icon-left:before, .player .icon-left.icon-close:before, .player .title-bar button.icon-left:before, .button.icon-right:before, .player .icon-right.icon-close:before, .player .title-bar button.icon-right:before {
     display: inline-block;
     padding: 0 0 1px 0;
     vertical-align: inherit;
@@ -6553,12 +6554,12 @@ progress {
     pointer-events: none; }
   .button.icon-left:before, .player .icon-left.icon-close:before, .player .title-bar button.icon-left:before {
     float: left;
-    padding-right: 0.2em;
+    padding-right: .2em;
     padding-left: 0; }
   .button.icon-right:before, .player .icon-right.icon-close:before, .player .title-bar button.icon-right:before {
     float: right;
     padding-right: 0;
-    padding-left: 0.2em; }
+    padding-left: .2em; }
   .button.button-block, .player .button-block.icon-close, .player .title-bar button.button-block, .button.button-full, .player .button-full.icon-close, .player .title-bar button.button-full {
     margin-top: 10px;
     margin-bottom: 10px; }
@@ -6573,12 +6574,12 @@ progress {
       border-color: #ccc;
       background-color: #fafafa;
       box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-    .button.button-light.button-clear, .player .button-light.button-clear.icon-close, .player .button-light.icon-close, .player .title-bar button.button-light.icon-close, .player .button.button-light.icon-close, .player .button-light.icon-close, .player .title-bar button.button-light.icon-close, .player .title-bar button.button-light.button-clear, .player button.button-light.icon-close, .player .title-bar button.button-light, .player .title-bar button.button.button-light, .player button.button-light.icon-close, .player .title-bar button.button-light {
+    .button.button-light.button-clear, .player .button-light.icon-close, .player .title-bar button.button-light {
       border-color: transparent;
       background: none;
       box-shadow: none;
       color: #ddd; }
-    .button.button-light.button-icon, .player .button-light.button-icon.icon-close, .player .button-light.icon-close, .player .title-bar button.button-light.icon-close, .player .button.button-light.icon-close, .player .button-light.icon-close, .player .title-bar button.button-light.icon-close, .player .title-bar button.button-light.button-icon, .player button.button-light.icon-close, .player .title-bar button.button-light, .player .title-bar button.button.button-light, .player button.button-light.icon-close, .player .title-bar button.button-light {
+    .button.button-light.button-icon, .player .button-light.icon-close, .player .title-bar button.button-light {
       border-color: transparent;
       background: none; }
     .button.button-light.button-outline, .player .button-light.button-outline.icon-close, .player .title-bar button.button-light.button-outline {
@@ -6600,12 +6601,12 @@ progress {
       border-color: #a2a2a2;
       background-color: #e5e5e5;
       box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-    .button.button-stable.button-clear, .player .button-stable.button-clear.icon-close, .player .button-stable.icon-close, .player .title-bar button.button-stable.icon-close, .player .button.button-stable.icon-close, .player .button-stable.icon-close, .player .title-bar button.button-stable.icon-close, .player .title-bar button.button-stable.button-clear, .player button.button-stable.icon-close, .player .title-bar button.button-stable, .player .title-bar button.button.button-stable, .player button.button-stable.icon-close, .player .title-bar button.button-stable {
+    .button.button-stable.button-clear, .player .button-stable.icon-close, .player .title-bar button.button-stable {
       border-color: transparent;
       background: none;
       box-shadow: none;
       color: #b2b2b2; }
-    .button.button-stable.button-icon, .player .button-stable.button-icon.icon-close, .player .button-stable.icon-close, .player .title-bar button.button-stable.icon-close, .player .button.button-stable.icon-close, .player .button-stable.icon-close, .player .title-bar button.button-stable.icon-close, .player .title-bar button.button-stable.button-icon, .player button.button-stable.icon-close, .player .title-bar button.button-stable, .player .title-bar button.button.button-stable, .player button.button-stable.icon-close, .player .title-bar button.button-stable {
+    .button.button-stable.button-icon, .player .button-stable.icon-close, .player .title-bar button.button-stable {
       border-color: transparent;
       background: none; }
     .button.button-stable.button-outline, .player .button-stable.button-outline.icon-close, .player .title-bar button.button-stable.button-outline {
@@ -6617,22 +6618,22 @@ progress {
         box-shadow: none;
         color: #fff; }
   .button.button-positive, .player .button-positive.icon-close, .player .title-bar button.button-positive {
-    border-color: #0c63ee;
+    border-color: #0c60ee;
     background-color: #387ef5;
     color: #fff; }
     .button.button-positive:hover, .player .button-positive.icon-close:hover, .player .title-bar button.button-positive:hover {
       color: #fff;
       text-decoration: none; }
     .button.button-positive.active, .player .button-positive.active.icon-close, .player .title-bar button.button-positive.active, .button.button-positive.activated, .player .button-positive.activated.icon-close, .player .title-bar button.button-positive.activated {
-      border-color: #0c63ee;
-      background-color: #0c63ee;
+      border-color: #0c60ee;
+      background-color: #0c60ee;
       box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-    .button.button-positive.button-clear, .player .button-positive.button-clear.icon-close, .player .button-positive.icon-close, .player .title-bar button.button-positive.icon-close, .player .button.button-positive.icon-close, .player .button-positive.icon-close, .player .title-bar button.button-positive.icon-close, .player .title-bar button.button-positive.button-clear, .player button.button-positive.icon-close, .player .title-bar button.button-positive, .player .title-bar button.button.button-positive, .player button.button-positive.icon-close, .player .title-bar button.button-positive {
+    .button.button-positive.button-clear, .player .button-positive.icon-close, .player .title-bar button.button-positive {
       border-color: transparent;
       background: none;
       box-shadow: none;
       color: #387ef5; }
-    .button.button-positive.button-icon, .player .button-positive.button-icon.icon-close, .player .button-positive.icon-close, .player .title-bar button.button-positive.icon-close, .player .button.button-positive.icon-close, .player .button-positive.icon-close, .player .title-bar button.button-positive.icon-close, .player .title-bar button.button-positive.button-icon, .player button.button-positive.icon-close, .player .title-bar button.button-positive, .player .title-bar button.button.button-positive, .player button.button-positive.icon-close, .player .title-bar button.button-positive {
+    .button.button-positive.button-icon, .player .button-positive.icon-close, .player .title-bar button.button-positive {
       border-color: transparent;
       background: none; }
     .button.button-positive.button-outline, .player .button-positive.button-outline.icon-close, .player .title-bar button.button-positive.button-outline {
@@ -6644,22 +6645,22 @@ progress {
         box-shadow: none;
         color: #fff; }
   .button.button-calm, .player .button-calm.icon-close, .player .title-bar button.button-calm {
-    border-color: #0a9ec7;
+    border-color: #0a9dc7;
     background-color: #11c1f3;
     color: #fff; }
     .button.button-calm:hover, .player .button-calm.icon-close:hover, .player .title-bar button.button-calm:hover {
       color: #fff;
       text-decoration: none; }
     .button.button-calm.active, .player .button-calm.active.icon-close, .player .title-bar button.button-calm.active, .button.button-calm.activated, .player .button-calm.activated.icon-close, .player .title-bar button.button-calm.activated {
-      border-color: #0a9ec7;
-      background-color: #0a9ec7;
+      border-color: #0a9dc7;
+      background-color: #0a9dc7;
       box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-    .button.button-calm.button-clear, .player .button-calm.button-clear.icon-close, .player .button-calm.icon-close, .player .title-bar button.button-calm.icon-close, .player .button.button-calm.icon-close, .player .button-calm.icon-close, .player .title-bar button.button-calm.icon-close, .player .title-bar button.button-calm.button-clear, .player button.button-calm.icon-close, .player .title-bar button.button-calm, .player .title-bar button.button.button-calm, .player button.button-calm.icon-close, .player .title-bar button.button-calm {
+    .button.button-calm.button-clear, .player .button-calm.icon-close, .player .title-bar button.button-calm {
       border-color: transparent;
       background: none;
       box-shadow: none;
       color: #11c1f3; }
-    .button.button-calm.button-icon, .player .button-calm.button-icon.icon-close, .player .button-calm.icon-close, .player .title-bar button.button-calm.icon-close, .player .button.button-calm.icon-close, .player .button-calm.icon-close, .player .title-bar button.button-calm.icon-close, .player .title-bar button.button-calm.button-icon, .player button.button-calm.icon-close, .player .title-bar button.button-calm, .player .title-bar button.button.button-calm, .player button.button-calm.icon-close, .player .title-bar button.button-calm {
+    .button.button-calm.button-icon, .player .button-calm.icon-close, .player .title-bar button.button-calm {
       border-color: transparent;
       background: none; }
     .button.button-calm.button-outline, .player .button-calm.button-outline.icon-close, .player .title-bar button.button-calm.button-outline {
@@ -6671,22 +6672,22 @@ progress {
         box-shadow: none;
         color: #fff; }
   .button.button-assertive, .player .button-assertive.icon-close, .player .title-bar button.button-assertive {
-    border-color: #e42012;
+    border-color: #e42112;
     background-color: #ef473a;
     color: #fff; }
     .button.button-assertive:hover, .player .button-assertive.icon-close:hover, .player .title-bar button.button-assertive:hover {
       color: #fff;
       text-decoration: none; }
     .button.button-assertive.active, .player .button-assertive.active.icon-close, .player .title-bar button.button-assertive.active, .button.button-assertive.activated, .player .button-assertive.activated.icon-close, .player .title-bar button.button-assertive.activated {
-      border-color: #e42012;
-      background-color: #e42012;
+      border-color: #e42112;
+      background-color: #e42112;
       box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-    .button.button-assertive.button-clear, .player .button-assertive.button-clear.icon-close, .player .button-assertive.icon-close, .player .title-bar button.button-assertive.icon-close, .player .button.button-assertive.icon-close, .player .button-assertive.icon-close, .player .title-bar button.button-assertive.icon-close, .player .title-bar button.button-assertive.button-clear, .player button.button-assertive.icon-close, .player .title-bar button.button-assertive, .player .title-bar button.button.button-assertive, .player button.button-assertive.icon-close, .player .title-bar button.button-assertive {
+    .button.button-assertive.button-clear, .player .button-assertive.icon-close, .player .title-bar button.button-assertive {
       border-color: transparent;
       background: none;
       box-shadow: none;
       color: #ef473a; }
-    .button.button-assertive.button-icon, .player .button-assertive.button-icon.icon-close, .player .button-assertive.icon-close, .player .title-bar button.button-assertive.icon-close, .player .button.button-assertive.icon-close, .player .button-assertive.icon-close, .player .title-bar button.button-assertive.icon-close, .player .title-bar button.button-assertive.button-icon, .player button.button-assertive.icon-close, .player .title-bar button.button-assertive, .player .title-bar button.button.button-assertive, .player button.button-assertive.icon-close, .player .title-bar button.button-assertive {
+    .button.button-assertive.button-icon, .player .button-assertive.icon-close, .player .title-bar button.button-assertive {
       border-color: transparent;
       background: none; }
     .button.button-assertive.button-outline, .player .button-assertive.button-outline.icon-close, .player .title-bar button.button-assertive.button-outline {
@@ -6708,12 +6709,12 @@ progress {
       border-color: #28a54c;
       background-color: #28a54c;
       box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-    .button.button-balanced.button-clear, .player .button-balanced.button-clear.icon-close, .player .button-balanced.icon-close, .player .title-bar button.button-balanced.icon-close, .player .button.button-balanced.icon-close, .player .button-balanced.icon-close, .player .title-bar button.button-balanced.icon-close, .player .title-bar button.button-balanced.button-clear, .player button.button-balanced.icon-close, .player .title-bar button.button-balanced, .player .title-bar button.button.button-balanced, .player button.button-balanced.icon-close, .player .title-bar button.button-balanced {
+    .button.button-balanced.button-clear, .player .button-balanced.icon-close, .player .title-bar button.button-balanced {
       border-color: transparent;
       background: none;
       box-shadow: none;
       color: #33cd5f; }
-    .button.button-balanced.button-icon, .player .button-balanced.button-icon.icon-close, .player .button-balanced.icon-close, .player .title-bar button.button-balanced.icon-close, .player .button.button-balanced.icon-close, .player .button-balanced.icon-close, .player .title-bar button.button-balanced.icon-close, .player .title-bar button.button-balanced.button-icon, .player button.button-balanced.icon-close, .player .title-bar button.button-balanced, .player .title-bar button.button.button-balanced, .player button.button-balanced.icon-close, .player .title-bar button.button-balanced {
+    .button.button-balanced.button-icon, .player .button-balanced.icon-close, .player .title-bar button.button-balanced {
       border-color: transparent;
       background: none; }
     .button.button-balanced.button-outline, .player .button-balanced.button-outline.icon-close, .player .title-bar button.button-balanced.button-outline {
@@ -6725,22 +6726,22 @@ progress {
         box-shadow: none;
         color: #fff; }
   .button.button-energized, .player .button-energized.icon-close, .player .title-bar button.button-energized {
-    border-color: #e6b400;
+    border-color: #e6b500;
     background-color: #ffc900;
     color: #fff; }
     .button.button-energized:hover, .player .button-energized.icon-close:hover, .player .title-bar button.button-energized:hover {
       color: #fff;
       text-decoration: none; }
     .button.button-energized.active, .player .button-energized.active.icon-close, .player .title-bar button.button-energized.active, .button.button-energized.activated, .player .button-energized.activated.icon-close, .player .title-bar button.button-energized.activated {
-      border-color: #e6b400;
-      background-color: #e6b400;
+      border-color: #e6b500;
+      background-color: #e6b500;
       box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-    .button.button-energized.button-clear, .player .button-energized.button-clear.icon-close, .player .button-energized.icon-close, .player .title-bar button.button-energized.icon-close, .player .button.button-energized.icon-close, .player .button-energized.icon-close, .player .title-bar button.button-energized.icon-close, .player .title-bar button.button-energized.button-clear, .player button.button-energized.icon-close, .player .title-bar button.button-energized, .player .title-bar button.button.button-energized, .player button.button-energized.icon-close, .player .title-bar button.button-energized {
+    .button.button-energized.button-clear, .player .button-energized.icon-close, .player .title-bar button.button-energized {
       border-color: transparent;
       background: none;
       box-shadow: none;
       color: #ffc900; }
-    .button.button-energized.button-icon, .player .button-energized.button-icon.icon-close, .player .button-energized.icon-close, .player .title-bar button.button-energized.icon-close, .player .button.button-energized.icon-close, .player .button-energized.icon-close, .player .title-bar button.button-energized.icon-close, .player .title-bar button.button-energized.button-icon, .player button.button-energized.icon-close, .player .title-bar button.button-energized, .player .title-bar button.button.button-energized, .player button.button-energized.icon-close, .player .title-bar button.button-energized {
+    .button.button-energized.button-icon, .player .button-energized.icon-close, .player .title-bar button.button-energized {
       border-color: transparent;
       background: none; }
     .button.button-energized.button-outline, .player .button-energized.button-outline.icon-close, .player .title-bar button.button-energized.button-outline {
@@ -6762,12 +6763,12 @@ progress {
       border-color: #6b46e5;
       background-color: #6b46e5;
       box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-    .button.button-royal.button-clear, .player .button-royal.button-clear.icon-close, .player .button-royal.icon-close, .player .title-bar button.button-royal.icon-close, .player .button.button-royal.icon-close, .player .button-royal.icon-close, .player .title-bar button.button-royal.icon-close, .player .title-bar button.button-royal.button-clear, .player button.button-royal.icon-close, .player .title-bar button.button-royal, .player .title-bar button.button.button-royal, .player button.button-royal.icon-close, .player .title-bar button.button-royal {
+    .button.button-royal.button-clear, .player .button-royal.icon-close, .player .title-bar button.button-royal {
       border-color: transparent;
       background: none;
       box-shadow: none;
       color: #886aea; }
-    .button.button-royal.button-icon, .player .button-royal.button-icon.icon-close, .player .button-royal.icon-close, .player .title-bar button.button-royal.icon-close, .player .button.button-royal.icon-close, .player .button-royal.icon-close, .player .title-bar button.button-royal.icon-close, .player .title-bar button.button-royal.button-icon, .player button.button-royal.icon-close, .player .title-bar button.button-royal, .player .title-bar button.button.button-royal, .player button.button-royal.icon-close, .player .title-bar button.button-royal {
+    .button.button-royal.button-icon, .player .button-royal.icon-close, .player .title-bar button.button-royal {
       border-color: transparent;
       background: none; }
     .button.button-royal.button-outline, .player .button-royal.button-outline.icon-close, .player .title-bar button.button-royal.button-outline {
@@ -6789,12 +6790,12 @@ progress {
       border-color: #000;
       background-color: #262626;
       box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
-    .button.button-dark.button-clear, .player .button-dark.button-clear.icon-close, .player .button-dark.icon-close, .player .title-bar button.button-dark.icon-close, .player .button.button-dark.icon-close, .player .button-dark.icon-close, .player .title-bar button.button-dark.icon-close, .player .title-bar button.button-dark.button-clear, .player button.button-dark.icon-close, .player .title-bar button.button-dark, .player .title-bar button.button.button-dark, .player button.button-dark.icon-close, .player .title-bar button.button-dark {
+    .button.button-dark.button-clear, .player .button-dark.icon-close, .player .title-bar button.button-dark {
       border-color: transparent;
       background: none;
       box-shadow: none;
       color: #444; }
-    .button.button-dark.button-icon, .player .button-dark.button-icon.icon-close, .player .button-dark.icon-close, .player .title-bar button.button-dark.icon-close, .player .button.button-dark.icon-close, .player .button-dark.icon-close, .player .title-bar button.button-dark.icon-close, .player .title-bar button.button-dark.button-icon, .player button.button-dark.icon-close, .player .title-bar button.button-dark, .player .title-bar button.button.button-dark, .player button.button-dark.icon-close, .player .title-bar button.button-dark {
+    .button.button-dark.button-icon, .player .button-dark.icon-close, .player .title-bar button.button-dark {
       border-color: transparent;
       background: none; }
     .button.button-dark.button-outline, .player .button-dark.button-outline.icon-close, .player .title-bar button.button-dark.button-outline {
@@ -6829,23 +6830,23 @@ progress {
     line-height: 51px; }
 
 .button-icon, .player .icon-close, .player .title-bar button {
-  -webkit-transition: opacity 0.1s;
-  transition: opacity 0.1s;
+  -webkit-transition: opacity .1s;
+  transition: opacity .1s;
   padding: 0 6px;
   min-width: initial;
   border-color: transparent;
   background: none; }
-  .button-icon.button.active, .player .button-icon.active.icon-close, .player .active.icon-close, .player .title-bar button.active.icon-close, .player .button.active.icon-close, .player .active.icon-close, .player .title-bar button.active.icon-close, .player .title-bar button.button-icon.active, .player button.active.icon-close, .player .title-bar button.active, .player .title-bar button.button.active, .player button.active.icon-close, .player .title-bar button.active, .button-icon.button.activated, .player .button-icon.activated.icon-close, .player .activated.icon-close, .player .title-bar button.activated.icon-close, .player .button.activated.icon-close, .player .activated.icon-close, .player .title-bar button.activated.icon-close, .player .title-bar button.button-icon.activated, .player button.activated.icon-close, .player .title-bar button.activated, .player .title-bar button.button.activated, .player button.activated.icon-close, .player .title-bar button.activated {
+  .button-icon.button.active, .player .active.icon-close, .player .title-bar button.active, .button-icon.button.activated, .player .activated.icon-close, .player .title-bar button.activated {
     border-color: transparent;
     background: none;
     box-shadow: none;
     opacity: 0.3; }
-  .button-icon .icon:before, .button-icon .player .icon-close, .player .button-icon .icon-close, .button-icon .player .title-bar button, .player .title-bar .button-icon button, .button-icon .player .icon-close:before, .player .button-icon .icon-close:before, .button-icon .player .title-bar button:before, .player .title-bar .button-icon button:before, .button-icon.icon:before, .player .icon.icon-close:before, .player .icon-close:before, .player .title-bar button.icon-close:before, .player .button-icon.icon-close:before, .player .icon-close:before, .player .title-bar button.icon-close:before, .player .title-bar button.icon:before, .player button.icon-close:before, .player .title-bar button:before, .player .title-bar button.button-icon:before, .player button.icon-close:before, .player .title-bar button:before {
+  .button-icon .icon:before, .player .icon-close .icon:before, .player .title-bar button .icon:before, .button-icon .player .icon-close:before, .player .button-icon .icon-close:before, .player .icon-close .icon-close:before, .player .title-bar button .icon-close:before, .button-icon .player .title-bar button:before, .player .title-bar .button-icon button:before, .player .icon-close .title-bar button:before, .player .title-bar .icon-close button:before, .player .title-bar button button:before, .button-icon.icon:before, .player .icon-close:before, .player .title-bar button:before {
     font-size: 32px; }
 
 .button-clear, .player .icon-close, .player .title-bar button {
-  -webkit-transition: opacity 0.1s;
-  transition: opacity 0.1s;
+  -webkit-transition: opacity .1s;
+  transition: opacity .1s;
   padding: 0 6px;
   max-height: 42px;
   border-color: transparent;
@@ -6856,15 +6857,15 @@ progress {
     background: none;
     box-shadow: none;
     color: #b2b2b2; }
-  .button-clear.button-icon, .player .button-icon.icon-close, .player .icon-close, .player .title-bar button.icon-close, .player .button-clear.icon-close, .player .icon-close, .player .title-bar button.icon-close, .player .title-bar button.button-icon, .player button.icon-close, .player .title-bar button, .player .title-bar button.button-clear, .player button.icon-close, .player .title-bar button {
+  .button-clear.button-icon, .player .icon-close, .player .title-bar button {
     border-color: transparent;
     background: none; }
   .button-clear.active, .player .active.icon-close, .player .title-bar button.active, .button-clear.activated, .player .activated.icon-close, .player .title-bar button.activated {
     opacity: 0.3; }
 
 .button-outline {
-  -webkit-transition: opacity 0.1s;
-  transition: opacity 0.1s;
+  -webkit-transition: opacity .1s;
+  transition: opacity .1s;
   background: none;
   box-shadow: none; }
   .button-outline.button-outline {
@@ -6876,7 +6877,7 @@ progress {
       box-shadow: none;
       color: #fff; }
 
-.padding > .button.button-block:first-child, .padding > .player .button-block.icon-close:first-child, .player .padding > .button-block.icon-close:first-child, .padding > .player .title-bar button.button-block:first-child, .player .title-bar .padding > button.button-block:first-child {
+.padding > .button.button-block:first-child, .player .padding > .button-block.icon-close:first-child, .player .title-bar .padding > button.button-block:first-child {
   margin-top: 0; }
 
 .button-block {
@@ -6885,7 +6886,7 @@ progress {
   .button-block:after {
     clear: both; }
 
-.button-full, .button-full > .button, .button-full > .player .icon-close, .player .button-full > .icon-close, .button-full > .player .title-bar button, .player .title-bar .button-full > button {
+.button-full, .button-full > .button, .player .button-full > .icon-close, .player .title-bar .button-full > button {
   display: block;
   margin-right: 0;
   margin-left: 0;
@@ -6893,16 +6894,16 @@ progress {
   border-left-width: 0;
   border-radius: 0; }
 
-button.button-block, button.button-full, .button-full > button.button, .button-full > .player button.icon-close, .player .button-full > button.icon-close, .button-full > .player .title-bar button, .player .title-bar .button-full > button, input.button.button-block, .player input.button-block.icon-close {
+button.button-block, button.button-full, .button-full > button.button, .player .button-full > button.icon-close, .player .title-bar .button-full > button, input.button.button-block, .player input.button-block.icon-close {
   width: 100%; }
 
 a.button, .player a.icon-close {
   text-decoration: none; }
-  a.button .icon:before, a.button .player a.icon-close, .player a.button a.icon-close, a.button .player .icon-close:before, .player a.button .icon-close:before, a.button .player .title-bar button:before, .player .title-bar a.button button:before, a.button.icon:before, .player a.icon.icon-close:before, .player a.icon-close:before, .player a.button.icon-close:before, .player a.icon-close:before, a.button.icon-left:before, .player a.icon-left.icon-close:before, a.button.icon-right:before, .player a.icon-right.icon-close:before {
+  a.button .icon:before, .player a.icon-close .icon:before, a.button .player .icon-close:before, .player a.button .icon-close:before, .player a.icon-close .icon-close:before, a.button .player .title-bar button:before, .player .title-bar a.button button:before, .player a.icon-close .title-bar button:before, .player .title-bar a.icon-close button:before, a.button.icon:before, .player a.icon-close:before, a.button.icon-left:before, .player a.icon-left.icon-close:before, a.button.icon-right:before, .player a.icon-right.icon-close:before {
     margin-top: 2px; }
 
 .button.disabled, .player .disabled.icon-close, .player .title-bar button.disabled, .button[disabled], .player [disabled].icon-close, .player .title-bar button[disabled] {
-  opacity: 0.4;
+  opacity: .4;
   cursor: default !important;
   pointer-events: none; }
 
@@ -6934,12 +6935,12 @@ a.button, .player a.icon-close {
       line-height: 0; }
     .button-bar.button-bar-inline:after {
       clear: both; }
-    .button-bar.button-bar-inline > .button, .button-bar.button-bar-inline > .player .icon-close, .player .button-bar.button-bar-inline > .icon-close, .button-bar.button-bar-inline > .player .title-bar button, .player .title-bar .button-bar.button-bar-inline > button {
+    .button-bar.button-bar-inline > .button, .player .button-bar.button-bar-inline > .icon-close, .player .title-bar .button-bar.button-bar-inline > button {
       width: auto;
       display: inline-block;
       float: left; }
 
-.button-bar > .button, .button-bar > .player .icon-close, .player .button-bar > .icon-close, .button-bar > .player .title-bar button, .player .title-bar .button-bar > button {
+.button-bar > .button, .player .button-bar > .icon-close, .player .title-bar .button-bar > button {
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -moz-box-flex: 1;
@@ -6955,11 +6956,11 @@ a.button, .player a.icon-close {
   text-align: center;
   text-overflow: ellipsis;
   white-space: nowrap; }
-  .button-bar > .button:before, .button-bar > .player .icon-close:before, .player .button-bar > .icon-close:before, .button-bar > .player .title-bar button:before, .player .title-bar .button-bar > button:before, .button-bar > .button .icon:before, .button-bar > .button .player .icon-close, .player .button-bar > .button .icon-close, .button-bar > .button .player .title-bar button, .player .title-bar .button-bar > .button button, .button-bar > .button .player .icon-close:before, .player .button-bar > .button .icon-close:before, .button-bar > .button .player .title-bar button:before, .player .title-bar .button-bar > .button button:before {
+  .button-bar > .button:before, .player .button-bar > .icon-close:before, .player .title-bar .button-bar > button:before, .button-bar > .button .icon:before, .player .button-bar > .icon-close .icon:before, .player .title-bar .button-bar > button .icon:before, .button-bar > .button .player .icon-close:before, .player .button-bar > .button .icon-close:before, .player .button-bar > .icon-close .icon-close:before, .player .title-bar .button-bar > button .icon-close:before, .button-bar > .button .player .title-bar button:before, .player .title-bar .button-bar > .button button:before, .player .button-bar > .icon-close .title-bar button:before, .player .title-bar .button-bar > .icon-close button:before, .player .title-bar .button-bar > button button:before {
     line-height: 44px; }
-  .button-bar > .button:first-child, .button-bar > .player .icon-close:first-child, .player .button-bar > .icon-close:first-child, .button-bar > .player .title-bar button:first-child, .player .title-bar .button-bar > button:first-child {
+  .button-bar > .button:first-child, .player .button-bar > .icon-close:first-child, .player .title-bar .button-bar > button:first-child {
     border-radius: 2px 0px 0px 2px; }
-  .button-bar > .button:last-child, .button-bar > .player .icon-close:last-child, .player .button-bar > .icon-close:last-child, .button-bar > .player .title-bar button:last-child, .player .title-bar .button-bar > button:last-child {
+  .button-bar > .button:last-child, .player .button-bar > .icon-close:last-child, .player .title-bar .button-bar > button:last-child {
     border-right-width: 1px;
     border-radius: 0px 2px 2px 0px; }
 
@@ -7289,7 +7290,7 @@ a.button, .player a.icon-close {
   -ms-user-select: none;
   user-select: none;
   -webkit-touch-callout: none;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
   -webkit-tap-highlight-color: transparent;
   -webkit-user-drag: none;
   -ms-touch-action: none;
@@ -7406,7 +7407,7 @@ a.button, .player a.icon-close {
   background-color: #387ef5; }
 
 .positive-border {
-  border-color: #0c63ee; }
+  border-color: #0c60ee; }
 
 .calm, a.calm {
   color: #11c1f3; }
@@ -7415,7 +7416,7 @@ a.button, .player a.icon-close {
   background-color: #11c1f3; }
 
 .calm-border {
-  border-color: #0a9ec7; }
+  border-color: #0a9dc7; }
 
 .assertive, a.assertive {
   color: #ef473a; }
@@ -7424,7 +7425,7 @@ a.button, .player a.icon-close {
   background-color: #ef473a; }
 
 .assertive-border {
-  border-color: #e42012; }
+  border-color: #e42112; }
 
 .balanced, a.balanced {
   color: #33cd5f; }
@@ -7442,7 +7443,7 @@ a.button, .player a.icon-close {
   background-color: #ffc900; }
 
 .energized-border {
-  border-color: #e6b400; }
+  border-color: #e6b500; }
 
 .royal, a.royal {
   color: #886aea; }
@@ -7517,8 +7518,8 @@ a.button, .player a.icon-close {
   transform: translate3d(0, 100%, 0); }
 
 .slide-in-up.ng-enter, .slide-in-up > .ng-enter {
-  -webkit-transition: all cubic-bezier(0.1, 0.7, 0.1, 1) 400ms;
-  transition: all cubic-bezier(0.1, 0.7, 0.1, 1) 400ms; }
+  -webkit-transition: all cubic-bezier(.1, .7, .1, 1) 400ms;
+  transition: all cubic-bezier(.1, .7, .1, 1) 400ms; }
 
 .slide-in-up.ng-enter-active, .slide-in-up > .ng-enter-active {
   -webkit-transform: translate3d(0, 0, 0);
@@ -7567,8 +7568,8 @@ a.button, .player a.icon-close {
 [nav-view-transition="ios"] [nav-view="entering"], [nav-view-transition="ios"] [nav-view="leaving"] {
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
-  -webkit-transition-timing-function: cubic-bezier(0.36, 0.66, 0.04, 1);
-  transition-timing-function: cubic-bezier(0.36, 0.66, 0.04, 1);
+  -webkit-transition-timing-function: cubic-bezier(.36, .66, .04, 1);
+  transition-timing-function: cubic-bezier(.36, .66, .04, 1);
   -webkit-transition-property: opacity, -webkit-transform, box-shadow;
   transition-property: opacity, transform, box-shadow; }
 [nav-view-transition="ios"][nav-view-direction="forward"], [nav-view-transition="ios"][nav-view-direction="back"] {
@@ -7581,8 +7582,8 @@ a.button, .player a.icon-close {
 [nav-bar-transition="ios"] .title, [nav-bar-transition="ios"] .buttons, [nav-bar-transition="ios"] .back-text {
   -webkit-transition-duration: 500ms;
   transition-duration: 500ms;
-  -webkit-transition-timing-function: cubic-bezier(0.36, 0.66, 0.04, 1);
-  transition-timing-function: cubic-bezier(0.36, 0.66, 0.04, 1);
+  -webkit-transition-timing-function: cubic-bezier(.36, .66, .04, 1);
+  transition-timing-function: cubic-bezier(.36, .66, .04, 1);
   -webkit-transition-property: opacity, -webkit-transform;
   transition-property: opacity, transform; }
 [nav-bar-transition="ios"] [nav-bar="active"], [nav-bar-transition="ios"] [nav-bar="entering"] {
@@ -7759,7 +7760,7 @@ a.button, .player a.icon-close {
   border: none;
   color: #ffffff; }
 
-.bar.bar-stable .title, .bar-stable .button.button-clear, .bar-stable .player .button-clear.icon-close, .player .bar-stable .button-clear.icon-close, .bar-stable .player .icon-close, .player .bar-stable .icon-close, .bar-stable .player .title-bar button.icon-close, .player .title-bar .bar-stable button.icon-close, .bar-stable .player .button.icon-close, .player .bar-stable .button.icon-close, .bar-stable .player .icon-close, .player .bar-stable .icon-close, .bar-stable .player .title-bar button.icon-close, .player .title-bar .bar-stable button.icon-close, .bar-stable .player .title-bar button.button-clear, .player .title-bar .bar-stable button.button-clear, .bar-stable .player button.icon-close, .player .bar-stable button.icon-close, .bar-stable .player .title-bar button, .player .title-bar .bar-stable button, .bar-stable .player .title-bar button.button, .player .title-bar .bar-stable button.button, .bar-stable .player button.icon-close, .player .bar-stable button.icon-close, .bar-stable .player .title-bar button, .player .title-bar .bar-stable button {
+.bar.bar-stable .title, .bar-stable .button.button-clear, .bar-stable .player .icon-close, .player .bar-stable .icon-close, .bar-stable .player .title-bar button, .player .title-bar .bar-stable button {
   color: #ffffff; }
 
 .bar.bar-stable .title {
@@ -7792,12 +7793,20 @@ a.button, .player a.icon-close {
       margin: 0 2px;
       color: #ffffff;
       width: 12px; }
-.browse .item.item-icon-left .icon:first-child, .browse .item.item-icon-left .item.col.item-icon-left, .browse .item.item-icon-left .player .icon-close:first-child, .player .browse .item.item-icon-left .icon-close:first-child, .browse .item.item-icon-left .player .title-bar button:first-child, .player .title-bar .browse .item.item-icon-left button:first-child {
+.browse .item.item-icon-left .icon:first-child, .browse .item.item-icon-left .player .icon-close:first-child, .player .browse .item.item-icon-left .icon-close:first-child, .browse .item.item-icon-left .player .title-bar button:first-child, .player .title-bar .browse .item.item-icon-left button:first-child {
   font-size: 24px; }
 
 .minister h4 {
   font-size: 14px;
   text-transform: uppercase; }
+  .minister h4 span {
+    float: right;
+    font-size: 90%;
+    text-transform: none;
+    margin-top: 1px; }
+.minister ion-spinner {
+  display: block;
+  text-align: center; }
 
 .purchase .item .icon:first-child:before, .purchase .item .player .icon-close:first-child:before, .player .purchase .item .icon-close:first-child:before, .purchase .item .player .title-bar button:first-child:before, .player .title-bar .purchase .item button:first-child:before {
   border: 1px solid #3c3b4c;
@@ -7818,7 +7827,7 @@ a.button, .player a.icon-close {
   .productView .scroll-content .detail p {
     font-size: 18px;
     line-height: 22px;
-    font-weight: bold; }
+    font-weight: normal; }
 .productView .scroll-content .item {
   color: #ffffff !important;
   border-width: 1px 0; }
@@ -7919,27 +7928,27 @@ a.button, .player a.icon-close {
       left: 0; }
     .player .controls-container > div:last-child {
       right: 0; }
-      .player .controls-container > div:last-child .icon, .player .controls-container > div:last-child .player .icon-close, .player .player .controls-container > div:last-child .icon-close, .player .controls-container > div:last-child .player .title-bar button, .player .title-bar .player .controls-container > div:last-child button {
+      .player .controls-container > div:last-child .icon, .player .controls-container > div:last-child .icon-close, .player .controls-container > div:last-child .title-bar button, .player .title-bar .controls-container > div:last-child button {
         margin-top: 20px;
         font-size: 26px; }
-    .player .controls-container > div .icon, .player .controls-container > div .player .icon-close, .player .player .controls-container > div .icon-close, .player .controls-container > div .player .title-bar button, .player .title-bar .player .controls-container > div button {
+    .player .controls-container > div .icon, .player .controls-container > div .icon-close, .player .controls-container > div .title-bar button, .player .title-bar .controls-container > div button {
       display: block;
       padding: 10px;
       font-size: 24px;
       color: #aaa; }
-      .player .controls-container > div .icon.active, .player .controls-container > div .player .active.icon-close, .player .player .controls-container > div .active.icon-close, .player .controls-container > div .player .title-bar button.active, .player .title-bar .player .controls-container > div button.active {
+      .player .controls-container > div .icon.active, .player .controls-container > div .active.icon-close, .player .controls-container > div .title-bar button.active, .player .title-bar .controls-container > div button.active {
         color: #648c0a; }
   .player .controls-container > .big {
     margin: auto;
     width: 205px;
     position: relative; }
-    .player .controls-container > .big .icon, .player .controls-container > .big .player .icon-close, .player .player .controls-container > .big .icon-close, .player .controls-container > .big .player .title-bar button, .player .title-bar .player .controls-container > .big button {
+    .player .controls-container > .big .icon, .player .controls-container > .big .icon-close, .player .controls-container > .big .title-bar button, .player .title-bar .controls-container > .big button {
       display: inline-block;
       font-size: 40px;
       color: #ffffff;
       padding-left: 15px;
       padding-right: 15px; }
-      .player .controls-container > .big .icon.disabled, .player .controls-container > .big .player .disabled.icon-close, .player .player .controls-container > .big .disabled.icon-close, .player .controls-container > .big .player .title-bar button.disabled, .player .title-bar .player .controls-container > .big button.disabled {
+      .player .controls-container > .big .icon.disabled, .player .controls-container > .big .disabled.icon-close, .player .controls-container > .big .title-bar button.disabled, .player .title-bar .controls-container > .big button.disabled {
         color: #aaa; }
     .player .controls-container > .big .ion-ios-play-circle:before {
       font-size: 56px !important;
@@ -7972,6 +7981,9 @@ h1, h2, h3, h4, h5, h6, p {
 
 .text-mute {
   color: #aaaaaa; }
+
+.status {
+  color: #fff; }
 
 .uppercase, .player .head small {
   text-transform: uppercase; }
@@ -8181,17 +8193,17 @@ body > .view-container > .pane, .player {
     background: none;
     display: block;
     padding: 0 15px; }
-    .action-sheet > .action-sheet-group > .button, .action-sheet > .action-sheet-group > .player .icon-close, .player .action-sheet > .action-sheet-group > .icon-close, .action-sheet > .action-sheet-group > .player .title-bar button, .player .title-bar .action-sheet > .action-sheet-group > button {
+    .action-sheet > .action-sheet-group > .button, .player .action-sheet > .action-sheet-group > .icon-close, .player .title-bar .action-sheet > .action-sheet-group > button {
       color: #fff;
       font-size: 17px;
       border-color: #333;
       padding: 10px; }
-    .action-sheet > .action-sheet-group:first-child > .button, .action-sheet > .action-sheet-group:first-child > .player .icon-close, .player .action-sheet > .action-sheet-group:first-child > .icon-close, .action-sheet > .action-sheet-group:first-child > .player .title-bar button, .player .title-bar .action-sheet > .action-sheet-group:first-child > button {
+    .action-sheet > .action-sheet-group:first-child > .button, .player .action-sheet > .action-sheet-group:first-child > .icon-close, .player .title-bar .action-sheet > .action-sheet-group:first-child > button {
       text-align: left;
       padding-left: 50px; }
-      .action-sheet > .action-sheet-group:first-child > .button:first-child, .action-sheet > .action-sheet-group:first-child > .player .icon-close:first-child, .player .action-sheet > .action-sheet-group:first-child > .icon-close:first-child, .action-sheet > .action-sheet-group:first-child > .player .title-bar button:first-child, .player .title-bar .action-sheet > .action-sheet-group:first-child > button:first-child {
+      .action-sheet > .action-sheet-group:first-child > .button:first-child, .player .action-sheet > .action-sheet-group:first-child > .icon-close:first-child, .player .title-bar .action-sheet > .action-sheet-group:first-child > button:first-child {
         border-top: 0; }
-      .action-sheet > .action-sheet-group:first-child > .button .icon, .action-sheet > .action-sheet-group:first-child > .button .player .icon-close, .player .action-sheet > .action-sheet-group:first-child > .button .icon-close, .action-sheet > .action-sheet-group:first-child > .button .player .title-bar button, .player .title-bar .action-sheet > .action-sheet-group:first-child > .button button, .action-sheet > .action-sheet-group:first-child > .button .player .icon-close, .player .action-sheet > .action-sheet-group:first-child > .button .icon-close, .action-sheet > .action-sheet-group:first-child > .button .player .title-bar button, .player .title-bar .action-sheet > .action-sheet-group:first-child > .button button {
+      .action-sheet > .action-sheet-group:first-child > .button .icon, .player .action-sheet > .action-sheet-group:first-child > .icon-close .icon, .player .title-bar .action-sheet > .action-sheet-group:first-child > button .icon, .action-sheet > .action-sheet-group:first-child > .button .player .icon-close, .player .action-sheet > .action-sheet-group:first-child > .button .icon-close, .player .action-sheet > .action-sheet-group:first-child > .icon-close .icon-close, .player .title-bar .action-sheet > .action-sheet-group:first-child > button .icon-close, .action-sheet > .action-sheet-group:first-child > .button .player .title-bar button, .player .title-bar .action-sheet > .action-sheet-group:first-child > .button button, .player .action-sheet > .action-sheet-group:first-child > .icon-close .title-bar button, .player .title-bar .action-sheet > .action-sheet-group:first-child > .icon-close button, .player .title-bar .action-sheet > .action-sheet-group:first-child > button button {
         margin-right: 5px; }
     .action-sheet > .action-sheet-group.action-sheet-cancel .button, .action-sheet > .action-sheet-group.action-sheet-cancel .player .icon-close, .player .action-sheet > .action-sheet-group.action-sheet-cancel .icon-close, .action-sheet > .action-sheet-group.action-sheet-cancel .player .title-bar button, .player .title-bar .action-sheet > .action-sheet-group.action-sheet-cancel button {
       background-color: #05020d;
