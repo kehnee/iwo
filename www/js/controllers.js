@@ -94,20 +94,15 @@ angular.module('App.controllers')
         };
     })
     .controller('productsCtrl', function ($scope, $state, $stateParams, Main, Product) {
-        var currentPage, pages, orders, filter, orderBy, query = {};
+        var currentPage, pages, filter, orderBy, query = {};
         $scope.products = [];
         $scope.titlePrefix = "";
 
-        orders = {top: 'rating', newest: 'date', popular: 'popularity', price: 'price', 'price-desc': 'price-desc'};
-        filter = $stateParams.filter.split(":");
+        filter = $stateParams.filter.toLowerCase().split(":");
         filter.length==1 && filter.unshift('newest');
-        filter = filter.join(":").toLowerCase().split(":");
         orderBy=filter[0];
-        query.category = filter[1];
+        query.category = filter[1].split(',');
         $scope.titlePrefix = orderBy.charAt(0).toLocaleUpperCase() + orderBy.slice(1).toLocaleLowerCase();
-        if (orderBy in orders) {
-            query.orderBy = orders[filter];
-        }
         Product.getProducts(query, function (data) {
             currentPage = 1;
             pages = data.pages;
@@ -179,8 +174,7 @@ angular.module('App.controllers')
         $scope.sliderItems = [];
         $scope.series = [];
         Product.getProducts({
-            /*limit:4,*/
-            orderBy: 'popularity',
+            orderBy: 'popular',
             category: 'featured'
         }, function (data) {
             $scope.sliderItems = data.products;
@@ -196,7 +190,8 @@ angular.module('App.controllers')
             });
         });
         Product.getProducts({
-            orderBy: 'popularity',
+            orderBy: 'popular',
+            limit: 20,
             category: 'series'
         }, function (data) {
             $scope.series = data.products;
@@ -215,7 +210,6 @@ angular.module('App.controllers')
         $scope.product = {};
         Product.getProduct({id: $stateParams.id}, function (data) {
             $scope.product = data;
-            console.log(data);
             $scope.$$phase || $scope.$digest();
         }, function (err) {
             if (err && typeof err !== "string") err = !1;
@@ -246,8 +240,8 @@ angular.module('App.controllers')
         });
         Product.getProducts({
             orderBy: 'newest',
-            limit: 10,
-            category: "single-"+$stateParams.name,
+            limit: 1,
+            category: ['single', $stateParams.name],
             loadingIgnore: true
         }, function (data) {
             $scope.latest = data.products;
@@ -262,9 +256,9 @@ angular.module('App.controllers')
             });
         });
         Product.getProducts({
-            orderBy: 'popularity',
-            limit: 10,
-            category: "single-"+$stateParams.name,
+            orderBy: 'popular',
+            limit: 5,
+            category: ['single', $stateParams.name],
             loadingIgnore: true
         }, function (data) {
             $scope.popular = data.products;
@@ -279,8 +273,8 @@ angular.module('App.controllers')
             });
         });
         Product.getProducts({
-            orderBy: 'popularity',
-            category: 'series-' + $stateParams.name,
+            orderBy: 'popular',
+            category: ['series', $stateParams.name],
             loadingIgnore: true
         }, function (data) {
             $scope.series = data.products;

@@ -19,7 +19,7 @@
         </div>
         <h4 class="padding-horizontal">
             Latest Release
-            <span ui-sref="app.products({filter: 'series'})">See all <i class="icon ion-ios-arrow-right"></i></span>
+            <span ui-sref="app.products({filter: 'newest:series,' + minister.slug})">See all <i class="icon ion-ios-arrow-right"></i></span>
         </h4>
         <div class="list ">
             <ion-spinner ng-if="!latest" icon="crescent"></ion-spinner>
@@ -27,15 +27,15 @@
             <ion-item class="item-thumbnail-left big item-icon-right" ng-repeat="l in latest">
                 <img ng-src="{{l.featured_src}}" alt=""/>
 
-                <h2 ng-bind-html="p.title"></h2>
+                <h2 ng-bind-html="l.title"></h2>
 
-                <p ng-bind="toDateFormat(p.created_at)"></p>
+                <p ng-bind="toDateFormat(l.created_at)"></p>
                 <i class="icon ion-ios-arrow-right"></i>
             </ion-item>
         </div>
         <h4 class="padding-horizontal">
             Popular
-            <span ui-sref="app.products({filter: 'popular:'})">See all <i class="icon ion-ios-arrow-right"></i></span>
+            <span ui-sref="app.products({filter: 'popular:single,' + minister.slug})">See all <i class="icon ion-ios-arrow-right"></i></span>
         </h4>
         <div class="list border item-no-border">
             <ion-spinner ng-if="!popular" icon="crescent"></ion-spinner>
@@ -48,7 +48,7 @@
         </div>
         <div ng-if="series.length" class="slideSeries">
             <h4>Series</h4>
-            <span>See all <i class="icon ion-ios-arrow-right"></i></span>
+            <span ui-sref="app.products({filter: 'popular:series,' + minister.slug})">See all <i class="icon ion-ios-arrow-right"></i></span>
             <ion-scroll direction="x">
                 <div class="box" ng-repeat="item in series" ui-sref="app.product({id: item.id})">
                     <div class="image">
