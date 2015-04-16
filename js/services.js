@@ -238,13 +238,15 @@ angular.module('App.services')
             }, error);
         };
         this.getProducts = function (obj, success, error) {
+            if(obj.category && !Array.isArray(obj.category)) obj.category=[obj.category];
+            var orders = {top: 'rating', newest: 'date', popular: 'popularity', price: 'price', 'price-desc': 'price-desc'};
             Main.request("get", "/wc-api/v2/products", {
                 params: angular.extend({
                     'filter[q]': obj.search,
                     'filter[limit]': obj.limit,
-                    'filter[category]': obj.category,
+                    'filter[category]': obj.category.toString(),
                     page: obj.page,
-                    orderby: obj.orderBy /* popularity,rating,date(newest),price(low to high),price-desc(high to low) */
+                    orderby: orders[obj.orderBy] || obj.orderBy /* popularity,rating,date(newest),price(low to high),price-desc(high to low) */
                 }, secret),
                 loadingIgnore: obj.loadingIgnore
             }, function (data) {

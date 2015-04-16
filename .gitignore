@@ -1,3 +1,37 @@
+
+# NPM Modules
+node_modules
+
+# Log Files
+logs
+
+# OS generated files #
+.DS_Store
+.DS_Store?
+Thumbs.db
+
+# Generated Files.
+*.ser
+*~
+*.bak
+*.off
+*.old
+
+# Building
+target
+build
+null
+tmp*
+dist
+test-output
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea
+.c9
+
 /.idea/
 /node_modules/
 scss/
