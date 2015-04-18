@@ -7653,40 +7653,48 @@ a.button, .player a.icon-close {
   padding: 20px;
   text-align: center;
   margin-top: 10px;
-  padding-bottom: 100px; }
+  padding-bottom: 60px; }
   .login .logo img, .register .logo img, .forgotPassword .logo img {
     width: 100%;
     height: 100%;
     max-width: 200px; }
+/* Added border top for first item in Forms only*/    
+.login form .item:nth-of-type(1){
+    border-top: 1px solid !important;
+    border-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* Removed border-top from other items */
 .login form, .register form, .forgotPassword form {
-  border-top: 1px solid rgba(255, 255, 255, 0.3);
-  padding: 0 10%;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 0 4%;
   background-color: rgba(6, 8, 31, 0.7);
+  border-top:none;
   width: 100%;
   margin: 0; }
   @media (min-width: 768px) {
     .login form, .register form, .forgotPassword form {
       padding: 0 35%; } }
   .login form h4, .register form h4, .forgotPassword form h4 {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 500; }
   .login form .item, .register form .item, .forgotPassword form .item {
     color: rgba(223, 231, 255, 0.8);
     border-width: 1px 0;
     background-color: transparent;
-    border-color: rgba(255, 255, 255, 0.3);
-    font-size: 18px; }
+    border-color: rgba(255, 255, 255, 0.1);
+    font-size: 15px; }
     .login form .item input, .register form .item input, .forgotPassword form .item input {
       color: #ffffff;
       border: none;
       line-height: 20px;
-      font-size: 20px; }
+      font-size: 15px; }
   .login form .button_block, .register form .button_block, .forgotPassword form .button_block {
     padding: 20px;
     text-align: center; }
     .login form .button_block a, .register form .button_block a, .forgotPassword form .button_block a {
       font-weight: 500;
-      font-size: 15px;
+      font-size: 13px;
       color: #fff;
       text-decoration: none; }
     .login form .button_block span, .register form .button_block span, .forgotPassword form .button_block span {
@@ -7764,7 +7772,9 @@ a.button, .player a.icon-close {
   color: #ffffff; }
 
 .bar.bar-stable .title {
-  text-transform: uppercase; }
+  text-transform: uppercase; 
+  font-size:14px;
+}
 
 /*sub-header*/
 .bar.bar-stable.bar-subheader {
@@ -7825,7 +7835,7 @@ a.button, .player a.icon-close {
   padding: 20px;
   color: #ffffff; }
   .productView .scroll-content .detail p {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 22px;
     font-weight: normal; }
 .productView .scroll-content .item {
@@ -8253,13 +8263,13 @@ audio, .mejs-container, .mejs-offscreen {
   display: none !important; }
 
 .price-tag {
-  font-size: 18px;
-  background-color: #020f3c;
+  font-size: 14px;
+  background-color: #0048FF;
   padding: 6px 12px;
-  border-radius: 10px;
+  border-radius: 5px;
   color: #fff;
   display: inline-block;
-  border: 1px solid #1c1c1c; }
+  /*border: 1px solid #1c1c1c;*/ }
 
 .spinner {
   stroke: #ddd; }
